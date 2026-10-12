@@ -37,6 +37,12 @@ object LucideIconsTools {
     val BowArrowDefinition get() = LucideIcons.All.BowArrowDefinition
     val BowArrow: ImageVector @Composable get() = LucideIcons.All.BowArrow
     
+    val BroomDefinition get() = LucideIcons.All.BroomDefinition
+    val Broom: ImageVector @Composable get() = LucideIcons.All.Broom
+    
+    val BroomSparklesDefinition get() = LucideIcons.All.BroomSparklesDefinition
+    val BroomSparkles: ImageVector @Composable get() = LucideIcons.All.BroomSparkles
+    
     val BrushDefinition get() = LucideIcons.All.BrushDefinition
     val Brush: ImageVector @Composable get() = LucideIcons.All.Brush
     
@@ -70,11 +76,17 @@ object LucideIconsTools {
     val HardHatDefinition get() = LucideIcons.All.HardHatDefinition
     val HardHat: ImageVector @Composable get() = LucideIcons.All.HardHat
     
+    val HourglassCogDefinition get() = LucideIcons.All.HourglassCogDefinition
+    val HourglassCog: ImageVector @Composable get() = LucideIcons.All.HourglassCog
+    
     val InspectionPanelDefinition get() = LucideIcons.All.InspectionPanelDefinition
     val InspectionPanel: ImageVector @Composable get() = LucideIcons.All.InspectionPanel
     
     val LandPlotDefinition get() = LucideIcons.All.LandPlotDefinition
     val LandPlot: ImageVector @Composable get() = LucideIcons.All.LandPlot
+    
+    val LensDefinition get() = LucideIcons.All.LensDefinition
+    val Lens: ImageVector @Composable get() = LucideIcons.All.Lens
     
     val LensConcaveDefinition get() = LucideIcons.All.LensConcaveDefinition
     val LensConcave: ImageVector @Composable get() = LucideIcons.All.LensConcave
@@ -93,6 +105,12 @@ object LucideIconsTools {
     
     val MirrorRoundDefinition get() = LucideIcons.All.MirrorRoundDefinition
     val MirrorRound: ImageVector @Composable get() = LucideIcons.All.MirrorRound
+    
+    val MopDefinition get() = LucideIcons.All.MopDefinition
+    val Mop: ImageVector @Composable get() = LucideIcons.All.Mop
+    
+    val MopSparklesDefinition get() = LucideIcons.All.MopSparklesDefinition
+    val MopSparkles: ImageVector @Composable get() = LucideIcons.All.MopSparkles
     
     val PaintBucketDefinition get() = LucideIcons.All.PaintBucketDefinition
     val PaintBucket: ImageVector @Composable get() = LucideIcons.All.PaintBucket
@@ -127,6 +145,9 @@ object LucideIconsTools {
     val PencilRulerDefinition get() = LucideIcons.All.PencilRulerDefinition
     val PencilRuler: ImageVector @Composable get() = LucideIcons.All.PencilRuler
     
+    val PencilSparklesDefinition get() = LucideIcons.All.PencilSparklesDefinition
+    val PencilSparkles: ImageVector @Composable get() = LucideIcons.All.PencilSparkles
+    
     val PickaxeDefinition get() = LucideIcons.All.PickaxeDefinition
     val Pickaxe: ImageVector @Composable get() = LucideIcons.All.Pickaxe
     
@@ -136,8 +157,17 @@ object LucideIconsTools {
     val PocketKnifeDefinition get() = LucideIcons.All.PocketKnifeDefinition
     val PocketKnife: ImageVector @Composable get() = LucideIcons.All.PocketKnife
     
+    val Printer3dDefinition get() = LucideIcons.All.Printer3dDefinition
+    val Printer3d: ImageVector @Composable get() = LucideIcons.All.Printer3d
+    
     val RadiusDefinition get() = LucideIcons.All.RadiusDefinition
     val Radius: ImageVector @Composable get() = LucideIcons.All.Radius
+    
+    val RobotArmDefinition get() = LucideIcons.All.RobotArmDefinition
+    val RobotArm: ImageVector @Composable get() = LucideIcons.All.RobotArm
+    
+    val RobotVacuumDefinition get() = LucideIcons.All.RobotVacuumDefinition
+    val RobotVacuum: ImageVector @Composable get() = LucideIcons.All.RobotVacuum
     
     val RotateCcwSquareDefinition get() = LucideIcons.All.RotateCcwSquareDefinition
     val RotateCcwSquare: ImageVector @Composable get() = LucideIcons.All.RotateCcwSquare
@@ -156,6 +186,9 @@ object LucideIconsTools {
     
     val ScissorsLineDashedDefinition get() = LucideIcons.All.ScissorsLineDashedDefinition
     val ScissorsLineDashed: ImageVector @Composable get() = LucideIcons.All.ScissorsLineDashed
+    
+    val ScrewDefinition get() = LucideIcons.All.ScrewDefinition
+    val Screw: ImageVector @Composable get() = LucideIcons.All.Screw
     
     val ShovelDefinition get() = LucideIcons.All.ShovelDefinition
     val Shovel: ImageVector @Composable get() = LucideIcons.All.Shovel
@@ -211,6 +244,12 @@ object LucideIconsTools {
     val ToolboxDefinition get() = LucideIcons.All.ToolboxDefinition
     val Toolbox: ImageVector @Composable get() = LucideIcons.All.Toolbox
     
+    val ToothbrushDefinition get() = LucideIcons.All.ToothbrushDefinition
+    val Toothbrush: ImageVector @Composable get() = LucideIcons.All.Toothbrush
+    
+    val ToothbrushSparklesDefinition get() = LucideIcons.All.ToothbrushSparklesDefinition
+    val ToothbrushSparkles: ImageVector @Composable get() = LucideIcons.All.ToothbrushSparkles
+    
     val TorusDefinition get() = LucideIcons.All.TorusDefinition
     val Torus: ImageVector @Composable get() = LucideIcons.All.Torus
     
@@ -219,5 +258,8 @@ object LucideIconsTools {
     
     val WrenchDefinition get() = LucideIcons.All.WrenchDefinition
     val Wrench: ImageVector @Composable get() = LucideIcons.All.Wrench
+    
+    val WrenchOffDefinition get() = LucideIcons.All.WrenchOffDefinition
+    val WrenchOff: ImageVector @Composable get() = LucideIcons.All.WrenchOff
     
 }

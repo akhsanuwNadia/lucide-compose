@@ -49,6 +49,12 @@ object LucideIconsHome {
     val BrickWallShieldDefinition get() = LucideIcons.All.BrickWallShieldDefinition
     val BrickWallShield: ImageVector @Composable get() = LucideIcons.All.BrickWallShield
     
+    val BroomDefinition get() = LucideIcons.All.BroomDefinition
+    val Broom: ImageVector @Composable get() = LucideIcons.All.Broom
+    
+    val BroomSparklesDefinition get() = LucideIcons.All.BroomSparklesDefinition
+    val BroomSparkles: ImageVector @Composable get() = LucideIcons.All.BroomSparkles
+    
     val BrushCleaningDefinition get() = LucideIcons.All.BrushCleaningDefinition
     val BrushCleaning: ImageVector @Composable get() = LucideIcons.All.BrushCleaning
     
@@ -58,17 +64,29 @@ object LucideIconsHome {
     val DoorClosedDefinition get() = LucideIcons.All.DoorClosedDefinition
     val DoorClosed: ImageVector @Composable get() = LucideIcons.All.DoorClosed
     
+    val DoorClosedCogDefinition get() = LucideIcons.All.DoorClosedCogDefinition
+    val DoorClosedCog: ImageVector @Composable get() = LucideIcons.All.DoorClosedCog
+    
     val DoorClosedLockedDefinition get() = LucideIcons.All.DoorClosedLockedDefinition
     val DoorClosedLocked: ImageVector @Composable get() = LucideIcons.All.DoorClosedLocked
     
+    val DoorClosedPackageDefinition get() = LucideIcons.All.DoorClosedPackageDefinition
+    val DoorClosedPackage: ImageVector @Composable get() = LucideIcons.All.DoorClosedPackage
+    
     val DoorOpenDefinition get() = LucideIcons.All.DoorOpenDefinition
     val DoorOpen: ImageVector @Composable get() = LucideIcons.All.DoorOpen
+    
+    val DoorStairwellDefinition get() = LucideIcons.All.DoorStairwellDefinition
+    val DoorStairwell: ImageVector @Composable get() = LucideIcons.All.DoorStairwell
     
     val DrillDefinition get() = LucideIcons.All.DrillDefinition
     val Drill: ImageVector @Composable get() = LucideIcons.All.Drill
     
     val FanDefinition get() = LucideIcons.All.FanDefinition
     val Fan: ImageVector @Composable get() = LucideIcons.All.Fan
+    
+    val FaucetDefinition get() = LucideIcons.All.FaucetDefinition
+    val Faucet: ImageVector @Composable get() = LucideIcons.All.Faucet
     
     val FenceDefinition get() = LucideIcons.All.FenceDefinition
     val Fence: ImageVector @Composable get() = LucideIcons.All.Fence
@@ -85,6 +103,9 @@ object LucideIconsHome {
     val HouseDefinition get() = LucideIcons.All.HouseDefinition
     val House: ImageVector @Composable get() = LucideIcons.All.House
     
+    val HouseCogDefinition get() = LucideIcons.All.HouseCogDefinition
+    val HouseCog: ImageVector @Composable get() = LucideIcons.All.HouseCog
+    
     val HouseHeartDefinition get() = LucideIcons.All.HouseHeartDefinition
     val HouseHeart: ImageVector @Composable get() = LucideIcons.All.HouseHeart
     
@@ -93,6 +114,9 @@ object LucideIconsHome {
     
     val HouseWifiDefinition get() = LucideIcons.All.HouseWifiDefinition
     val HouseWifi: ImageVector @Composable get() = LucideIcons.All.HouseWifi
+    
+    val HousesDefinition get() = LucideIcons.All.HousesDefinition
+    val Houses: ImageVector @Composable get() = LucideIcons.All.Houses
     
     val LampDefinition get() = LucideIcons.All.LampDefinition
     val Lamp: ImageVector @Composable get() = LucideIcons.All.Lamp
@@ -121,6 +145,12 @@ object LucideIconsHome {
     val MirrorRoundDefinition get() = LucideIcons.All.MirrorRoundDefinition
     val MirrorRound: ImageVector @Composable get() = LucideIcons.All.MirrorRound
     
+    val MopDefinition get() = LucideIcons.All.MopDefinition
+    val Mop: ImageVector @Composable get() = LucideIcons.All.Mop
+    
+    val MopSparklesDefinition get() = LucideIcons.All.MopSparklesDefinition
+    val MopSparkles: ImageVector @Composable get() = LucideIcons.All.MopSparkles
+    
     val PaintRollerDefinition get() = LucideIcons.All.PaintRollerDefinition
     val PaintRoller: ImageVector @Composable get() = LucideIcons.All.PaintRoller
     
@@ -130,8 +160,14 @@ object LucideIconsHome {
     val PaintbrushVerticalDefinition get() = LucideIcons.All.PaintbrushVerticalDefinition
     val PaintbrushVertical: ImageVector @Composable get() = LucideIcons.All.PaintbrushVertical
     
+    val PlantPotDefinition get() = LucideIcons.All.PlantPotDefinition
+    val PlantPot: ImageVector @Composable get() = LucideIcons.All.PlantPot
+    
     val RefrigeratorDefinition get() = LucideIcons.All.RefrigeratorDefinition
     val Refrigerator: ImageVector @Composable get() = LucideIcons.All.Refrigerator
+    
+    val RobotVacuumDefinition get() = LucideIcons.All.RobotVacuumDefinition
+    val RobotVacuum: ImageVector @Composable get() = LucideIcons.All.RobotVacuum
     
     val RockingChairDefinition get() = LucideIcons.All.RockingChairDefinition
     val RockingChair: ImageVector @Composable get() = LucideIcons.All.RockingChair
@@ -147,6 +183,9 @@ object LucideIconsHome {
     
     val ShelvingUnitDefinition get() = LucideIcons.All.ShelvingUnitDefinition
     val ShelvingUnit: ImageVector @Composable get() = LucideIcons.All.ShelvingUnit
+    
+    val ShieldHouseDefinition get() = LucideIcons.All.ShieldHouseDefinition
+    val ShieldHouse: ImageVector @Composable get() = LucideIcons.All.ShieldHouse
     
     val ShowerHeadDefinition get() = LucideIcons.All.ShowerHeadDefinition
     val ShowerHead: ImageVector @Composable get() = LucideIcons.All.ShowerHead
@@ -172,14 +211,26 @@ object LucideIconsHome {
     val ToolboxDefinition get() = LucideIcons.All.ToolboxDefinition
     val Toolbox: ImageVector @Composable get() = LucideIcons.All.Toolbox
     
+    val ToothbrushDefinition get() = LucideIcons.All.ToothbrushDefinition
+    val Toothbrush: ImageVector @Composable get() = LucideIcons.All.Toothbrush
+    
+    val ToothbrushSparklesDefinition get() = LucideIcons.All.ToothbrushSparklesDefinition
+    val ToothbrushSparkles: ImageVector @Composable get() = LucideIcons.All.ToothbrushSparkles
+    
     val TowelRackDefinition get() = LucideIcons.All.TowelRackDefinition
     val TowelRack: ImageVector @Composable get() = LucideIcons.All.TowelRack
+    
+    val TubeLotionDefinition get() = LucideIcons.All.TubeLotionDefinition
+    val TubeLotion: ImageVector @Composable get() = LucideIcons.All.TubeLotion
     
     val TurntableDefinition get() = LucideIcons.All.TurntableDefinition
     val Turntable: ImageVector @Composable get() = LucideIcons.All.Turntable
     
     val UsbDefinition get() = LucideIcons.All.UsbDefinition
     val Usb: ImageVector @Composable get() = LucideIcons.All.Usb
+    
+    val UsbCPortDefinition get() = LucideIcons.All.UsbCPortDefinition
+    val UsbCPort: ImageVector @Composable get() = LucideIcons.All.UsbCPort
     
     val UtilityPoleDefinition get() = LucideIcons.All.UtilityPoleDefinition
     val UtilityPole: ImageVector @Composable get() = LucideIcons.All.UtilityPole

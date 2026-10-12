@@ -9,29 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DoorClosedLocked") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(19f, 8f)
+                verticalLineTo(5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(7f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 9f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(8f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(2f, 20f)
+                moveTo(2f, 21f)
                 horizontalLineToRelative(8f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 17f)
+                moveTo(20f, 16f)
                 verticalLineToRelative(-2f)
-                arcToRelative(2f, 2f, 0f, true, false, -4f, 0f)
-                verticalLineToRelative(2f)
+                arcToRelative(2f, 2f, 0f, false, false, 0f, vf)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0f, 17.0f)
+                moveTo(9f, 12f)
+                horizontalLineToRelative(.01f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(15.0f, 16.0f)
                 horizontalLineToRelative(6.0f)
                 arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
                 verticalLineToRelative(5.0f)

@@ -9,12 +9,12 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Blend") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0f, 9.0f)
+                moveTo(8.0f, 9.0f)
                 arcToRelative(7.0f, 7.0f, 0f, true, false, 14.0f, 0f)
                 arcToRelative(7.0f, 7.0f, 0f, true, false, -14.0f, 0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0f, 15.0f)
+                moveTo(2.0f, 15.0f)
                 arcToRelative(7.0f, 7.0f, 0f, true, false, 14.0f, 0f)
                 arcToRelative(7.0f, 7.0f, 0f, true, false, -14.0f, 0f)
             }

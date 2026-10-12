@@ -9,29 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PenTool") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.707f, 21.293f)
-                arcToRelative(1f, 1f, 0f, false, true, -1.414f, 0f)
-                lineToRelative(-1.586f, -1.586f)
-                arcToRelative(1f, 1f, 0f, false, true, 0f, -1.414f)
-                lineToRelative(5.586f, -5.586f)
-                arcToRelative(1f, 1f, 0f, false, true, 1.414f, 0f)
-                lineToRelative(1.586f, 1.586f)
-                arcToRelative(1f, 1f, 0f, false, true, 0f, 1.414f)
-                close()
-            }
-            lucidePath(strokeWidth) {
                 moveToRelative(18f, 13f)
-                lineToRelative(-1.375f, -6.874f)
-                arcToRelative(1f, 1f, 0f, false, false, -.746f, -.776f)
-                lineTo(3.235f, 2.028f)
-                arcToRelative(1f, 1f, 0f, false, false, -1.207f, 1.207f)
-                lineTo(5.35f, 15.879f)
-                arcToRelative(1f, 1f, 0f, false, false, .776f, .746f)
+                lineToRelative(-.654f, -4.736f)
+                arcToRelative(4f, 4f, 0f, false, false, -3.266f, lf)
+                arcToRelative(-9.163f, -2.9f, af, false, false, 0f, 00f)
+                arcToRelative(-2.017f, .493f, lf, false, false, af, 2f)
+                arcToRelative(2f, 0f, 00f, false, false, lf, 2.9f)
+                arcToRelative(9.163f, af, 4f, false, false, 003.266f, 2.756f)
                 lineTo(13f, 18f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2.3f, 2.3f)
-                lineToRelative(7.286f, 7.286f)
+                moveTo(18.648f, 12.352f)
+                arcToRelative(1.205f, 1.205f, 0f, false, false, lf, 1.296f)
+                arcToRelative(1.296f, af, 1.205f, true, false, 010f, 1.704f)
+                lineToRelative(-6.296f, 6.296f)
+                arcToRelative(1.205f, 1.205f, 0f, true, false, 0f, lf)
+                arcToRelative(-1.296f, -1.296f, af, true, true, 0f, 010f)
+            }
+            lucidePath(strokeWidth) {
+                moveToRelative(3f, 3f)
+                lineToRelative(6.586f, 6.586f)
             }
             lucidePath(strokeWidth) {
                 moveTo(9.0f, 11.0f)

@@ -22,6 +22,9 @@ object LucideIconsNature {
     val CaravanDefinition get() = LucideIcons.All.CaravanDefinition
     val Caravan: ImageVector @Composable get() = LucideIcons.All.Caravan
     
+    val FeatherDefinition get() = LucideIcons.All.FeatherDefinition
+    val Feather: ImageVector @Composable get() = LucideIcons.All.Feather
+    
     val FlameKindlingDefinition get() = LucideIcons.All.FlameKindlingDefinition
     val FlameKindling: ImageVector @Composable get() = LucideIcons.All.FlameKindling
     
@@ -31,6 +34,9 @@ object LucideIconsNature {
     val Flower2Definition get() = LucideIcons.All.Flower2Definition
     val Flower2: ImageVector @Composable get() = LucideIcons.All.Flower2
     
+    val HikingStickDefinition get() = LucideIcons.All.HikingStickDefinition
+    val HikingStick: ImageVector @Composable get() = LucideIcons.All.HikingStick
+    
     val LeafDefinition get() = LucideIcons.All.LeafDefinition
     val Leaf: ImageVector @Composable get() = LucideIcons.All.Leaf
     
@@ -39,6 +45,12 @@ object LucideIconsNature {
     
     val MountainSnowDefinition get() = LucideIcons.All.MountainSnowDefinition
     val MountainSnow: ImageVector @Composable get() = LucideIcons.All.MountainSnow
+    
+    val ParkDefinition get() = LucideIcons.All.ParkDefinition
+    val Park: ImageVector @Composable get() = LucideIcons.All.Park
+    
+    val PlantPotDefinition get() = LucideIcons.All.PlantPotDefinition
+    val PlantPot: ImageVector @Composable get() = LucideIcons.All.PlantPot
     
     val RoseDefinition get() = LucideIcons.All.RoseDefinition
     val Rose: ImageVector @Composable get() = LucideIcons.All.Rose

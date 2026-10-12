@@ -19,12 +19,12 @@ private val _ActivityDefinition = LucideIconDefinition("GitMergeConflict") { str
                 verticalLineToRelative(9f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 3f)
-                lineTo(3f, 9f)
+                moveToRelative(8.5f, 3.5f)
+                lineToRelative(-5f, 5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 9f)
-                lineTo(3f, 3f)
+                moveToRelative(8.5f, 8.5f)
+                lineToRelative(-5f, -5f)
             }
             lucidePath(strokeWidth) {
                 moveTo(15.0f, 18.0f)

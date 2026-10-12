@@ -3,207 +3,208 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata12 = listOf(
     
-    LucideIconMetadata("ReceiptCent", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "cents", "dollar", "usd", "$", "¢"), listOf("finance", "travel"), LucideIcons.All.ReceiptCentDefinition),
+    LucideIconMetadata("PanelLeftOpen", listOf("primary", "drawer", "show", "reveal", "chevron", "right", ">"), listOf("layout", "arrows"), LucideIcons.All.PanelLeftOpenDefinition),
     
-    LucideIconMetadata("ReceiptEuro", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "€"), listOf("finance", "travel"), LucideIcons.All.ReceiptEuroDefinition),
+    LucideIconMetadata("PanelLeftRightDashed", listOf("sidebar", "primary", "drawer", "show", "reveal", "padding", "margin", "guide", "layout", "vertical", "bleed"), listOf("layout"), LucideIcons.All.PanelLeftRightDashedDefinition),
     
-    LucideIconMetadata("ReceiptIndianRupee", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "inr", "₹"), listOf("finance", "travel"), LucideIcons.All.ReceiptIndianRupeeDefinition),
+    LucideIconMetadata("PanelLeft", listOf("primary", "drawer"), listOf("layout"), LucideIcons.All.PanelLeftDefinition),
     
-    LucideIconMetadata("ReceiptJapaneseYen", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "jpy", "¥"), listOf("finance", "travel"), LucideIcons.All.ReceiptJapaneseYenDefinition),
+    LucideIconMetadata("PanelRightClose", listOf("sidebar", "secondary", "drawer", "hide", "chevron", ">"), listOf("layout", "arrows"), LucideIcons.All.PanelRightCloseDefinition),
     
-    LucideIconMetadata("ReceiptPoundSterling", listOf("bill", "voucher", "slip", "check", "counterfoil", "british", "currency", "gbp", "£"), listOf("finance", "travel"), LucideIcons.All.ReceiptPoundSterlingDefinition),
+    LucideIconMetadata("PanelRightDashed", listOf("sidebar", "secondary", "drawer", "show", "reveal", "padding", "margin", "guide", "layout", "bleed"), listOf("layout"), LucideIcons.All.PanelRightDashedDefinition),
     
-    LucideIconMetadata("ReceiptRussianRuble", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "rub", "₽"), listOf("finance", "travel"), LucideIcons.All.ReceiptRussianRubleDefinition),
+    LucideIconMetadata("PanelRightOpen", listOf("sidebar", "secondary", "drawer", "show", "reveal", "chevron", "left", "<"), listOf("layout", "arrows"), LucideIcons.All.PanelRightOpenDefinition),
     
-    LucideIconMetadata("ReceiptSwissFranc", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "chf", "₣"), listOf("finance", "travel"), LucideIcons.All.ReceiptSwissFrancDefinition),
+    LucideIconMetadata("PanelRight", listOf("sidebar", "secondary", "drawer"), listOf("layout"), LucideIcons.All.PanelRightDefinition),
     
-    LucideIconMetadata("ReceiptText", listOf("bill", "voucher", "slip", "check", "counterfoil", "details", "small print", "terms", "conditions", "contract"), listOf("finance", "travel"), LucideIcons.All.ReceiptTextDefinition),
+    LucideIconMetadata("PanelTopBottomDashed", listOf("sidebar", "primary", "drawer", "show", "reveal", "padding", "margin", "guide", "layout", "horizontal", "bleed"), listOf("layout"), LucideIcons.All.PanelTopBottomDashedDefinition),
     
-    LucideIconMetadata("ReceiptTurkishLira", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "try", "₺"), listOf("finance", "travel"), LucideIcons.All.ReceiptTurkishLiraDefinition),
+    LucideIconMetadata("PanelTopClose", listOf("menu bar", "drawer", "hide", "chevron", "up"), listOf("layout", "arrows"), LucideIcons.All.PanelTopCloseDefinition),
     
-    LucideIconMetadata("Receipt", listOf("bill", "voucher", "slip", "check", "counterfoil", "currency", "dollar", "usd", "$"), listOf("finance", "travel"), LucideIcons.All.ReceiptDefinition),
+    LucideIconMetadata("PanelTopDashed", listOf("menu bar", "drawer", "show", "reveal", "padding", "margin", "guide", "layout", "bleed"), listOf("layout"), LucideIcons.All.PanelTopDashedDefinition),
     
-    LucideIconMetadata("RectangleCircle", listOf("compose", "keyboard", "key", "button"), listOf("development", "text"), LucideIcons.All.RectangleCircleDefinition),
+    LucideIconMetadata("PanelTopOpen", listOf("menu bar", "drawer", "show", "reveal", "chevron", "down"), listOf("layout", "arrows"), LucideIcons.All.PanelTopOpenDefinition),
     
-    LucideIconMetadata("RectangleEllipsis", listOf("login", "password", "authenticate", "2fa", "field", "fill", "ellipsis", "et cetera", "etc", "loader", "loading", "progress", "pending", "throbber", "menu", "options", "operator", "code", "spread", "rest", "more", "further", "extra", "overflow", "dots", "…", "..."), listOf("text", "development"), LucideIcons.All.RectangleEllipsisDefinition),
+    LucideIconMetadata("PanelTop", listOf("drawer", "browser", "webpage"), listOf("layout", "design", "development"), LucideIcons.All.PanelTopDefinition),
     
-    LucideIconMetadata("RectangleGoggles", listOf("vr", "virtual", "augmented", "reality", "headset", "goggles"), listOf("devices", "gaming", "multimedia", "connectivity"), LucideIcons.All.RectangleGogglesDefinition),
+    LucideIconMetadata("PanelsLeftBottom", listOf("drawers", "sidebar", "primary"), listOf("layout"), LucideIcons.All.PanelsLeftBottomDefinition),
     
-    LucideIconMetadata("RectangleHorizontal", listOf("rectangle", "aspect ratio", "16:9", "horizontal", "shape"), listOf("shapes", "design"), LucideIcons.All.RectangleHorizontalDefinition),
+    LucideIconMetadata("PanelsRightBottom", listOf("drawers", "sidebar", "secondary"), listOf("layout"), LucideIcons.All.PanelsRightBottomDefinition),
     
-    LucideIconMetadata("RectangleVertical", listOf("rectangle", "aspect ratio", "9:16", "vertical", "shape"), listOf("shapes", "design"), LucideIcons.All.RectangleVerticalDefinition),
+    LucideIconMetadata("PanelsTopLeft", listOf("menu bar", "sidebar", "primary", "drawers", "window", "webpage", "projects", "overview"), listOf("layout", "design", "development"), LucideIcons.All.PanelsTopLeftDefinition),
     
-    LucideIconMetadata("Recycle", listOf("sustainability", "salvage", "arrows"), listOf("sustainability"), LucideIcons.All.RecycleDefinition),
+    LucideIconMetadata("PaperBag", listOf("storage", "package", "lunch", "takeout", "eco-friendly", "kraft", "retail", "doggy bag"), listOf("food-beverage", "shopping"), LucideIcons.All.PaperBagDefinition),
     
-    LucideIconMetadata("Redo2", listOf("undo", "rerun", "history"), listOf("text", "arrows"), LucideIcons.All.Redo2Definition),
+    LucideIconMetadata("Paperclip", listOf("attachment", "file"), listOf("text", "design", "files", "mail"), LucideIcons.All.PaperclipDefinition),
     
-    LucideIconMetadata("RedoDot", listOf("redo", "history", "step", "over", "forward"), listOf("text", "arrows"), LucideIcons.All.RedoDotDefinition),
+    LucideIconMetadata("Parasol", listOf("umbrella", "sunshade", "beach", "shade", "sun", "protection", "cover", "canopy", "garden", "outdoors", "resort", "travel", "vacation", "holiday", "summer", "apparel", "accessory", "sunbathing", "relax", "tropical"), listOf("travel", "weather"), LucideIcons.All.ParasolDefinition),
     
-    LucideIconMetadata("Redo", listOf("undo", "rerun", "history"), listOf("text", "arrows"), LucideIcons.All.RedoDefinition),
+    LucideIconMetadata("Parentheses", listOf("code", "token", "parenthesis", "parens", "brackets", "parameters", "arguments", "args", "input", "call", "math", "formula", "function", "(", ")"), listOf("development", "files", "math"), LucideIcons.All.ParenthesesDefinition),
     
-    LucideIconMetadata("RefreshCcwDot", listOf("arrows", "rotate", "reload", "synchronise", "synchronize", "circular", "cycle", "issue", "code", "coding", "version control"), listOf("arrows", "development"), LucideIcons.All.RefreshCcwDotDefinition),
+    LucideIconMetadata("Park", listOf("nature", "green", "trees", "landscape", "rest", "walk", "leisure", "environment", "tree", "bench", "outdoors", "recreation"), listOf("nature", "navigation", "travel"), LucideIcons.All.ParkDefinition),
     
-    LucideIconMetadata("RefreshCcw", listOf("arrows", "rotate", "reload", "rerun", "synchronise", "synchronize", "circular", "cycle"), listOf("arrows"), LucideIcons.All.RefreshCcwDefinition),
+    LucideIconMetadata("ParkingMeter", listOf("driving", "car park", "pay", "sidewalk", "pavement"), listOf("transportation", "navigation"), LucideIcons.All.ParkingMeterDefinition),
     
-    LucideIconMetadata("RefreshCwOff", listOf("rotate", "reload", "rerun", "synchronise", "synchronize", "arrows", "circular", "cycle", "cancel", "no", "stop", "error", "disconnect", "ignore"), listOf("arrows"), LucideIcons.All.RefreshCwOffDefinition),
+    LucideIconMetadata("PartyPopper", listOf("emoji", "congratulations", "celebration", "party", "tada", "🎉", "🎊", "excitement", "exciting", "excites", "confetti"), listOf("emoji"), LucideIcons.All.PartyPopperDefinition),
     
-    LucideIconMetadata("RefreshCw", listOf("rotate", "reload", "rerun", "synchronise", "synchronize", "arrows", "circular", "cycle"), listOf("arrows"), LucideIcons.All.RefreshCwDefinition),
+    LucideIconMetadata("Pause", listOf("music", "stop"), listOf("multimedia"), LucideIcons.All.PauseDefinition),
     
-    LucideIconMetadata("Refrigerator", listOf("frigerator", "fridge", "freezer", "cooler", "icebox", "chiller", "cold storage"), listOf("food-beverage", "home"), LucideIcons.All.RefrigeratorDefinition),
+    LucideIconMetadata("PawPrint", listOf("pets", "vets", "veterinarian", "domesticated", "cat", "dog", "bear"), listOf("animals"), LucideIcons.All.PawPrintDefinition),
     
-    LucideIconMetadata("Regex", listOf("search", "text", "code"), listOf("text", "development"), LucideIcons.All.RegexDefinition),
+    LucideIconMetadata("PcCase", listOf("computer", "chassis"), listOf("devices", "gaming"), LucideIcons.All.PcCaseDefinition),
     
-    LucideIconMetadata("RemoveFormatting", listOf("text", "font", "typography", "format", "x", "remove", "delete", "times", "clear"), listOf("text"), LucideIcons.All.RemoveFormattingDefinition),
+    LucideIconMetadata("PenLine", listOf("pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"), listOf("text", "design", "tools"), LucideIcons.All.PenLineDefinition),
     
-    LucideIconMetadata("Repeat1", listOf("replay"), listOf("multimedia"), LucideIcons.All.Repeat1Definition),
+    LucideIconMetadata("PenOff", listOf("disabled", "inactive", "non-editable", "locked", "read-only", "unmodifiable", "frozen", "restricted", "pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"), listOf("text", "design", "tools"), LucideIcons.All.PenOffDefinition),
     
-    LucideIconMetadata("Repeat2", listOf("arrows", "retweet", "repost", "share", "repeat", "loop"), listOf("arrows", "social", "multimedia"), LucideIcons.All.Repeat2Definition),
+    LucideIconMetadata("PenTool", listOf("vector", "drawing", "path"), listOf("text", "design", "cursors"), LucideIcons.All.PenToolDefinition),
     
-    LucideIconMetadata("RepeatOff", listOf("loop", "arrows", "recurring", "again"), listOf("arrows", "multimedia"), LucideIcons.All.RepeatOffDefinition),
+    LucideIconMetadata("Pen", listOf("pencil", "change", "create", "draw", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"), listOf("text", "design", "tools"), LucideIcons.All.PenDefinition),
     
-    LucideIconMetadata("Repeat", listOf("loop", "arrows"), listOf("arrows", "multimedia"), LucideIcons.All.RepeatDefinition),
+    LucideIconMetadata("PencilLine", listOf("pencil", "change", "create", "draw", "sketch", "draft", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"), listOf("text", "design", "tools"), LucideIcons.All.PencilLineDefinition),
     
-    LucideIconMetadata("ReplaceAll", listOf("search", "substitute", "swap", "change"), listOf("text"), LucideIcons.All.ReplaceAllDefinition),
+    LucideIconMetadata("PencilOff", listOf("disabled", "inactive", "non-editable", "locked", "read-only", "unmodifiable", "frozen", "restricted", "rubber", "edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist"), listOf("design", "cursors", "tools", "text"), LucideIcons.All.PencilOffDefinition),
     
-    LucideIconMetadata("Replace", listOf("search", "substitute", "swap", "change"), listOf("text"), LucideIcons.All.ReplaceDefinition),
+    LucideIconMetadata("PencilRuler", listOf("edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist", "measurements", "centimeters", "cm", "millimeters", "mm", "metre", "foot", "feet", "inches", "units", "size", "length", "width", "height", "dimensions", "depth", "breadth", "extent"), listOf("tools", "design", "layout", "text"), LucideIcons.All.PencilRulerDefinition),
     
-    LucideIconMetadata("ReplyAll", listOf("email"), listOf("mail"), LucideIcons.All.ReplyAllDefinition),
+    LucideIconMetadata("PencilSparkles", listOf("edit", "ai", "tools", "smart", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist", "magic", "wizard", "magician"), listOf("design", "cursors", "tools", "text", "photography"), LucideIcons.All.PencilSparklesDefinition),
     
-    LucideIconMetadata("Reply", listOf("email"), listOf("mail"), LucideIcons.All.ReplyDefinition),
+    LucideIconMetadata("Pencil", listOf("rubber", "edit", "create", "draw", "sketch", "draft", "writer", "writing", "stationery", "artist"), listOf("design", "cursors", "tools", "text"), LucideIcons.All.PencilDefinition),
     
-    LucideIconMetadata("Rewind", listOf("music"), listOf("arrows", "multimedia"), LucideIcons.All.RewindDefinition),
+    LucideIconMetadata("Pentagon", listOf("shape"), listOf("shapes"), LucideIcons.All.PentagonDefinition),
     
-    LucideIconMetadata("Ribbon", listOf("awareness", "strip", "band", "tape", "strap", "cordon"), listOf("social", "medical", "emoji"), LucideIcons.All.RibbonDefinition),
+    LucideIconMetadata("Percent", listOf("percentage", "modulo", "modulus", "remainder", "%", "sale", "discount", "offer", "marketing"), listOf("math", "development", "finance", "shopping"), LucideIcons.All.PercentDefinition),
     
-    LucideIconMetadata("Road", listOf("road", "street", "highway", "route", "path", "transport", "traffic", "drive", "map"), listOf("transportation"), LucideIcons.All.RoadDefinition),
+    LucideIconMetadata("PersonStanding", listOf("people", "human", "accessibility", "stick figure"), listOf("accessibility", "people"), LucideIcons.All.PersonStandingDefinition),
     
-    LucideIconMetadata("Rocket", listOf("release", "boost", "launch", "space", "version"), listOf("gaming", "development"), LucideIcons.All.RocketDefinition),
+    LucideIconMetadata("Phi", listOf("math", "golden-ratio", "symbol", "greek", "letter", "typography", "constant", "flux", "magnetic-flux"), listOf("math", "science"), LucideIcons.All.PhiDefinition),
     
-    LucideIconMetadata("RockingChair", listOf("chair", "furniture", "seat", "comfort", "relax"), listOf("home"), LucideIcons.All.RockingChairDefinition),
+    LucideIconMetadata("PhilippinePeso", listOf("currency", "peso", "money", "php"), listOf("finance"), LucideIcons.All.PhilippinePesoDefinition),
     
-    LucideIconMetadata("RollerCoaster", listOf("attraction", "entertainment", "amusement park", "theme park", "funfair"), listOf("navigation"), LucideIcons.All.RollerCoasterDefinition),
+    LucideIconMetadata("PhoneCall", listOf("ring"), listOf("connectivity", "devices", "communication"), LucideIcons.All.PhoneCallDefinition),
     
-    LucideIconMetadata("Rose", listOf("roses", "thorns", "petals", "plant", "stem", "leaves", "spring", "bloom", "blossom", "gardening", "botanical", "flora", "florist", "bouquet", "bunch", "gift", "date", "romance", "romantic", "valentines day", "special occasion"), listOf("nature", "seasons", "sustainability", "home", "social"), LucideIcons.All.RoseDefinition),
+    LucideIconMetadata("PhoneForwarded", listOf("call"), listOf("arrows", "connectivity", "devices", "communication"), LucideIcons.All.PhoneForwardedDefinition),
     
-    LucideIconMetadata("Rotate3d", listOf("gizmo", "transform", "orientation", "orbit", "axis"), listOf("design"), LucideIcons.All.Rotate3dDefinition),
+    LucideIconMetadata("PhoneIncoming", listOf("call"), listOf("arrows", "connectivity", "devices", "communication"), LucideIcons.All.PhoneIncomingDefinition),
     
-    LucideIconMetadata("RotateCcwKey", listOf("password", "key", "refresh", "change"), listOf("security", "account"), LucideIcons.All.RotateCcwKeyDefinition),
+    LucideIconMetadata("PhoneLog", listOf("telephone", "communication", "mobile", "device", "contact", "history", "data", "information", "call"), listOf("communication"), LucideIcons.All.PhoneLogDefinition),
     
-    LucideIconMetadata("RotateCcwSquare", listOf("left", "counter-clockwise", "rotate", "image", "90", "45", "degrees", "°"), listOf("layout", "design", "photography", "tools", "arrows"), LucideIcons.All.RotateCcwSquareDefinition),
+    LucideIconMetadata("PhoneMissed", listOf("call"), listOf("connectivity", "devices", "communication"), LucideIcons.All.PhoneMissedDefinition),
     
-    LucideIconMetadata("RotateCcw", listOf("arrow", "left", "counter-clockwise", "restart", "reload", "rerun", "refresh", "backup", "undo", "replay", "redo", "retry", "rewind", "reverse"), listOf("arrows", "design", "photography"), LucideIcons.All.RotateCcwDefinition),
+    LucideIconMetadata("PhoneOff", listOf("call", "mute"), listOf("connectivity", "devices", "communication"), LucideIcons.All.PhoneOffDefinition),
     
-    LucideIconMetadata("RotateCwSquare", listOf("right", "clockwise", "rotate", "image", "90", "45", "degrees", "°"), listOf("layout", "design", "photography", "tools", "arrows"), LucideIcons.All.RotateCwSquareDefinition),
+    LucideIconMetadata("PhoneOutgoing", listOf("call"), listOf("arrows", "connectivity", "devices", "communication"), LucideIcons.All.PhoneOutgoingDefinition),
     
-    LucideIconMetadata("RotateCw", listOf("arrow", "right", "clockwise", "refresh", "reload", "rerun", "redo"), listOf("arrows", "design", "photography"), LucideIcons.All.RotateCwDefinition),
+    LucideIconMetadata("Phone", listOf("call"), listOf("text", "connectivity", "devices", "communication"), LucideIcons.All.PhoneDefinition),
     
-    LucideIconMetadata("RouteOff", listOf("path", "journey", "planner", "points", "stops", "stations", "reset", "clear", "cancelled", "closed", "blocked"), listOf("navigation"), LucideIcons.All.RouteOffDefinition),
+    LucideIconMetadata("Pi", listOf("constant", "code", "coding", "programming", "symbol", "trigonometry", "geometry", "formula"), listOf("development", "math"), LucideIcons.All.PiDefinition),
     
-    LucideIconMetadata("Route", listOf("path", "journey", "planner", "points", "stops", "stations"), listOf("navigation"), LucideIcons.All.RouteDefinition),
+    LucideIconMetadata("Piano", listOf("music", "audio", "sound", "noise", "notes", "chord", "keys", "octave", "acoustic", "instrument", "play", "pianist", "performance", "concert"), listOf("multimedia", "devices"), LucideIcons.All.PianoDefinition),
     
-    LucideIconMetadata("Router", listOf("computer", "server", "cloud"), listOf("development", "devices", "connectivity", "home"), LucideIcons.All.RouterDefinition),
+    LucideIconMetadata("Pickaxe", listOf("mining", "mine", "land worker", "extraction", "labor", "construction", "progress", "advancement", "crafting", "building", "creation"), listOf("tools", "gaming"), LucideIcons.All.PickaxeDefinition),
     
-    LucideIconMetadata("Rows2", listOf("lines", "list", "queue", "preview", "panel", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawer"), listOf("layout", "design", "text"), LucideIcons.All.Rows2Definition),
+    LucideIconMetadata("PictureInPicture2", listOf("display", "play", "video", "pop out", "always on top", "window", "inset", "multitask"), listOf("multimedia"), LucideIcons.All.PictureInPicture2Definition),
     
-    LucideIconMetadata("Rows3", listOf("lines", "list", "queue", "preview", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawers"), listOf("layout", "design", "text"), LucideIcons.All.Rows3Definition),
+    LucideIconMetadata("PictureInPicture", listOf("display", "play", "video", "pop out", "always on top", "window", "inset", "multitask"), listOf("multimedia"), LucideIcons.All.PictureInPictureDefinition),
     
-    LucideIconMetadata("Rows4", listOf("lines", "list", "queue", "preview", "paragraphs", "parallel", "series", "split", "vertical", "horizontal", "half", "center", "middle", "even", "drawers", "grill"), listOf("layout", "design", "text"), LucideIcons.All.Rows4Definition),
+    LucideIconMetadata("PiggyBank", listOf("money", "savings"), listOf("finance"), LucideIcons.All.PiggyBankDefinition),
     
-    LucideIconMetadata("Rss", listOf("feed", "subscribe", "news", "updates", "notifications", "content", "blog", "articles", "broadcast", "syndication", "reader", "channels", "posts", "publishing", "digest", "alert", "following", "inbox", "newsletter", "weblog", "podcast"), listOf("development", "social"), LucideIcons.All.RssDefinition),
+    LucideIconMetadata("PilcrowLeft", listOf("direction", "paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"), listOf("text"), LucideIcons.All.PilcrowLeftDefinition),
     
-    LucideIconMetadata("RulerDimensionLine", listOf("measurements", "centimeters", "cm", "millimeters", "mm", "metre", "foot", "feet", "inches", "units", "size", "length", "width", "height", "dimensions", "depth", "breadth", "extent", "stationery"), listOf("tools", "design", "layout"), LucideIcons.All.RulerDimensionLineDefinition),
+    LucideIconMetadata("PilcrowRight", listOf("direction", "paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"), listOf("text"), LucideIcons.All.PilcrowRightDefinition),
     
-    LucideIconMetadata("Ruler", listOf("measurements", "centimeters", "cm", "millimeters", "mm", "metre", "foot", "feet", "inches", "units", "size", "length", "width", "height", "dimensions", "depth", "breadth", "extent", "stationery"), listOf("tools", "design", "layout"), LucideIcons.All.RulerDefinition),
+    LucideIconMetadata("Pilcrow", listOf("paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"), listOf("text"), LucideIcons.All.PilcrowDefinition),
     
-    LucideIconMetadata("RussianRuble", listOf("currency", "money", "payment"), listOf("finance"), LucideIcons.All.RussianRubleDefinition),
+    LucideIconMetadata("PillBottle", listOf("medicine", "medication", "prescription", "drug", "supplement", "vitamin", "capsule", "jar", "container", "healthcare", "pharmaceutical", "tablet"), listOf("medical"), LucideIcons.All.PillBottleDefinition),
     
-    LucideIconMetadata("Sailboat", listOf("ship", "boat", "harbor", "harbour", "dock"), listOf("transportation", "travel"), LucideIcons.All.SailboatDefinition),
+    LucideIconMetadata("Pill", listOf("medicine", "medication", "drug", "prescription", "tablet", "pharmacy"), listOf("medical"), LucideIcons.All.PillDefinition),
     
-    LucideIconMetadata("Salad", listOf("food", "vegetarian", "dish", "restaurant", "course", "meal", "side", "vegetables", "health"), listOf("food-beverage", "emoji"), LucideIcons.All.SaladDefinition),
+    LucideIconMetadata("PinOff", listOf("unpin", "map", "unlock", "unfix", "unsave", "remove"), listOf("navigation"), LucideIcons.All.PinOffDefinition),
     
-    LucideIconMetadata("Sandwich", listOf("food", "snack", "dish", "restaurant", "lunch", "meal"), listOf("food-beverage"), LucideIcons.All.SandwichDefinition),
+    LucideIconMetadata("Pin", listOf("save", "map", "lock", "fix"), listOf("navigation", "account"), LucideIcons.All.PinDefinition),
     
-    LucideIconMetadata("SatelliteDish", listOf("antenna", "receiver", "dish aerial", "saucer"), listOf("connectivity", "devices", "multimedia"), LucideIcons.All.SatelliteDishDefinition),
+    LucideIconMetadata("Pipette", listOf("eye dropper", "color picker", "lab", "chemistry"), listOf("text", "design", "science"), LucideIcons.All.PipetteDefinition),
     
-    LucideIconMetadata("Satellite", listOf("space station", "orbit", "transmitter"), listOf("connectivity", "science"), LucideIcons.All.SatelliteDefinition),
+    LucideIconMetadata("Pizza", listOf("pie", "quiche", "food"), listOf("food-beverage"), LucideIcons.All.PizzaDefinition),
     
-    LucideIconMetadata("SaudiRiyal", listOf("currency", "money", "payment"), listOf("finance"), LucideIcons.All.SaudiRiyalDefinition),
+    LucideIconMetadata("PlaneLanding", listOf("arrival", "plane", "trip", "airplane", "landing"), listOf("transportation", "travel"), LucideIcons.All.PlaneLandingDefinition),
     
-    LucideIconMetadata("SaveAll", listOf("floppy disks", "copy"), listOf("text", "files"), LucideIcons.All.SaveAllDefinition),
+    LucideIconMetadata("PlaneTakeoff", listOf("departure", "plane", "trip", "airplane", "takeoff"), listOf("transportation", "travel"), LucideIcons.All.PlaneTakeoffDefinition),
     
-    LucideIconMetadata("SaveOff", listOf("floppy disk", "unsalvageable"), listOf("text", "files"), LucideIcons.All.SaveOffDefinition),
+    LucideIconMetadata("Plane", listOf("plane", "trip", "airplane"), listOf("transportation", "travel", "navigation"), LucideIcons.All.PlaneDefinition),
     
-    LucideIconMetadata("Save", listOf("floppy disk"), listOf("text", "files"), LucideIcons.All.SaveDefinition),
+    LucideIconMetadata("PlantPot", listOf("plant", "leaf", "nature", "pot", "houseplant", "gardening", "planter", "decor", "indoor"), listOf("home", "nature"), LucideIcons.All.PlantPotDefinition),
     
-    LucideIconMetadata("Scale3d", listOf("gizmo", "transform", "size", "axis"), listOf("design"), LucideIcons.All.Scale3dDefinition),
+    LucideIconMetadata("PlayOff", listOf("audio", "video", "music", "start", "run", "off", "disabled", "blocked", "forbidden"), listOf("multimedia"), LucideIcons.All.PlayOffDefinition),
     
-    LucideIconMetadata("Scale", listOf("balance", "legal", "license", "right", "rule", "law", "justice", "weight", "measure", "compare", "judge", "fair", "ethics", "decision"), listOf("navigation", "science", "finance"), LucideIcons.All.ScaleDefinition),
+    LucideIconMetadata("Play", listOf("music", "audio", "video", "start", "run"), listOf("arrows", "multimedia"), LucideIcons.All.PlayDefinition),
     
-    LucideIconMetadata("Scaling", listOf("scale", "resize", "design"), listOf("design"), LucideIcons.All.ScalingDefinition),
+    LucideIconMetadata("PlayingCard", listOf("deck", "draw", "deal", "shuffle", "chance", "random", "selection", "tabletop", "flashcard", "study", "learning", "prompt", "icebreaker", "conversation", "collectible", "trading", "poker", "casino", "game", "gambling", "suit"), listOf("gaming", "development"), LucideIcons.All.PlayingCardDefinition),
     
-    LucideIconMetadata("ScanBarcode", listOf("checkout", "till", "cart", "transaction", "purchase", "buy", "product", "packaging", "retail", "consumer"), listOf("shopping", "devices"), LucideIcons.All.ScanBarcodeDefinition),
+    LucideIconMetadata("PlayingCardsFan", listOf("deck", "fan", "spread", "hand", "deal", "dealt", "draw", "shuffle", "tabletop", "planning poker", "scrum", "agile", "estimation", "estimate", "prompt", "icebreaker", "conversation", "collectible", "collection", "trading", "poker", "casino", "game", "gambling", "suit"), listOf("gaming", "development", "social"), LucideIcons.All.PlayingCardsFanDefinition),
     
-    LucideIconMetadata("ScanEye", listOf("preview", "zoom", "expand", "fullscreen", "gallery", "image", "camera", "watch", "surveillance", "retina", "focus", "lens", "biometric", "identification", "authentication", "access", "login"), listOf("photography", "multimedia", "accessibility", "security", "devices", "account"), LucideIcons.All.ScanEyeDefinition),
+    LucideIconMetadata("PlayingCards", listOf("deck", "stack", "shuffle", "deal", "draw", "hand", "tabletop", "planning poker", "scrum", "agile", "estimation", "estimate", "flashcards", "study", "learning", "collectible", "collection", "trading", "poker", "casino", "game", "gambling", "suit"), listOf("gaming", "development"), LucideIcons.All.PlayingCardsDefinition),
     
-    LucideIconMetadata("ScanFace", listOf("face", "biometric", "identification", "authentication", "2fa", "access", "login", "dashed"), listOf("account", "security", "devices", "social"), LucideIcons.All.ScanFaceDefinition),
+    LucideIconMetadata("Plug2", listOf("electricity", "energy", "socket", "outlet"), listOf("devices", "development"), LucideIcons.All.Plug2Definition),
     
-    LucideIconMetadata("ScanHeart", listOf("health", "heart rate", "pulse", "monitoring", "healthiness", "screening", "dashed"), listOf("medical"), LucideIcons.All.ScanHeartDefinition),
+    LucideIconMetadata("PlugZap", listOf("electricity", "energy", "electronics", "charge", "charging", "battery", "connect"), listOf("devices"), LucideIcons.All.PlugZapDefinition),
     
-    LucideIconMetadata("ScanLine", listOf("checkout", "till", "cart", "transaction", "purchase", "buy", "product", "packaging", "retail", "consumer", "qr-code", "dashed"), listOf("devices", "shopping"), LucideIcons.All.ScanLineDefinition),
+    LucideIconMetadata("Plug", listOf("electricity", "energy", "electronics", "socket", "outlet", "power", "voltage", "current", "charger"), listOf("devices", "development"), LucideIcons.All.PlugDefinition),
     
-    LucideIconMetadata("ScanQrCode", listOf("barcode", "scan", "qrcode", "url", "information", "digital", "scanner"), listOf("account", "shopping", "devices", "security"), LucideIcons.All.ScanQrCodeDefinition),
+    LucideIconMetadata("Plus", listOf("add", "new", "increase", "increment", "positive", "calculate", "toolbar", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "+"), listOf("math", "tools", "development", "text", "cursors", "gaming"), LucideIcons.All.PlusDefinition),
     
-    LucideIconMetadata("ScanSearch", listOf("preview", "zoom", "expand", "fullscreen", "gallery", "image", "focus", "lens"), listOf("photography", "multimedia", "accessibility"), LucideIcons.All.ScanSearchDefinition),
+    LucideIconMetadata("PocketKnife", listOf("swiss army knife", "penknife", "multi-tool", "multitask", "blade", "cutter", "gadget", "corkscrew"), listOf("tools"), LucideIcons.All.PocketKnifeDefinition),
     
-    LucideIconMetadata("ScanText", listOf("recognition", "read", "translate", "copy", "lines"), listOf("text", "devices"), LucideIcons.All.ScanTextDefinition),
+    LucideIconMetadata("Podium", listOf("award", "stage", "winner", "celebration", "performance", "medal", "success", "achievement", "highlight", "ranking", "winning", "place", "placing", "leaderboard", "first", "second", "third", "gold", "silver", "bronze"), listOf("sports", "gaming"), LucideIcons.All.PodiumDefinition),
     
-    LucideIconMetadata("Scan", listOf("qr-code", "barcode", "checkout", "augmented reality", "ar", "target", "surveillance", "camera", "lens", "focus", "frame", "select", "box", "boundary", "bounds", "area", "square", "dashed"), listOf("devices", "shopping", "security", "social", "gaming"), LucideIcons.All.ScanDefinition),
+    LucideIconMetadata("PointerOff", listOf("mouse"), listOf("cursors"), LucideIcons.All.PointerOffDefinition),
     
-    LucideIconMetadata("School", listOf("building", "education", "childhood", "university", "learning", "campus", "scholar", "student", "lecture", "degree", "course", "academia", "study", "knowledge", "classroom", "research", "diploma", "graduation", "professor", "tutorial", "homework", "assignment", "exam"), listOf("buildings", "navigation"), LucideIcons.All.SchoolDefinition),
+    LucideIconMetadata("Pointer", listOf("mouse"), listOf("cursors"), LucideIcons.All.PointerDefinition),
     
-    LucideIconMetadata("ScissorsLineDashed", listOf("cut here", "along", "snip", "chop", "stationery", "crafts", "instructions", "diagram"), listOf("design", "tools"), LucideIcons.All.ScissorsLineDashedDefinition),
+    LucideIconMetadata("Popcorn", listOf("cinema", "movies", "films", "salted", "sweet", "sugar", "candy", "snack"), listOf("food-beverage", "multimedia"), LucideIcons.All.PopcornDefinition),
     
-    LucideIconMetadata("Scissors", listOf("cut", "snip", "chop", "stationery", "crafts"), listOf("text", "design", "tools"), LucideIcons.All.ScissorsDefinition),
+    LucideIconMetadata("Popsicle", listOf("ice lolly", "ice cream", "sweet", "food"), listOf("food-beverage"), LucideIcons.All.PopsicleDefinition),
     
-    LucideIconMetadata("Scooter", listOf("vehicle", "drive", "trip", "journey", "transport", "electric", "ride", "urban", "commute", "speed"), listOf("transportation"), LucideIcons.All.ScooterDefinition),
+    LucideIconMetadata("PoundSterling", listOf("currency", "money", "payment"), listOf("finance"), LucideIcons.All.PoundSterlingDefinition),
     
-    LucideIconMetadata("ScreenShareOff", listOf("desktop", "disconnect", "monitor"), listOf("connectivity", "devices", "communication"), LucideIcons.All.ScreenShareOffDefinition),
+    LucideIconMetadata("PowerOff", listOf("on", "off", "device", "switch"), listOf("connectivity"), LucideIcons.All.PowerOffDefinition),
     
-    LucideIconMetadata("ScreenShare", listOf("host", "desktop", "monitor"), listOf("connectivity", "devices", "communication"), LucideIcons.All.ScreenShareDefinition),
+    LucideIconMetadata("Power", listOf("on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"), listOf("connectivity"), LucideIcons.All.PowerDefinition),
     
-    LucideIconMetadata("ScrollText", listOf("paper", "log", "scripture", "document", "notes", "parchment", "list", "long", "script", "story", "code", "coding"), listOf("gaming", "development", "text"), LucideIcons.All.ScrollTextDefinition),
+    LucideIconMetadata("Presentation", listOf("screen", "whiteboard", "marker pens", "markers", "blackboard", "chalk", "easel", "school", "learning", "lesson", "office", "meeting", "project", "planning"), listOf("multimedia", "photography", "devices", "communication", "design"), LucideIcons.All.PresentationDefinition),
     
-    LucideIconMetadata("Scroll", listOf("paper", "log", "scripture", "document", "notes", "parchment", "list", "long", "script", "story", "code", "coding"), listOf("gaming", "development", "text"), LucideIcons.All.ScrollDefinition),
+    LucideIconMetadata("Printer3d", listOf("model", "hardware", "technology", "device", "factory", "manufacturing", "art", "extruder", "stl", "obj", "step", "additive", "fabrication", "rapid prototype", "layer", "filament", "nozzle", "maker", "machine"), listOf("devices", "tools"), LucideIcons.All.Printer3dDefinition),
     
-    LucideIconMetadata("SearchAlert", listOf("find", "scan", "magnifier", "magnifying glass", "stop", "warning", "alert", "error", "anomaly", "lens"), listOf("text", "social"), LucideIcons.All.SearchAlertDefinition),
+    LucideIconMetadata("PrinterCheck", listOf("fax", "office", "device", "success", "printed"), listOf("devices"), LucideIcons.All.PrinterCheckDefinition),
     
-    LucideIconMetadata("SearchCheck", listOf("find", "scan", "magnifier", "magnifying glass", "found", "correct", "complete", "tick", "lens"), listOf("text", "social"), LucideIcons.All.SearchCheckDefinition),
+    LucideIconMetadata("PrinterX", listOf("fax", "office", "device", "cross", "cancel", "remove", "error"), listOf("devices"), LucideIcons.All.PrinterXDefinition),
     
-    LucideIconMetadata("SearchCode", listOf("find", "scan", "magnifier", "magnifying glass", "grep", "chevrons", "<>", "lens"), listOf("text", "social", "development"), LucideIcons.All.SearchCodeDefinition),
+    LucideIconMetadata("Printer", listOf("fax", "office", "device"), listOf("devices"), LucideIcons.All.PrinterDefinition),
     
-    LucideIconMetadata("SearchSlash", listOf("find", "scan", "magnifier", "magnifying glass", "stop", "clear", "cancel", "abort", "/", "lens"), listOf("text", "social"), LucideIcons.All.SearchSlashDefinition),
+    LucideIconMetadata("Projector", listOf("cinema", "film", "movie", "home video", "presentation", "slideshow", "office", "meeting", "project", "planning"), listOf("multimedia", "photography", "devices", "communication"), LucideIcons.All.ProjectorDefinition),
     
-    LucideIconMetadata("SearchX", listOf("find", "scan", "magnifier", "magnifying glass", "stop", "clear", "cancel", "abort", "lens"), listOf("text", "social"), LucideIcons.All.SearchXDefinition),
+    LucideIconMetadata("Proportions", listOf("screens", "sizes", "rotate", "rotation", "adjust", "aspect ratio", "16:9", "widescreen", "4:3", "resolution", "responsive", "mobile", "desktop", "dimensions", "monitor", "orientation", "portrait", "landscape"), listOf("layout", "design", "photography", "devices"), LucideIcons.All.ProportionsDefinition),
     
-    LucideIconMetadata("Search", listOf("find", "scan", "magnifier", "magnifying glass", "lens"), listOf("text", "social"), LucideIcons.All.SearchDefinition),
+    LucideIconMetadata("Puzzle", listOf("component", "module", "part", "piece"), listOf("development", "gaming"), LucideIcons.All.PuzzleDefinition),
     
-    LucideIconMetadata("Section", listOf("mark", "typography", "punctuation", "legal", "type", "text", "prose", "symbol"), listOf("text"), LucideIcons.All.SectionDefinition),
+    LucideIconMetadata("Pyramid", listOf("prism", "triangle", "triangular", "hierarchy", "structure", "geometry", "ancient", "egyptian", "landmark", "tourism"), listOf("shapes", "math", "travel"), LucideIcons.All.PyramidDefinition),
     
-    LucideIconMetadata("SendHorizontal", listOf("email", "message", "mail", "paper airplane", "paper aeroplane", "submit"), listOf("mail", "communication", "connectivity"), LucideIcons.All.SendHorizontalDefinition),
+    LucideIconMetadata("QrCode", listOf("barcode", "scan", "link", "url", "information", "digital"), listOf("development", "social"), LucideIcons.All.QrCodeDefinition),
     
-    LucideIconMetadata("SendToBack", listOf("bring", "send", "move", "under", "back", "backwards", "overlap", "layer", "order"), listOf("design", "layout"), LucideIcons.All.SendToBackDefinition),
+    LucideIconMetadata("Quote", listOf("quotation"), listOf("text"), LucideIcons.All.QuoteDefinition),
     
-    LucideIconMetadata("Send", listOf("email", "message", "mail", "paper airplane", "paper aeroplane", "submit"), listOf("mail", "communication", "connectivity"), LucideIcons.All.SendDefinition),
+    LucideIconMetadata("Rabbit", listOf("animal", "rodent", "pet", "pest", "bunny", "hare", "fast", "speed", "hop"), listOf("animals"), LucideIcons.All.RabbitDefinition),
     
-    LucideIconMetadata("SeparatorHorizontal", listOf("move", "split"), listOf("text", "arrows", "layout"), LucideIcons.All.SeparatorHorizontalDefinition),
+    LucideIconMetadata("Radar", listOf("scan", "sonar", "detect", "find", "locate"), listOf("navigation", "security", "communication"), LucideIcons.All.RadarDefinition),
     
-    LucideIconMetadata("SeparatorVertical", listOf("move", "split"), listOf("text", "arrows", "layout"), LucideIcons.All.SeparatorVerticalDefinition),
+    LucideIconMetadata("Radiation", listOf("radioactive", "nuclear", "fallout", "waste", "atomic", "physics", "particle", "element", "molecule"), listOf("science"), LucideIcons.All.RadiationDefinition),
     
-    LucideIconMetadata("ServerCog", listOf("cloud", "storage", "computing", "cog", "gear"), listOf("development", "devices"), LucideIcons.All.ServerCogDefinition),
+    LucideIconMetadata("Radical", listOf("calculate", "formula", "math", "operator", "root", "square", "symbol"), listOf("development", "math"), LucideIcons.All.RadicalDefinition),
     
-    LucideIconMetadata("ServerCrash", listOf("cloud", "storage", "problem", "error"), listOf("development", "devices"), LucideIcons.All.ServerCrashDefinition)
+    LucideIconMetadata("RadioOff", listOf("signal", "broadcast", "connectivity", "live", "frequency"), listOf("devices", "multimedia", "social"), LucideIcons.All.RadioOffDefinition)
     
 )

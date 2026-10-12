@@ -22,6 +22,9 @@ object LucideIconsTransportation {
     val BikeDefinition get() = LucideIcons.All.BikeDefinition
     val Bike: ImageVector @Composable get() = LucideIcons.All.Bike
     
+    val BridgeDefinition get() = LucideIcons.All.BridgeDefinition
+    val Bridge: ImageVector @Composable get() = LucideIcons.All.Bridge
+    
     val BriefcaseDefinition get() = LucideIcons.All.BriefcaseDefinition
     val Briefcase: ImageVector @Composable get() = LucideIcons.All.Briefcase
     
@@ -34,6 +37,9 @@ object LucideIconsTransportation {
     val BriefcaseMedicalDefinition get() = LucideIcons.All.BriefcaseMedicalDefinition
     val BriefcaseMedical: ImageVector @Composable get() = LucideIcons.All.BriefcaseMedical
     
+    val BriefcasePlusDefinition get() = LucideIcons.All.BriefcasePlusDefinition
+    val BriefcasePlus: ImageVector @Composable get() = LucideIcons.All.BriefcasePlus
+    
     val BusDefinition get() = LucideIcons.All.BusDefinition
     val Bus: ImageVector @Composable get() = LucideIcons.All.Bus
     
@@ -45,6 +51,9 @@ object LucideIconsTransportation {
     
     val CarDefinition get() = LucideIcons.All.CarDefinition
     val Car: ImageVector @Composable get() = LucideIcons.All.Car
+    
+    val CarBatteryDefinition get() = LucideIcons.All.CarBatteryDefinition
+    val CarBattery: ImageVector @Composable get() = LucideIcons.All.CarBattery
     
     val CarFrontDefinition get() = LucideIcons.All.CarFrontDefinition
     val CarFront: ImageVector @Composable get() = LucideIcons.All.CarFront
@@ -73,8 +82,14 @@ object LucideIconsTransportation {
     val ContainerDefinition get() = LucideIcons.All.ContainerDefinition
     val Container: ImageVector @Composable get() = LucideIcons.All.Container
     
+    val DoorClosedPackageDefinition get() = LucideIcons.All.DoorClosedPackageDefinition
+    val DoorClosedPackage: ImageVector @Composable get() = LucideIcons.All.DoorClosedPackage
+    
     val DroneDefinition get() = LucideIcons.All.DroneDefinition
     val Drone: ImageVector @Composable get() = LucideIcons.All.Drone
+    
+    val EngineDefinition get() = LucideIcons.All.EngineDefinition
+    val Engine: ImageVector @Composable get() = LucideIcons.All.Engine
     
     val EvChargerDefinition get() = LucideIcons.All.EvChargerDefinition
     val EvCharger: ImageVector @Composable get() = LucideIcons.All.EvCharger
@@ -130,6 +145,9 @@ object LucideIconsTransportation {
     val ShipDefinition get() = LucideIcons.All.ShipDefinition
     val Ship: ImageVector @Composable get() = LucideIcons.All.Ship
     
+    val ShipCargoDefinition get() = LucideIcons.All.ShipCargoDefinition
+    val ShipCargo: ImageVector @Composable get() = LucideIcons.All.ShipCargo
+    
     val ShipWheelDefinition get() = LucideIcons.All.ShipWheelDefinition
     val ShipWheel: ImageVector @Composable get() = LucideIcons.All.ShipWheel
     
@@ -177,6 +195,9 @@ object LucideIconsTransportation {
     
     val TrafficConeDefinition get() = LucideIcons.All.TrafficConeDefinition
     val TrafficCone: ImageVector @Composable get() = LucideIcons.All.TrafficCone
+    
+    val TrailerDefinition get() = LucideIcons.All.TrailerDefinition
+    val Trailer: ImageVector @Composable get() = LucideIcons.All.Trailer
     
     val TrainFrontDefinition get() = LucideIcons.All.TrainFrontDefinition
     val TrainFront: ImageVector @Composable get() = LucideIcons.All.TrainFront

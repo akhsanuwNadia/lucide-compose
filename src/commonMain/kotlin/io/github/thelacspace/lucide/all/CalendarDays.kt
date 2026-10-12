@@ -10,14 +10,14 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("CalendarDays") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
                 moveTo(16f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0f, 4.0f)
+                moveTo(5.0f, 3.0f)
                 horizontalLineToRelative(14.0f)
                 arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
                 verticalLineToRelative(18.0f)
@@ -29,31 +29,31 @@ private val _ActivityDefinition = LucideIconDefinition("CalendarDays") { strokeW
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
+                moveTo(3f, 9f)
                 horizontalLineToRelative(18f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 14f)
+                moveTo(8f, 13f)
                 horizontalLineToRelative(.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 14f)
+                moveTo(12f, 13f)
                 horizontalLineToRelative(.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 14f)
+                moveTo(16f, 13f)
                 horizontalLineToRelative(.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 18f)
+                moveTo(8f, 17f)
                 horizontalLineToRelative(.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 18f)
+                moveTo(12f, 17f)
                 horizontalLineToRelative(.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 18f)
+                moveTo(16f, 17f)
                 horizontalLineToRelative(.01f)
             }
 }

@@ -3,6 +3,7 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata0 = listOf(
     
@@ -14,7 +15,9 @@ internal val lucideMetadata0 = listOf(
     
     LucideIconMetadata("Accessibility", listOf("disability", "disabled", "dda", "wheelchair"), listOf("accessibility", "medical"), LucideIcons.All.AccessibilityDefinition),
     
-    LucideIconMetadata("Activity", listOf("pulse", "action", "motion", "movement", "exercise", "fitness", "healthcare", "heart rate monitor", "vital signs", "vitals", "emergency room", "er", "intensive care", "hospital", "defibrillator", "earthquake", "siesmic", "magnitude", "richter scale", "aftershock", "tremor", "shockwave", "audio", "waveform", "synthesizer", "synthesiser", "music"), listOf("medical", "account", "social", "science", "multimedia"), LucideIcons.All.ActivityDefinition),
+    LucideIconMetadata("Activity", listOf("pulse", "action", "motion", "movement", "exercise", "fitness", "healthcare", "heart rate monitor", "vital signs", "vitals", "emergency room", "er", "intensive care", "hospital", "defibrillator", "earthquake", "seismic", "magnitude", "richter scale", "aftershock", "tremor", "shockwave", "audio", "waveform", "synthesizer", "synthesiser", "music"), listOf("medical", "account", "social", "science", "multimedia"), LucideIcons.All.ActivityDefinition),
+    
+    LucideIconMetadata("Ad", listOf("advert", "affiliate", "brand", "campaign", "commercial", "marketing", "monetize", "paid", "partner", "promo", "sponsor", "audio description", "video description", "described video", "visual description"), listOf("multimedia", "accessibility", "notifications"), LucideIcons.All.AdDefinition),
     
     LucideIconMetadata("AirVent", listOf("air conditioner", "ac", "central air", "cooling", "climate-control"), listOf("home"), LucideIcons.All.AirVentDefinition),
     
@@ -31,8 +34,6 @@ internal val lucideMetadata0 = listOf(
     LucideIconMetadata("AlarmClock", listOf("morning"), listOf("devices", "notifications", "time"), LucideIcons.All.AlarmClockDefinition),
     
     LucideIconMetadata("AlarmSmoke", listOf("fire", "alert", "warning", "detector", "carbon monoxide", "safety", "equipment", "amenities"), listOf("home", "devices", "travel"), LucideIcons.All.AlarmSmokeDefinition),
-    
-    LucideIconMetadata("Album", listOf("photo", "book"), listOf("photography", "multimedia"), LucideIcons.All.AlbumDefinition),
     
     LucideIconMetadata("AlignCenterHorizontal", listOf("items", "flex", "justify"), listOf("layout"), LucideIcons.All.AlignCenterHorizontalDefinition),
     
@@ -88,9 +89,7 @@ internal val lucideMetadata0 = listOf(
     
     LucideIconMetadata("Anchor", listOf("ship"), listOf("transportation", "text"), LucideIcons.All.AnchorDefinition),
     
-    LucideIconMetadata("Angry", listOf("emoji", "anger", "face", "emotion"), listOf("emoji"), LucideIcons.All.AngryDefinition),
-    
-    LucideIconMetadata("Annoyed", listOf("emoji", "nuisance", "face", "emotion"), listOf("emoji"), LucideIcons.All.AnnoyedDefinition),
+    LucideIconMetadata("Angle", listOf("angle", "degree", "corner", "geometry", "measure", "math", "rotate", "vertex", "slope", "protractor", "measurement", "dimension", "arc", "drafting", "cad"), listOf("math", "design"), LucideIcons.All.AngleDefinition),
     
     LucideIconMetadata("Antenna", listOf("signal", "connection", "connectivity", "tv", "television", "broadcast", "live", "frequency", "tune", "scan", "channels", "aerial", "receiver", "transmission", "transducer", "terrestrial", "satellite", "cable"), listOf("devices", "multimedia", "communication"), LucideIcons.All.AntennaDefinition),
     
@@ -111,6 +110,8 @@ internal val lucideMetadata0 = listOf(
     LucideIconMetadata("Archive", listOf("index", "backup", "box", "storage", "records"), listOf("files", "mail"), LucideIcons.All.ArchiveDefinition),
     
     LucideIconMetadata("Armchair", listOf("sofa", "furniture", "leisure", "lounge", "loveseat", "couch"), listOf("home"), LucideIcons.All.ArmchairDefinition),
+    
+    LucideIconMetadata("ArmenianDram", listOf("finance", "symbol", "banking", "economy", "currency", "money", "payment"), listOf("finance"), LucideIcons.All.ArmenianDramDefinition),
     
     LucideIconMetadata("ArrowBigDownDash", listOf("backwards", "reverse", "slow", "direction", "south", "download"), listOf("arrows", "gaming", "files"), LucideIcons.All.ArrowBigDownDashDefinition),
     
@@ -198,7 +199,7 @@ internal val lucideMetadata0 = listOf(
     
     LucideIconMetadata("ArrowsUpFromLine", listOf("direction", "orientation", "this way up", "vertical", "package", "box", "fragile", "postage", "shipping"), listOf("arrows", "transportation", "mail"), LucideIcons.All.ArrowsUpFromLineDefinition),
     
-    LucideIconMetadata("Asterisk", listOf("reference", "times", "multiply", "multiplication", "operator", "code", "glob pattern", "wildcard", "*"), listOf("text", "math", "development"), LucideIcons.All.AsteriskDefinition),
+    LucideIconMetadata("Asterisk", listOf("symbol", "mark", "pointer", "pencil", "sign", "alert", "notification", "indicator", "symbolic", "reference", "times", "multiply", "multiplication", "operator", "code", "glob pattern", "wildcard", "*"), listOf("text", "math", "development"), LucideIcons.All.AsteriskDefinition),
     
     LucideIconMetadata("Astroid", listOf("star", "math", "shape", "curve", "sharp", "four-pointed", "hypocycloid", "ai", "artificial intelligence"), listOf("shapes", "math"), LucideIcons.All.AstroidDefinition),
     

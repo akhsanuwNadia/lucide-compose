@@ -3,8 +3,107 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata7 = listOf(
+    
+    LucideIconMetadata("FishingRod", listOf("fishing", "rod", "hobby", "equipment", "reel"), listOf("sports", "travel"), LucideIcons.All.FishingRodDefinition),
+    
+    LucideIconMetadata("FlagOff", listOf("unflag", "unmark", "report", "marker", "notification", "warning", "milestone", "goal", "notice", "signal", "attention", "banner"), listOf("account", "social"), LucideIcons.All.FlagOffDefinition),
+    
+    LucideIconMetadata("FlagTriangleLeft", listOf("report", "timeline", "marker", "pin"), listOf("development", "navigation"), LucideIcons.All.FlagTriangleLeftDefinition),
+    
+    LucideIconMetadata("FlagTriangleRight", listOf("report", "timeline", "marker", "pin"), listOf("development", "navigation"), LucideIcons.All.FlagTriangleRightDefinition),
+    
+    LucideIconMetadata("Flag", listOf("report", "marker", "notification", "warning", "milestone", "goal", "notice", "signal", "attention", "banner"), listOf("account", "social"), LucideIcons.All.FlagDefinition),
+    
+    LucideIconMetadata("FlameKindling", listOf("campfire", "camping", "wilderness", "outdoors", "lit", "warmth", "wood", "twigs", "sticks"), listOf("nature", "social", "gaming"), LucideIcons.All.FlameKindlingDefinition),
+    
+    LucideIconMetadata("Flame", listOf("heat", "burn", "light", "glow", "ignite", "passion", "ember", "fire", "lit", "burning", "spark", "embers", "smoke", "firefighter", "fireman", "department", "brigade", "station", "emergency"), listOf("weather", "social", "gaming"), LucideIcons.All.FlameDefinition),
+    
+    LucideIconMetadata("FlashlightOff", listOf("torch", "light", "beam", "emergency", "safety", "tool", "bright"), listOf("photography", "devices"), LucideIcons.All.FlashlightOffDefinition),
+    
+    LucideIconMetadata("Flashlight", listOf("torch", "light", "beam", "emergency", "safety", "tool", "bright"), listOf("photography", "devices"), LucideIcons.All.FlashlightDefinition),
+    
+    LucideIconMetadata("FlaskConicalOff", listOf("beaker", "erlenmeyer", "non toxic", "lab", "chemistry", "experiment", "test"), listOf("science", "gaming"), LucideIcons.All.FlaskConicalOffDefinition),
+    
+    LucideIconMetadata("FlaskConical", listOf("beaker", "erlenmeyer", "lab", "chemistry", "experiment", "test"), listOf("science", "gaming"), LucideIcons.All.FlaskConicalDefinition),
+    
+    LucideIconMetadata("FlaskRound", listOf("beaker", "lab", "chemistry", "experiment", "test"), listOf("science", "gaming"), LucideIcons.All.FlaskRoundDefinition),
+    
+    LucideIconMetadata("Flower2", listOf("sustainability", "nature", "plant"), listOf("nature", "sustainability", "seasons"), LucideIcons.All.Flower2Definition),
+    
+    LucideIconMetadata("Flower", listOf("sustainability", "nature", "plant", "spring"), listOf("nature", "gaming", "sustainability"), LucideIcons.All.FlowerDefinition),
+    
+    LucideIconMetadata("Focus", listOf("camera", "lens", "photo", "dashed"), listOf("photography"), LucideIcons.All.FocusDefinition),
+    
+    LucideIconMetadata("FoldHorizontal", listOf("arrow", "collapse", "fold", "vertical", "dashed"), listOf("arrows", "layout"), LucideIcons.All.FoldHorizontalDefinition),
+    
+    LucideIconMetadata("FoldVertical", listOf("arrow", "collapse", "fold", "vertical", "dashed"), listOf("arrows", "layout"), LucideIcons.All.FoldVerticalDefinition),
+    
+    LucideIconMetadata("FolderArchive", listOf("archive", "zip", "package"), listOf("files"), LucideIcons.All.FolderArchiveDefinition),
+    
+    LucideIconMetadata("FolderBookmark", listOf("folder", "bookmark", "file", "mark", "storage", "archive", "directory", "project", "favorite", "save", "read later"), listOf("files"), LucideIcons.All.FolderBookmarkDefinition),
+    
+    LucideIconMetadata("FolderCheck", listOf("done", "directory", "todo", "tick", "complete", "task"), listOf("files"), LucideIcons.All.FolderCheckDefinition),
+    
+    LucideIconMetadata("FolderClock", listOf("history", "directory", "clock"), listOf("files", "time"), LucideIcons.All.FolderClockDefinition),
+    
+    LucideIconMetadata("FolderClosed", listOf("directory", "closed"), listOf("files"), LucideIcons.All.FolderClosedDefinition),
+    
+    LucideIconMetadata("FolderCode", listOf("directory", "coding", "develop", "software"), listOf("files", "development"), LucideIcons.All.FolderCodeDefinition),
+    
+    LucideIconMetadata("FolderCog", listOf("directory", "settings", "control", "preferences", "cog", "edit", "gear"), listOf("files"), LucideIcons.All.FolderCogDefinition),
+    
+    LucideIconMetadata("FolderDot", listOf("directory", "root", "project", "pinned", "active", "current", "cogged", "gear", "mechanical", "machinery", "configuration", "controls", "preferences", "settings", "system", "admin", "edit"), listOf("files", "development"), LucideIcons.All.FolderDotDefinition),
+    
+    LucideIconMetadata("FolderDown", listOf("directory", "download", "import", "export"), listOf("files", "arrows"), LucideIcons.All.FolderDownDefinition),
+    
+    LucideIconMetadata("FolderGit2", listOf("directory", "root", "project", "git", "repo"), listOf("files"), LucideIcons.All.FolderGit2Definition),
+    
+    LucideIconMetadata("FolderGit", listOf("directory", "root", "project", "git", "repo"), listOf("files"), LucideIcons.All.FolderGitDefinition),
+    
+    LucideIconMetadata("FolderHeart", listOf("directory", "heart", "favourite", "bookmark", "quick link"), listOf("files"), LucideIcons.All.FolderHeartDefinition),
+    
+    LucideIconMetadata("FolderInput", listOf("directory", "import", "export"), listOf("files", "arrows"), LucideIcons.All.FolderInputDefinition),
+    
+    LucideIconMetadata("FolderKanban", listOf("projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "code", "coding", "directory", "project", "root"), listOf("charts", "development", "design", "files"), LucideIcons.All.FolderKanbanDefinition),
+    
+    LucideIconMetadata("FolderKey", listOf("directory", "key", "private", "security", "protected"), listOf("files", "security"), LucideIcons.All.FolderKeyDefinition),
+    
+    LucideIconMetadata("FolderLock", listOf("directory", "lock", "private", "security", "protected"), listOf("files", "security"), LucideIcons.All.FolderLockDefinition),
+    
+    LucideIconMetadata("FolderMinus", listOf("directory", "remove", "delete"), listOf("files"), LucideIcons.All.FolderMinusDefinition),
+    
+    LucideIconMetadata("FolderOpenDot", listOf("directory", "root", "project", "active", "current", "pinned"), listOf("files", "development"), LucideIcons.All.FolderOpenDotDefinition),
+    
+    LucideIconMetadata("FolderOpen", listOf("directory"), listOf("files"), LucideIcons.All.FolderOpenDefinition),
+    
+    LucideIconMetadata("FolderOutput", listOf("directory", "import", "export"), listOf("files", "arrows"), LucideIcons.All.FolderOutputDefinition),
+    
+    LucideIconMetadata("FolderPen", listOf("directory", "rename"), listOf("files"), LucideIcons.All.FolderPenDefinition),
+    
+    LucideIconMetadata("FolderPlus", listOf("directory", "add", "create", "new"), listOf("files"), LucideIcons.All.FolderPlusDefinition),
+    
+    LucideIconMetadata("FolderRoot", listOf("directory", "root", "project", "git", "repo"), listOf("files", "development"), LucideIcons.All.FolderRootDefinition),
+    
+    LucideIconMetadata("FolderSearch2", listOf("directory", "search", "find", "lost", "browser", "lens"), listOf("files"), LucideIcons.All.FolderSearch2Definition),
+    
+    LucideIconMetadata("FolderSearch", listOf("directory", "search", "find", "lost", "browser", "lens"), listOf("files"), LucideIcons.All.FolderSearchDefinition),
+    
+    LucideIconMetadata("FolderSymlink", listOf("directory", "symlink", "symbolic", "link"), listOf("files"), LucideIcons.All.FolderSymlinkDefinition),
+    
+    LucideIconMetadata("FolderSync", listOf("directory", "synchronize", "synchronise", "refresh", "reconnect", "transfer", "backup"), listOf("files", "arrows"), LucideIcons.All.FolderSyncDefinition),
+    
+    LucideIconMetadata("FolderTree", listOf("directory", "tree", "browser"), listOf("files"), LucideIcons.All.FolderTreeDefinition),
+    
+    LucideIconMetadata("FolderUp", listOf("directory", "upload", "import", "export"), listOf("files", "arrows"), LucideIcons.All.FolderUpDefinition),
+    
+    LucideIconMetadata("FolderX", listOf("directory", "remove", "delete"), listOf("files"), LucideIcons.All.FolderXDefinition),
+    
+    LucideIconMetadata("Folder", listOf("directory"), listOf("files"), LucideIcons.All.FolderDefinition),
+    
+    LucideIconMetadata("Folders", listOf("multiple", "copy", "directories"), listOf("files"), LucideIcons.All.FoldersDefinition),
     
     LucideIconMetadata("Footprints", listOf("steps", "walking", "foot", "feet", "trail", "shoe"), listOf("navigation"), LucideIcons.All.FootprintsDefinition),
     
@@ -16,8 +115,6 @@ internal val lucideMetadata7 = listOf(
     
     LucideIconMetadata("Frame", listOf("logo", "design", "tool"), listOf("design", "photography"), LucideIcons.All.FrameDefinition),
     
-    LucideIconMetadata("Frown", listOf("emoji", "face", "bad", "sad", "emotion"), listOf("emoji", "account"), LucideIcons.All.FrownDefinition),
-    
     LucideIconMetadata("Fuel", listOf("filling-station", "gas", "petrol", "tank"), listOf("transportation", "navigation"), LucideIcons.All.FuelDefinition),
     
     LucideIconMetadata("Fullscreen", listOf("expand", "zoom", "preview", "focus", "camera", "lens", "image"), listOf("layout", "multimedia", "design", "photography"), LucideIcons.All.FullscreenDefinition),
@@ -27,6 +124,8 @@ internal val lucideMetadata7 = listOf(
     LucideIconMetadata("FunnelX", listOf("filter", "hopper", "remove", "delete"), listOf("layout"), LucideIcons.All.FunnelXDefinition),
     
     LucideIconMetadata("Funnel", listOf("filter", "hopper"), listOf("layout"), LucideIcons.All.FunnelDefinition),
+    
+    LucideIconMetadata("Galaxy", listOf("astronomy", "space", "stars", "cosmos", "universe", "spiral", "milky way", "nebula", "cosmology", "interstellar", "celestial", "constellation", "stargazing", "spaceflight"), listOf("science"), LucideIcons.All.GalaxyDefinition),
     
     LucideIconMetadata("GalleryHorizontalEnd", listOf("carousel", "pictures", "images", "scroll", "swipe", "album", "portfolio", "history", "versions", "backup", "time machine"), listOf("layout", "design", "development", "photography", "multimedia", "files"), LucideIcons.All.GalleryHorizontalEndDefinition),
     
@@ -44,6 +143,10 @@ internal val lucideMetadata7 = listOf(
     
     LucideIconMetadata("Gamepad", listOf("console"), listOf("gaming", "devices"), LucideIcons.All.GamepadDefinition),
     
+    LucideIconMetadata("GapHorizontal", listOf("gap", "spacing", "space", "between", "padding", "margin", "horizontal", "auto layout", "layout", "distance", "frame", "distribute"), listOf("design", "layout"), LucideIcons.All.GapHorizontalDefinition),
+    
+    LucideIconMetadata("GapVertical", listOf("gap", "spacing", "space", "between", "padding", "margin", "vertical", "auto layout", "layout", "distance", "frame", "distribute"), listOf("design", "layout"), LucideIcons.All.GapVerticalDefinition),
+    
     LucideIconMetadata("Gauge", listOf("dashboard", "dial", "meter", "speed", "pressure", "measure", "level"), listOf("transportation", "sports", "science"), LucideIcons.All.GaugeDefinition),
     
     LucideIconMetadata("Gavel", listOf("justice", "law", "court", "judgment", "legal", "hands", "penalty", "decision", "authority", "hammer", "mallet"), listOf("navigation", "tools"), LucideIcons.All.GavelDefinition),
@@ -52,7 +155,11 @@ internal val lucideMetadata7 = listOf(
     
     LucideIconMetadata("GeorgianLari", listOf("currency", "money", "payment"), listOf("finance"), LucideIcons.All.GeorgianLariDefinition),
     
-    LucideIconMetadata("Ghost", listOf("pac-man", "spooky"), listOf("gaming"), LucideIcons.All.GhostDefinition),
+    LucideIconMetadata("GermOff", listOf("virus", "microbe", "bacterium", "bacteria", "germ", "organism", "cilia", "pathogen", "infection", "disease", "contagion", "contamination", "microbiology", "health", "medicine", "biology", "science", "microorganism", "pandemic", "epidemic", "outbreak", "amoeba", "flu", "security", "single cell", "unicellular", "vaccine", "immunity", "quarantine"), listOf("medical", "science", "security"), LucideIcons.All.GermOffDefinition),
+    
+    LucideIconMetadata("Germ", listOf("virus", "microbe", "bacterium", "bacteria", "germ", "organism", "cilia", "pathogen", "infection", "disease", "contagion", "contamination", "microbiology", "health", "medicine", "biology", "science", "microorganism", "pandemic", "epidemic", "outbreak", "amoeba", "flu", "security", "single cell", "unicellular", "vaccine", "immunity", "quarantine"), listOf("medical", "science", "security"), LucideIcons.All.GermDefinition),
+    
+    LucideIconMetadata("Ghost", listOf("spirit", "haunt", "specter", "apparition", "wraith", "shade", "phantom", "entity", "shadow", "silhouette", "pac-man", "spooky", "halloween", "haunted", "invisible", "hidden", "empty", "dead", "obsolete", "outdated"), listOf("gaming"), LucideIcons.All.GhostDefinition),
     
     LucideIconMetadata("Gift", listOf("present", "box", "birthday", "party"), listOf("gaming", "account"), LucideIcons.All.GiftDefinition),
     
@@ -94,116 +201,10 @@ internal val lucideMetadata7 = listOf(
     
     LucideIconMetadata("Glasses", listOf("glasses", "spectacles"), listOf("accessibility"), LucideIcons.All.GlassesDefinition),
     
-    LucideIconMetadata("GlobeLock", listOf("vpn", "private", "privacy", "network", "world", "browser", "security", "encryption", "protection", "connection"), listOf("security", "development", "devices"), LucideIcons.All.GlobeLockDefinition),
+    LucideIconMetadata("GlobeCheck", listOf("world", "browser", "language", "translate", "internet", "web", "check", "verified", "success", "valid", "available", "online", "status"), listOf("navigation"), LucideIcons.All.GlobeCheckDefinition),
     
-    LucideIconMetadata("GlobeOff", listOf("globe", "earth", "planet", "disable", "mute", "off", "hide", "avoid", "world", "browser", "language", "translate", "internet", "offline", "disconnected", "network", "connection", "no connection", "network failure", "signal off"), listOf("navigation", "connectivity", "devices"), LucideIcons.All.GlobeOffDefinition),
+    LucideIconMetadata("GlobeCode", listOf("website", "internet", "globe", "connection", "network", "digital", "access", "global", "link", "world", "browser", "language", "translate"), listOf("navigation", "development"), LucideIcons.All.GlobeCodeDefinition),
     
-    LucideIconMetadata("GlobeX", listOf("globe", "internet", "offline", "disconnected", "network", "connection", "world", "no connection", "network failure", "signal off"), listOf("connectivity", "devices", "navigation"), LucideIcons.All.GlobeXDefinition),
-    
-    LucideIconMetadata("Globe", listOf("world", "browser", "language", "translate"), listOf("navigation"), LucideIcons.All.GlobeDefinition),
-    
-    LucideIconMetadata("Goal", listOf("flag", "bullseye"), listOf("gaming"), LucideIcons.All.GoalDefinition),
-    
-    LucideIconMetadata("Gpu", listOf("processor", "cores", "technology", "computer", "chip", "circuit", "specs", "graphics processing unit", "video card", "display adapter", "gddr", "rendering", "digital image processing", "crypto mining"), listOf("devices", "gaming"), LucideIcons.All.GpuDefinition),
-    
-    LucideIconMetadata("GraduationCap", listOf("school", "university", "learn", "study", "mortarboard", "education", "ceremony", "academic", "hat", "diploma", "bachlor's", "master's", "doctorate"), listOf("buildings"), LucideIcons.All.GraduationCapDefinition),
-    
-    LucideIconMetadata("Grape", listOf("fruit", "wine", "food"), listOf("food-beverage"), LucideIcons.All.GrapeDefinition),
-    
-    LucideIconMetadata("Grid2x2Check", listOf("table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "data", "size", "width", "height", "distance", "surface area", "square meter", "acre"), listOf("text", "layout", "math"), LucideIcons.All.Grid2x2CheckDefinition),
-    
-    LucideIconMetadata("Grid2x2Plus", listOf("table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "data", "size", "width", "height", "distance", "surface area", "square meter", "acre"), listOf("text", "layout", "math"), LucideIcons.All.Grid2x2PlusDefinition),
-    
-    LucideIconMetadata("Grid2x2X", listOf("table", "rows", "columns", "data", "blocks", "plot", "land", "geometry", "measure", "size", "width", "height", "distance", "surface area", "square meter", "acre"), listOf("text", "layout", "math"), LucideIcons.All.Grid2x2XDefinition),
-    
-    LucideIconMetadata("Grid2x2", listOf("table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "size", "width", "height", "distance", "surface area", "square meter", "acre", "window", "skylight"), listOf("text", "layout", "design", "math"), LucideIcons.All.Grid2x2Definition),
-    
-    LucideIconMetadata("Grid3x2", listOf("table", "rows", "columns", "blocks", "plot", "land", "geometry", "measure", "size", "width", "height", "distance", "surface area", "square meter", "acre", "window"), listOf("text", "math", "layout", "design"), LucideIcons.All.Grid3x2Definition),
-    
-    LucideIconMetadata("Grid3x3", listOf("table", "rows", "columns"), listOf("text", "layout", "design"), LucideIcons.All.Grid3x3Definition),
-    
-    LucideIconMetadata("GripHorizontal", listOf("grab", "dots", "handle", "move", "drag"), listOf("layout"), LucideIcons.All.GripHorizontalDefinition),
-    
-    LucideIconMetadata("GripVertical", listOf("grab", "dots", "handle", "move", "drag"), listOf("layout"), LucideIcons.All.GripVerticalDefinition),
-    
-    LucideIconMetadata("Grip", listOf("grab", "dots", "handle", "move", "drag"), listOf("layout"), LucideIcons.All.GripDefinition),
-    
-    LucideIconMetadata("Group", listOf("cubes", "packages", "parts", "units", "collection", "cluster", "gather", "dashed"), listOf("files"), LucideIcons.All.GroupDefinition),
-    
-    LucideIconMetadata("Guitar", listOf("acoustic", "instrument", "strings", "riff", "rock", "band", "country", "concert", "performance", "play", "lead", "loud", "music", "audio", "sound", "noise"), listOf("multimedia"), LucideIcons.All.GuitarDefinition),
-    
-    LucideIconMetadata("Ham", listOf("food", "pork", "pig", "meat", "bone", "hock", "knuckle", "gammon", "cured"), listOf("food-beverage"), LucideIcons.All.HamDefinition),
-    
-    LucideIconMetadata("Hamburger", listOf("burger", "cheeseburger", "meat", "beef", "patty", "bun", "fast food", "junk food", "takeaway", "takeout", "snack", "dish", "restaurant", "lunch", "meal", "savory", "savoury", "cookery", "cooking", "grilled", "barbecue", "barbeque", "bbq", "lettuce", "tomato", "relish", "pickles", "onions", "ketchup", "mustard", "mayonnaise"), listOf("food-beverage"), LucideIcons.All.HamburgerDefinition),
-    
-    LucideIconMetadata("Hammer", listOf("mallet", "nails", "diy", "toolbox", "build", "construction"), listOf("tools", "home"), LucideIcons.All.HammerDefinition),
-    
-    LucideIconMetadata("HandCoins", listOf("savings", "banking", "money", "finance", "offers", "mortgage", "payment", "received", "wage", "payroll", "allowance", "pocket money", "handout", "pennies"), listOf("finance", "account"), LucideIcons.All.HandCoinsDefinition),
-    
-    LucideIconMetadata("HandFist", listOf("clench", "strength", "power", "unity", "solidarity", "rebellion", "victory", "triumph", "support", "fight", "combat", "brawl"), listOf("social", "emoji", "communication", "sports"), LucideIcons.All.HandFistDefinition),
-    
-    LucideIconMetadata("HandGrab", listOf("hand"), listOf("cursors", "design", "layout"), LucideIcons.All.HandGrabDefinition),
-    
-    LucideIconMetadata("HandHeart", listOf("love", "like", "emotion"), listOf("social"), LucideIcons.All.HandHeartDefinition),
-    
-    LucideIconMetadata("HandHelping", listOf("agreement", "help", "proposal", "charity", "begging", "terms"), listOf("emoji"), LucideIcons.All.HandHelpingDefinition),
-    
-    LucideIconMetadata("HandMetal", listOf("rock"), listOf("emoji", "multimedia"), LucideIcons.All.HandMetalDefinition),
-    
-    LucideIconMetadata("HandPlatter", listOf("waiter", "waitress", "restaurant", "table service", "served", "dinner", "dining", "meal", "course", "luxury"), listOf("food-beverage", "people"), LucideIcons.All.HandPlatterDefinition),
-    
-    LucideIconMetadata("Hand", listOf("wave", "move", "mouse", "grab"), listOf("cursors", "accessibility"), LucideIcons.All.HandDefinition),
-    
-    LucideIconMetadata("Handbag", listOf("bag", "baggage", "carry", "clutch", "fashion", "luggage", "purse", "tote", "travel"), listOf("shopping", "transportation"), LucideIcons.All.HandbagDefinition),
-    
-    LucideIconMetadata("Handshake", listOf("agreement", "partnership", "deal", "business", "assistance", "cooperation", "friendship", "union", "terms"), listOf("account", "social", "communication", "finance", "security"), LucideIcons.All.HandshakeDefinition),
-    
-    LucideIconMetadata("HardDriveDownload", listOf("computer", "server", "memory", "data", "ssd", "disk", "hard disk", "save"), listOf("development", "devices", "arrows", "files"), LucideIcons.All.HardDriveDownloadDefinition),
-    
-    LucideIconMetadata("HardDriveUpload", listOf("computer", "server", "memory", "data", "ssd", "disk", "hard disk", "save"), listOf("development", "devices", "arrows", "files"), LucideIcons.All.HardDriveUploadDefinition),
-    
-    LucideIconMetadata("HardDrive", listOf("computer", "server", "memory", "data", "ssd", "disk", "hard disk", "storage", "hardware", "backup", "media"), listOf("development", "devices"), LucideIcons.All.HardDriveDefinition),
-    
-    LucideIconMetadata("HardHat", listOf("helmet", "construction", "safety", "savety"), listOf("tools"), LucideIcons.All.HardHatDefinition),
-    
-    LucideIconMetadata("Hash", listOf("hashtag", "number", "pound"), listOf("text", "social"), LucideIcons.All.HashDefinition),
-    
-    LucideIconMetadata("HatGlasses", listOf("incognito", "disguise", "costume", "masked", "anonymous", "anonymity", "privacy", "private browsing", "stealth", "hidden", "undercover", "cloak", "invisible", "ghost", "spy", "agent", "detective", "identity", "cap", "fedora", "spectacles", "shades", "sunglasses", "eyewear"), listOf("social", "account", "security"), LucideIcons.All.HatGlassesDefinition),
-    
-    LucideIconMetadata("Haze", listOf("mist", "fog"), listOf("weather"), LucideIcons.All.HazeDefinition),
-    
-    LucideIconMetadata("Hd", listOf("tv", "resolution", "video", "high definition", "720p", "1080p"), listOf("devices", "multimedia"), LucideIcons.All.HdDefinition),
-    
-    LucideIconMetadata("HdmiPort", listOf("socket", "plug", "slot", "controller", "connector", "interface", "console", "signal", "audio", "video", "visual", "av", "data", "input", "output"), listOf("devices", "multimedia", "gaming"), LucideIcons.All.HdmiPortDefinition),
-    
-    LucideIconMetadata("Heading1", listOf("h1", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading1Definition),
-    
-    LucideIconMetadata("Heading2", listOf("h2", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading2Definition),
-    
-    LucideIconMetadata("Heading3", listOf("h3", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading3Definition),
-    
-    LucideIconMetadata("Heading4", listOf("h4", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading4Definition),
-    
-    LucideIconMetadata("Heading5", listOf("h5", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading5Definition),
-    
-    LucideIconMetadata("Heading6", listOf("h6", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.Heading6Definition),
-    
-    LucideIconMetadata("Heading", listOf("h1", "html", "markup", "markdown"), listOf("text"), LucideIcons.All.HeadingDefinition),
-    
-    LucideIconMetadata("HeadphoneOff", listOf("music", "audio", "sound", "mute", "off"), listOf("multimedia", "connectivity", "communication", "devices", "gaming"), LucideIcons.All.HeadphoneOffDefinition),
-    
-    LucideIconMetadata("Headphones", listOf("music", "audio", "sound"), listOf("multimedia", "connectivity", "devices", "files", "gaming"), LucideIcons.All.HeadphonesDefinition),
-    
-    LucideIconMetadata("Headset", listOf("music", "audio", "sound", "gaming", "headphones", "headset", "call", "center", "phone", "telephone", "voip", "video"), listOf("multimedia", "connectivity", "devices", "files", "gaming"), LucideIcons.All.HeadsetDefinition),
-    
-    LucideIconMetadata("HeartCrack", listOf("heartbreak", "sadness", "emotion"), listOf("emoji"), LucideIcons.All.HeartCrackDefinition),
-    
-    LucideIconMetadata("HeartHandshake", listOf("agreement", "charity", "help", "deal", "terms", "emotion", "together", "handshake"), listOf("emoji", "account", "security"), LucideIcons.All.HeartHandshakeDefinition),
-    
-    LucideIconMetadata("HeartMinus", listOf("unlike", "unfavorite", "remove", "delete", "damage"), listOf("medical", "account", "multimedia", "gaming", "social"), LucideIcons.All.HeartMinusDefinition),
-    
-    LucideIconMetadata("HeartOff", listOf("unlike", "dislike", "hate", "emotion"), listOf("social", "multimedia"), LucideIcons.All.HeartOffDefinition),
-    
-    LucideIconMetadata("HeartPlus", listOf("plus", "like", "favorite", "add", "health", "support"), listOf("medical", "account", "multimedia", "gaming", "social"), LucideIcons.All.HeartPlusDefinition)
+    LucideIconMetadata("GlobeLock", listOf("vpn", "private", "privacy", "network", "world", "browser", "security", "encryption", "protection", "connection"), listOf("security", "development", "devices"), LucideIcons.All.GlobeLockDefinition)
     
 )

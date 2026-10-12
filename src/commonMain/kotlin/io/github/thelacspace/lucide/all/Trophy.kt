@@ -10,21 +10,25 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("Trophy") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(10f, 14.66f)
-                verticalLineToRelative(1.626f)
-                arcToRelative(2f, 2f, 0f, false, true, -.976f, 1.696f)
-                arcTo(5f, 5f, 0f, false, false, 7f, 21.978f)
+                verticalLineTo(17f)
+                arcToRelative(1f, 1f, 0f, false, true, -1f, 1f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
+                verticalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
                 moveTo(14f, 14.66f)
-                verticalLineToRelative(1.626f)
-                arcToRelative(2f, 2f, 0f, false, false, .976f, 1.696f)
-                arcTo(5f, 5f, 0f, false, true, 17f, 21.978f)
+                verticalLineTo(17f)
+                arcToRelative(1f, 1f, 0f, false, false, 1f, 1f)
+                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
+                verticalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 9f)
-                horizontalLineToRelative(1.5f)
-                arcToRelative(1f, 1f, 0f, false, false, 0f, -5f)
-                horizontalLineTo(18f)
+                moveTo(17.916f, 10f)
+                horizontalLineTo(19.5f)
+                arcTo(2.5f, 2.5f, 0f, false, false, 22f, 7.5f)
+                verticalLineTo(5f)
+                arcToRelative(1f, 1f, 0f, false, false, -1f, -1f)
+                horizontalLineToRelative(-3f)
             }
             lucidePath(strokeWidth) {
                 moveTo(4f, 22f)
@@ -40,10 +44,12 @@ private val _ActivityDefinition = LucideIconDefinition("Trophy") { strokeWidth -
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 9f)
+                moveTo(6.084f, 10f)
                 horizontalLineTo(4.5f)
-                arcToRelative(1f, 1f, 0f, false, true, 0f, -5f)
-                horizontalLineTo(6f)
+                arcTo(2.5f, 2.5f, 0f, false, true, 2f, 7.5f)
+                verticalLineTo(5f)
+                arcToRelative(1f, 1f, 0f, false, true, 1f, -1f)
+                horizontalLineToRelative(3f)
             }
 }
 

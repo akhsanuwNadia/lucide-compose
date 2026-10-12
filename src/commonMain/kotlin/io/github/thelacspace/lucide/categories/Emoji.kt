@@ -7,12 +7,6 @@ import io.github.thelacspace.lucide.all.*
 
 object LucideIconsEmoji {
     
-    val AngryDefinition get() = LucideIcons.All.AngryDefinition
-    val Angry: ImageVector @Composable get() = LucideIcons.All.Angry
-    
-    val AnnoyedDefinition get() = LucideIcons.All.AnnoyedDefinition
-    val Annoyed: ImageVector @Composable get() = LucideIcons.All.Annoyed
-    
     val BalloonDefinition get() = LucideIcons.All.BalloonDefinition
     val Balloon: ImageVector @Composable get() = LucideIcons.All.Balloon
     
@@ -37,8 +31,26 @@ object LucideIconsEmoji {
     val ChessRookDefinition get() = LucideIcons.All.ChessRookDefinition
     val ChessRook: ImageVector @Composable get() = LucideIcons.All.ChessRook
     
-    val FrownDefinition get() = LucideIcons.All.FrownDefinition
-    val Frown: ImageVector @Composable get() = LucideIcons.All.Frown
+    val FaceAngryDefinition get() = LucideIcons.All.FaceAngryDefinition
+    val FaceAngry: ImageVector @Composable get() = LucideIcons.All.FaceAngry
+    
+    val FaceExpressionlessDefinition get() = LucideIcons.All.FaceExpressionlessDefinition
+    val FaceExpressionless: ImageVector @Composable get() = LucideIcons.All.FaceExpressionless
+    
+    val FaceGrinningDefinition get() = LucideIcons.All.FaceGrinningDefinition
+    val FaceGrinning: ImageVector @Composable get() = LucideIcons.All.FaceGrinning
+    
+    val FaceNeutralDefinition get() = LucideIcons.All.FaceNeutralDefinition
+    val FaceNeutral: ImageVector @Composable get() = LucideIcons.All.FaceNeutral
+    
+    val FaceSlightlyFrowningDefinition get() = LucideIcons.All.FaceSlightlyFrowningDefinition
+    val FaceSlightlyFrowning: ImageVector @Composable get() = LucideIcons.All.FaceSlightlyFrowning
+    
+    val FaceSlightlySmilingDefinition get() = LucideIcons.All.FaceSlightlySmilingDefinition
+    val FaceSlightlySmiling: ImageVector @Composable get() = LucideIcons.All.FaceSlightlySmiling
+    
+    val FaceSlightlySmilingPlusDefinition get() = LucideIcons.All.FaceSlightlySmilingPlusDefinition
+    val FaceSlightlySmilingPlus: ImageVector @Composable get() = LucideIcons.All.FaceSlightlySmilingPlus
     
     val HandFistDefinition get() = LucideIcons.All.HandFistDefinition
     val HandFist: ImageVector @Composable get() = LucideIcons.All.HandFist
@@ -58,14 +70,8 @@ object LucideIconsEmoji {
     val HeartHandshakeDefinition get() = LucideIcons.All.HeartHandshakeDefinition
     val HeartHandshake: ImageVector @Composable get() = LucideIcons.All.HeartHandshake
     
-    val LaughDefinition get() = LucideIcons.All.LaughDefinition
-    val Laugh: ImageVector @Composable get() = LucideIcons.All.Laugh
-    
     val LeafyGreenDefinition get() = LucideIcons.All.LeafyGreenDefinition
     val LeafyGreen: ImageVector @Composable get() = LucideIcons.All.LeafyGreen
-    
-    val MehDefinition get() = LucideIcons.All.MehDefinition
-    val Meh: ImageVector @Composable get() = LucideIcons.All.Meh
     
     val PartyPopperDefinition get() = LucideIcons.All.PartyPopperDefinition
     val PartyPopper: ImageVector @Composable get() = LucideIcons.All.PartyPopper
@@ -76,14 +82,20 @@ object LucideIconsEmoji {
     val SaladDefinition get() = LucideIcons.All.SaladDefinition
     val Salad: ImageVector @Composable get() = LucideIcons.All.Salad
     
-    val SmileDefinition get() = LucideIcons.All.SmileDefinition
-    val Smile: ImageVector @Composable get() = LucideIcons.All.Smile
-    
-    val SmilePlusDefinition get() = LucideIcons.All.SmilePlusDefinition
-    val SmilePlus: ImageVector @Composable get() = LucideIcons.All.SmilePlus
-    
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
+    
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
     
     val ThumbsDownDefinition get() = LucideIcons.All.ThumbsDownDefinition
     val ThumbsDown: ImageVector @Composable get() = LucideIcons.All.ThumbsDown

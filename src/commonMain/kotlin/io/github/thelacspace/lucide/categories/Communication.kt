@@ -13,6 +13,12 @@ object LucideIconsCommunication {
     val AudioLinesDefinition get() = LucideIcons.All.AudioLinesDefinition
     val AudioLines: ImageVector @Composable get() = LucideIcons.All.AudioLines
     
+    val AudioLinesOffDefinition get() = LucideIcons.All.AudioLinesOffDefinition
+    val AudioLinesOff: ImageVector @Composable get() = LucideIcons.All.AudioLinesOff
+    
+    val AudioLinesXDefinition get() = LucideIcons.All.AudioLinesXDefinition
+    val AudioLinesX: ImageVector @Composable get() = LucideIcons.All.AudioLinesX
+    
     val AudioWaveformDefinition get() = LucideIcons.All.AudioWaveformDefinition
     val AudioWaveform: ImageVector @Composable get() = LucideIcons.All.AudioWaveform
     
@@ -52,6 +58,9 @@ object LucideIconsCommunication {
     val EthernetPortDefinition get() = LucideIcons.All.EthernetPortDefinition
     val EthernetPort: ImageVector @Composable get() = LucideIcons.All.EthernetPort
     
+    val FaceSlightlySmilingPlusDefinition get() = LucideIcons.All.FaceSlightlySmilingPlusDefinition
+    val FaceSlightlySmilingPlus: ImageVector @Composable get() = LucideIcons.All.FaceSlightlySmilingPlus
+    
     val HandFistDefinition get() = LucideIcons.All.HandFistDefinition
     val HandFist: ImageVector @Composable get() = LucideIcons.All.HandFist
     
@@ -64,11 +73,32 @@ object LucideIconsCommunication {
     val LecternDefinition get() = LucideIcons.All.LecternDefinition
     val Lectern: ImageVector @Composable get() = LucideIcons.All.Lectern
     
+    val MailBadgeDefinition get() = LucideIcons.All.MailBadgeDefinition
+    val MailBadge: ImageVector @Composable get() = LucideIcons.All.MailBadge
+    
+    val MailClockDefinition get() = LucideIcons.All.MailClockDefinition
+    val MailClock: ImageVector @Composable get() = LucideIcons.All.MailClock
+    
+    val MessagesCircleDefinition get() = LucideIcons.All.MessagesCircleDefinition
+    val MessagesCircle: ImageVector @Composable get() = LucideIcons.All.MessagesCircle
+    
     val MicDefinition get() = LucideIcons.All.MicDefinition
     val Mic: ImageVector @Composable get() = LucideIcons.All.Mic
     
+    val MicAudioLinesDefinition get() = LucideIcons.All.MicAudioLinesDefinition
+    val MicAudioLines: ImageVector @Composable get() = LucideIcons.All.MicAudioLines
+    
     val MicOffDefinition get() = LucideIcons.All.MicOffDefinition
     val MicOff: ImageVector @Composable get() = LucideIcons.All.MicOff
+    
+    val MicSignalDefinition get() = LucideIcons.All.MicSignalDefinition
+    val MicSignal: ImageVector @Composable get() = LucideIcons.All.MicSignal
+    
+    val MouthDefinition get() = LucideIcons.All.MouthDefinition
+    val Mouth: ImageVector @Composable get() = LucideIcons.All.Mouth
+    
+    val MouthOffDefinition get() = LucideIcons.All.MouthOffDefinition
+    val MouthOff: ImageVector @Composable get() = LucideIcons.All.MouthOff
     
     val NewspaperDefinition get() = LucideIcons.All.NewspaperDefinition
     val Newspaper: ImageVector @Composable get() = LucideIcons.All.Newspaper
@@ -78,6 +108,9 @@ object LucideIconsCommunication {
     
     val NotebookDefinition get() = LucideIcons.All.NotebookDefinition
     val Notebook: ImageVector @Composable get() = LucideIcons.All.Notebook
+    
+    val NotebookDotDefinition get() = LucideIcons.All.NotebookDotDefinition
+    val NotebookDot: ImageVector @Composable get() = LucideIcons.All.NotebookDot
     
     val NotebookTabsDefinition get() = LucideIcons.All.NotebookTabsDefinition
     val NotebookTabs: ImageVector @Composable get() = LucideIcons.All.NotebookTabs
@@ -93,6 +126,9 @@ object LucideIconsCommunication {
     
     val PhoneIncomingDefinition get() = LucideIcons.All.PhoneIncomingDefinition
     val PhoneIncoming: ImageVector @Composable get() = LucideIcons.All.PhoneIncoming
+    
+    val PhoneLogDefinition get() = LucideIcons.All.PhoneLogDefinition
+    val PhoneLog: ImageVector @Composable get() = LucideIcons.All.PhoneLog
     
     val PhoneMissedDefinition get() = LucideIcons.All.PhoneMissedDefinition
     val PhoneMissed: ImageVector @Composable get() = LucideIcons.All.PhoneMissed
@@ -126,9 +162,6 @@ object LucideIconsCommunication {
     
     val SmartphoneNfcDefinition get() = LucideIcons.All.SmartphoneNfcDefinition
     val SmartphoneNfc: ImageVector @Composable get() = LucideIcons.All.SmartphoneNfc
-    
-    val SmilePlusDefinition get() = LucideIcons.All.SmilePlusDefinition
-    val SmilePlus: ImageVector @Composable get() = LucideIcons.All.SmilePlus
     
     val SpeechDefinition get() = LucideIcons.All.SpeechDefinition
     val Speech: ImageVector @Composable get() = LucideIcons.All.Speech
@@ -171,5 +204,8 @@ object LucideIconsCommunication {
     
     val WebcamDefinition get() = LucideIcons.All.WebcamDefinition
     val Webcam: ImageVector @Composable get() = LucideIcons.All.Webcam
+    
+    val WebcamOffDefinition get() = LucideIcons.All.WebcamOffDefinition
+    val WebcamOff: ImageVector @Composable get() = LucideIcons.All.WebcamOff
     
 }

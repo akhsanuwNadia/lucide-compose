@@ -52,6 +52,12 @@ object LucideIconsFoodBeverage {
     val CakeSliceDefinition get() = LucideIcons.All.CakeSliceDefinition
     val CakeSlice: ImageVector @Composable get() = LucideIcons.All.CakeSlice
     
+    val CanDefinition get() = LucideIcons.All.CanDefinition
+    val Can: ImageVector @Composable get() = LucideIcons.All.Can
+    
+    val CanSodaDefinition get() = LucideIcons.All.CanSodaDefinition
+    val CanSoda: ImageVector @Composable get() = LucideIcons.All.CanSoda
+    
     val CandyDefinition get() = LucideIcons.All.CandyDefinition
     val Candy: ImageVector @Composable get() = LucideIcons.All.Candy
     
@@ -63,6 +69,12 @@ object LucideIconsFoodBeverage {
     
     val CarrotDefinition get() = LucideIcons.All.CarrotDefinition
     val Carrot: ImageVector @Composable get() = LucideIcons.All.Carrot
+    
+    val CartonDefinition get() = LucideIcons.All.CartonDefinition
+    val Carton: ImageVector @Composable get() = LucideIcons.All.Carton
+    
+    val CartonOffDefinition get() = LucideIcons.All.CartonOffDefinition
+    val CartonOff: ImageVector @Composable get() = LucideIcons.All.CartonOff
     
     val ChefHatDefinition get() = LucideIcons.All.ChefHatDefinition
     val ChefHat: ImageVector @Composable get() = LucideIcons.All.ChefHat
@@ -91,6 +103,9 @@ object LucideIconsFoodBeverage {
     val CupSodaDefinition get() = LucideIcons.All.CupSodaDefinition
     val CupSoda: ImageVector @Composable get() = LucideIcons.All.CupSoda
     
+    val CupcakeDefinition get() = LucideIcons.All.CupcakeDefinition
+    val Cupcake: ImageVector @Composable get() = LucideIcons.All.Cupcake
+    
     val DessertDefinition get() = LucideIcons.All.DessertDefinition
     val Dessert: ImageVector @Composable get() = LucideIcons.All.Dessert
     
@@ -99,6 +114,9 @@ object LucideIconsFoodBeverage {
     
     val DonutDefinition get() = LucideIcons.All.DonutDefinition
     val Donut: ImageVector @Composable get() = LucideIcons.All.Donut
+    
+    val DoorClosedPackageDefinition get() = LucideIcons.All.DoorClosedPackageDefinition
+    val DoorClosedPackage: ImageVector @Composable get() = LucideIcons.All.DoorClosedPackage
     
     val DrumstickDefinition get() = LucideIcons.All.DrumstickDefinition
     val Drumstick: ImageVector @Composable get() = LucideIcons.All.Drumstick
@@ -111,6 +129,9 @@ object LucideIconsFoodBeverage {
     
     val EggOffDefinition get() = LucideIcons.All.EggOffDefinition
     val EggOff: ImageVector @Composable get() = LucideIcons.All.EggOff
+    
+    val FaucetDefinition get() = LucideIcons.All.FaucetDefinition
+    val Faucet: ImageVector @Composable get() = LucideIcons.All.Faucet
     
     val FishDefinition get() = LucideIcons.All.FishDefinition
     val Fish: ImageVector @Composable get() = LucideIcons.All.Fish
@@ -126,6 +147,9 @@ object LucideIconsFoodBeverage {
     
     val GrapeDefinition get() = LucideIcons.All.GrapeDefinition
     val Grape: ImageVector @Composable get() = LucideIcons.All.Grape
+    
+    val GroceriesDefinition get() = LucideIcons.All.GroceriesDefinition
+    val Groceries: ImageVector @Composable get() = LucideIcons.All.Groceries
     
     val HamDefinition get() = LucideIcons.All.HamDefinition
     val Ham: ImageVector @Composable get() = LucideIcons.All.Ham
@@ -172,6 +196,9 @@ object LucideIconsFoodBeverage {
     val NutOffDefinition get() = LucideIcons.All.NutOffDefinition
     val NutOff: ImageVector @Composable get() = LucideIcons.All.NutOff
     
+    val PaperBagDefinition get() = LucideIcons.All.PaperBagDefinition
+    val PaperBag: ImageVector @Composable get() = LucideIcons.All.PaperBag
+    
     val PizzaDefinition get() = LucideIcons.All.PizzaDefinition
     val Pizza: ImageVector @Composable get() = LucideIcons.All.Pizza
     
@@ -192,6 +219,12 @@ object LucideIconsFoodBeverage {
     
     val ShellDefinition get() = LucideIcons.All.ShellDefinition
     val Shell: ImageVector @Composable get() = LucideIcons.All.Shell
+    
+    val ShrimpDefinition get() = LucideIcons.All.ShrimpDefinition
+    val Shrimp: ImageVector @Composable get() = LucideIcons.All.Shrimp
+    
+    val ShrimpOffDefinition get() = LucideIcons.All.ShrimpOffDefinition
+    val ShrimpOff: ImageVector @Composable get() = LucideIcons.All.ShrimpOff
     
     val SnailDefinition get() = LucideIcons.All.SnailDefinition
     val Snail: ImageVector @Composable get() = LucideIcons.All.Snail

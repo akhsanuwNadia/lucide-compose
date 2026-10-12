@@ -17,8 +17,8 @@ private val _ActivityDefinition = LucideIconDefinition("Beef") { strokeWidth ->
             }
             lucidePath(strokeWidth) {
                 moveToRelative(18.5f, 6f)
-                lineToRelative(2.19f, 4.5f)
-                arcToRelative(6.48f, 6.48f, 0f, false, true, -2.29f, 7.2f)
+                lineToRelative(1.754f, 3.5f)
+                arcToRelative(6.48f, 6.48f, 0f, false, true, -1.854f, 8.2f)
                 curveTo(15.4f, 20.2f, 11f, 22f, 7f, 22f)
                 arcToRelative(3f, 3f, 0f, false, true, -2.68f, -1.66f)
                 lineTo(2.4f, 16.5f)

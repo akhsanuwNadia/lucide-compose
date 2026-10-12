@@ -37,20 +37,47 @@ object LucideIconsShopping {
     val BadgeTurkishLiraDefinition get() = LucideIcons.All.BadgeTurkishLiraDefinition
     val BadgeTurkishLira: ImageVector @Composable get() = LucideIcons.All.BadgeTurkishLira
     
+    val BangladeshiTakaDefinition get() = LucideIcons.All.BangladeshiTakaDefinition
+    val BangladeshiTaka: ImageVector @Composable get() = LucideIcons.All.BangladeshiTaka
+    
     val BarcodeDefinition get() = LucideIcons.All.BarcodeDefinition
     val Barcode: ImageVector @Composable get() = LucideIcons.All.Barcode
     
     val BookImageDefinition get() = LucideIcons.All.BookImageDefinition
     val BookImage: ImageVector @Composable get() = LucideIcons.All.BookImage
     
+    val CircleEuroDefinition get() = LucideIcons.All.CircleEuroDefinition
+    val CircleEuro: ImageVector @Composable get() = LucideIcons.All.CircleEuro
+    
     val CirclePercentDefinition get() = LucideIcons.All.CirclePercentDefinition
     val CirclePercent: ImageVector @Composable get() = LucideIcons.All.CirclePercent
+    
+    val CreditCardCheckDefinition get() = LucideIcons.All.CreditCardCheckDefinition
+    val CreditCardCheck: ImageVector @Composable get() = LucideIcons.All.CreditCardCheck
+    
+    val CreditCardMinusDefinition get() = LucideIcons.All.CreditCardMinusDefinition
+    val CreditCardMinus: ImageVector @Composable get() = LucideIcons.All.CreditCardMinus
+    
+    val CreditCardPlusDefinition get() = LucideIcons.All.CreditCardPlusDefinition
+    val CreditCardPlus: ImageVector @Composable get() = LucideIcons.All.CreditCardPlus
+    
+    val CreditCardReaderDefinition get() = LucideIcons.All.CreditCardReaderDefinition
+    val CreditCardReader: ImageVector @Composable get() = LucideIcons.All.CreditCardReader
+    
+    val CreditCardXDefinition get() = LucideIcons.All.CreditCardXDefinition
+    val CreditCardX: ImageVector @Composable get() = LucideIcons.All.CreditCardX
     
     val DiamondPercentDefinition get() = LucideIcons.All.DiamondPercentDefinition
     val DiamondPercent: ImageVector @Composable get() = LucideIcons.All.DiamondPercent
     
     val HandbagDefinition get() = LucideIcons.All.HandbagDefinition
     val Handbag: ImageVector @Composable get() = LucideIcons.All.Handbag
+    
+    val NepaliRupeeDefinition get() = LucideIcons.All.NepaliRupeeDefinition
+    val NepaliRupee: ImageVector @Composable get() = LucideIcons.All.NepaliRupee
+    
+    val PaperBagDefinition get() = LucideIcons.All.PaperBagDefinition
+    val PaperBag: ImageVector @Composable get() = LucideIcons.All.PaperBag
     
     val PercentDefinition get() = LucideIcons.All.PercentDefinition
     val Percent: ImageVector @Composable get() = LucideIcons.All.Percent
@@ -60,6 +87,9 @@ object LucideIconsShopping {
     
     val ScanBarcodeDefinition get() = LucideIcons.All.ScanBarcodeDefinition
     val ScanBarcode: ImageVector @Composable get() = LucideIcons.All.ScanBarcode
+    
+    val ScanBoxDefinition get() = LucideIcons.All.ScanBoxDefinition
+    val ScanBox: ImageVector @Composable get() = LucideIcons.All.ScanBox
     
     val ScanLineDefinition get() = LucideIcons.All.ScanLineDefinition
     val ScanLine: ImageVector @Composable get() = LucideIcons.All.ScanLine
@@ -79,6 +109,12 @@ object LucideIconsShopping {
     val ShoppingCartDefinition get() = LucideIcons.All.ShoppingCartDefinition
     val ShoppingCart: ImageVector @Composable get() = LucideIcons.All.ShoppingCart
     
+    val ShoppingCartMinusDefinition get() = LucideIcons.All.ShoppingCartMinusDefinition
+    val ShoppingCartMinus: ImageVector @Composable get() = LucideIcons.All.ShoppingCartMinus
+    
+    val ShoppingCartPlusDefinition get() = LucideIcons.All.ShoppingCartPlusDefinition
+    val ShoppingCartPlus: ImageVector @Composable get() = LucideIcons.All.ShoppingCartPlus
+    
     val SquarePercentDefinition get() = LucideIcons.All.SquarePercentDefinition
     val SquarePercent: ImageVector @Composable get() = LucideIcons.All.SquarePercent
     
@@ -87,5 +123,8 @@ object LucideIconsShopping {
     
     val TicketPercentDefinition get() = LucideIcons.All.TicketPercentDefinition
     val TicketPercent: ImageVector @Composable get() = LucideIcons.All.TicketPercent
+    
+    val TubeLotionDefinition get() = LucideIcons.All.TubeLotionDefinition
+    val TubeLotion: ImageVector @Composable get() = LucideIcons.All.TubeLotion
     
 }

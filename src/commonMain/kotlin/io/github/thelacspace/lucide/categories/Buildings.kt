@@ -13,11 +13,17 @@ object LucideIconsBuildings {
     val BrickWallDefinition get() = LucideIcons.All.BrickWallDefinition
     val BrickWall: ImageVector @Composable get() = LucideIcons.All.BrickWall
     
+    val BridgeDefinition get() = LucideIcons.All.BridgeDefinition
+    val Bridge: ImageVector @Composable get() = LucideIcons.All.Bridge
+    
     val BuildingDefinition get() = LucideIcons.All.BuildingDefinition
     val Building: ImageVector @Composable get() = LucideIcons.All.Building
     
-    val Building2Definition get() = LucideIcons.All.Building2Definition
-    val Building2: ImageVector @Composable get() = LucideIcons.All.Building2
+    val BuildingComplexDefinition get() = LucideIcons.All.BuildingComplexDefinition
+    val BuildingComplex: ImageVector @Composable get() = LucideIcons.All.BuildingComplex
+    
+    val BuildingComplexPlusDefinition get() = LucideIcons.All.BuildingComplexPlusDefinition
+    val BuildingComplexPlus: ImageVector @Composable get() = LucideIcons.All.BuildingComplexPlus
     
     val CastleDefinition get() = LucideIcons.All.CastleDefinition
     val Castle: ImageVector @Composable get() = LucideIcons.All.Castle
@@ -27,6 +33,9 @@ object LucideIconsBuildings {
     
     val DamDefinition get() = LucideIcons.All.DamDefinition
     val Dam: ImageVector @Composable get() = LucideIcons.All.Dam
+    
+    val DomeDefinition get() = LucideIcons.All.DomeDefinition
+    val Dome: ImageVector @Composable get() = LucideIcons.All.Dome
     
     val FactoryDefinition get() = LucideIcons.All.FactoryDefinition
     val Factory: ImageVector @Composable get() = LucideIcons.All.Factory
@@ -46,6 +55,9 @@ object LucideIconsBuildings {
     val HouseDefinition get() = LucideIcons.All.HouseDefinition
     val House: ImageVector @Composable get() = LucideIcons.All.House
     
+    val HouseCogDefinition get() = LucideIcons.All.HouseCogDefinition
+    val HouseCog: ImageVector @Composable get() = LucideIcons.All.HouseCog
+    
     val HouseHeartDefinition get() = LucideIcons.All.HouseHeartDefinition
     val HouseHeart: ImageVector @Composable get() = LucideIcons.All.HouseHeart
     
@@ -58,8 +70,17 @@ object LucideIconsBuildings {
     val HouseWifiDefinition get() = LucideIcons.All.HouseWifiDefinition
     val HouseWifi: ImageVector @Composable get() = LucideIcons.All.HouseWifi
     
+    val HousesDefinition get() = LucideIcons.All.HousesDefinition
+    val Houses: ImageVector @Composable get() = LucideIcons.All.Houses
+    
     val LandmarkDefinition get() = LucideIcons.All.LandmarkDefinition
     val Landmark: ImageVector @Composable get() = LucideIcons.All.Landmark
+    
+    val LighthouseDefinition get() = LucideIcons.All.LighthouseDefinition
+    val Lighthouse: ImageVector @Composable get() = LucideIcons.All.Lighthouse
+    
+    val MosqueDefinition get() = LucideIcons.All.MosqueDefinition
+    val Mosque: ImageVector @Composable get() = LucideIcons.All.Mosque
     
     val SchoolDefinition get() = LucideIcons.All.SchoolDefinition
     val School: ImageVector @Composable get() = LucideIcons.All.School

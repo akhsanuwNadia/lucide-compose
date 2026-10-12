@@ -82,4 +82,7 @@ object LucideIconsSustainability {
     val WindArrowDownDefinition get() = LucideIcons.All.WindArrowDownDefinition
     val WindArrowDown: ImageVector @Composable get() = LucideIcons.All.WindArrowDown
     
+    val WindArrowUpDefinition get() = LucideIcons.All.WindArrowUpDefinition
+    val WindArrowUp: ImageVector @Composable get() = LucideIcons.All.WindArrowUp
+    
 }

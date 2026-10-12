@@ -10,25 +10,17 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("FolderBookmark") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(12f, 6f)
-                verticalLineToRelative(8f)
-                lineToRelative(3f, -3f)
-                lineToRelative(3f, 3f)
-                verticalLineTo(6f)
+                verticalLineToRelative(7.751f)
+                arcToRelative(.25f, .25f, 0f, false, false, lf, 2.28f)
+                arcToRelative(-1.834f, af, .5f, false, false, 01.627f, 0f)
+                lineToRelative(2.28f, 1.834f)
+                arcToRelative(.25f, .25f, 0f, false, false, Vf, 6f)
             }
             lucidePath(strokeWidth) {
                 moveTo(20f, 20f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineTo(8f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineToRelative(-7.9f)
-                arcToRelative(2f, 2f, 0f, false, true, -1.69f, -.9f)
-                lineTo(9.6f, 3.9f)
-                arcTo(2f, 2f, 0f, false, false, 7.93f, 3f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(13f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                close()
+                arcToRelative(2f, 2f, 0f, false, false, Vf, 8f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, hf)
+                arcToRelative(-7.9f, af, 2f, false, false, 01f, -1.69f)
             }
 }
 

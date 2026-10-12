@@ -9,14 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CircleDot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0f, 12.0f)
-                arcToRelative(10.0f, 10.0f, 0f, true, false, 20.0f, 0f)
-                arcToRelative(10.0f, 10.0f, 0f, true, false, -20.0f, 0f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(11.0f, 12.0f)
                 arcToRelative(1.0f, 1.0f, 0f, true, false, 2.0f, 0f)
                 arcToRelative(1.0f, 1.0f, 0f, true, false, -2.0f, 0f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(2.0f, 12.0f)
+                arcToRelative(10.0f, 10.0f, 0f, true, false, 20.0f, 0f)
+                arcToRelative(10.0f, 10.0f, 0f, true, false, -20.0f, 0f)
             }
 }
 

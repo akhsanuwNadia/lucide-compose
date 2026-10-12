@@ -9,6 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Trash") { strokeWidth ->
     lucidePath(strokeWidth) {
+                moveTo(10f, 11f)
+                verticalLineToRelative(6f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(14f, 11f)
+                verticalLineToRelative(6f)
+            }
+            lucidePath(strokeWidth) {
                 moveTo(19f, 6f)
                 verticalLineToRelative(14f)
                 arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)

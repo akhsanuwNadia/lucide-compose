@@ -16,6 +16,9 @@ object LucideIconsNavigation {
     val BirdhouseDefinition get() = LucideIcons.All.BirdhouseDefinition
     val Birdhouse: ImageVector @Composable get() = LucideIcons.All.Birdhouse
     
+    val CalendarChevronsRightDefinition get() = LucideIcons.All.CalendarChevronsRightDefinition
+    val CalendarChevronsRight: ImageVector @Composable get() = LucideIcons.All.CalendarChevronsRight
+    
     val CastleDefinition get() = LucideIcons.All.CastleDefinition
     val Castle: ImageVector @Composable get() = LucideIcons.All.Castle
     
@@ -31,8 +34,14 @@ object LucideIconsNavigation {
     val CompassDefinition get() = LucideIcons.All.CompassDefinition
     val Compass: ImageVector @Composable get() = LucideIcons.All.Compass
     
+    val CreditCardReaderDefinition get() = LucideIcons.All.CreditCardReaderDefinition
+    val CreditCardReader: ImageVector @Composable get() = LucideIcons.All.CreditCardReader
+    
     val DamDefinition get() = LucideIcons.All.DamDefinition
     val Dam: ImageVector @Composable get() = LucideIcons.All.Dam
+    
+    val DomeDefinition get() = LucideIcons.All.DomeDefinition
+    val Dome: ImageVector @Composable get() = LucideIcons.All.Dome
     
     val DumbbellDefinition get() = LucideIcons.All.DumbbellDefinition
     val Dumbbell: ImageVector @Composable get() = LucideIcons.All.Dumbbell
@@ -45,6 +54,9 @@ object LucideIconsNavigation {
     
     val FactoryDefinition get() = LucideIcons.All.FactoryDefinition
     val Factory: ImageVector @Composable get() = LucideIcons.All.Factory
+    
+    val FaucetDefinition get() = LucideIcons.All.FaucetDefinition
+    val Faucet: ImageVector @Composable get() = LucideIcons.All.Faucet
     
     val FerrisWheelDefinition get() = LucideIcons.All.FerrisWheelDefinition
     val FerrisWheel: ImageVector @Composable get() = LucideIcons.All.FerrisWheel
@@ -73,11 +85,20 @@ object LucideIconsNavigation {
     val GlobeDefinition get() = LucideIcons.All.GlobeDefinition
     val Globe: ImageVector @Composable get() = LucideIcons.All.Globe
     
+    val GlobeCheckDefinition get() = LucideIcons.All.GlobeCheckDefinition
+    val GlobeCheck: ImageVector @Composable get() = LucideIcons.All.GlobeCheck
+    
+    val GlobeCodeDefinition get() = LucideIcons.All.GlobeCodeDefinition
+    val GlobeCode: ImageVector @Composable get() = LucideIcons.All.GlobeCode
+    
     val GlobeOffDefinition get() = LucideIcons.All.GlobeOffDefinition
     val GlobeOff: ImageVector @Composable get() = LucideIcons.All.GlobeOff
     
     val GlobeXDefinition get() = LucideIcons.All.GlobeXDefinition
     val GlobeX: ImageVector @Composable get() = LucideIcons.All.GlobeX
+    
+    val HikingStickDefinition get() = LucideIcons.All.HikingStickDefinition
+    val HikingStick: ImageVector @Composable get() = LucideIcons.All.HikingStick
     
     val HospitalDefinition get() = LucideIcons.All.HospitalDefinition
     val Hospital: ImageVector @Composable get() = LucideIcons.All.Hospital
@@ -97,8 +118,20 @@ object LucideIconsNavigation {
     val LibraryBigDefinition get() = LucideIcons.All.LibraryBigDefinition
     val LibraryBig: ImageVector @Composable get() = LucideIcons.All.LibraryBig
     
+    val LighthouseDefinition get() = LucideIcons.All.LighthouseDefinition
+    val Lighthouse: ImageVector @Composable get() = LucideIcons.All.Lighthouse
+    
+    val LineDotBottomVerticalDefinition get() = LucideIcons.All.LineDotBottomVerticalDefinition
+    val LineDotBottomVertical: ImageVector @Composable get() = LucideIcons.All.LineDotBottomVertical
+    
+    val LineDotLeftHorizontalDefinition get() = LucideIcons.All.LineDotLeftHorizontalDefinition
+    val LineDotLeftHorizontal: ImageVector @Composable get() = LucideIcons.All.LineDotLeftHorizontal
+    
     val LineDotRightHorizontalDefinition get() = LucideIcons.All.LineDotRightHorizontalDefinition
     val LineDotRightHorizontal: ImageVector @Composable get() = LucideIcons.All.LineDotRightHorizontal
+    
+    val LineDotTopVerticalDefinition get() = LucideIcons.All.LineDotTopVerticalDefinition
+    val LineDotTopVertical: ImageVector @Composable get() = LucideIcons.All.LineDotTopVertical
     
     val LocateDefinition get() = LucideIcons.All.LocateDefinition
     val Locate: ImageVector @Composable get() = LucideIcons.All.Locate
@@ -163,6 +196,9 @@ object LucideIconsNavigation {
     val MilestoneDefinition get() = LucideIcons.All.MilestoneDefinition
     val Milestone: ImageVector @Composable get() = LucideIcons.All.Milestone
     
+    val MosqueDefinition get() = LucideIcons.All.MosqueDefinition
+    val Mosque: ImageVector @Composable get() = LucideIcons.All.Mosque
+    
     val NavigationDefinition get() = LucideIcons.All.NavigationDefinition
     val Navigation: ImageVector @Composable get() = LucideIcons.All.Navigation
     
@@ -174,6 +210,9 @@ object LucideIconsNavigation {
     
     val NavigationOffDefinition get() = LucideIcons.All.NavigationOffDefinition
     val NavigationOff: ImageVector @Composable get() = LucideIcons.All.NavigationOff
+    
+    val ParkDefinition get() = LucideIcons.All.ParkDefinition
+    val Park: ImageVector @Composable get() = LucideIcons.All.Park
     
     val ParkingMeterDefinition get() = LucideIcons.All.ParkingMeterDefinition
     val ParkingMeter: ImageVector @Composable get() = LucideIcons.All.ParkingMeter
@@ -207,6 +246,9 @@ object LucideIconsNavigation {
     
     val ShipDefinition get() = LucideIcons.All.ShipDefinition
     val Ship: ImageVector @Composable get() = LucideIcons.All.Ship
+    
+    val ShipCargoDefinition get() = LucideIcons.All.ShipCargoDefinition
+    val ShipCargo: ImageVector @Composable get() = LucideIcons.All.ShipCargo
     
     val ShipWheelDefinition get() = LucideIcons.All.ShipWheelDefinition
     val ShipWheel: ImageVector @Composable get() = LucideIcons.All.ShipWheel
@@ -267,5 +309,8 @@ object LucideIconsNavigation {
     
     val WaypointsDefinition get() = LucideIcons.All.WaypointsDefinition
     val Waypoints: ImageVector @Composable get() = LucideIcons.All.Waypoints
+    
+    val WindArrowUpDefinition get() = LucideIcons.All.WindArrowUpDefinition
+    val WindArrowUp: ImageVector @Composable get() = LucideIcons.All.WindArrowUp
     
 }

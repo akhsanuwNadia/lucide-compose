@@ -18,9 +18,9 @@ private val _ActivityDefinition = LucideIconDefinition("MessageCircleCheck") { s
                 arcToRelative(10f, 10f, 0f, true, false, -4.777f, -4.719f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 12f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveToRelative(16f, 9f)
+                lineToRelative(-5.5f, 5.5f)
+                lineTo(8f, 12f)
             }
 }
 

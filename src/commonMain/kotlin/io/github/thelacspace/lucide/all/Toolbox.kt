@@ -14,26 +14,17 @@ private val _ActivityDefinition = LucideIconDefinition("Toolbox") { strokeWidth 
             }
             lucidePath(strokeWidth) {
                 moveTo(16f, 6f)
-                arcToRelative(2f, 2f, 0f, false, true, 1.414f, .586f)
-                lineToRelative(4f, 4f)
-                arcTo(2f, 2f, 0f, false, true, 22f, 12f)
-                verticalLineToRelative(7f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineToRelative(-7f)
-                arcToRelative(2f, 2f, 0f, false, true, .586f, -1.414f)
-                lineToRelative(4f, -4f)
-                arcTo(2f, 2f, 0f, false, true, 8f, 6f)
-                close()
+                verticalLineTo(4f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, hf)
+                arcToRelative(-4f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 6f)
-                verticalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineToRelative(-4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(2f)
+                moveTo(17f, 6f)
+                arcToRelative(2f, 2f, 0f, false, false, lf, 3f)
+                arcToRelative(3f, Af, 2f, false, false, 0122f, 11f)
+                verticalLineToRelative(8f)
+                arcToRelative(2f, 2f, 0f, true, false, 2f, Hf)
+                arcToRelative(4f, af, 2f, false, false, 01f, -2f)
             }
             lucidePath(strokeWidth) {
                 moveTo(2f, 14f)

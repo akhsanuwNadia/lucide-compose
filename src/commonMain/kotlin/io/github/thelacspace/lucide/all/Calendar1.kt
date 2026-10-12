@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Calendar1") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11f, 14f)
+                moveTo(11f, 13f)
                 horizontalLineToRelative(1f)
                 verticalLineToRelative(4f)
             }
             lucidePath(strokeWidth) {
                 moveTo(16f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
+                moveTo(3f, 9f)
                 horizontalLineToRelative(18f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0f, 4.0f)
+                moveTo(5.0f, 3.0f)
                 horizontalLineToRelative(14.0f)
                 arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
                 verticalLineToRelative(18.0f)

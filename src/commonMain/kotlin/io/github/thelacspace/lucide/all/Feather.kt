@@ -9,14 +9,11 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Feather") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.67f, 19f)
-                arcToRelative(2f, 2f, 0f, false, false, 1.416f, -.588f)
-                lineToRelative(6.154f, -6.172f)
-                arcToRelative(6f, 6f, 0f, false, false, -8.49f, -8.49f)
-                lineTo(5.586f, 9.914f)
-                arcTo(2f, 2f, 0f, false, false, 5f, 11.328f)
-                verticalLineTo(18f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, 1f)
+                moveTo(14.086f, 18.412f)
+                arcTo(2f, 2f, 0f, false, false, Hf, 5f)
+                verticalLineToRelative(-7.672f)
+                arcToRelative(2f, 2f, 0f, true, false, Lf, 11.75f)
+                arcToRelative(3.75f, af, 6f, false, false, 118.49f, 8.49f)
                 close()
             }
             lucidePath(strokeWidth) {
@@ -24,7 +21,7 @@ private val _ActivityDefinition = LucideIconDefinition("Feather") { strokeWidth 
                 lineTo(2f, 22f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.5f, 15f)
+                moveTo(17.488f, 15f)
                 horizontalLineTo(9f)
             }
 }

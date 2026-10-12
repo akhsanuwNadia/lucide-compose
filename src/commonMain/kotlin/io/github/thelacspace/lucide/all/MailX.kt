@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MailX") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 13f)
+                moveTo(22f, 12.532f)
                 verticalLineTo(6f)
                 arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
                 horizontalLineTo(4f)
                 arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
                 verticalLineToRelative(12f)
-                curveToRelative(0f, 1.1f, .9f, 2f, 2f, 2f)
-                horizontalLineToRelative(9f)
+                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
+                horizontalLineToRelative(8.792f)
             }
             lucidePath(strokeWidth) {
                 moveToRelative(22f, 7f)
-                lineToRelative(-8.97f, 5.7f)
-                arcToRelative(1.94f, 1.94f, 0f, false, true, -2.06f, 0f)
+                lineToRelative(-8.991f, 5.727f)
+                arcToRelative(2f, 2f, 0f, false, true, -2.009f, 0f)
                 lineTo(2f, 7f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 17f)
-                lineToRelative(4f, 4f)
+                moveToRelative(16.5f, 16.5f)
+                lineToRelative(5f, 5f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(21f, 17f)
-                lineToRelative(-4f, 4f)
+                moveToRelative(21.5f, 16.5f)
+                lineToRelative(-5f, 5f)
             }
 }
 

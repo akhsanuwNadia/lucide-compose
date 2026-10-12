@@ -31,11 +31,20 @@ object LucideIconsSports {
     val HandFistDefinition get() = LucideIcons.All.HandFistDefinition
     val HandFist: ImageVector @Composable get() = LucideIcons.All.HandFist
     
+    val HikingStickDefinition get() = LucideIcons.All.HikingStickDefinition
+    val HikingStick: ImageVector @Composable get() = LucideIcons.All.HikingStick
+    
     val LandPlotDefinition get() = LucideIcons.All.LandPlotDefinition
     val LandPlot: ImageVector @Composable get() = LucideIcons.All.LandPlot
     
     val MedalDefinition get() = LucideIcons.All.MedalDefinition
     val Medal: ImageVector @Composable get() = LucideIcons.All.Medal
+    
+    val PodiumDefinition get() = LucideIcons.All.PodiumDefinition
+    val Podium: ImageVector @Composable get() = LucideIcons.All.Podium
+    
+    val RugbyBallDefinition get() = LucideIcons.All.RugbyBallDefinition
+    val RugbyBall: ImageVector @Composable get() = LucideIcons.All.RugbyBall
     
     val SportShoeDefinition get() = LucideIcons.All.SportShoeDefinition
     val SportShoe: ImageVector @Composable get() = LucideIcons.All.SportShoe
@@ -51,5 +60,8 @@ object LucideIconsSports {
     
     val WavesLadderDefinition get() = LucideIcons.All.WavesLadderDefinition
     val WavesLadder: ImageVector @Composable get() = LucideIcons.All.WavesLadder
+    
+    val WhistleDefinition get() = LucideIcons.All.WhistleDefinition
+    val Whistle: ImageVector @Composable get() = LucideIcons.All.Whistle
     
 }

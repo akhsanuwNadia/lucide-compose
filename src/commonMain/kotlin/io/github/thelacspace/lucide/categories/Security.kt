@@ -34,6 +34,9 @@ object LucideIconsSecurity {
     val DoorClosedDefinition get() = LucideIcons.All.DoorClosedDefinition
     val DoorClosed: ImageVector @Composable get() = LucideIcons.All.DoorClosed
     
+    val DoorClosedCogDefinition get() = LucideIcons.All.DoorClosedCogDefinition
+    val DoorClosedCog: ImageVector @Composable get() = LucideIcons.All.DoorClosedCog
+    
     val DoorClosedLockedDefinition get() = LucideIcons.All.DoorClosedLockedDefinition
     val DoorClosedLocked: ImageVector @Composable get() = LucideIcons.All.DoorClosedLocked
     
@@ -48,6 +51,9 @@ object LucideIconsSecurity {
     
     val EyeClosedDefinition get() = LucideIcons.All.EyeClosedDefinition
     val EyeClosed: ImageVector @Composable get() = LucideIcons.All.EyeClosed
+    
+    val EyeDashedDefinition get() = LucideIcons.All.EyeDashedDefinition
+    val EyeDashed: ImageVector @Composable get() = LucideIcons.All.EyeDashed
     
     val EyeOffDefinition get() = LucideIcons.All.EyeOffDefinition
     val EyeOff: ImageVector @Composable get() = LucideIcons.All.EyeOff
@@ -66,6 +72,12 @@ object LucideIconsSecurity {
     
     val FolderLockDefinition get() = LucideIcons.All.FolderLockDefinition
     val FolderLock: ImageVector @Composable get() = LucideIcons.All.FolderLock
+    
+    val GermDefinition get() = LucideIcons.All.GermDefinition
+    val Germ: ImageVector @Composable get() = LucideIcons.All.Germ
+    
+    val GermOffDefinition get() = LucideIcons.All.GermOffDefinition
+    val GermOff: ImageVector @Composable get() = LucideIcons.All.GermOff
     
     val GlobeLockDefinition get() = LucideIcons.All.GlobeLockDefinition
     val GlobeLock: ImageVector @Composable get() = LucideIcons.All.GlobeLock
@@ -105,6 +117,9 @@ object LucideIconsSecurity {
     
     val LockOpenDefinition get() = LucideIcons.All.LockOpenDefinition
     val LockOpen: ImageVector @Composable get() = LucideIcons.All.LockOpen
+    
+    val MailBadgeDefinition get() = LucideIcons.All.MailBadgeDefinition
+    val MailBadge: ImageVector @Composable get() = LucideIcons.All.MailBadge
     
     val RadarDefinition get() = LucideIcons.All.RadarDefinition
     val Radar: ImageVector @Composable get() = LucideIcons.All.Radar
@@ -148,6 +163,15 @@ object LucideIconsSecurity {
     val ShieldHalfDefinition get() = LucideIcons.All.ShieldHalfDefinition
     val ShieldHalf: ImageVector @Composable get() = LucideIcons.All.ShieldHalf
     
+    val ShieldHouseDefinition get() = LucideIcons.All.ShieldHouseDefinition
+    val ShieldHouse: ImageVector @Composable get() = LucideIcons.All.ShieldHouse
+    
+    val ShieldKeyholeDefinition get() = LucideIcons.All.ShieldKeyholeDefinition
+    val ShieldKeyhole: ImageVector @Composable get() = LucideIcons.All.ShieldKeyhole
+    
+    val ShieldLockDefinition get() = LucideIcons.All.ShieldLockDefinition
+    val ShieldLock: ImageVector @Composable get() = LucideIcons.All.ShieldLock
+    
     val ShieldMinusDefinition get() = LucideIcons.All.ShieldMinusDefinition
     val ShieldMinus: ImageVector @Composable get() = LucideIcons.All.ShieldMinus
     
@@ -172,11 +196,23 @@ object LucideIconsSecurity {
     val UserLockDefinition get() = LucideIcons.All.UserLockDefinition
     val UserLock: ImageVector @Composable get() = LucideIcons.All.UserLock
     
+    val UserShieldDefinition get() = LucideIcons.All.UserShieldDefinition
+    val UserShield: ImageVector @Composable get() = LucideIcons.All.UserShield
+    
     val VaultDefinition get() = LucideIcons.All.VaultDefinition
     val Vault: ImageVector @Composable get() = LucideIcons.All.Vault
     
+    val VirusDefinition get() = LucideIcons.All.VirusDefinition
+    val Virus: ImageVector @Composable get() = LucideIcons.All.Virus
+    
+    val VirusOffDefinition get() = LucideIcons.All.VirusOffDefinition
+    val VirusOff: ImageVector @Composable get() = LucideIcons.All.VirusOff
+    
     val WaypointsDefinition get() = LucideIcons.All.WaypointsDefinition
     val Waypoints: ImageVector @Composable get() = LucideIcons.All.Waypoints
+    
+    val WifiLockDefinition get() = LucideIcons.All.WifiLockDefinition
+    val WifiLock: ImageVector @Composable get() = LucideIcons.All.WifiLock
     
     val WormDefinition get() = LucideIcons.All.WormDefinition
     val Worm: ImageVector @Composable get() = LucideIcons.All.Worm

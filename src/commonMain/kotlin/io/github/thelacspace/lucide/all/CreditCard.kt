@@ -24,6 +24,10 @@ private val _ActivityDefinition = LucideIconDefinition("CreditCard") { strokeWid
                 moveTo(2f, 10f)
                 lineTo(22f, 10f)
             }
+            lucidePath(strokeWidth) {
+                moveTo(6f, 14f)
+                horizontalLineToRelative(2f)
+            }
 }
 
 public val LucideIcons.All.CreditCardDefinition: LucideIconDefinition

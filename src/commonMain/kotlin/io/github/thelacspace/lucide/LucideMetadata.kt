@@ -56,6 +56,8 @@ object LucideMetadata {
         
         lucideMetadata17 +
         
+        lucideMetadata18 +
+        
         emptyList()
     }
 }

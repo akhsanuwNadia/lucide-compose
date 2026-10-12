@@ -9,35 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CalendarFold") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 20f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(10f)
-                arcToRelative(2.4f, 2.4f, 0f, false, false, 1.706f, -.706f)
-                lineToRelative(3.588f, -3.588f)
-                arcTo(2.4f, 2.4f, 0f, false, false, 21f, 16f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                close()
+                moveTo(16f, 2f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 22f)
-                verticalLineToRelative(-5f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, -1f)
-                horizontalLineToRelative(5f)
+                moveTo(21f, 15f)
+                verticalLineTo(5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(5f, af, 2f, false, false, 00f, -2f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(3f, 9f)
+                horizontalLineToRelative(18f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(16f, 2f)
-                verticalLineToRelative(4f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
-                horizontalLineToRelative(18f)
+                verticalLineToRelative(3f)
             }
 }
 

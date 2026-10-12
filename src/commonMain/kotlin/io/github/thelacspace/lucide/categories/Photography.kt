@@ -7,9 +7,6 @@ import io.github.thelacspace.lucide.all.*
 
 object LucideIconsPhotography {
     
-    val AlbumDefinition get() = LucideIcons.All.AlbumDefinition
-    val Album: ImageVector @Composable get() = LucideIcons.All.Album
-    
     val ApertureDefinition get() = LucideIcons.All.ApertureDefinition
     val Aperture: ImageVector @Composable get() = LucideIcons.All.Aperture
     
@@ -64,6 +61,9 @@ object LucideIconsPhotography {
     val EyeClosedDefinition get() = LucideIcons.All.EyeClosedDefinition
     val EyeClosed: ImageVector @Composable get() = LucideIcons.All.EyeClosed
     
+    val EyeDashedDefinition get() = LucideIcons.All.EyeDashedDefinition
+    val EyeDashed: ImageVector @Composable get() = LucideIcons.All.EyeDashed
+    
     val EyeOffDefinition get() = LucideIcons.All.EyeOffDefinition
     val EyeOff: ImageVector @Composable get() = LucideIcons.All.EyeOff
     
@@ -75,12 +75,6 @@ object LucideIconsPhotography {
     
     val FlashlightOffDefinition get() = LucideIcons.All.FlashlightOffDefinition
     val FlashlightOff: ImageVector @Composable get() = LucideIcons.All.FlashlightOff
-    
-    val FlipHorizontal2Definition get() = LucideIcons.All.FlipHorizontal2Definition
-    val FlipHorizontal2: ImageVector @Composable get() = LucideIcons.All.FlipHorizontal2
-    
-    val FlipVertical2Definition get() = LucideIcons.All.FlipVertical2Definition
-    val FlipVertical2: ImageVector @Composable get() = LucideIcons.All.FlipVertical2
     
     val FocusDefinition get() = LucideIcons.All.FocusDefinition
     val Focus: ImageVector @Composable get() = LucideIcons.All.Focus
@@ -136,6 +130,9 @@ object LucideIconsPhotography {
     val LayoutListDefinition get() = LucideIcons.All.LayoutListDefinition
     val LayoutList: ImageVector @Composable get() = LucideIcons.All.LayoutList
     
+    val LensDefinition get() = LucideIcons.All.LensDefinition
+    val Lens: ImageVector @Composable get() = LucideIcons.All.Lens
+    
     val LibraryDefinition get() = LucideIcons.All.LibraryDefinition
     val Library: ImageVector @Composable get() = LucideIcons.All.Library
     
@@ -156,6 +153,9 @@ object LucideIconsPhotography {
     
     val PaletteDefinition get() = LucideIcons.All.PaletteDefinition
     val Palette: ImageVector @Composable get() = LucideIcons.All.Palette
+    
+    val PencilSparklesDefinition get() = LucideIcons.All.PencilSparklesDefinition
+    val PencilSparkles: ImageVector @Composable get() = LucideIcons.All.PencilSparkles
     
     val PresentationDefinition get() = LucideIcons.All.PresentationDefinition
     val Presentation: ImageVector @Composable get() = LucideIcons.All.Presentation
@@ -187,8 +187,14 @@ object LucideIconsPhotography {
     val ScanSearchDefinition get() = LucideIcons.All.ScanSearchDefinition
     val ScanSearch: ImageVector @Composable get() = LucideIcons.All.ScanSearch
     
+    val ScanSquareDefinition get() = LucideIcons.All.ScanSquareDefinition
+    val ScanSquare: ImageVector @Composable get() = LucideIcons.All.ScanSquare
+    
     val SpotlightDefinition get() = LucideIcons.All.SpotlightDefinition
     val Spotlight: ImageVector @Composable get() = LucideIcons.All.Spotlight
+    
+    val SquareBookmarkDefinition get() = LucideIcons.All.SquareBookmarkDefinition
+    val SquareBookmark: ImageVector @Composable get() = LucideIcons.All.SquareBookmark
     
     val SquareCenterlineDashedHorizontalDefinition get() = LucideIcons.All.SquareCenterlineDashedHorizontalDefinition
     val SquareCenterlineDashedHorizontal: ImageVector @Composable get() = LucideIcons.All.SquareCenterlineDashedHorizontal
@@ -199,8 +205,17 @@ object LucideIconsPhotography {
     val SquareLibraryDefinition get() = LucideIcons.All.SquareLibraryDefinition
     val SquareLibrary: ImageVector @Composable get() = LucideIcons.All.SquareLibrary
     
+    val SquareSparklesDefinition get() = LucideIcons.All.SquareSparklesDefinition
+    val SquareSparkles: ImageVector @Composable get() = LucideIcons.All.SquareSparkles
+    
     val SwatchBookDefinition get() = LucideIcons.All.SwatchBookDefinition
     val SwatchBook: ImageVector @Composable get() = LucideIcons.All.SwatchBook
+    
+    val TrianglesCenterlineDashedHorizontalDefinition get() = LucideIcons.All.TrianglesCenterlineDashedHorizontalDefinition
+    val TrianglesCenterlineDashedHorizontal: ImageVector @Composable get() = LucideIcons.All.TrianglesCenterlineDashedHorizontal
+    
+    val TrianglesCenterlineDashedVerticalDefinition get() = LucideIcons.All.TrianglesCenterlineDashedVerticalDefinition
+    val TrianglesCenterlineDashedVertical: ImageVector @Composable get() = LucideIcons.All.TrianglesCenterlineDashedVertical
     
     val VideoDefinition get() = LucideIcons.All.VideoDefinition
     val Video: ImageVector @Composable get() = LucideIcons.All.Video

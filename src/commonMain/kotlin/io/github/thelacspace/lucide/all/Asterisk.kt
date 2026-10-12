@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Asterisk") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 6f)
-                verticalLineToRelative(12f)
+                moveTo(12f, 5f)
+                verticalLineToRelative(14f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.196f, 9f)
-                lineTo(6.804f, 15f)
+                moveToRelative(18.065f, 8.496f)
+                lineToRelative(-12.125f, 7f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(6.804f, 9f)
-                lineToRelative(10.392f, 6f)
+                moveToRelative(5.94f, 8.504f)
+                lineToRelative(12.125f, 7f)
             }
 }
 

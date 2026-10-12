@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Computer") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0f, 2.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
-                close()
+                moveTo(12f, 18f)
+                horizontalLineToRelative(6f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(6f, 18f)
+                horizontalLineToRelative(.01f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(8f, 6f)
+                horizontalLineToRelative(1f)
             }
             lucidePath(strokeWidth) {
                 moveTo(4.0f, 14.0f)
@@ -33,12 +33,16 @@ private val _ActivityDefinition = LucideIconDefinition("Computer") { strokeWidth
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 18f)
-                horizontalLineToRelative(2f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(12f, 18f)
-                horizontalLineToRelative(6f)
+                moveTo(6.0f, 2.0f)
+                horizontalLineToRelative(12.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
+                verticalLineToRelative(12.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
+                horizontalLineToRelative(-12.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
+                verticalLineToRelative(-12.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                close()
             }
 }
 

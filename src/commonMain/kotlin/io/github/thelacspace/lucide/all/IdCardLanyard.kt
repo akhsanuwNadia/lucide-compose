@@ -16,18 +16,12 @@ private val _ActivityDefinition = LucideIconDefinition("IdCardLanyard") { stroke
                 moveToRelative(15f, 2f)
                 lineToRelative(-1f, 2f)
                 horizontalLineToRelative(3f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(7f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(3f)
+                arcToRelative(2f, 2f, 0f, false, false, vf, 14f)
+                arcToRelative(2f, 2f, 0f, true, false, 2f, Hf)
+                arcToRelative(7f, af, 2f, false, false, 01f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.899f, 22f)
-                arcTo(5f, 5f, 0f, false, false, 7.1f, 22f)
+                moveTo(16f, 22f)
             }
             lucidePath(strokeWidth) {
                 moveToRelative(9f, 2f)

@@ -61,6 +61,9 @@ object LucideIconsGaming {
     val BookAlertDefinition get() = LucideIcons.All.BookAlertDefinition
     val BookAlert: ImageVector @Composable get() = LucideIcons.All.BookAlert
     
+    val BookBookmarkDefinition get() = LucideIcons.All.BookBookmarkDefinition
+    val BookBookmark: ImageVector @Composable get() = LucideIcons.All.BookBookmark
+    
     val BookCheckDefinition get() = LucideIcons.All.BookCheckDefinition
     val BookCheck: ImageVector @Composable get() = LucideIcons.All.BookCheck
     
@@ -75,9 +78,6 @@ object LucideIconsGaming {
     
     val BookLockDefinition get() = LucideIcons.All.BookLockDefinition
     val BookLock: ImageVector @Composable get() = LucideIcons.All.BookLock
-    
-    val BookMarkedDefinition get() = LucideIcons.All.BookMarkedDefinition
-    val BookMarked: ImageVector @Composable get() = LucideIcons.All.BookMarked
     
     val BookMinusDefinition get() = LucideIcons.All.BookMinusDefinition
     val BookMinus: ImageVector @Composable get() = LucideIcons.All.BookMinus
@@ -111,6 +111,12 @@ object LucideIconsGaming {
     
     val BoxesDefinition get() = LucideIcons.All.BoxesDefinition
     val Boxes: ImageVector @Composable get() = LucideIcons.All.Boxes
+    
+    val BroomDefinition get() = LucideIcons.All.BroomDefinition
+    val Broom: ImageVector @Composable get() = LucideIcons.All.Broom
+    
+    val BroomSparklesDefinition get() = LucideIcons.All.BroomSparklesDefinition
+    val BroomSparkles: ImageVector @Composable get() = LucideIcons.All.BroomSparkles
     
     val CastleDefinition get() = LucideIcons.All.CastleDefinition
     val Castle: ImageVector @Composable get() = LucideIcons.All.Castle
@@ -304,6 +310,9 @@ object LucideIconsGaming {
     val MilestoneDefinition get() = LucideIcons.All.MilestoneDefinition
     val Milestone: ImageVector @Composable get() = LucideIcons.All.Milestone
     
+    val MonitorPcDefinition get() = LucideIcons.All.MonitorPcDefinition
+    val MonitorPc: ImageVector @Composable get() = LucideIcons.All.MonitorPc
+    
     val MountainDefinition get() = LucideIcons.All.MountainDefinition
     val Mountain: ImageVector @Composable get() = LucideIcons.All.Mountain
     
@@ -313,8 +322,20 @@ object LucideIconsGaming {
     val PickaxeDefinition get() = LucideIcons.All.PickaxeDefinition
     val Pickaxe: ImageVector @Composable get() = LucideIcons.All.Pickaxe
     
+    val PlayingCardDefinition get() = LucideIcons.All.PlayingCardDefinition
+    val PlayingCard: ImageVector @Composable get() = LucideIcons.All.PlayingCard
+    
+    val PlayingCardsDefinition get() = LucideIcons.All.PlayingCardsDefinition
+    val PlayingCards: ImageVector @Composable get() = LucideIcons.All.PlayingCards
+    
+    val PlayingCardsFanDefinition get() = LucideIcons.All.PlayingCardsFanDefinition
+    val PlayingCardsFan: ImageVector @Composable get() = LucideIcons.All.PlayingCardsFan
+    
     val PlusDefinition get() = LucideIcons.All.PlusDefinition
     val Plus: ImageVector @Composable get() = LucideIcons.All.Plus
+    
+    val PodiumDefinition get() = LucideIcons.All.PodiumDefinition
+    val Podium: ImageVector @Composable get() = LucideIcons.All.Podium
     
     val PuzzleDefinition get() = LucideIcons.All.PuzzleDefinition
     val Puzzle: ImageVector @Composable get() = LucideIcons.All.Puzzle
@@ -327,6 +348,9 @@ object LucideIconsGaming {
     
     val ScanDefinition get() = LucideIcons.All.ScanDefinition
     val Scan: ImageVector @Composable get() = LucideIcons.All.Scan
+    
+    val ScanBoxDefinition get() = LucideIcons.All.ScanBoxDefinition
+    val ScanBox: ImageVector @Composable get() = LucideIcons.All.ScanBox
     
     val ScrollDefinition get() = LucideIcons.All.ScrollDefinition
     val Scroll: ImageVector @Composable get() = LucideIcons.All.Scroll
@@ -412,6 +436,18 @@ object LucideIconsGaming {
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
     
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
+    
     val SwordDefinition get() = LucideIcons.All.SwordDefinition
     val Sword: ImageVector @Composable get() = LucideIcons.All.Sword
     
@@ -436,11 +472,17 @@ object LucideIconsGaming {
     val TargetDefinition get() = LucideIcons.All.TargetDefinition
     val Target: ImageVector @Composable get() = LucideIcons.All.Target
     
+    val TicTacToeDefinition get() = LucideIcons.All.TicTacToeDefinition
+    val TicTacToe: ImageVector @Composable get() = LucideIcons.All.TicTacToe
+    
     val ToyBrickDefinition get() = LucideIcons.All.ToyBrickDefinition
     val ToyBrick: ImageVector @Composable get() = LucideIcons.All.ToyBrick
     
     val TrophyDefinition get() = LucideIcons.All.TrophyDefinition
     val Trophy: ImageVector @Composable get() = LucideIcons.All.Trophy
+    
+    val UsbCPortDefinition get() = LucideIcons.All.UsbCPortDefinition
+    val UsbCPort: ImageVector @Composable get() = LucideIcons.All.UsbCPort
     
     val VenetianMaskDefinition get() = LucideIcons.All.VenetianMaskDefinition
     val VenetianMask: ImageVector @Composable get() = LucideIcons.All.VenetianMask

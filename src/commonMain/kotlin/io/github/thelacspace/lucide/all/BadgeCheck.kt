@@ -21,9 +21,9 @@ private val _ActivityDefinition = LucideIconDefinition("BadgeCheck") { strokeWid
                 close()
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 12f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveToRelative(16f, 9f)
+                lineToRelative(-5.5f, 5.5f)
+                lineTo(8f, 12f)
             }
 }
 

@@ -33,8 +33,7 @@ private val _ActivityDefinition = LucideIconDefinition("WifiCog") { strokeWidth 
                 lineToRelative(-.382f, -.924f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 7.82f)
-                arcToRelative(15f, 15f, 0f, false, true, 20f, 0f)
+                moveTo(2f, 8.82f)
             }
             lucidePath(strokeWidth) {
                 moveToRelative(20.772f, 16.852f)
@@ -45,12 +44,10 @@ private val _ActivityDefinition = LucideIconDefinition("WifiCog") { strokeWidth 
                 lineToRelative(.924f, .383f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 11.858f)
-                arcToRelative(10f, 10f, 0f, false, true, 11.5f, -1.785f)
+                moveTo(5f, 12.859f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5f, 15.429f)
-                arcToRelative(5f, 5f, 0f, false, true, 2.413f, -1.31f)
+                moveTo(8.5f, 16.429f)
             }
             lucidePath(strokeWidth) {
                 moveTo(15.0f, 18.0f)

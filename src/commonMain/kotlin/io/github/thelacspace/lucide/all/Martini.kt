@@ -9,18 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Martini") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8f, 22f)
-                horizontalLineToRelative(8f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(12f, 11f)
-                verticalLineToRelative(11f)
-            }
-            lucidePath(strokeWidth) {
-                moveToRelative(19f, 3f)
-                lineToRelative(-7f, 8f)
-                lineToRelative(-7f, -8f)
+                moveTo(12f, 12f)
+                lineTo(4.207f, 4.207f)
+                arcTo(.707f, .707f, 0f, false, true, 4.707f, 3f)
+                horizontalLineToRelative(14.586f)
+                arcToRelative(.707f, .707f, 0f, false, true, .5f, 1.207f)
                 close()
+            }
+            lucidePath(strokeWidth) {
+                moveTo(12f, 12f)
+                verticalLineToRelative(10f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(7f, 22f)
+                horizontalLineToRelative(10f)
             }
 }
 

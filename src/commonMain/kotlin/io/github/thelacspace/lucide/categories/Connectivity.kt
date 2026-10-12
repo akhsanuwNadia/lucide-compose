@@ -52,6 +52,9 @@ object LucideIconsConnectivity {
     val CableDefinition get() = LucideIcons.All.CableDefinition
     val Cable: ImageVector @Composable get() = LucideIcons.All.Cable
     
+    val CarBatteryDefinition get() = LucideIcons.All.CarBatteryDefinition
+    val CarBattery: ImageVector @Composable get() = LucideIcons.All.CarBattery
+    
     val CardSimDefinition get() = LucideIcons.All.CardSimDefinition
     val CardSim: ImageVector @Composable get() = LucideIcons.All.CardSim
     
@@ -102,6 +105,12 @@ object LucideIconsConnectivity {
     
     val MicOffDefinition get() = LucideIcons.All.MicOffDefinition
     val MicOff: ImageVector @Composable get() = LucideIcons.All.MicOff
+    
+    val MicSignalDefinition get() = LucideIcons.All.MicSignalDefinition
+    val MicSignal: ImageVector @Composable get() = LucideIcons.All.MicSignal
+    
+    val MidiPortDefinition get() = LucideIcons.All.MidiPortDefinition
+    val MidiPort: ImageVector @Composable get() = LucideIcons.All.MidiPort
     
     val MonitorDefinition get() = LucideIcons.All.MonitorDefinition
     val Monitor: ImageVector @Composable get() = LucideIcons.All.Monitor
@@ -196,6 +205,9 @@ object LucideIconsConnectivity {
     val SendHorizontalDefinition get() = LucideIcons.All.SendHorizontalDefinition
     val SendHorizontal: ImageVector @Composable get() = LucideIcons.All.SendHorizontal
     
+    val ShieldHouseDefinition get() = LucideIcons.All.ShieldHouseDefinition
+    val ShieldHouse: ImageVector @Composable get() = LucideIcons.All.ShieldHouse
+    
     val SignalDefinition get() = LucideIcons.All.SignalDefinition
     val Signal: ImageVector @Composable get() = LucideIcons.All.Signal
     
@@ -256,6 +268,9 @@ object LucideIconsConnectivity {
     val WebcamDefinition get() = LucideIcons.All.WebcamDefinition
     val Webcam: ImageVector @Composable get() = LucideIcons.All.Webcam
     
+    val WebcamOffDefinition get() = LucideIcons.All.WebcamOffDefinition
+    val WebcamOff: ImageVector @Composable get() = LucideIcons.All.WebcamOff
+    
     val WifiDefinition get() = LucideIcons.All.WifiDefinition
     val Wifi: ImageVector @Composable get() = LucideIcons.All.Wifi
     
@@ -264,6 +279,9 @@ object LucideIconsConnectivity {
     
     val WifiHighDefinition get() = LucideIcons.All.WifiHighDefinition
     val WifiHigh: ImageVector @Composable get() = LucideIcons.All.WifiHigh
+    
+    val WifiLockDefinition get() = LucideIcons.All.WifiLockDefinition
+    val WifiLock: ImageVector @Composable get() = LucideIcons.All.WifiLock
     
     val WifiLowDefinition get() = LucideIcons.All.WifiLowDefinition
     val WifiLow: ImageVector @Composable get() = LucideIcons.All.WifiLow

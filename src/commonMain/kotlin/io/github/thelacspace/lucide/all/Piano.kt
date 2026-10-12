@@ -9,34 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Piano") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18.5f, 8f)
-                curveToRelative(-1.4f, 0f, -2.6f, -.8f, -3.2f, -2f)
-                arcTo(6.87f, 6.87f, 0f, false, false, 2f, 9f)
-                verticalLineToRelative(11f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-8.5f)
-                curveTo(22f, 9.6f, 20.4f, 8f, 18.5f, 8f)
+                moveTo(10f, 13f)
+                verticalLineToRelative(4f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 14f)
+                moveTo(14f, 13f)
+                verticalLineToRelative(4f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(18f, 13f)
+                verticalLineToRelative(4f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(2f, 13f)
                 horizontalLineToRelative(20f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 14f)
-                verticalLineToRelative(4f)
+                moveTo(22f, 11.5f)
+                arcTo(3.5f, 3.5f, 0f, false, false, af, 3.52f)
+                arcTo(3.52f, 0f, 01f, false, false, Af, 7f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 14f)
-                verticalLineToRelative(4f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(14f, 14f)
-                verticalLineToRelative(4f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(18f, 14f)
+                moveTo(6f, 13f)
                 verticalLineToRelative(4f)
             }
 }

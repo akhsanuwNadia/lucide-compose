@@ -23,11 +23,11 @@ private val _ActivityDefinition = LucideIconDefinition("Grid2x2X") { strokeWidth
                 horizontalLineTo(3f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(16f, 16f)
+                moveToRelative(16.5f, 16.5f)
                 lineToRelative(5f, 5f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(16f, 21f)
+                moveToRelative(16.5f, 21.5f)
                 lineToRelative(5f, -5f)
             }
 }

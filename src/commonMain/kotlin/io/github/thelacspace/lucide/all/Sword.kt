@@ -22,10 +22,10 @@ private val _ActivityDefinition = LucideIconDefinition("Sword") { strokeWidth ->
             }
             lucidePath(strokeWidth) {
                 moveTo(9.5f, 17.5f)
-                lineTo(21f, 6f)
-                verticalLineTo(3f)
-                horizontalLineToRelative(-3f)
-                lineTo(6.5f, 14.5f)
+                lineTo(20.414f, 6.586f)
+                arcTo(2f, 2f, 0f, false, false, Vf, 3f)
+                horizontalLineToRelative(-2.172f)
+                arcToRelative(2f, 2f, 0f, false, false, .586f, Lf)
             }
 }
 

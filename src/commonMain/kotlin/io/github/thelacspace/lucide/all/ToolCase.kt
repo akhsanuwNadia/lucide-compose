@@ -13,36 +13,22 @@ private val _ActivityDefinition = LucideIconDefinition("ToolCase") { strokeWidth
                 horizontalLineToRelative(4f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(14.817f, 10.995f)
-                lineToRelative(-.971f, -1.45f)
-                lineToRelative(1.034f, -1.232f)
-                arcToRelative(2f, 2f, 0f, false, false, -2.025f, -3.238f)
-                lineToRelative(-1.82f, .364f)
-                lineTo(9.91f, 3.885f)
-                arcToRelative(2f, 2f, 0f, false, false, -3.625f, .748f)
-                lineTo(6.141f, 6.55f)
-                lineToRelative(-1.725f, .426f)
-                arcToRelative(2f, 2f, 0f, false, false, -.19f, 3.756f)
-                lineToRelative(.657f, .27f)
+                moveToRelative(14.5f, 4.058f)
+                lineToRelative(.571f, -1.429f)
+                arcToRelative(1f, 1f, 0f, false, false, lf, 5f)
+                arcToRelative(2f, af, 1f, true, false, 01.549f, .534f)
+                arcToRelative(.88f, .88f, 0f, true, false, lf, -2.332f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(18.822f, 10.995f)
-                lineToRelative(2.26f, -5.38f)
-                arcToRelative(1f, 1f, 0f, false, false, -.557f, -1.318f)
-                lineTo(16.954f, 2.9f)
-                arcToRelative(1f, 1f, 0f, false, false, -1.281f, .533f)
-                lineToRelative(-.924f, 2.122f)
+                moveTo(15.634f, 11f)
+                arcToRelative(2f, 2f, 0f, false, false, -.34f, lf)
             }
             lucidePath(strokeWidth) {
                 moveTo(4f, 12.006f)
-                arcTo(1f, 1f, 0f, false, true, 4.994f, 11f)
-                horizontalLineTo(19f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, 1f)
-                verticalLineToRelative(7f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                close()
+                arcTo(1f, 1f, 0f, false, false, Hf, 19f)
+                arcToRelative(1f, 1f, 0f, false, true, vf, 7f)
+                arcToRelative(2f, 2f, 0f, true, false, 2f, Hf)
+                arcToRelative(6f, af, 2f, false, false, 01f, -2f)
             }
 }
 

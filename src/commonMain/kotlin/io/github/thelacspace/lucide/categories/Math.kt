@@ -7,6 +7,9 @@ import io.github.thelacspace.lucide.all.*
 
 object LucideIconsMath {
     
+    val AngleDefinition get() = LucideIcons.All.AngleDefinition
+    val Angle: ImageVector @Composable get() = LucideIcons.All.Angle
+    
     val AsteriskDefinition get() = LucideIcons.All.AsteriskDefinition
     val Asterisk: ImageVector @Composable get() = LucideIcons.All.Asterisk
     
@@ -97,6 +100,9 @@ object LucideIconsMath {
     val EqualApproximatelyDefinition get() = LucideIcons.All.EqualApproximatelyDefinition
     val EqualApproximately: ImageVector @Composable get() = LucideIcons.All.EqualApproximately
     
+    val EqualApproximatelyNotDefinition get() = LucideIcons.All.EqualApproximatelyNotDefinition
+    val EqualApproximatelyNot: ImageVector @Composable get() = LucideIcons.All.EqualApproximatelyNot
+    
     val EqualNotDefinition get() = LucideIcons.All.EqualNotDefinition
     val EqualNot: ImageVector @Composable get() = LucideIcons.All.EqualNot
     
@@ -114,6 +120,9 @@ object LucideIconsMath {
     
     val Grid3x2Definition get() = LucideIcons.All.Grid3x2Definition
     val Grid3x2: ImageVector @Composable get() = LucideIcons.All.Grid3x2
+    
+    val LambdaDefinition get() = LucideIcons.All.LambdaDefinition
+    val Lambda: ImageVector @Composable get() = LucideIcons.All.Lambda
     
     val LandPlotDefinition get() = LucideIcons.All.LandPlotDefinition
     val LandPlot: ImageVector @Composable get() = LucideIcons.All.LandPlot
@@ -135,6 +144,9 @@ object LucideIconsMath {
     
     val PercentDefinition get() = LucideIcons.All.PercentDefinition
     val Percent: ImageVector @Composable get() = LucideIcons.All.Percent
+    
+    val PhiDefinition get() = LucideIcons.All.PhiDefinition
+    val Phi: ImageVector @Composable get() = LucideIcons.All.Phi
     
     val PiDefinition get() = LucideIcons.All.PiDefinition
     val Pi: ImageVector @Composable get() = LucideIcons.All.Pi
@@ -219,6 +231,9 @@ object LucideIconsMath {
     
     val VariableDefinition get() = LucideIcons.All.VariableDefinition
     val Variable: ImageVector @Composable get() = LucideIcons.All.Variable
+    
+    val VectorPolygonDefinition get() = LucideIcons.All.VectorPolygonDefinition
+    val VectorPolygon: ImageVector @Composable get() = LucideIcons.All.VectorPolygon
     
     val VectorSquareDefinition get() = LucideIcons.All.VectorSquareDefinition
     val VectorSquare: ImageVector @Composable get() = LucideIcons.All.VectorSquare

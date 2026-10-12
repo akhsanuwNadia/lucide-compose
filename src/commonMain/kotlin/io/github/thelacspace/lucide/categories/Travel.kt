@@ -16,6 +16,9 @@ object LucideIconsTravel {
     val BaggageClaimDefinition get() = LucideIcons.All.BaggageClaimDefinition
     val BaggageClaim: ImageVector @Composable get() = LucideIcons.All.BaggageClaim
     
+    val BangladeshiTakaDefinition get() = LucideIcons.All.BangladeshiTakaDefinition
+    val BangladeshiTaka: ImageVector @Composable get() = LucideIcons.All.BangladeshiTaka
+    
     val BathDefinition get() = LucideIcons.All.BathDefinition
     val Bath: ImageVector @Composable get() = LucideIcons.All.Bath
     
@@ -24,6 +27,9 @@ object LucideIconsTravel {
     
     val BookImageDefinition get() = LucideIcons.All.BookImageDefinition
     val BookImage: ImageVector @Composable get() = LucideIcons.All.BookImage
+    
+    val BridgeDefinition get() = LucideIcons.All.BridgeDefinition
+    val Bridge: ImageVector @Composable get() = LucideIcons.All.Bridge
     
     val BriefcaseConveyorBeltDefinition get() = LucideIcons.All.BriefcaseConveyorBeltDefinition
     val BriefcaseConveyorBelt: ImageVector @Composable get() = LucideIcons.All.BriefcaseConveyorBelt
@@ -46,6 +52,9 @@ object LucideIconsTravel {
     val ConciergeBellDefinition get() = LucideIcons.All.ConciergeBellDefinition
     val ConciergeBell: ImageVector @Composable get() = LucideIcons.All.ConciergeBell
     
+    val DomeDefinition get() = LucideIcons.All.DomeDefinition
+    val Dome: ImageVector @Composable get() = LucideIcons.All.Dome
+    
     val DoorClosedDefinition get() = LucideIcons.All.DoorClosedDefinition
     val DoorClosed: ImageVector @Composable get() = LucideIcons.All.DoorClosed
     
@@ -54,6 +63,12 @@ object LucideIconsTravel {
     
     val DoorOpenDefinition get() = LucideIcons.All.DoorOpenDefinition
     val DoorOpen: ImageVector @Composable get() = LucideIcons.All.DoorOpen
+    
+    val DoorStairwellDefinition get() = LucideIcons.All.DoorStairwellDefinition
+    val DoorStairwell: ImageVector @Composable get() = LucideIcons.All.DoorStairwell
+    
+    val FaucetDefinition get() = LucideIcons.All.FaucetDefinition
+    val Faucet: ImageVector @Composable get() = LucideIcons.All.Faucet
     
     val FireExtinguisherDefinition get() = LucideIcons.All.FireExtinguisherDefinition
     val FireExtinguisher: ImageVector @Composable get() = LucideIcons.All.FireExtinguisher
@@ -70,11 +85,17 @@ object LucideIconsTravel {
     val HelicopterDefinition get() = LucideIcons.All.HelicopterDefinition
     val Helicopter: ImageVector @Composable get() = LucideIcons.All.Helicopter
     
+    val HikingStickDefinition get() = LucideIcons.All.HikingStickDefinition
+    val HikingStick: ImageVector @Composable get() = LucideIcons.All.HikingStick
+    
     val HospitalDefinition get() = LucideIcons.All.HospitalDefinition
     val Hospital: ImageVector @Composable get() = LucideIcons.All.Hospital
     
     val HotelDefinition get() = LucideIcons.All.HotelDefinition
     val Hotel: ImageVector @Composable get() = LucideIcons.All.Hotel
+    
+    val LighthouseDefinition get() = LucideIcons.All.LighthouseDefinition
+    val Lighthouse: ImageVector @Composable get() = LucideIcons.All.Lighthouse
     
     val LuggageDefinition get() = LucideIcons.All.LuggageDefinition
     val Luggage: ImageVector @Composable get() = LucideIcons.All.Luggage
@@ -123,6 +144,18 @@ object LucideIconsTravel {
     
     val MapPinnedDefinition get() = LucideIcons.All.MapPinnedDefinition
     val MapPinned: ImageVector @Composable get() = LucideIcons.All.MapPinned
+    
+    val MosqueDefinition get() = LucideIcons.All.MosqueDefinition
+    val Mosque: ImageVector @Composable get() = LucideIcons.All.Mosque
+    
+    val NepaliRupeeDefinition get() = LucideIcons.All.NepaliRupeeDefinition
+    val NepaliRupee: ImageVector @Composable get() = LucideIcons.All.NepaliRupee
+    
+    val ParasolDefinition get() = LucideIcons.All.ParasolDefinition
+    val Parasol: ImageVector @Composable get() = LucideIcons.All.Parasol
+    
+    val ParkDefinition get() = LucideIcons.All.ParkDefinition
+    val Park: ImageVector @Composable get() = LucideIcons.All.Park
     
     val PlaneDefinition get() = LucideIcons.All.PlaneDefinition
     val Plane: ImageVector @Composable get() = LucideIcons.All.Plane
@@ -175,6 +208,9 @@ object LucideIconsTravel {
     val ShipDefinition get() = LucideIcons.All.ShipDefinition
     val Ship: ImageVector @Composable get() = LucideIcons.All.Ship
     
+    val ShipCargoDefinition get() = LucideIcons.All.ShipCargoDefinition
+    val ShipCargo: ImageVector @Composable get() = LucideIcons.All.ShipCargo
+    
     val ShipWheelDefinition get() = LucideIcons.All.ShipWheelDefinition
     val ShipWheel: ImageVector @Composable get() = LucideIcons.All.ShipWheel
     
@@ -196,11 +232,20 @@ object LucideIconsTravel {
     val TicketsPlaneDefinition get() = LucideIcons.All.TicketsPlaneDefinition
     val TicketsPlane: ImageVector @Composable get() = LucideIcons.All.TicketsPlane
     
+    val ToothbrushDefinition get() = LucideIcons.All.ToothbrushDefinition
+    val Toothbrush: ImageVector @Composable get() = LucideIcons.All.Toothbrush
+    
+    val ToothbrushSparklesDefinition get() = LucideIcons.All.ToothbrushSparklesDefinition
+    val ToothbrushSparkles: ImageVector @Composable get() = LucideIcons.All.ToothbrushSparkles
+    
     val TowelRackDefinition get() = LucideIcons.All.TowelRackDefinition
     val TowelRack: ImageVector @Composable get() = LucideIcons.All.TowelRack
     
     val TowerControlDefinition get() = LucideIcons.All.TowerControlDefinition
     val TowerControl: ImageVector @Composable get() = LucideIcons.All.TowerControl
+    
+    val TubeLotionDefinition get() = LucideIcons.All.TubeLotionDefinition
+    val TubeLotion: ImageVector @Composable get() = LucideIcons.All.TubeLotion
     
     val UtensilsDefinition get() = LucideIcons.All.UtensilsDefinition
     val Utensils: ImageVector @Composable get() = LucideIcons.All.Utensils

@@ -22,4 +22,7 @@ object LucideIconsSeasons {
     val SunDefinition get() = LucideIcons.All.SunDefinition
     val Sun: ImageVector @Composable get() = LucideIcons.All.Sun
     
+    val TubeLotionDefinition get() = LucideIcons.All.TubeLotionDefinition
+    val TubeLotion: ImageVector @Composable get() = LucideIcons.All.TubeLotion
+    
 }

@@ -65,9 +65,10 @@ val syncReadmeVersion by tasks.registering(SyncReadmeTask::class) {
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    alias(libs.plugins.vanniktech.mavenPublish)
+    //alias(libs.plugins.vanniktech.mavenPublish)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+	id("maven-publish")
 }
 
 kotlin {
@@ -112,38 +113,23 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
     dependsOn(generateLucide)
 }
 
-mavenPublishing {
-    publishToMavenCentral()
+publishing {
 
-    signAllPublications()
+    repositories {
+        maven {
+            name = "lucide-compose"
+            url = uri("https://maven.pkg.github.com/akhsanuwNadia/lucide-compose")
 
-    coordinates(group.toString(), "lucide-compose", version.toString())
+            credentials {
+                username = providers.gradleProperty("gpr.user")
+                    .orElse(providers.environmentVariable("GITHUB_USERNAME"))
+                    .get()
 
-    pom {
-        name = "Lucide Compose"
-        description = "Lucide Icons for Compose (Android/Multiplatform)"
-        inceptionYear = "2026"
-        url = "https://github.com/thelacspace/lucide-compose"
-        licenses {
-            license {
-                name = "The Apache License, Version 2.0"
-                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
-                distribution = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                password = providers.gradleProperty("gpr.keyWrite")
+                    .orElse(providers.environmentVariable("GITHUB_PASSWORD"))
+                    .get()
+
             }
-        }
-        developers {
-            developer {
-                id = "thelacspace"
-                name = "The Lac's Space"
-                email = "dpplinh28@gmail.com"
-                url = "https://github.com/thelacspace"
-            }
-        }
-        scm {
-            url = "https://github.com/thelacspace/lucide-compose"
-            connection = "scm:git:git://github.com/thelacspace/lucide-compose.git"
-            developerConnection = "scm:git:ssh://github.com/thelacspace/lucide-compose.git"
         }
     }
 }
-

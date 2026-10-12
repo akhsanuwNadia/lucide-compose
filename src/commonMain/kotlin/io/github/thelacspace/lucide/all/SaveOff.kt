@@ -35,10 +35,6 @@ private val _ActivityDefinition = LucideIconDefinition("SaveOff") { strokeWidth 
                 arcToRelative(2f, 2f, 0f, false, true, .59f, -1.41f)
             }
             lucidePath(strokeWidth) {
-                moveTo(29.5f, 11.5f)
-                reflectiveCurveToRelative(5f, 5f, 4f, 5f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(9f, 3f)
                 horizontalLineToRelative(6.2f)
                 arcToRelative(2f, 2f, 0f, false, true, 1.4f, .6f)

@@ -82,6 +82,9 @@ object LucideIconsSocial {
     val ExternalLinkDefinition get() = LucideIcons.All.ExternalLinkDefinition
     val ExternalLink: ImageVector @Composable get() = LucideIcons.All.ExternalLink
     
+    val FaceSlightlySmilingPlusDefinition get() = LucideIcons.All.FaceSlightlySmilingPlusDefinition
+    val FaceSlightlySmilingPlus: ImageVector @Composable get() = LucideIcons.All.FaceSlightlySmilingPlus
+    
     val FlagDefinition get() = LucideIcons.All.FlagDefinition
     val Flag: ImageVector @Composable get() = LucideIcons.All.Flag
     
@@ -135,6 +138,9 @@ object LucideIconsSocial {
     
     val MessageCircleDashedDefinition get() = LucideIcons.All.MessageCircleDashedDefinition
     val MessageCircleDashed: ImageVector @Composable get() = LucideIcons.All.MessageCircleDashed
+    
+    val MessageCircleDashedCheckDefinition get() = LucideIcons.All.MessageCircleDashedCheckDefinition
+    val MessageCircleDashedCheck: ImageVector @Composable get() = LucideIcons.All.MessageCircleDashedCheck
     
     val MessageCircleHeartDefinition get() = LucideIcons.All.MessageCircleHeartDefinition
     val MessageCircleHeart: ImageVector @Composable get() = LucideIcons.All.MessageCircleHeart
@@ -211,6 +217,9 @@ object LucideIconsSocial {
     val MessageSquareXDefinition get() = LucideIcons.All.MessageSquareXDefinition
     val MessageSquareX: ImageVector @Composable get() = LucideIcons.All.MessageSquareX
     
+    val MessagesCircleDefinition get() = LucideIcons.All.MessagesCircleDefinition
+    val MessagesCircle: ImageVector @Composable get() = LucideIcons.All.MessagesCircle
+    
     val MessagesSquareDefinition get() = LucideIcons.All.MessagesSquareDefinition
     val MessagesSquare: ImageVector @Composable get() = LucideIcons.All.MessagesSquare
     
@@ -232,8 +241,8 @@ object LucideIconsSocial {
     val NotepadTextDashedDefinition get() = LucideIcons.All.NotepadTextDashedDefinition
     val NotepadTextDashed: ImageVector @Composable get() = LucideIcons.All.NotepadTextDashed
     
-    val PodcastDefinition get() = LucideIcons.All.PodcastDefinition
-    val Podcast: ImageVector @Composable get() = LucideIcons.All.Podcast
+    val PlayingCardsFanDefinition get() = LucideIcons.All.PlayingCardsFanDefinition
+    val PlayingCardsFan: ImageVector @Composable get() = LucideIcons.All.PlayingCardsFan
     
     val QrCodeDefinition get() = LucideIcons.All.QrCodeDefinition
     val QrCode: ImageVector @Composable get() = LucideIcons.All.QrCode
@@ -289,9 +298,6 @@ object LucideIconsSocial {
     val Share2Definition get() = LucideIcons.All.Share2Definition
     val Share2: ImageVector @Composable get() = LucideIcons.All.Share2
     
-    val SmilePlusDefinition get() = LucideIcons.All.SmilePlusDefinition
-    val SmilePlus: ImageVector @Composable get() = LucideIcons.All.SmilePlus
-    
     val SpoolDefinition get() = LucideIcons.All.SpoolDefinition
     val Spool: ImageVector @Composable get() = LucideIcons.All.Spool
     
@@ -310,11 +316,23 @@ object LucideIconsSocial {
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
     
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
     val StarHalfDefinition get() = LucideIcons.All.StarHalfDefinition
     val StarHalf: ImageVector @Composable get() = LucideIcons.All.StarHalf
     
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
     val StarOffDefinition get() = LucideIcons.All.StarOffDefinition
     val StarOff: ImageVector @Composable get() = LucideIcons.All.StarOff
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
     
     val StickerDefinition get() = LucideIcons.All.StickerDefinition
     val Sticker: ImageVector @Composable get() = LucideIcons.All.Sticker
@@ -348,6 +366,12 @@ object LucideIconsSocial {
     
     val ThumbsUpDefinition get() = LucideIcons.All.ThumbsUpDefinition
     val ThumbsUp: ImageVector @Composable get() = LucideIcons.All.ThumbsUp
+    
+    val UserGroupDefinition get() = LucideIcons.All.UserGroupDefinition
+    val UserGroup: ImageVector @Composable get() = LucideIcons.All.UserGroup
+    
+    val UserRoundGroupDefinition get() = LucideIcons.All.UserRoundGroupDefinition
+    val UserRoundGroup: ImageVector @Composable get() = LucideIcons.All.UserRoundGroup
     
     val UserRoundSearchDefinition get() = LucideIcons.All.UserRoundSearchDefinition
     val UserRoundSearch: ImageVector @Composable get() = LucideIcons.All.UserRoundSearch

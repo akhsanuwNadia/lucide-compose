@@ -10,17 +10,23 @@ object LucideIconsMultimedia {
     val ActivityDefinition get() = LucideIcons.All.ActivityDefinition
     val Activity: ImageVector @Composable get() = LucideIcons.All.Activity
     
+    val AdDefinition get() = LucideIcons.All.AdDefinition
+    val Ad: ImageVector @Composable get() = LucideIcons.All.Ad
+    
     val AirplayDefinition get() = LucideIcons.All.AirplayDefinition
     val Airplay: ImageVector @Composable get() = LucideIcons.All.Airplay
-    
-    val AlbumDefinition get() = LucideIcons.All.AlbumDefinition
-    val Album: ImageVector @Composable get() = LucideIcons.All.Album
     
     val AntennaDefinition get() = LucideIcons.All.AntennaDefinition
     val Antenna: ImageVector @Composable get() = LucideIcons.All.Antenna
     
     val AudioLinesDefinition get() = LucideIcons.All.AudioLinesDefinition
     val AudioLines: ImageVector @Composable get() = LucideIcons.All.AudioLines
+    
+    val AudioLinesOffDefinition get() = LucideIcons.All.AudioLinesOffDefinition
+    val AudioLinesOff: ImageVector @Composable get() = LucideIcons.All.AudioLinesOff
+    
+    val AudioLinesXDefinition get() = LucideIcons.All.AudioLinesXDefinition
+    val AudioLinesX: ImageVector @Composable get() = LucideIcons.All.AudioLinesX
     
     val AudioWaveformDefinition get() = LucideIcons.All.AudioWaveformDefinition
     val AudioWaveform: ImageVector @Composable get() = LucideIcons.All.AudioWaveform
@@ -73,6 +79,15 @@ object LucideIconsMultimedia {
     val ClapperboardDefinition get() = LucideIcons.All.ClapperboardDefinition
     val Clapperboard: ImageVector @Composable get() = LucideIcons.All.Clapperboard
     
+    val ClefAltoDefinition get() = LucideIcons.All.ClefAltoDefinition
+    val ClefAlto: ImageVector @Composable get() = LucideIcons.All.ClefAlto
+    
+    val ClefBassDefinition get() = LucideIcons.All.ClefBassDefinition
+    val ClefBass: ImageVector @Composable get() = LucideIcons.All.ClefBass
+    
+    val ClefTrebleDefinition get() = LucideIcons.All.ClefTrebleDefinition
+    val ClefTreble: ImageVector @Composable get() = LucideIcons.All.ClefTreble
+    
     val ClosedCaptionDefinition get() = LucideIcons.All.ClosedCaptionDefinition
     val ClosedCaption: ImageVector @Composable get() = LucideIcons.All.ClosedCaption
     
@@ -99,6 +114,9 @@ object LucideIconsMultimedia {
     
     val DrumDefinition get() = LucideIcons.All.DrumDefinition
     val Drum: ImageVector @Composable get() = LucideIcons.All.Drum
+    
+    val EjectDefinition get() = LucideIcons.All.EjectDefinition
+    val Eject: ImageVector @Composable get() = LucideIcons.All.Eject
     
     val EthernetPortDefinition get() = LucideIcons.All.EthernetPortDefinition
     val EthernetPort: ImageVector @Composable get() = LucideIcons.All.EthernetPort
@@ -250,11 +268,20 @@ object LucideIconsMultimedia {
     val MicDefinition get() = LucideIcons.All.MicDefinition
     val Mic: ImageVector @Composable get() = LucideIcons.All.Mic
     
+    val MicAudioLinesDefinition get() = LucideIcons.All.MicAudioLinesDefinition
+    val MicAudioLines: ImageVector @Composable get() = LucideIcons.All.MicAudioLines
+    
     val MicOffDefinition get() = LucideIcons.All.MicOffDefinition
     val MicOff: ImageVector @Composable get() = LucideIcons.All.MicOff
     
+    val MicSignalDefinition get() = LucideIcons.All.MicSignalDefinition
+    val MicSignal: ImageVector @Composable get() = LucideIcons.All.MicSignal
+    
     val MicVocalDefinition get() = LucideIcons.All.MicVocalDefinition
     val MicVocal: ImageVector @Composable get() = LucideIcons.All.MicVocal
+    
+    val MidiPortDefinition get() = LucideIcons.All.MidiPortDefinition
+    val MidiPort: ImageVector @Composable get() = LucideIcons.All.MidiPort
     
     val MonitorPauseDefinition get() = LucideIcons.All.MonitorPauseDefinition
     val MonitorPause: ImageVector @Composable get() = LucideIcons.All.MonitorPause
@@ -298,8 +325,8 @@ object LucideIconsMultimedia {
     val PlayDefinition get() = LucideIcons.All.PlayDefinition
     val Play: ImageVector @Composable get() = LucideIcons.All.Play
     
-    val PodcastDefinition get() = LucideIcons.All.PodcastDefinition
-    val Podcast: ImageVector @Composable get() = LucideIcons.All.Podcast
+    val PlayOffDefinition get() = LucideIcons.All.PlayOffDefinition
+    val PlayOff: ImageVector @Composable get() = LucideIcons.All.PlayOff
     
     val PopcornDefinition get() = LucideIcons.All.PopcornDefinition
     val Popcorn: ImageVector @Composable get() = LucideIcons.All.Popcorn
@@ -376,6 +403,9 @@ object LucideIconsMultimedia {
     val SquareArrowRightExitDefinition get() = LucideIcons.All.SquareArrowRightExitDefinition
     val SquareArrowRightExit: ImageVector @Composable get() = LucideIcons.All.SquareArrowRightExit
     
+    val SquareBookmarkDefinition get() = LucideIcons.All.SquareBookmarkDefinition
+    val SquareBookmark: ImageVector @Composable get() = LucideIcons.All.SquareBookmark
+    
     val SquareLibraryDefinition get() = LucideIcons.All.SquareLibraryDefinition
     val SquareLibrary: ImageVector @Composable get() = LucideIcons.All.SquareLibrary
     
@@ -385,17 +415,32 @@ object LucideIconsMultimedia {
     val SquarePlayDefinition get() = LucideIcons.All.SquarePlayDefinition
     val SquarePlay: ImageVector @Composable get() = LucideIcons.All.SquarePlay
     
+    val SquareSparklesDefinition get() = LucideIcons.All.SquareSparklesDefinition
+    val SquareSparkles: ImageVector @Composable get() = LucideIcons.All.SquareSparkles
+    
     val SquareStopDefinition get() = LucideIcons.All.SquareStopDefinition
     val SquareStop: ImageVector @Composable get() = LucideIcons.All.SquareStop
     
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
     
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
     val StarHalfDefinition get() = LucideIcons.All.StarHalfDefinition
     val StarHalf: ImageVector @Composable get() = LucideIcons.All.StarHalf
     
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
     val StarOffDefinition get() = LucideIcons.All.StarOffDefinition
     val StarOff: ImageVector @Composable get() = LucideIcons.All.StarOff
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
     
     val StepBackDefinition get() = LucideIcons.All.StepBackDefinition
     val StepBack: ImageVector @Composable get() = LucideIcons.All.StepBack
@@ -417,6 +462,9 @@ object LucideIconsMultimedia {
     
     val UsbDefinition get() = LucideIcons.All.UsbDefinition
     val Usb: ImageVector @Composable get() = LucideIcons.All.Usb
+    
+    val UsbCPortDefinition get() = LucideIcons.All.UsbCPortDefinition
+    val UsbCPort: ImageVector @Composable get() = LucideIcons.All.UsbCPort
     
     val VolumeDefinition get() = LucideIcons.All.VolumeDefinition
     val Volume: ImageVector @Composable get() = LucideIcons.All.Volume

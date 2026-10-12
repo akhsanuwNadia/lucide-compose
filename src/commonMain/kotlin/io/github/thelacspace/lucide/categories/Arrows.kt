@@ -136,6 +136,9 @@ object LucideIconsArrows {
     val ArrowsUpFromLineDefinition get() = LucideIcons.All.ArrowsUpFromLineDefinition
     val ArrowsUpFromLine: ImageVector @Composable get() = LucideIcons.All.ArrowsUpFromLine
     
+    val CalendarChevronsRightDefinition get() = LucideIcons.All.CalendarChevronsRightDefinition
+    val CalendarChevronsRight: ImageVector @Composable get() = LucideIcons.All.CalendarChevronsRight
+    
     val CalendarSyncDefinition get() = LucideIcons.All.CalendarSyncDefinition
     val CalendarSync: ImageVector @Composable get() = LucideIcons.All.CalendarSync
     
@@ -225,6 +228,9 @@ object LucideIconsArrows {
     
     val ClipboardPasteDefinition get() = LucideIcons.All.ClipboardPasteDefinition
     val ClipboardPaste: ImageVector @Composable get() = LucideIcons.All.ClipboardPaste
+    
+    val ClockArrowRightDefinition get() = LucideIcons.All.ClockArrowRightDefinition
+    val ClockArrowRight: ImageVector @Composable get() = LucideIcons.All.ClockArrowRight
     
     val CloudBackupDefinition get() = LucideIcons.All.CloudBackupDefinition
     val CloudBackup: ImageVector @Composable get() = LucideIcons.All.CloudBackup
@@ -334,9 +340,6 @@ object LucideIconsArrows {
     val HardDriveUploadDefinition get() = LucideIcons.All.HardDriveUploadDefinition
     val HardDriveUpload: ImageVector @Composable get() = LucideIcons.All.HardDriveUpload
     
-    val HistoryDefinition get() = LucideIcons.All.HistoryDefinition
-    val History: ImageVector @Composable get() = LucideIcons.All.History
-    
     val ImportDefinition get() = LucideIcons.All.ImportDefinition
     val Import: ImageVector @Composable get() = LucideIcons.All.Import
     
@@ -348,6 +351,9 @@ object LucideIconsArrows {
     
     val LassoSelectDefinition get() = LucideIcons.All.LassoSelectDefinition
     val LassoSelect: ImageVector @Composable get() = LucideIcons.All.LassoSelect
+    
+    val LayersArrowUpDefinition get() = LucideIcons.All.LayersArrowUpDefinition
+    val LayersArrowUp: ImageVector @Composable get() = LucideIcons.All.LayersArrowUp
     
     val ListChevronsDownUpDefinition get() = LucideIcons.All.ListChevronsDownUpDefinition
     val ListChevronsDownUp: ImageVector @Composable get() = LucideIcons.All.ListChevronsDownUp
@@ -499,11 +505,17 @@ object LucideIconsArrows {
     val RotateCcwDefinition get() = LucideIcons.All.RotateCcwDefinition
     val RotateCcw: ImageVector @Composable get() = LucideIcons.All.RotateCcw
     
+    val RotateCcwClockDefinition get() = LucideIcons.All.RotateCcwClockDefinition
+    val RotateCcwClock: ImageVector @Composable get() = LucideIcons.All.RotateCcwClock
+    
     val RotateCcwSquareDefinition get() = LucideIcons.All.RotateCcwSquareDefinition
     val RotateCcwSquare: ImageVector @Composable get() = LucideIcons.All.RotateCcwSquare
     
     val RotateCwDefinition get() = LucideIcons.All.RotateCwDefinition
     val RotateCw: ImageVector @Composable get() = LucideIcons.All.RotateCw
+    
+    val RotateCwClockDefinition get() = LucideIcons.All.RotateCwClockDefinition
+    val RotateCwClock: ImageVector @Composable get() = LucideIcons.All.RotateCwClock
     
     val RotateCwSquareDefinition get() = LucideIcons.All.RotateCwSquareDefinition
     val RotateCwSquare: ImageVector @Composable get() = LucideIcons.All.RotateCwSquare
@@ -642,5 +654,11 @@ object LucideIconsArrows {
     
     val UploadDefinition get() = LucideIcons.All.UploadDefinition
     val Upload: ImageVector @Composable get() = LucideIcons.All.Upload
+    
+    val UserRoundArrowLeftDefinition get() = LucideIcons.All.UserRoundArrowLeftDefinition
+    val UserRoundArrowLeft: ImageVector @Composable get() = LucideIcons.All.UserRoundArrowLeft
+    
+    val WindArrowUpDefinition get() = LucideIcons.All.WindArrowUpDefinition
+    val WindArrowUp: ImageVector @Composable get() = LucideIcons.All.WindArrowUp
     
 }

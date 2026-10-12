@@ -3,8 +3,13 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata1 = listOf(
+    
+    LucideIconMetadata("AudioLinesOff", listOf("audio", "sound", "noise", "mute", "silence", "off", "disabled", "inactive", "listen", "hearing", "equalizer", "equaliser", "hertz", "frequency", "wavelength", "vibrate", "sine", "waveform", "synthesizer", "synthesiser", "levels", "track", "music", "playback", "radio", "broadcast", "airwaves", "voice", "vocals", "singer", "song"), listOf("multimedia", "communication"), LucideIcons.All.AudioLinesOffDefinition),
+    
+    LucideIconMetadata("AudioLinesX", listOf("sound", "noise", "mute", "silence", "disabled", "cancel", "remove", "unavailable", "listen", "hearing", "equalizer", "equaliser", "hertz", "frequency", "wavelength", "vibrate", "sine", "waveform", "synthesizer", "synthesiser", "levels", "track", "music", "playback", "radio", "broadcast", "airwaves", "voice", "vocals", "singer", "song"), listOf("multimedia", "communication"), LucideIcons.All.AudioLinesXDefinition),
     
     LucideIconMetadata("AudioLines", listOf("graphic equaliser", "sound", "noise", "listen", "hearing", "hertz", "frequency", "wavelength", "vibrate", "sine", "synthesizer", "synthesiser", "levels", "track", "music", "playback", "radio", "broadcast", "airwaves", "voice", "vocals", "singer", "song"), listOf("multimedia", "communication"), LucideIcons.All.AudioLinesDefinition),
     
@@ -66,9 +71,13 @@ internal val lucideMetadata1 = listOf(
     
     LucideIconMetadata("Bandage", listOf("plaster", "band-aid", "first aid", "medical", "health", "wound", "injury", "care", "treatment", "healing", "protection", "emergency", "aid", "safety", "patch"), listOf("medical"), LucideIcons.All.BandageDefinition),
     
+    LucideIconMetadata("BangladeshiTaka", listOf("currency", "money", "payment", "bdt", "৳", "currency symbol", "cash", "banknote", "price", "remittance", "ecommerce"), listOf("finance", "shopping", "travel"), LucideIcons.All.BangladeshiTakaDefinition),
+    
     LucideIconMetadata("BanknoteArrowDown", listOf("bill", "currency", "money", "payment", "funds", "transaction", "cash", "finance", "withdraw", "expense", "out", "payout", "refund", "debit", "spending", "decrease"), listOf("finance"), LucideIcons.All.BanknoteArrowDownDefinition),
     
     LucideIconMetadata("BanknoteArrowUp", listOf("bill", "currency", "money", "payment", "funds", "transaction", "cash", "finance", "deposit", "earnings", "income", "in", "credit", "prepaid", "growth", "increase"), listOf("finance"), LucideIcons.All.BanknoteArrowUpDefinition),
+    
+    LucideIconMetadata("BanknoteCheck", listOf("banknote", "bill", "currency", "payment", "money", "finance", "document", "verification", "tick", "verified", "accepted", "done", "complete", "found", "paid", "task", "check", "success"), listOf("finance"), LucideIcons.All.BanknoteCheckDefinition),
     
     LucideIconMetadata("BanknoteX", listOf("bill", "currency", "money", "payment", "funds", "transaction", "cash", "finance", "error", "failed", "rejected", "canceled", "declined", "lost", "delete", "remove"), listOf("finance"), LucideIcons.All.BanknoteXDefinition),
     
@@ -156,7 +165,7 @@ internal val lucideMetadata1 = listOf(
     
     LucideIconMetadata("Bitcoin", listOf("cryptocurrency", "digital", "blockchain", "finance", "coin", "market", "decentralized", "investment", "crypto", "currency", "money", "payment"), listOf("development", "finance"), LucideIcons.All.BitcoinDefinition),
     
-    LucideIconMetadata("Blend", listOf("mode", "overlay", "multiply", "screen", "opacity", "transparency", "alpha", "filters", "lenses", "mixed", "shades", "tints", "hues", "saturation", "brightness", "overlap", "colors", "colours"), listOf("design", "photography", "tools", "development"), LucideIcons.All.BlendDefinition),
+    LucideIconMetadata("Blend", listOf("mode", "overlay", "multiply", "screen", "opacity", "transparency", "alpha", "filters", "lenses", "mixed", "shades", "tints", "hues", "saturation", "brightness", "overlap", "colors", "colours", "marriage", "rings", "couple", "connection"), listOf("design", "photography", "tools", "development"), LucideIcons.All.BlendDefinition),
     
     LucideIconMetadata("Blender", listOf("mixer", "appliances", "food", "liquid", "juicer", "vitamizer", "mix", "emulsify", "smoothie", "drink", "blade", "container", "kitchen", "milkshake", "cocktail", "beverage", "culinary", "shredder", "processor", "cooking", "recipe", "chef", "restaurant"), listOf("food-beverage", "home"), LucideIcons.All.BlenderDefinition),
     
@@ -178,6 +187,8 @@ internal val lucideMetadata1 = listOf(
     
     LucideIconMetadata("Bomb", listOf("fatal", "error", "crash", "blockbuster", "mine", "explosion", "explode", "explosive"), listOf("security", "tools"), LucideIcons.All.BombDefinition),
     
+    LucideIconMetadata("BoneFracture", listOf("bone", "fracture", "injury", "orthopedic", "medical", "anatomy", "skeletal", "broken", "xray", "trauma", "health", "vet", "veterinary", "crack", "break", "damage"), listOf("medical", "animals"), LucideIcons.All.BoneFractureDefinition),
+    
     LucideIconMetadata("Bone", listOf("health", "skeleton", "skull", "death", "pets", "dog"), listOf("animals", "medical", "gaming"), LucideIcons.All.BoneDefinition),
     
     LucideIconMetadata("BookA", listOf("dictionary", "define", "definition", "thesaurus", "encyclopedia", "encyclopaedia", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "language", "translate", "alphabetical", "a-z", "ordered"), listOf("text", "gaming"), LucideIcons.All.BookADefinition),
@@ -186,24 +197,14 @@ internal val lucideMetadata1 = listOf(
     
     LucideIconMetadata("BookAudio", listOf("audiobook", "reading", "listening", "sound", "story", "fiction", "novel", "information", "knowledge", "education", "student", "study", "learning", "research"), listOf("multimedia", "text"), LucideIcons.All.BookAudioDefinition),
     
+    LucideIconMetadata("BookBookmark", listOf("dictionary", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation", "saved", "later", "future", "reference", "index", "code", "coding", "version control", "git", "repository"), listOf("text", "development", "gaming"), LucideIcons.All.BookBookmarkDefinition),
+    
     LucideIconMetadata("BookCheck", listOf("read", "booklet", "magazine", "leaflet", "pamphlet", "library", "written", "authored", "published", "informed", "knowledgeable", "educated", "schooled", "homework", "examined", "tested", "marked", "passed", "graduated", "studied", "learned", "lesson", "researched", "documented", "revealed", "blank", "plain language", "true", "truth", "verified", "corrected", "task", "todo", "done", "completed", "finished", "ticked"), listOf("text", "development", "gaming"), LucideIcons.All.BookCheckDefinition),
     
     LucideIconMetadata("BookCopy", listOf("code", "coding", "version control", "git", "repository", "clone", "fork", "duplicate", "multiple", "books", "library", "copies", "copied", "plagiarism", "plagiarised", "plagiarized", "reading list", "information", "informed", "knowledge", "knowledgeable", "knowledgable", "education", "high school", "university", "college", "academy", "student", "study", "learning", "research", "smart", "intelligent", "intellectual"), listOf("development", "text", "gaming"), LucideIcons.All.BookCopyDefinition),
     
     LucideIconMetadata("BookDashed", listOf("code", "coding", "version control", "git", "repository", "template", "draft", "script", "screenplay", "writing", "writer", "author", "unwritten", "unpublished", "untold"), listOf("development"), LucideIcons.All.BookDashedDefinition),
     
-    LucideIconMetadata("BookDown", listOf("code", "coding", "version control", "git", "repository", "pull"), listOf("development"), LucideIcons.All.BookDownDefinition),
-    
-    LucideIconMetadata("BookHeadphones", listOf("audiobook", "reading", "listening", "sound", "story", "fiction", "novel", "information", "knowledge", "education", "student", "study", "learning", "research"), listOf("multimedia", "text"), LucideIcons.All.BookHeadphonesDefinition),
-    
-    LucideIconMetadata("BookHeart", listOf("diary", "romance", "novel", "journal", "entry", "entries", "personal", "private", "secret", "crush", "like", "love", "emotion", "feminine", "girls", "teens", "teenager", "therapy", "theraputic", "therapist", "planner", "organizer", "organiser", "notes", "notepad", "stationery", "sketchbook", "writing", "written", "reading", "favorite", "favourite", "high school"), listOf("social", "text", "gaming"), LucideIcons.All.BookHeartDefinition),
-    
-    LucideIconMetadata("BookImage", listOf("images", "pictures", "photos", "album", "collection", "event", "magazine", "catalog", "catalogue", "brochure", "browse", "gallery"), listOf("photography", "text", "multimedia", "files", "social", "shopping", "travel"), LucideIcons.All.BookImageDefinition),
-    
-    LucideIconMetadata("BookKey", listOf("code", "coding", "version control", "git", "repository", "private", "public", "secret", "unlocked", "hidden", "revealed", "knowledge", "learning"), listOf("development", "security", "gaming"), LucideIcons.All.BookKeyDefinition),
-    
-    LucideIconMetadata("BookLock", listOf("code", "coding", "version control", "git", "repository", "private", "secret", "hidden", "knowledge"), listOf("development", "security", "gaming"), LucideIcons.All.BookLockDefinition),
-    
-    LucideIconMetadata("BookMarked", listOf("dictionary", "reading", "booklet", "magazine", "leaflet", "pamphlet", "tome", "library", "writing", "written", "writer", "author", "story", "script", "fiction", "novel", "information", "knowledge", "education", "high school", "university", "college", "academy", "student", "study", "learning", "homework", "research", "documentation", "saved", "later", "future", "reference", "index", "code", "coding", "version control", "git", "repository"), listOf("text", "development", "gaming"), LucideIcons.All.BookMarkedDefinition)
+    LucideIconMetadata("BookDown", listOf("code", "coding", "version control", "git", "repository", "pull"), listOf("development"), LucideIcons.All.BookDownDefinition)
     
 )

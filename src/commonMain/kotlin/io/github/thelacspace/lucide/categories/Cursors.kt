@@ -70,6 +70,9 @@ object LucideIconsCursors {
     val PencilOffDefinition get() = LucideIcons.All.PencilOffDefinition
     val PencilOff: ImageVector @Composable get() = LucideIcons.All.PencilOff
     
+    val PencilSparklesDefinition get() = LucideIcons.All.PencilSparklesDefinition
+    val PencilSparkles: ImageVector @Composable get() = LucideIcons.All.PencilSparkles
+    
     val PlusDefinition get() = LucideIcons.All.PlusDefinition
     val Plus: ImageVector @Composable get() = LucideIcons.All.Plus
     

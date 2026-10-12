@@ -9,7 +9,7 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Dot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.1f, 12.1f)
+                moveTo(11.0f, 12.0f)
                 arcToRelative(1.0f, 1.0f, 0f, true, false, 2.0f, 0f)
                 arcToRelative(1.0f, 1.0f, 0f, true, false, -2.0f, 0f)
             }

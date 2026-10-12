@@ -9,53 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareBottomDashedScissors") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5f, 3f)
-                lineTo(19f, 3f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                lineTo(3f, 19f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(21f, 5f)
-                lineTo(21f, 19f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(9f, 21f)
-                lineTo(10f, 21f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(14f, 21f)
-                lineTo(15f, 21f)
+                horizontalLineToRelative(1f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                arcTo(2f, 2f, 0f, false, true, 5f, 3f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(19f, 3f)
-                arcTo(2f, 2f, 0f, false, true, 21f, 5f)
+                moveToRelative(17f, 17f)
+                lineToRelative(-2.18f, -2.18f)
             }
             lucidePath(strokeWidth) {
                 moveTo(5f, 21f)
-                arcTo(2f, 2f, 0f, false, true, 3f, 19f)
+                arcToRelative(2f, 2f, 0f, true, false, -2f, Vf)
+                arcToRelative(5f, af, 2f, false, false, 012f, -2f)
+                horizontalLineToRelative(14f)
+                arcToRelative(2f, 2f, 0f, false, false, vf, 14f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 19f)
-                arcTo(2f, 2f, 0f, false, true, 19f, 21f)
+                moveTo(9f, 21f)
+                horizontalLineToRelative(1f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0f, 8.5f)
-                arcToRelative(1.5f, 1.5f, 0f, true, false, 3.0f, 0f)
-                arcToRelative(1.5f, 1.5f, 0f, true, false, -3.0f, 0f)
+                moveTo(9.56f, 14.44f)
+                lineTo(17f, 7f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.56066f, 9.56066f)
+                moveTo(9.56f, 9.56f)
                 lineTo(12f, 12f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(17f, 17f)
-                lineTo(14.82f, 14.82f)
             }
             lucidePath(strokeWidth) {
                 moveTo(7.0f, 15.5f)
@@ -63,8 +41,9 @@ private val _ActivityDefinition = LucideIconDefinition("SquareBottomDashedScisso
                 arcToRelative(1.5f, 1.5f, 0f, true, false, -3.0f, 0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.56066f, 14.43934f)
-                lineTo(17f, 7f)
+                moveTo(7.0f, 8.5f)
+                arcToRelative(1.5f, 1.5f, 0f, true, false, 3.0f, 0f)
+                arcToRelative(1.5f, 1.5f, 0f, true, false, -3.0f, 0f)
             }
 }
 

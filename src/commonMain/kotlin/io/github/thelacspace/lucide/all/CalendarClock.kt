@@ -15,25 +15,21 @@ private val _ActivityDefinition = LucideIconDefinition("CalendarClock") { stroke
             }
             lucidePath(strokeWidth) {
                 moveTo(16f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 7.5f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(3.5f)
+                moveTo(21f, 7.338f)
+                verticalLineTo(5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(5f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
-                horizontalLineToRelative(5f)
+                moveTo(3f, 9f)
+                horizontalLineToRelative(5.859f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
                 moveTo(10.0f, 16.0f)

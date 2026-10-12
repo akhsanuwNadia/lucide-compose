@@ -13,24 +13,22 @@ private val _ActivityDefinition = LucideIconDefinition("Contact") { strokeWidth 
                 verticalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 22f)
+                moveTo(7f, 21f)
                 verticalLineToRelative(-2f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(6f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(2f)
+                arcToRelative(2f, 2f, 0f, false, false, hf, 6f)
+                arcToRelative(2f, 2f, 0f, false, false, vf, 2f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
                 verticalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0f, 11.0f)
+                moveTo(9.0f, 10.0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0f, 4.0f)
+                moveTo(5.0f, 3.0f)
                 horizontalLineToRelative(14.0f)
                 arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
                 verticalLineToRelative(18.0f)

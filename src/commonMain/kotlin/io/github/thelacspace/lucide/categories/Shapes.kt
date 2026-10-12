@@ -31,6 +31,9 @@ object LucideIconsShapes {
     val CircleDashedDefinition get() = LucideIcons.All.CircleDashedDefinition
     val CircleDashed: ImageVector @Composable get() = LucideIcons.All.CircleDashed
     
+    val CircleDashedCheckDefinition get() = LucideIcons.All.CircleDashedCheckDefinition
+    val CircleDashedCheck: ImageVector @Composable get() = LucideIcons.All.CircleDashedCheck
+    
     val CircleDotDefinition get() = LucideIcons.All.CircleDotDefinition
     val CircleDot: ImageVector @Composable get() = LucideIcons.All.CircleDot
     
@@ -145,6 +148,18 @@ object LucideIconsShapes {
     val SquareArrowRightExitDefinition get() = LucideIcons.All.SquareArrowRightExitDefinition
     val SquareArrowRightExit: ImageVector @Composable get() = LucideIcons.All.SquareArrowRightExit
     
+    val SquareDashedPlusDefinition get() = LucideIcons.All.SquareDashedPlusDefinition
+    val SquareDashedPlus: ImageVector @Composable get() = LucideIcons.All.SquareDashedPlus
+    
+    val SquareExclamationPointDefinition get() = LucideIcons.All.SquareExclamationPointDefinition
+    val SquareExclamationPoint: ImageVector @Composable get() = LucideIcons.All.SquareExclamationPoint
+    
+    val SquareOffDefinition get() = LucideIcons.All.SquareOffDefinition
+    val SquareOff: ImageVector @Composable get() = LucideIcons.All.SquareOff
+    
+    val SquareTextDefinition get() = LucideIcons.All.SquareTextDefinition
+    val SquareText: ImageVector @Composable get() = LucideIcons.All.SquareText
+    
     val SquircleDefinition get() = LucideIcons.All.SquircleDefinition
     val Squircle: ImageVector @Composable get() = LucideIcons.All.Squircle
     
@@ -153,6 +168,18 @@ object LucideIconsShapes {
     
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
+    
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
     
     val TangentDefinition get() = LucideIcons.All.TangentDefinition
     val Tangent: ImageVector @Composable get() = LucideIcons.All.Tangent
@@ -174,6 +201,9 @@ object LucideIconsShapes {
     
     val UngroupDefinition get() = LucideIcons.All.UngroupDefinition
     val Ungroup: ImageVector @Composable get() = LucideIcons.All.Ungroup
+    
+    val VectorPolygonDefinition get() = LucideIcons.All.VectorPolygonDefinition
+    val VectorPolygon: ImageVector @Composable get() = LucideIcons.All.VectorPolygon
     
     val VectorSquareDefinition get() = LucideIcons.All.VectorSquareDefinition
     val VectorSquare: ImageVector @Composable get() = LucideIcons.All.VectorSquare

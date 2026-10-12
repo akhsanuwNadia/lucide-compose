@@ -40,6 +40,9 @@ object LucideIconsTime {
     val CalendarCheck2Definition get() = LucideIcons.All.CalendarCheck2Definition
     val CalendarCheck2: ImageVector @Composable get() = LucideIcons.All.CalendarCheck2
     
+    val CalendarChevronsRightDefinition get() = LucideIcons.All.CalendarChevronsRightDefinition
+    val CalendarChevronsRight: ImageVector @Composable get() = LucideIcons.All.CalendarChevronsRight
+    
     val CalendarClockDefinition get() = LucideIcons.All.CalendarClockDefinition
     val CalendarClock: ImageVector @Composable get() = LucideIcons.All.CalendarClock
     
@@ -139,6 +142,12 @@ object LucideIconsTime {
     val ClockArrowDownDefinition get() = LucideIcons.All.ClockArrowDownDefinition
     val ClockArrowDown: ImageVector @Composable get() = LucideIcons.All.ClockArrowDown
     
+    val ClockArrowLeftDefinition get() = LucideIcons.All.ClockArrowLeftDefinition
+    val ClockArrowLeft: ImageVector @Composable get() = LucideIcons.All.ClockArrowLeft
+    
+    val ClockArrowRightDefinition get() = LucideIcons.All.ClockArrowRightDefinition
+    val ClockArrowRight: ImageVector @Composable get() = LucideIcons.All.ClockArrowRight
+    
     val ClockArrowUpDefinition get() = LucideIcons.All.ClockArrowUpDefinition
     val ClockArrowUp: ImageVector @Composable get() = LucideIcons.All.ClockArrowUp
     
@@ -157,14 +166,29 @@ object LucideIconsTime {
     val FolderClockDefinition get() = LucideIcons.All.FolderClockDefinition
     val FolderClock: ImageVector @Composable get() = LucideIcons.All.FolderClock
     
-    val HistoryDefinition get() = LucideIcons.All.HistoryDefinition
-    val History: ImageVector @Composable get() = LucideIcons.All.History
-    
     val HourglassDefinition get() = LucideIcons.All.HourglassDefinition
     val Hourglass: ImageVector @Composable get() = LucideIcons.All.Hourglass
     
+    val HourglassCogDefinition get() = LucideIcons.All.HourglassCogDefinition
+    val HourglassCog: ImageVector @Composable get() = LucideIcons.All.HourglassCog
+    
+    val ListClockDefinition get() = LucideIcons.All.ListClockDefinition
+    val ListClock: ImageVector @Composable get() = LucideIcons.All.ListClock
+    
+    val MailClockDefinition get() = LucideIcons.All.MailClockDefinition
+    val MailClock: ImageVector @Composable get() = LucideIcons.All.MailClock
+    
     val MetronomeDefinition get() = LucideIcons.All.MetronomeDefinition
     val Metronome: ImageVector @Composable get() = LucideIcons.All.Metronome
+    
+    val RotateCcwClockDefinition get() = LucideIcons.All.RotateCcwClockDefinition
+    val RotateCcwClock: ImageVector @Composable get() = LucideIcons.All.RotateCcwClock
+    
+    val RotateCwClockDefinition get() = LucideIcons.All.RotateCwClockDefinition
+    val RotateCwClock: ImageVector @Composable get() = LucideIcons.All.RotateCwClock
+    
+    val RotateCwFadingClockDefinition get() = LucideIcons.All.RotateCwFadingClockDefinition
+    val RotateCwFadingClock: ImageVector @Composable get() = LucideIcons.All.RotateCwFadingClock
     
     val SquareChartGanttDefinition get() = LucideIcons.All.SquareChartGanttDefinition
     val SquareChartGantt: ImageVector @Composable get() = LucideIcons.All.SquareChartGantt

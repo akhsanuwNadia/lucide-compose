@@ -30,15 +30,15 @@ private val _ActivityDefinition = LucideIconDefinition("CardSim") { strokeWidth 
                 horizontalLineToRelative(8f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0f, 10.0f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
+                moveTo(10.0f, 10.0f)
+                horizontalLineToRelative(4.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
                 verticalLineToRelative(8.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
+                horizontalLineToRelative(-4.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
                 verticalLineToRelative(-8.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
                 close()
             }
 }

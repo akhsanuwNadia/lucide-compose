@@ -190,6 +190,12 @@ object LucideIconsLayout {
     val GalleryVerticalEndDefinition get() = LucideIcons.All.GalleryVerticalEndDefinition
     val GalleryVerticalEnd: ImageVector @Composable get() = LucideIcons.All.GalleryVerticalEnd
     
+    val GapHorizontalDefinition get() = LucideIcons.All.GapHorizontalDefinition
+    val GapHorizontal: ImageVector @Composable get() = LucideIcons.All.GapHorizontal
+    
+    val GapVerticalDefinition get() = LucideIcons.All.GapVerticalDefinition
+    val GapVertical: ImageVector @Composable get() = LucideIcons.All.GapVertical
+    
     val Grid2x2Definition get() = LucideIcons.All.Grid2x2Definition
     val Grid2x2: ImageVector @Composable get() = LucideIcons.All.Grid2x2
     
@@ -220,11 +226,23 @@ object LucideIconsLayout {
     val HandGrabDefinition get() = LucideIcons.All.HandGrabDefinition
     val HandGrab: ImageVector @Composable get() = LucideIcons.All.HandGrab
     
+    val LayerArrowDownDefinition get() = LucideIcons.All.LayerArrowDownDefinition
+    val LayerArrowDown: ImageVector @Composable get() = LucideIcons.All.LayerArrowDown
+    
+    val LayerArrowUpDefinition get() = LucideIcons.All.LayerArrowUpDefinition
+    val LayerArrowUp: ImageVector @Composable get() = LucideIcons.All.LayerArrowUp
+    
     val LayersDefinition get() = LucideIcons.All.LayersDefinition
     val Layers: ImageVector @Composable get() = LucideIcons.All.Layers
     
     val Layers2Definition get() = LucideIcons.All.Layers2Definition
     val Layers2: ImageVector @Composable get() = LucideIcons.All.Layers2
+    
+    val LayersArrowDownDefinition get() = LucideIcons.All.LayersArrowDownDefinition
+    val LayersArrowDown: ImageVector @Composable get() = LucideIcons.All.LayersArrowDown
+    
+    val LayersArrowUpDefinition get() = LucideIcons.All.LayersArrowUpDefinition
+    val LayersArrowUp: ImageVector @Composable get() = LucideIcons.All.LayersArrowUp
     
     val LayersMinusDefinition get() = LucideIcons.All.LayersMinusDefinition
     val LayersMinus: ImageVector @Composable get() = LucideIcons.All.LayersMinus
@@ -232,11 +250,23 @@ object LucideIconsLayout {
     val LayersPlusDefinition get() = LucideIcons.All.LayersPlusDefinition
     val LayersPlus: ImageVector @Composable get() = LucideIcons.All.LayersPlus
     
+    val LayoutArrowDownDefinition get() = LucideIcons.All.LayoutArrowDownDefinition
+    val LayoutArrowDown: ImageVector @Composable get() = LucideIcons.All.LayoutArrowDown
+    
+    val LayoutArrowRightDefinition get() = LucideIcons.All.LayoutArrowRightDefinition
+    val LayoutArrowRight: ImageVector @Composable get() = LucideIcons.All.LayoutArrowRight
+    
     val LayoutDashboardDefinition get() = LucideIcons.All.LayoutDashboardDefinition
     val LayoutDashboard: ImageVector @Composable get() = LucideIcons.All.LayoutDashboard
     
+    val LayoutFreeformDefinition get() = LucideIcons.All.LayoutFreeformDefinition
+    val LayoutFreeform: ImageVector @Composable get() = LucideIcons.All.LayoutFreeform
+    
     val LayoutGridDefinition get() = LucideIcons.All.LayoutGridDefinition
     val LayoutGrid: ImageVector @Composable get() = LucideIcons.All.LayoutGrid
+    
+    val LayoutGridCirclesDefinition get() = LucideIcons.All.LayoutGridCirclesDefinition
+    val LayoutGridCircles: ImageVector @Composable get() = LucideIcons.All.LayoutGridCircles
     
     val LayoutListDefinition get() = LucideIcons.All.LayoutListDefinition
     val LayoutList: ImageVector @Composable get() = LucideIcons.All.LayoutList
@@ -252,6 +282,12 @@ object LucideIconsLayout {
     
     val ListFilterPlusDefinition get() = LucideIcons.All.ListFilterPlusDefinition
     val ListFilterPlus: ImageVector @Composable get() = LucideIcons.All.ListFilterPlus
+    
+    val ListSortAscendingDefinition get() = LucideIcons.All.ListSortAscendingDefinition
+    val ListSortAscending: ImageVector @Composable get() = LucideIcons.All.ListSortAscending
+    
+    val ListSortDescendingDefinition get() = LucideIcons.All.ListSortDescendingDefinition
+    val ListSortDescending: ImageVector @Composable get() = LucideIcons.All.ListSortDescending
     
     val ListTreeDefinition get() = LucideIcons.All.ListTreeDefinition
     val ListTree: ImageVector @Composable get() = LucideIcons.All.ListTree
@@ -388,8 +424,20 @@ object LucideIconsLayout {
     val SquareArrowRightExitDefinition get() = LucideIcons.All.SquareArrowRightExitDefinition
     val SquareArrowRightExit: ImageVector @Composable get() = LucideIcons.All.SquareArrowRightExit
     
+    val SquareDashedPlusDefinition get() = LucideIcons.All.SquareDashedPlusDefinition
+    val SquareDashedPlus: ImageVector @Composable get() = LucideIcons.All.SquareDashedPlus
+    
     val SquareDashedTopSolidDefinition get() = LucideIcons.All.SquareDashedTopSolidDefinition
     val SquareDashedTopSolid: ImageVector @Composable get() = LucideIcons.All.SquareDashedTopSolid
+    
+    val SquareDashedXDefinition get() = LucideIcons.All.SquareDashedXDefinition
+    val SquareDashedX: ImageVector @Composable get() = LucideIcons.All.SquareDashedX
+    
+    val SquareDashedXCornerDefinition get() = LucideIcons.All.SquareDashedXCornerDefinition
+    val SquareDashedXCorner: ImageVector @Composable get() = LucideIcons.All.SquareDashedXCorner
+    
+    val SquareDimensionsDefinition get() = LucideIcons.All.SquareDimensionsDefinition
+    val SquareDimensions: ImageVector @Composable get() = LucideIcons.All.SquareDimensions
     
     val SquareMenuDefinition get() = LucideIcons.All.SquareMenuDefinition
     val SquareMenu: ImageVector @Composable get() = LucideIcons.All.SquareMenu

@@ -70,6 +70,9 @@ object LucideIconsWeather {
     val MoonStarDefinition get() = LucideIcons.All.MoonStarDefinition
     val MoonStar: ImageVector @Composable get() = LucideIcons.All.MoonStar
     
+    val ParasolDefinition get() = LucideIcons.All.ParasolDefinition
+    val Parasol: ImageVector @Composable get() = LucideIcons.All.Parasol
+    
     val RainbowDefinition get() = LucideIcons.All.RainbowDefinition
     val Rainbow: ImageVector @Composable get() = LucideIcons.All.Rainbow
     
@@ -84,6 +87,18 @@ object LucideIconsWeather {
     
     val StarDefinition get() = LucideIcons.All.StarDefinition
     val Star: ImageVector @Composable get() = LucideIcons.All.Star
+    
+    val StarCheckDefinition get() = LucideIcons.All.StarCheckDefinition
+    val StarCheck: ImageVector @Composable get() = LucideIcons.All.StarCheck
+    
+    val StarMinusDefinition get() = LucideIcons.All.StarMinusDefinition
+    val StarMinus: ImageVector @Composable get() = LucideIcons.All.StarMinus
+    
+    val StarPlusDefinition get() = LucideIcons.All.StarPlusDefinition
+    val StarPlus: ImageVector @Composable get() = LucideIcons.All.StarPlus
+    
+    val StarXDefinition get() = LucideIcons.All.StarXDefinition
+    val StarX: ImageVector @Composable get() = LucideIcons.All.StarX
     
     val SunDefinition get() = LucideIcons.All.SunDefinition
     val Sun: ImageVector @Composable get() = LucideIcons.All.Sun
@@ -138,6 +153,9 @@ object LucideIconsWeather {
     
     val WindArrowDownDefinition get() = LucideIcons.All.WindArrowDownDefinition
     val WindArrowDown: ImageVector @Composable get() = LucideIcons.All.WindArrowDown
+    
+    val WindArrowUpDefinition get() = LucideIcons.All.WindArrowUpDefinition
+    val WindArrowUp: ImageVector @Composable get() = LucideIcons.All.WindArrowUp
     
     val ZapDefinition get() = LucideIcons.All.ZapDefinition
     val Zap: ImageVector @Composable get() = LucideIcons.All.Zap

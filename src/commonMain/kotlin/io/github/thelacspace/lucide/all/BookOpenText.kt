@@ -9,40 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BookOpenText") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 7f)
-                verticalLineToRelative(14f)
+                moveTo(12f, 5f)
+                verticalLineToRelative(16f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 12f)
+                moveTo(16f, 13f)
                 horizontalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 8f)
+                moveTo(16f, 9f)
                 horizontalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 18f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, -1f)
-                verticalLineTo(4f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, -1f)
-                horizontalLineToRelative(5f)
-                arcToRelative(4f, 4f, 0f, false, true, 4f, 4f)
-                arcToRelative(4f, 4f, 0f, false, true, 4f, -4f)
-                horizontalLineToRelative(5f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, 1f)
-                verticalLineToRelative(13f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, 1f)
-                horizontalLineToRelative(-6f)
-                arcToRelative(3f, 3f, 0f, false, false, -3f, 3f)
-                arcToRelative(3f, 3f, 0f, false, false, -3f, -3f)
-                close()
+                moveTo(20.001f, 19f)
+                arcTo(2f, 2f, 0f, false, false, Vf, 5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Lf)
+                arcToRelative(16f, 3.002f, Af, false, false, 0f, 0012f)
+                arcToRelative(5f, af, 5f, false, false, 00f, -4f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
+                moveTo(6f, 13f)
                 horizontalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 8f)
+                moveTo(6f, 9f)
                 horizontalLineToRelative(2f)
             }
 }

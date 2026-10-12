@@ -46,6 +46,9 @@ object LucideIconsFiles {
     val BracketsDefinition get() = LucideIcons.All.BracketsDefinition
     val Brackets: ImageVector @Composable get() = LucideIcons.All.Brackets
     
+    val BriefcasePlusDefinition get() = LucideIcons.All.BriefcasePlusDefinition
+    val BriefcasePlus: ImageVector @Composable get() = LucideIcons.All.BriefcasePlus
+    
     val CalendarFoldDefinition get() = LucideIcons.All.CalendarFoldDefinition
     val CalendarFold: ImageVector @Composable get() = LucideIcons.All.CalendarFold
     
@@ -78,6 +81,9 @@ object LucideIconsFiles {
     
     val DownloadDefinition get() = LucideIcons.All.DownloadDefinition
     val Download: ImageVector @Composable get() = LucideIcons.All.Download
+    
+    val EjectDefinition get() = LucideIcons.All.EjectDefinition
+    val Eject: ImageVector @Composable get() = LucideIcons.All.Eject
     
     val FileDefinition get() = LucideIcons.All.FileDefinition
     val File: ImageVector @Composable get() = LucideIcons.All.File
@@ -433,11 +439,23 @@ object LucideIconsFiles {
     val SaveAllDefinition get() = LucideIcons.All.SaveAllDefinition
     val SaveAll: ImageVector @Composable get() = LucideIcons.All.SaveAll
     
+    val SaveCheckDefinition get() = LucideIcons.All.SaveCheckDefinition
+    val SaveCheck: ImageVector @Composable get() = LucideIcons.All.SaveCheck
+    
     val SaveOffDefinition get() = LucideIcons.All.SaveOffDefinition
     val SaveOff: ImageVector @Composable get() = LucideIcons.All.SaveOff
     
+    val SavePenDefinition get() = LucideIcons.All.SavePenDefinition
+    val SavePen: ImageVector @Composable get() = LucideIcons.All.SavePen
+    
+    val SavePlusDefinition get() = LucideIcons.All.SavePlusDefinition
+    val SavePlus: ImageVector @Composable get() = LucideIcons.All.SavePlus
+    
     val SheetDefinition get() = LucideIcons.All.SheetDefinition
     val Sheet: ImageVector @Composable get() = LucideIcons.All.Sheet
+    
+    val ShieldKeyholeDefinition get() = LucideIcons.All.ShieldKeyholeDefinition
+    val ShieldKeyhole: ImageVector @Composable get() = LucideIcons.All.ShieldKeyhole
     
     val ShredderDefinition get() = LucideIcons.All.ShredderDefinition
     val Shredder: ImageVector @Composable get() = LucideIcons.All.Shredder
@@ -453,6 +471,9 @@ object LucideIconsFiles {
     
     val SquareScissorsDefinition get() = LucideIcons.All.SquareScissorsDefinition
     val SquareScissors: ImageVector @Composable get() = LucideIcons.All.SquareScissors
+    
+    val SquareSparklesDefinition get() = LucideIcons.All.SquareSparklesDefinition
+    val SquareSparkles: ImageVector @Composable get() = LucideIcons.All.SquareSparkles
     
     val SquareStackDefinition get() = LucideIcons.All.SquareStackDefinition
     val SquareStack: ImageVector @Composable get() = LucideIcons.All.SquareStack
@@ -481,8 +502,8 @@ object LucideIconsFiles {
     val TrashDefinition get() = LucideIcons.All.TrashDefinition
     val Trash: ImageVector @Composable get() = LucideIcons.All.Trash
     
-    val Trash2Definition get() = LucideIcons.All.Trash2Definition
-    val Trash2: ImageVector @Composable get() = LucideIcons.All.Trash2
+    val TrashOffDefinition get() = LucideIcons.All.TrashOffDefinition
+    val TrashOff: ImageVector @Composable get() = LucideIcons.All.TrashOff
     
     val UngroupDefinition get() = LucideIcons.All.UngroupDefinition
     val Ungroup: ImageVector @Composable get() = LucideIcons.All.Ungroup

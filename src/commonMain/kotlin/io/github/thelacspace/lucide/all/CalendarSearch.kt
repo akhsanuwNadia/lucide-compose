@@ -10,32 +10,28 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("CalendarSearch") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(16f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 11.75f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(7.25f)
+                moveTo(21f, 10.69f)
+                verticalLineTo(5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(5f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 22f)
+                moveToRelative(22f, 21f)
                 lineToRelative(-1.875f, -1.875f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
+                moveTo(3f, 9f)
                 horizontalLineToRelative(18f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0f, 18.0f)
+                moveTo(15.0f, 17.0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
             }

@@ -9,21 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SatelliteDish") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 10f)
-                arcToRelative(7.31f, 7.31f, 0f, false, false, 10f, 10f)
-                close()
+                moveTo(18f, 12f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(2.824f, 10.459f)
+                arcToRelative(8f, 8f, 0f, false, false, cf, .558f)
+                arcToRelative(-.276f, .623f, -1.012f, false, false, lf, -9.448f)
+                arcToRelative(-9.448f, cf, -.44f, false, false, -.375f, -1.452f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(22f, 12f)
             }
             lucidePath(strokeWidth) {
                 moveToRelative(9f, 15f)
-                lineToRelative(3f, -3f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(17f, 13f)
-                arcToRelative(6f, 6f, 0f, false, false, -6f, -6f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(21f, 13f)
-                arcTo(10f, 10f, 0f, false, false, 11f, 3f)
+                lineToRelative(4f, -4f)
             }
 }
 

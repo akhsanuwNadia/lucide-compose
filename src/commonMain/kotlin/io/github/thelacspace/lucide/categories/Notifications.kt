@@ -7,6 +7,9 @@ import io.github.thelacspace.lucide.all.*
 
 object LucideIconsNotifications {
     
+    val AdDefinition get() = LucideIcons.All.AdDefinition
+    val Ad: ImageVector @Composable get() = LucideIcons.All.Ad
+    
     val AlarmClockDefinition get() = LucideIcons.All.AlarmClockDefinition
     val AlarmClock: ImageVector @Composable get() = LucideIcons.All.AlarmClock
     
@@ -64,6 +67,9 @@ object LucideIconsNotifications {
     val CircleCheckBigDefinition get() = LucideIcons.All.CircleCheckBigDefinition
     val CircleCheckBig: ImageVector @Composable get() = LucideIcons.All.CircleCheckBig
     
+    val CircleDashedCheckDefinition get() = LucideIcons.All.CircleDashedCheckDefinition
+    val CircleDashedCheck: ImageVector @Composable get() = LucideIcons.All.CircleDashedCheck
+    
     val CircleQuestionMarkDefinition get() = LucideIcons.All.CircleQuestionMarkDefinition
     val CircleQuestionMark: ImageVector @Composable get() = LucideIcons.All.CircleQuestionMark
     
@@ -73,6 +79,9 @@ object LucideIconsNotifications {
     val CopyXDefinition get() = LucideIcons.All.CopyXDefinition
     val CopyX: ImageVector @Composable get() = LucideIcons.All.CopyX
     
+    val FaceSlightlySmilingPlusDefinition get() = LucideIcons.All.FaceSlightlySmilingPlusDefinition
+    val FaceSlightlySmilingPlus: ImageVector @Composable get() = LucideIcons.All.FaceSlightlySmilingPlus
+    
     val FileExclamationPointDefinition get() = LucideIcons.All.FileExclamationPointDefinition
     val FileExclamationPoint: ImageVector @Composable get() = LucideIcons.All.FileExclamationPoint
     
@@ -81,6 +90,12 @@ object LucideIconsNotifications {
     
     val LaptopMinimalCheckDefinition get() = LucideIcons.All.LaptopMinimalCheckDefinition
     val LaptopMinimalCheck: ImageVector @Composable get() = LucideIcons.All.LaptopMinimalCheck
+    
+    val ListClockDefinition get() = LucideIcons.All.ListClockDefinition
+    val ListClock: ImageVector @Composable get() = LucideIcons.All.ListClock
+    
+    val MailClockDefinition get() = LucideIcons.All.MailClockDefinition
+    val MailClock: ImageVector @Composable get() = LucideIcons.All.MailClock
     
     val MegaphoneDefinition get() = LucideIcons.All.MegaphoneDefinition
     val Megaphone: ImageVector @Composable get() = LucideIcons.All.Megaphone
@@ -97,6 +112,9 @@ object LucideIconsNotifications {
     val MessageSquareWarningDefinition get() = LucideIcons.All.MessageSquareWarningDefinition
     val MessageSquareWarning: ImageVector @Composable get() = LucideIcons.All.MessageSquareWarning
     
+    val MessagesCircleDefinition get() = LucideIcons.All.MessagesCircleDefinition
+    val MessagesCircle: ImageVector @Composable get() = LucideIcons.All.MessagesCircle
+    
     val OctagonAlertDefinition get() = LucideIcons.All.OctagonAlertDefinition
     val OctagonAlert: ImageVector @Composable get() = LucideIcons.All.OctagonAlert
     
@@ -106,14 +124,14 @@ object LucideIconsNotifications {
     val ShieldAlertDefinition get() = LucideIcons.All.ShieldAlertDefinition
     val ShieldAlert: ImageVector @Composable get() = LucideIcons.All.ShieldAlert
     
-    val SmilePlusDefinition get() = LucideIcons.All.SmilePlusDefinition
-    val SmilePlus: ImageVector @Composable get() = LucideIcons.All.SmilePlus
-    
     val SquareCheckDefinition get() = LucideIcons.All.SquareCheckDefinition
     val SquareCheck: ImageVector @Composable get() = LucideIcons.All.SquareCheck
     
     val SquareCheckBigDefinition get() = LucideIcons.All.SquareCheckBigDefinition
     val SquareCheckBig: ImageVector @Composable get() = LucideIcons.All.SquareCheckBig
+    
+    val SquareExclamationPointDefinition get() = LucideIcons.All.SquareExclamationPointDefinition
+    val SquareExclamationPoint: ImageVector @Composable get() = LucideIcons.All.SquareExclamationPoint
     
     val SquareXDefinition get() = LucideIcons.All.SquareXDefinition
     val SquareX: ImageVector @Composable get() = LucideIcons.All.SquareX
@@ -123,6 +141,9 @@ object LucideIconsNotifications {
     
     val VibrateDefinition get() = LucideIcons.All.VibrateDefinition
     val Vibrate: ImageVector @Composable get() = LucideIcons.All.Vibrate
+    
+    val WhistleDefinition get() = LucideIcons.All.WhistleDefinition
+    val Whistle: ImageVector @Composable get() = LucideIcons.All.Whistle
     
     val XDefinition get() = LucideIcons.All.XDefinition
     val X: ImageVector @Composable get() = LucideIcons.All.X

@@ -33,12 +33,12 @@ private val _ActivityDefinition = LucideIconDefinition("ClipboardX") { strokeWid
                 horizontalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 11f)
-                lineToRelative(-6f, 6f)
+                moveToRelative(14.5f, 11.5f)
+                lineToRelative(-5f, 5f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 11f)
-                lineToRelative(6f, 6f)
+                moveToRelative(9.5f, 11.5f)
+                lineToRelative(5f, 5f)
             }
 }
 

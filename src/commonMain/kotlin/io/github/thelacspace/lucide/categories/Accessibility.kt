@@ -10,6 +10,9 @@ object LucideIconsAccessibility {
     val AccessibilityDefinition get() = LucideIcons.All.AccessibilityDefinition
     val Accessibility: ImageVector @Composable get() = LucideIcons.All.Accessibility
     
+    val AdDefinition get() = LucideIcons.All.AdDefinition
+    val Ad: ImageVector @Composable get() = LucideIcons.All.Ad
+    
     val BabyDefinition get() = LucideIcons.All.BabyDefinition
     val Baby: ImageVector @Composable get() = LucideIcons.All.Baby
     
@@ -43,6 +46,9 @@ object LucideIconsAccessibility {
     val EyeClosedDefinition get() = LucideIcons.All.EyeClosedDefinition
     val EyeClosed: ImageVector @Composable get() = LucideIcons.All.EyeClosed
     
+    val EyeDashedDefinition get() = LucideIcons.All.EyeDashedDefinition
+    val EyeDashed: ImageVector @Composable get() = LucideIcons.All.EyeDashed
+    
     val EyeOffDefinition get() = LucideIcons.All.EyeOffDefinition
     val EyeOff: ImageVector @Composable get() = LucideIcons.All.EyeOff
     
@@ -63,6 +69,12 @@ object LucideIconsAccessibility {
     
     val MoonStarDefinition get() = LucideIcons.All.MoonStarDefinition
     val MoonStar: ImageVector @Composable get() = LucideIcons.All.MoonStar
+    
+    val MouthDefinition get() = LucideIcons.All.MouthDefinition
+    val Mouth: ImageVector @Composable get() = LucideIcons.All.Mouth
+    
+    val MouthOffDefinition get() = LucideIcons.All.MouthOffDefinition
+    val MouthOff: ImageVector @Composable get() = LucideIcons.All.MouthOff
     
     val PersonStandingDefinition get() = LucideIcons.All.PersonStandingDefinition
     val PersonStanding: ImageVector @Composable get() = LucideIcons.All.PersonStanding

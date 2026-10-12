@@ -106,11 +106,29 @@ object LucideIconsDevices {
     val DatabaseDefinition get() = LucideIcons.All.DatabaseDefinition
     val Database: ImageVector @Composable get() = LucideIcons.All.Database
     
+    val DatabaseArrowDownDefinition get() = LucideIcons.All.DatabaseArrowDownDefinition
+    val DatabaseArrowDown: ImageVector @Composable get() = LucideIcons.All.DatabaseArrowDown
+    
+    val DatabaseArrowUpDefinition get() = LucideIcons.All.DatabaseArrowUpDefinition
+    val DatabaseArrowUp: ImageVector @Composable get() = LucideIcons.All.DatabaseArrowUp
+    
     val DatabaseBackupDefinition get() = LucideIcons.All.DatabaseBackupDefinition
     val DatabaseBackup: ImageVector @Composable get() = LucideIcons.All.DatabaseBackup
     
+    val DatabaseCheckDefinition get() = LucideIcons.All.DatabaseCheckDefinition
+    val DatabaseCheck: ImageVector @Composable get() = LucideIcons.All.DatabaseCheck
+    
+    val DatabaseMinusDefinition get() = LucideIcons.All.DatabaseMinusDefinition
+    val DatabaseMinus: ImageVector @Composable get() = LucideIcons.All.DatabaseMinus
+    
+    val DatabasePlusDefinition get() = LucideIcons.All.DatabasePlusDefinition
+    val DatabasePlus: ImageVector @Composable get() = LucideIcons.All.DatabasePlus
+    
     val DatabaseSearchDefinition get() = LucideIcons.All.DatabaseSearchDefinition
     val DatabaseSearch: ImageVector @Composable get() = LucideIcons.All.DatabaseSearch
+    
+    val DatabaseXDefinition get() = LucideIcons.All.DatabaseXDefinition
+    val DatabaseX: ImageVector @Composable get() = LucideIcons.All.DatabaseX
     
     val DatabaseZapDefinition get() = LucideIcons.All.DatabaseZapDefinition
     val DatabaseZap: ImageVector @Composable get() = LucideIcons.All.DatabaseZap
@@ -144,6 +162,9 @@ object LucideIconsDevices {
     
     val EarthLockDefinition get() = LucideIcons.All.EarthLockDefinition
     val EarthLock: ImageVector @Composable get() = LucideIcons.All.EarthLock
+    
+    val EjectDefinition get() = LucideIcons.All.EjectDefinition
+    val Eject: ImageVector @Composable get() = LucideIcons.All.Eject
     
     val EthernetPortDefinition get() = LucideIcons.All.EthernetPortDefinition
     val EthernetPort: ImageVector @Composable get() = LucideIcons.All.EthernetPort
@@ -232,14 +253,23 @@ object LucideIconsDevices {
     val MicDefinition get() = LucideIcons.All.MicDefinition
     val Mic: ImageVector @Composable get() = LucideIcons.All.Mic
     
+    val MicAudioLinesDefinition get() = LucideIcons.All.MicAudioLinesDefinition
+    val MicAudioLines: ImageVector @Composable get() = LucideIcons.All.MicAudioLines
+    
     val MicOffDefinition get() = LucideIcons.All.MicOffDefinition
     val MicOff: ImageVector @Composable get() = LucideIcons.All.MicOff
+    
+    val MicSignalDefinition get() = LucideIcons.All.MicSignalDefinition
+    val MicSignal: ImageVector @Composable get() = LucideIcons.All.MicSignal
     
     val MicVocalDefinition get() = LucideIcons.All.MicVocalDefinition
     val MicVocal: ImageVector @Composable get() = LucideIcons.All.MicVocal
     
     val MicrochipDefinition get() = LucideIcons.All.MicrochipDefinition
     val Microchip: ImageVector @Composable get() = LucideIcons.All.Microchip
+    
+    val MidiPortDefinition get() = LucideIcons.All.MidiPortDefinition
+    val MidiPort: ImageVector @Composable get() = LucideIcons.All.MidiPort
     
     val MonitorDefinition get() = LucideIcons.All.MonitorDefinition
     val Monitor: ImageVector @Composable get() = LucideIcons.All.Monitor
@@ -264,6 +294,9 @@ object LucideIconsDevices {
     
     val MonitorPauseDefinition get() = LucideIcons.All.MonitorPauseDefinition
     val MonitorPause: ImageVector @Composable get() = LucideIcons.All.MonitorPause
+    
+    val MonitorPcDefinition get() = LucideIcons.All.MonitorPcDefinition
+    val MonitorPc: ImageVector @Composable get() = LucideIcons.All.MonitorPc
     
     val MonitorPlayDefinition get() = LucideIcons.All.MonitorPlayDefinition
     val MonitorPlay: ImageVector @Composable get() = LucideIcons.All.MonitorPlay
@@ -340,6 +373,9 @@ object LucideIconsDevices {
     val PrinterDefinition get() = LucideIcons.All.PrinterDefinition
     val Printer: ImageVector @Composable get() = LucideIcons.All.Printer
     
+    val Printer3dDefinition get() = LucideIcons.All.Printer3dDefinition
+    val Printer3d: ImageVector @Composable get() = LucideIcons.All.Printer3d
+    
     val PrinterCheckDefinition get() = LucideIcons.All.PrinterCheckDefinition
     val PrinterCheck: ImageVector @Composable get() = LucideIcons.All.PrinterCheck
     
@@ -367,6 +403,9 @@ object LucideIconsDevices {
     val RectangleGogglesDefinition get() = LucideIcons.All.RectangleGogglesDefinition
     val RectangleGoggles: ImageVector @Composable get() = LucideIcons.All.RectangleGoggles
     
+    val RobotVacuumDefinition get() = LucideIcons.All.RobotVacuumDefinition
+    val RobotVacuum: ImageVector @Composable get() = LucideIcons.All.RobotVacuum
+    
     val RouterDefinition get() = LucideIcons.All.RouterDefinition
     val Router: ImageVector @Composable get() = LucideIcons.All.Router
     
@@ -378,6 +417,9 @@ object LucideIconsDevices {
     
     val ScanBarcodeDefinition get() = LucideIcons.All.ScanBarcodeDefinition
     val ScanBarcode: ImageVector @Composable get() = LucideIcons.All.ScanBarcode
+    
+    val ScanBoxDefinition get() = LucideIcons.All.ScanBoxDefinition
+    val ScanBox: ImageVector @Composable get() = LucideIcons.All.ScanBox
     
     val ScanEyeDefinition get() = LucideIcons.All.ScanEyeDefinition
     val ScanEye: ImageVector @Composable get() = LucideIcons.All.ScanEye
@@ -411,6 +453,9 @@ object LucideIconsDevices {
     
     val ServerOffDefinition get() = LucideIcons.All.ServerOffDefinition
     val ServerOff: ImageVector @Composable get() = LucideIcons.All.ServerOff
+    
+    val ServerPlusDefinition get() = LucideIcons.All.ServerPlusDefinition
+    val ServerPlus: ImageVector @Composable get() = LucideIcons.All.ServerPlus
     
     val SmartphoneDefinition get() = LucideIcons.All.SmartphoneDefinition
     val Smartphone: ImageVector @Composable get() = LucideIcons.All.Smartphone
@@ -463,6 +508,9 @@ object LucideIconsDevices {
     val UsbDefinition get() = LucideIcons.All.UsbDefinition
     val Usb: ImageVector @Composable get() = LucideIcons.All.Usb
     
+    val UsbCPortDefinition get() = LucideIcons.All.UsbCPortDefinition
+    val UsbCPort: ImageVector @Composable get() = LucideIcons.All.UsbCPort
+    
     val VibrateDefinition get() = LucideIcons.All.VibrateDefinition
     val Vibrate: ImageVector @Composable get() = LucideIcons.All.Vibrate
     
@@ -490,6 +538,9 @@ object LucideIconsDevices {
     val WebcamDefinition get() = LucideIcons.All.WebcamDefinition
     val Webcam: ImageVector @Composable get() = LucideIcons.All.Webcam
     
+    val WebcamOffDefinition get() = LucideIcons.All.WebcamOffDefinition
+    val WebcamOff: ImageVector @Composable get() = LucideIcons.All.WebcamOff
+    
     val WifiDefinition get() = LucideIcons.All.WifiDefinition
     val Wifi: ImageVector @Composable get() = LucideIcons.All.Wifi
     
@@ -498,6 +549,9 @@ object LucideIconsDevices {
     
     val WifiHighDefinition get() = LucideIcons.All.WifiHighDefinition
     val WifiHigh: ImageVector @Composable get() = LucideIcons.All.WifiHigh
+    
+    val WifiLockDefinition get() = LucideIcons.All.WifiLockDefinition
+    val WifiLock: ImageVector @Composable get() = LucideIcons.All.WifiLock
     
     val WifiLowDefinition get() = LucideIcons.All.WifiLowDefinition
     val WifiLow: ImageVector @Composable get() = LucideIcons.All.WifiLow

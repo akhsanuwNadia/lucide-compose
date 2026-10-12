@@ -9,24 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ShoppingCart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0f, 21.0f)
-                arcToRelative(1.0f, 1.0f, 0f, true, false, 2.0f, 0f)
-                arcToRelative(1.0f, 1.0f, 0f, true, false, -2.0f, 0f)
+                moveToRelative(2.05f, 2.05f)
+                lineToRelative(1.099f, -.028f)
+                arcToRelative(1f, 1f, 0f, false, true, 1.008f, .815f)
+                lineToRelative(2.69f, 14.347f)
+                arcTo(1f, 1f, 0f, false, false, 7.83f, 18f)
+                horizontalLineTo(18f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0f, 21.0f)
-                arcToRelative(1.0f, 1.0f, 0f, true, false, 2.0f, 0f)
-                arcToRelative(1.0f, 1.0f, 0f, true, false, -2.0f, 0f)
+                moveTo(4.563f, 5f)
+                horizontalLineToRelative(16.435f)
+                arcToRelative(1f, 1f, 0f, false, true, .981f, 1.204f)
+                lineToRelative(-1.026f, 6.226f)
+                arcTo(2f, 2f, 0f, false, true, 18.962f, 14f)
+                horizontalLineTo(6.25f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.05f, 2.05f)
-                horizontalLineToRelative(2f)
-                lineToRelative(2.66f, 12.42f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 1.58f)
-                horizontalLineToRelative(9.78f)
-                arcToRelative(2f, 2f, 0f, false, false, 1.95f, -1.57f)
-                lineToRelative(1.65f, -7.43f)
-                horizontalLineTo(5.12f)
+                moveTo(16.0f, 20.0f)
+                arcToRelative(2.0f, 2.0f, 0f, true, false, 4.0f, 0f)
+                arcToRelative(2.0f, 2.0f, 0f, true, false, -4.0f, 0f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(6.0f, 20.0f)
+                arcToRelative(2.0f, 2.0f, 0f, true, false, 4.0f, 0f)
+                arcToRelative(2.0f, 2.0f, 0f, true, false, -4.0f, 0f)
             }
 }
 

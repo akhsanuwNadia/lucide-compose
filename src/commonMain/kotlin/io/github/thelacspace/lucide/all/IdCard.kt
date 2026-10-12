@@ -9,6 +9,9 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("IdCard") { strokeWidth ->
     lucidePath(strokeWidth) {
+                moveTo(13f, 19f)
+            }
+            lucidePath(strokeWidth) {
                 moveTo(16f, 10f)
                 horizontalLineToRelative(2f)
             }
@@ -17,13 +20,9 @@ private val _ActivityDefinition = LucideIconDefinition("IdCard") { strokeWidth -
                 horizontalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.17f, 15f)
-                arcToRelative(3f, 3f, 0f, false, true, 5.66f, 0f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(7.0f, 11.0f)
-                arcToRelative(2.0f, 2.0f, 0f, true, false, 4.0f, 0f)
-                arcToRelative(2.0f, 2.0f, 0f, true, false, -4.0f, 0f)
+                moveTo(6.0f, 12.0f)
+                arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
+                arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
             }
             lucidePath(strokeWidth) {
                 moveTo(4.0f, 5.0f)

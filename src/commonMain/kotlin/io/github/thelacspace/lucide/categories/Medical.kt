@@ -22,6 +22,9 @@ object LucideIconsMedical {
     val BoneDefinition get() = LucideIcons.All.BoneDefinition
     val Bone: ImageVector @Composable get() = LucideIcons.All.Bone
     
+    val BoneFractureDefinition get() = LucideIcons.All.BoneFractureDefinition
+    val BoneFracture: ImageVector @Composable get() = LucideIcons.All.BoneFracture
+    
     val BrainDefinition get() = LucideIcons.All.BrainDefinition
     val Brain: ImageVector @Composable get() = LucideIcons.All.Brain
     
@@ -58,6 +61,12 @@ object LucideIconsMedical {
     val FingerprintPatternDefinition get() = LucideIcons.All.FingerprintPatternDefinition
     val FingerprintPattern: ImageVector @Composable get() = LucideIcons.All.FingerprintPattern
     
+    val GermDefinition get() = LucideIcons.All.GermDefinition
+    val Germ: ImageVector @Composable get() = LucideIcons.All.Germ
+    
+    val GermOffDefinition get() = LucideIcons.All.GermOffDefinition
+    val GermOff: ImageVector @Composable get() = LucideIcons.All.GermOff
+    
     val HeartDefinition get() = LucideIcons.All.HeartDefinition
     val Heart: ImageVector @Composable get() = LucideIcons.All.Heart
     
@@ -79,6 +88,9 @@ object LucideIconsMedical {
     val HousePlusDefinition get() = LucideIcons.All.HousePlusDefinition
     val HousePlus: ImageVector @Composable get() = LucideIcons.All.HousePlus
     
+    val IvBagDefinition get() = LucideIcons.All.IvBagDefinition
+    val IvBag: ImageVector @Composable get() = LucideIcons.All.IvBag
+    
     val LifeBuoyDefinition get() = LucideIcons.All.LifeBuoyDefinition
     val LifeBuoy: ImageVector @Composable get() = LucideIcons.All.LifeBuoy
     
@@ -90,6 +102,12 @@ object LucideIconsMedical {
     
     val MicroscopeDefinition get() = LucideIcons.All.MicroscopeDefinition
     val Microscope: ImageVector @Composable get() = LucideIcons.All.Microscope
+    
+    val MouthDefinition get() = LucideIcons.All.MouthDefinition
+    val Mouth: ImageVector @Composable get() = LucideIcons.All.Mouth
+    
+    val MouthOffDefinition get() = LucideIcons.All.MouthOffDefinition
+    val MouthOff: ImageVector @Composable get() = LucideIcons.All.MouthOff
     
     val NonBinaryDefinition get() = LucideIcons.All.NonBinaryDefinition
     val NonBinary: ImageVector @Composable get() = LucideIcons.All.NonBinary
@@ -124,13 +142,28 @@ object LucideIconsMedical {
     val TabletsDefinition get() = LucideIcons.All.TabletsDefinition
     val Tablets: ImageVector @Composable get() = LucideIcons.All.Tablets
     
+    val ToothbrushDefinition get() = LucideIcons.All.ToothbrushDefinition
+    val Toothbrush: ImageVector @Composable get() = LucideIcons.All.Toothbrush
+    
+    val ToothbrushSparklesDefinition get() = LucideIcons.All.ToothbrushSparklesDefinition
+    val ToothbrushSparkles: ImageVector @Composable get() = LucideIcons.All.ToothbrushSparkles
+    
     val TransgenderDefinition get() = LucideIcons.All.TransgenderDefinition
     val Transgender: ImageVector @Composable get() = LucideIcons.All.Transgender
+    
+    val TubeLotionDefinition get() = LucideIcons.All.TubeLotionDefinition
+    val TubeLotion: ImageVector @Composable get() = LucideIcons.All.TubeLotion
     
     val VenusDefinition get() = LucideIcons.All.VenusDefinition
     val Venus: ImageVector @Composable get() = LucideIcons.All.Venus
     
     val VenusAndMarsDefinition get() = LucideIcons.All.VenusAndMarsDefinition
     val VenusAndMars: ImageVector @Composable get() = LucideIcons.All.VenusAndMars
+    
+    val VirusDefinition get() = LucideIcons.All.VirusDefinition
+    val Virus: ImageVector @Composable get() = LucideIcons.All.Virus
+    
+    val VirusOffDefinition get() = LucideIcons.All.VirusOffDefinition
+    val VirusOff: ImageVector @Composable get() = LucideIcons.All.VirusOff
     
 }

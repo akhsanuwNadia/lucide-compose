@@ -7,6 +7,9 @@ import io.github.thelacspace.lucide.all.*
 
 object LucideIconsFinance {
     
+    val ArmenianDramDefinition get() = LucideIcons.All.ArmenianDramDefinition
+    val ArmenianDram: ImageVector @Composable get() = LucideIcons.All.ArmenianDram
+    
     val BadgeCentDefinition get() = LucideIcons.All.BadgeCentDefinition
     val BadgeCent: ImageVector @Composable get() = LucideIcons.All.BadgeCent
     
@@ -37,6 +40,9 @@ object LucideIconsFinance {
     val BadgeTurkishLiraDefinition get() = LucideIcons.All.BadgeTurkishLiraDefinition
     val BadgeTurkishLira: ImageVector @Composable get() = LucideIcons.All.BadgeTurkishLira
     
+    val BangladeshiTakaDefinition get() = LucideIcons.All.BangladeshiTakaDefinition
+    val BangladeshiTaka: ImageVector @Composable get() = LucideIcons.All.BangladeshiTaka
+    
     val BanknoteDefinition get() = LucideIcons.All.BanknoteDefinition
     val Banknote: ImageVector @Composable get() = LucideIcons.All.Banknote
     
@@ -45,6 +51,9 @@ object LucideIconsFinance {
     
     val BanknoteArrowUpDefinition get() = LucideIcons.All.BanknoteArrowUpDefinition
     val BanknoteArrowUp: ImageVector @Composable get() = LucideIcons.All.BanknoteArrowUp
+    
+    val BanknoteCheckDefinition get() = LucideIcons.All.BanknoteCheckDefinition
+    val BanknoteCheck: ImageVector @Composable get() = LucideIcons.All.BanknoteCheck
     
     val BanknoteXDefinition get() = LucideIcons.All.BanknoteXDefinition
     val BanknoteX: ImageVector @Composable get() = LucideIcons.All.BanknoteX
@@ -58,6 +67,9 @@ object LucideIconsFinance {
     val CircleDollarSignDefinition get() = LucideIcons.All.CircleDollarSignDefinition
     val CircleDollarSign: ImageVector @Composable get() = LucideIcons.All.CircleDollarSign
     
+    val CircleEuroDefinition get() = LucideIcons.All.CircleEuroDefinition
+    val CircleEuro: ImageVector @Composable get() = LucideIcons.All.CircleEuro
+    
     val CirclePercentDefinition get() = LucideIcons.All.CirclePercentDefinition
     val CirclePercent: ImageVector @Composable get() = LucideIcons.All.CirclePercent
     
@@ -66,6 +78,21 @@ object LucideIconsFinance {
     
     val CreditCardDefinition get() = LucideIcons.All.CreditCardDefinition
     val CreditCard: ImageVector @Composable get() = LucideIcons.All.CreditCard
+    
+    val CreditCardCheckDefinition get() = LucideIcons.All.CreditCardCheckDefinition
+    val CreditCardCheck: ImageVector @Composable get() = LucideIcons.All.CreditCardCheck
+    
+    val CreditCardMinusDefinition get() = LucideIcons.All.CreditCardMinusDefinition
+    val CreditCardMinus: ImageVector @Composable get() = LucideIcons.All.CreditCardMinus
+    
+    val CreditCardPlusDefinition get() = LucideIcons.All.CreditCardPlusDefinition
+    val CreditCardPlus: ImageVector @Composable get() = LucideIcons.All.CreditCardPlus
+    
+    val CreditCardReaderDefinition get() = LucideIcons.All.CreditCardReaderDefinition
+    val CreditCardReader: ImageVector @Composable get() = LucideIcons.All.CreditCardReader
+    
+    val CreditCardXDefinition get() = LucideIcons.All.CreditCardXDefinition
+    val CreditCardX: ImageVector @Composable get() = LucideIcons.All.CreditCardX
     
     val CurrencyDefinition get() = LucideIcons.All.CurrencyDefinition
     val Currency: ImageVector @Composable get() = LucideIcons.All.Currency
@@ -97,8 +124,14 @@ object LucideIconsFinance {
     val JapaneseYenDefinition get() = LucideIcons.All.JapaneseYenDefinition
     val JapaneseYen: ImageVector @Composable get() = LucideIcons.All.JapaneseYen
     
+    val KazakhTengeDefinition get() = LucideIcons.All.KazakhTengeDefinition
+    val KazakhTenge: ImageVector @Composable get() = LucideIcons.All.KazakhTenge
+    
     val LandmarkDefinition get() = LucideIcons.All.LandmarkDefinition
     val Landmark: ImageVector @Composable get() = LucideIcons.All.Landmark
+    
+    val NepaliRupeeDefinition get() = LucideIcons.All.NepaliRupeeDefinition
+    val NepaliRupee: ImageVector @Composable get() = LucideIcons.All.NepaliRupee
     
     val NfcDefinition get() = LucideIcons.All.NfcDefinition
     val Nfc: ImageVector @Composable get() = LucideIcons.All.Nfc

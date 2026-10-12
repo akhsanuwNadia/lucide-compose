@@ -31,14 +31,26 @@ object LucideIconsMail {
     val MailDefinition get() = LucideIcons.All.MailDefinition
     val Mail: ImageVector @Composable get() = LucideIcons.All.Mail
     
+    val MailBadgeDefinition get() = LucideIcons.All.MailBadgeDefinition
+    val MailBadge: ImageVector @Composable get() = LucideIcons.All.MailBadge
+    
     val MailCheckDefinition get() = LucideIcons.All.MailCheckDefinition
     val MailCheck: ImageVector @Composable get() = LucideIcons.All.MailCheck
+    
+    val MailClockDefinition get() = LucideIcons.All.MailClockDefinition
+    val MailClock: ImageVector @Composable get() = LucideIcons.All.MailClock
+    
+    val MailDotDefinition get() = LucideIcons.All.MailDotDefinition
+    val MailDot: ImageVector @Composable get() = LucideIcons.All.MailDot
     
     val MailMinusDefinition get() = LucideIcons.All.MailMinusDefinition
     val MailMinus: ImageVector @Composable get() = LucideIcons.All.MailMinus
     
     val MailOpenDefinition get() = LucideIcons.All.MailOpenDefinition
     val MailOpen: ImageVector @Composable get() = LucideIcons.All.MailOpen
+    
+    val MailPenDefinition get() = LucideIcons.All.MailPenDefinition
+    val MailPen: ImageVector @Composable get() = LucideIcons.All.MailPen
     
     val MailPlusDefinition get() = LucideIcons.All.MailPlusDefinition
     val MailPlus: ImageVector @Composable get() = LucideIcons.All.MailPlus
@@ -82,7 +94,7 @@ object LucideIconsMail {
     val TrashDefinition get() = LucideIcons.All.TrashDefinition
     val Trash: ImageVector @Composable get() = LucideIcons.All.Trash
     
-    val Trash2Definition get() = LucideIcons.All.Trash2Definition
-    val Trash2: ImageVector @Composable get() = LucideIcons.All.Trash2
+    val TrashOffDefinition get() = LucideIcons.All.TrashOffDefinition
+    val TrashOff: ImageVector @Composable get() = LucideIcons.All.TrashOff
     
 }

@@ -58,6 +58,9 @@ object LucideIconsDevelopment {
     val BookAlertDefinition get() = LucideIcons.All.BookAlertDefinition
     val BookAlert: ImageVector @Composable get() = LucideIcons.All.BookAlert
     
+    val BookBookmarkDefinition get() = LucideIcons.All.BookBookmarkDefinition
+    val BookBookmark: ImageVector @Composable get() = LucideIcons.All.BookBookmark
+    
     val BookCheckDefinition get() = LucideIcons.All.BookCheckDefinition
     val BookCheck: ImageVector @Composable get() = LucideIcons.All.BookCheck
     
@@ -75,9 +78,6 @@ object LucideIconsDevelopment {
     
     val BookLockDefinition get() = LucideIcons.All.BookLockDefinition
     val BookLock: ImageVector @Composable get() = LucideIcons.All.BookLock
-    
-    val BookMarkedDefinition get() = LucideIcons.All.BookMarkedDefinition
-    val BookMarked: ImageVector @Composable get() = LucideIcons.All.BookMarked
     
     val BookMinusDefinition get() = LucideIcons.All.BookMinusDefinition
     val BookMinus: ImageVector @Composable get() = LucideIcons.All.BookMinus
@@ -157,6 +157,9 @@ object LucideIconsDevelopment {
     val CircleDashedDefinition get() = LucideIcons.All.CircleDashedDefinition
     val CircleDashed: ImageVector @Composable get() = LucideIcons.All.CircleDashed
     
+    val CircleDashedCheckDefinition get() = LucideIcons.All.CircleDashedCheckDefinition
+    val CircleDashedCheck: ImageVector @Composable get() = LucideIcons.All.CircleDashedCheck
+    
     val CircleDotDefinition get() = LucideIcons.All.CircleDotDefinition
     val CircleDot: ImageVector @Composable get() = LucideIcons.All.CircleDot
     
@@ -226,11 +229,29 @@ object LucideIconsDevelopment {
     val DatabaseDefinition get() = LucideIcons.All.DatabaseDefinition
     val Database: ImageVector @Composable get() = LucideIcons.All.Database
     
+    val DatabaseArrowDownDefinition get() = LucideIcons.All.DatabaseArrowDownDefinition
+    val DatabaseArrowDown: ImageVector @Composable get() = LucideIcons.All.DatabaseArrowDown
+    
+    val DatabaseArrowUpDefinition get() = LucideIcons.All.DatabaseArrowUpDefinition
+    val DatabaseArrowUp: ImageVector @Composable get() = LucideIcons.All.DatabaseArrowUp
+    
     val DatabaseBackupDefinition get() = LucideIcons.All.DatabaseBackupDefinition
     val DatabaseBackup: ImageVector @Composable get() = LucideIcons.All.DatabaseBackup
     
+    val DatabaseCheckDefinition get() = LucideIcons.All.DatabaseCheckDefinition
+    val DatabaseCheck: ImageVector @Composable get() = LucideIcons.All.DatabaseCheck
+    
+    val DatabaseMinusDefinition get() = LucideIcons.All.DatabaseMinusDefinition
+    val DatabaseMinus: ImageVector @Composable get() = LucideIcons.All.DatabaseMinus
+    
+    val DatabasePlusDefinition get() = LucideIcons.All.DatabasePlusDefinition
+    val DatabasePlus: ImageVector @Composable get() = LucideIcons.All.DatabasePlus
+    
     val DatabaseSearchDefinition get() = LucideIcons.All.DatabaseSearchDefinition
     val DatabaseSearch: ImageVector @Composable get() = LucideIcons.All.DatabaseSearch
+    
+    val DatabaseXDefinition get() = LucideIcons.All.DatabaseXDefinition
+    val DatabaseX: ImageVector @Composable get() = LucideIcons.All.DatabaseX
     
     val DatabaseZapDefinition get() = LucideIcons.All.DatabaseZapDefinition
     val DatabaseZap: ImageVector @Composable get() = LucideIcons.All.DatabaseZap
@@ -256,8 +277,14 @@ object LucideIconsDevelopment {
     val EqualDefinition get() = LucideIcons.All.EqualDefinition
     val Equal: ImageVector @Composable get() = LucideIcons.All.Equal
     
+    val EqualApproximatelyNotDefinition get() = LucideIcons.All.EqualApproximatelyNotDefinition
+    val EqualApproximatelyNot: ImageVector @Composable get() = LucideIcons.All.EqualApproximatelyNot
+    
     val EqualNotDefinition get() = LucideIcons.All.EqualNotDefinition
     val EqualNot: ImageVector @Composable get() = LucideIcons.All.EqualNot
+    
+    val FileBoxDefinition get() = LucideIcons.All.FileBoxDefinition
+    val FileBox: ImageVector @Composable get() = LucideIcons.All.FileBox
     
     val FileBracesDefinition get() = LucideIcons.All.FileBracesDefinition
     val FileBraces: ImageVector @Composable get() = LucideIcons.All.FileBraces
@@ -379,6 +406,9 @@ object LucideIconsDevelopment {
     val GitPullRequestDraftDefinition get() = LucideIcons.All.GitPullRequestDraftDefinition
     val GitPullRequestDraft: ImageVector @Composable get() = LucideIcons.All.GitPullRequestDraft
     
+    val GlobeCodeDefinition get() = LucideIcons.All.GlobeCodeDefinition
+    val GlobeCode: ImageVector @Composable get() = LucideIcons.All.GlobeCode
+    
     val GlobeLockDefinition get() = LucideIcons.All.GlobeLockDefinition
     val GlobeLock: ImageVector @Composable get() = LucideIcons.All.GlobeLock
     
@@ -403,14 +433,26 @@ object LucideIconsDevelopment {
     val KeyboardOffDefinition get() = LucideIcons.All.KeyboardOffDefinition
     val KeyboardOff: ImageVector @Composable get() = LucideIcons.All.KeyboardOff
     
+    val LambdaDefinition get() = LucideIcons.All.LambdaDefinition
+    val Lambda: ImageVector @Composable get() = LucideIcons.All.Lambda
+    
     val LibraryDefinition get() = LucideIcons.All.LibraryDefinition
     val Library: ImageVector @Composable get() = LucideIcons.All.Library
     
     val LibraryBigDefinition get() = LucideIcons.All.LibraryBigDefinition
     val LibraryBig: ImageVector @Composable get() = LucideIcons.All.LibraryBig
     
+    val LineDotBottomVerticalDefinition get() = LucideIcons.All.LineDotBottomVerticalDefinition
+    val LineDotBottomVertical: ImageVector @Composable get() = LucideIcons.All.LineDotBottomVertical
+    
+    val LineDotLeftHorizontalDefinition get() = LucideIcons.All.LineDotLeftHorizontalDefinition
+    val LineDotLeftHorizontal: ImageVector @Composable get() = LucideIcons.All.LineDotLeftHorizontal
+    
     val LineDotRightHorizontalDefinition get() = LucideIcons.All.LineDotRightHorizontalDefinition
     val LineDotRightHorizontal: ImageVector @Composable get() = LucideIcons.All.LineDotRightHorizontal
+    
+    val LineDotTopVerticalDefinition get() = LucideIcons.All.LineDotTopVerticalDefinition
+    val LineDotTopVertical: ImageVector @Composable get() = LucideIcons.All.LineDotTopVertical
     
     val ListIndentDecreaseDefinition get() = LucideIcons.All.ListIndentDecreaseDefinition
     val ListIndentDecrease: ImageVector @Composable get() = LucideIcons.All.ListIndentDecrease
@@ -438,6 +480,9 @@ object LucideIconsDevelopment {
     
     val MonitorCloudDefinition get() = LucideIcons.All.MonitorCloudDefinition
     val MonitorCloud: ImageVector @Composable get() = LucideIcons.All.MonitorCloud
+    
+    val MonitorPcDefinition get() = LucideIcons.All.MonitorPcDefinition
+    val MonitorPc: ImageVector @Composable get() = LucideIcons.All.MonitorPc
     
     val NetworkDefinition get() = LucideIcons.All.NetworkDefinition
     val Network: ImageVector @Composable get() = LucideIcons.All.Network
@@ -487,6 +532,15 @@ object LucideIconsDevelopment {
     val PiDefinition get() = LucideIcons.All.PiDefinition
     val Pi: ImageVector @Composable get() = LucideIcons.All.Pi
     
+    val PlayingCardDefinition get() = LucideIcons.All.PlayingCardDefinition
+    val PlayingCard: ImageVector @Composable get() = LucideIcons.All.PlayingCard
+    
+    val PlayingCardsDefinition get() = LucideIcons.All.PlayingCardsDefinition
+    val PlayingCards: ImageVector @Composable get() = LucideIcons.All.PlayingCards
+    
+    val PlayingCardsFanDefinition get() = LucideIcons.All.PlayingCardsFanDefinition
+    val PlayingCardsFan: ImageVector @Composable get() = LucideIcons.All.PlayingCardsFan
+    
     val PlugDefinition get() = LucideIcons.All.PlugDefinition
     val Plug: ImageVector @Composable get() = LucideIcons.All.Plug
     
@@ -526,6 +580,15 @@ object LucideIconsDevelopment {
     val RssDefinition get() = LucideIcons.All.RssDefinition
     val Rss: ImageVector @Composable get() = LucideIcons.All.Rss
     
+    val SaveCheckDefinition get() = LucideIcons.All.SaveCheckDefinition
+    val SaveCheck: ImageVector @Composable get() = LucideIcons.All.SaveCheck
+    
+    val ScanSquareDefinition get() = LucideIcons.All.ScanSquareDefinition
+    val ScanSquare: ImageVector @Composable get() = LucideIcons.All.ScanSquare
+    
+    val ScratchBlocksDefinition get() = LucideIcons.All.ScratchBlocksDefinition
+    val ScratchBlocks: ImageVector @Composable get() = LucideIcons.All.ScratchBlocks
+    
     val ScrollDefinition get() = LucideIcons.All.ScrollDefinition
     val Scroll: ImageVector @Composable get() = LucideIcons.All.Scroll
     
@@ -546,6 +609,9 @@ object LucideIconsDevelopment {
     
     val ServerOffDefinition get() = LucideIcons.All.ServerOffDefinition
     val ServerOff: ImageVector @Composable get() = LucideIcons.All.ServerOff
+    
+    val ServerPlusDefinition get() = LucideIcons.All.ServerPlusDefinition
+    val ServerPlus: ImageVector @Composable get() = LucideIcons.All.ServerPlus
     
     val ShellDefinition get() = LucideIcons.All.ShellDefinition
     val Shell: ImageVector @Composable get() = LucideIcons.All.Shell
@@ -573,6 +639,12 @@ object LucideIconsDevelopment {
     
     val ShieldHalfDefinition get() = LucideIcons.All.ShieldHalfDefinition
     val ShieldHalf: ImageVector @Composable get() = LucideIcons.All.ShieldHalf
+    
+    val ShieldHouseDefinition get() = LucideIcons.All.ShieldHouseDefinition
+    val ShieldHouse: ImageVector @Composable get() = LucideIcons.All.ShieldHouse
+    
+    val ShieldKeyholeDefinition get() = LucideIcons.All.ShieldKeyholeDefinition
+    val ShieldKeyhole: ImageVector @Composable get() = LucideIcons.All.ShieldKeyhole
     
     val ShieldMinusDefinition get() = LucideIcons.All.ShieldMinusDefinition
     val ShieldMinus: ImageVector @Composable get() = LucideIcons.All.ShieldMinus
@@ -640,6 +712,12 @@ object LucideIconsDevelopment {
     val SquareDashedTopSolidDefinition get() = LucideIcons.All.SquareDashedTopSolidDefinition
     val SquareDashedTopSolid: ImageVector @Composable get() = LucideIcons.All.SquareDashedTopSolid
     
+    val SquareDashedXDefinition get() = LucideIcons.All.SquareDashedXDefinition
+    val SquareDashedX: ImageVector @Composable get() = LucideIcons.All.SquareDashedX
+    
+    val SquareDashedXCornerDefinition get() = LucideIcons.All.SquareDashedXCornerDefinition
+    val SquareDashedXCorner: ImageVector @Composable get() = LucideIcons.All.SquareDashedXCorner
+    
     val SquareDotDefinition get() = LucideIcons.All.SquareDotDefinition
     val SquareDot: ImageVector @Composable get() = LucideIcons.All.SquareDot
     
@@ -682,6 +760,9 @@ object LucideIconsDevelopment {
     val SquareTerminalDefinition get() = LucideIcons.All.SquareTerminalDefinition
     val SquareTerminal: ImageVector @Composable get() = LucideIcons.All.SquareTerminal
     
+    val SquareTextDefinition get() = LucideIcons.All.SquareTextDefinition
+    val SquareText: ImageVector @Composable get() = LucideIcons.All.SquareText
+    
     val SquircleDashedDefinition get() = LucideIcons.All.SquircleDashedDefinition
     val SquircleDashed: ImageVector @Composable get() = LucideIcons.All.SquircleDashed
     
@@ -715,6 +796,9 @@ object LucideIconsDevelopment {
     val UnplugDefinition get() = LucideIcons.All.UnplugDefinition
     val Unplug: ImageVector @Composable get() = LucideIcons.All.Unplug
     
+    val UserShieldDefinition get() = LucideIcons.All.UserShieldDefinition
+    val UserShield: ImageVector @Composable get() = LucideIcons.All.UserShield
+    
     val VariableDefinition get() = LucideIcons.All.VariableDefinition
     val Variable: ImageVector @Composable get() = LucideIcons.All.Variable
     
@@ -732,5 +816,8 @@ object LucideIconsDevelopment {
     
     val WrenchDefinition get() = LucideIcons.All.WrenchDefinition
     val Wrench: ImageVector @Composable get() = LucideIcons.All.Wrench
+    
+    val WrenchOffDefinition get() = LucideIcons.All.WrenchOffDefinition
+    val WrenchOff: ImageVector @Composable get() = LucideIcons.All.WrenchOff
     
 }

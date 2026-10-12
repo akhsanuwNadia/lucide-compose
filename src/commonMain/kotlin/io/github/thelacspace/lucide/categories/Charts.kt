@@ -76,6 +76,9 @@ object LucideIconsCharts {
     val ChartSplineDefinition get() = LucideIcons.All.ChartSplineDefinition
     val ChartSpline: ImageVector @Composable get() = LucideIcons.All.ChartSpline
     
+    val EqualApproximatelyNotDefinition get() = LucideIcons.All.EqualApproximatelyNotDefinition
+    val EqualApproximatelyNot: ImageVector @Composable get() = LucideIcons.All.EqualApproximatelyNot
+    
     val FolderKanbanDefinition get() = LucideIcons.All.FolderKanbanDefinition
     val FolderKanban: ImageVector @Composable get() = LucideIcons.All.FolderKanban
     

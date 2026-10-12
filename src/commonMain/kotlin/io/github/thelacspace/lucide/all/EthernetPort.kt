@@ -9,25 +9,6 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("EthernetPort") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(15f, 20f)
-                lineToRelative(3f, -3f)
-                horizontalLineToRelative(2f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(9f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(2f)
-                lineToRelative(3f, 3f)
-                close()
-            }
-            lucidePath(strokeWidth) {
-                moveTo(6f, 8f)
-                verticalLineToRelative(1f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(10f, 8f)
                 verticalLineToRelative(1f)
             }
@@ -37,6 +18,15 @@ private val _ActivityDefinition = LucideIconDefinition("EthernetPort") { strokeW
             }
             lucidePath(strokeWidth) {
                 moveTo(18f, 8f)
+                verticalLineToRelative(1f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(19f, 17f)
+                arcToRelative(2f, 2f, 0f, false, false, 1.059f, lf)
+                arcToRelative(-.47f, .882f, Af, false, false, 0f, 0115f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(6f, 8f)
                 verticalLineToRelative(1f)
             }
 }

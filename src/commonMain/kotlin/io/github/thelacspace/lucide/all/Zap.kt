@@ -9,19 +9,9 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Zap") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 14f)
-                arcToRelative(1f, 1f, 0f, false, true, -.78f, -1.63f)
-                lineToRelative(9.9f, -10.2f)
-                arcToRelative(.5f, .5f, 0f, false, true, .86f, .46f)
-                lineToRelative(-1.92f, 6.02f)
-                arcTo(1f, 1f, 0f, false, false, 13f, 10f)
-                horizontalLineToRelative(7f)
-                arcToRelative(1f, 1f, 0f, false, true, .78f, 1.63f)
-                lineToRelative(-9.9f, 10.2f)
-                arcToRelative(.5f, .5f, 0f, false, true, -.86f, -.46f)
-                lineToRelative(1.92f, -6.02f)
-                arcTo(1f, 1f, 0f, false, false, 11f, 14f)
-                close()
+                moveTo(15.914f, 4f)
+                arcToRelative(1.5f, 1.5f, 0f, false, false, -1.561f, lf)
+                arcToRelative(-9f, 9f, Af, true, true, 0f, 005.5f)
             }
 }
 

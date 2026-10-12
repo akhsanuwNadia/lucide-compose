@@ -3,207 +3,208 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata15 = listOf(
     
-    LucideIconMetadata("Table", listOf("spreadsheet", "grid"), listOf("text", "files"), LucideIcons.All.TableDefinition),
+    LucideIconMetadata("Spline", listOf("path", "pen", "tool", "shape", "curve", "draw"), listOf("design"), LucideIcons.All.SplineDefinition),
     
-    LucideIconMetadata("TabletSmartphone", listOf("responsive", "screens", "browser", "testing", "mobile"), listOf("devices", "design", "development", "tools"), LucideIcons.All.TabletSmartphoneDefinition),
+    LucideIconMetadata("Split", listOf("break", "disband", "divide", "separate", "branch", "disunite"), listOf("development", "arrows"), LucideIcons.All.SplitDefinition),
     
-    LucideIconMetadata("Tablet", listOf("device"), listOf("devices"), LucideIcons.All.TabletDefinition),
+    LucideIconMetadata("Spool", listOf("bobbin", "spindle", "yarn", "thread", "string", "sewing", "needlework"), listOf("communication", "tools", "social"), LucideIcons.All.SpoolDefinition),
     
-    LucideIconMetadata("Tablets", listOf("medicine", "medication", "drug", "prescription", "pills", "pharmacy"), listOf("medical"), LucideIcons.All.TabletsDefinition),
+    LucideIconMetadata("SportShoe", listOf("footwear", "sports", "running", "athletic", "shoe", "sneaker", "training", "exercise", "fitness"), listOf("sports"), LucideIcons.All.SportShoeDefinition),
     
-    LucideIconMetadata("Tag", listOf("label", "badge", "ticket", "mark"), listOf("account"), LucideIcons.All.TagDefinition),
+    LucideIconMetadata("Spotlight", listOf("winner", "soapbox", "stage", "entertainment", "drama", "podium", "actor", "actress", "singer", "light", "beam", "play", "theatre", "show", "focus", "concert", "performance", "lens", "leaderboard", "follow spot", "best", "highlight"), listOf("devices", "photography", "multimedia", "communication"), LucideIcons.All.SpotlightDefinition),
     
-    LucideIconMetadata("Tags", listOf("labels", "badges", "tickets", "marks", "copy", "multiple"), listOf("account"), LucideIcons.All.TagsDefinition),
+    LucideIconMetadata("SprayCan", listOf("paint", "color", "graffiti", "decoration", "aerosol", "deodorant", "shaving foam", "air freshener"), listOf("design", "tools"), LucideIcons.All.SprayCanDefinition),
     
-    LucideIconMetadata("Tally1", listOf("count", "score", "enumerate", "days", "one", "1", "first", "bar", "prison", "cell", "sentence"), listOf("math", "gaming"), LucideIcons.All.Tally1Definition),
+    LucideIconMetadata("Sprout", listOf("eco", "green", "growth", "leaf", "nature", "plant", "seed", "spring", "sustainability"), listOf("nature", "gaming", "sustainability"), LucideIcons.All.SproutDefinition),
     
-    LucideIconMetadata("Tally2", listOf("count", "score", "enumerate", "days", "two", "2", "second", "double", "bars", "prison", "cell", "sentence"), listOf("math", "gaming"), LucideIcons.All.Tally2Definition),
+    LucideIconMetadata("SquareActivity", listOf("pulse", "action", "motion", "movement", "exercise", "fitness", "healthcare", "heart rate monitor", "vital signs", "vitals", "emergency room", "er", "intensive care", "hospital", "defibrillator", "earthquake", "seismic", "magnitude", "richter scale", "aftershock", "tremor", "shockwave", "audio", "waveform", "synthesizer", "synthesiser", "music"), listOf("medical", "social", "science", "multimedia"), LucideIcons.All.SquareActivityDefinition),
     
-    LucideIconMetadata("Tally3", listOf("count", "score", "enumerate", "days", "three", "3", "third", "triple", "bars", "prison", "cell", "sentence"), listOf("math", "gaming"), LucideIcons.All.Tally3Definition),
+    LucideIconMetadata("SquareArrowDownLeft", listOf("direction", "south-west", "diagonal", "sign", "turn", "keyboard", "button"), listOf("arrows", "gaming"), LucideIcons.All.SquareArrowDownLeftDefinition),
     
-    LucideIconMetadata("Tally4", listOf("count", "score", "enumerate", "days", "4", "fourth", "quadruple", "bars", "prison", "cell", "sentence"), listOf("math", "gaming"), LucideIcons.All.Tally4Definition),
+    LucideIconMetadata("SquareArrowDownRight", listOf("direction", "south-east", "diagonal", "sign", "turn", "keyboard", "button"), listOf("arrows", "gaming"), LucideIcons.All.SquareArrowDownRightDefinition),
     
-    LucideIconMetadata("Tally5", listOf("count", "score", "enumerate", "days", "five", "5", "fifth", "bars", "prison", "cell", "sentence", "slash", "/"), listOf("math", "gaming"), LucideIcons.All.Tally5Definition),
+    LucideIconMetadata("SquareArrowDown", listOf("backwards", "reverse", "direction", "south", "sign", "keyboard", "button"), listOf("arrows", "gaming"), LucideIcons.All.SquareArrowDownDefinition),
     
-    LucideIconMetadata("Tangent", listOf("tangential", "shape", "circle", "geometry", "trigonometry", "bezier curve"), listOf("shapes", "math", "design", "tools"), LucideIcons.All.TangentDefinition),
+    LucideIconMetadata("SquareArrowLeft", listOf("previous", "back", "direction", "west", "sign", "keyboard", "button", "<-"), listOf("arrows"), LucideIcons.All.SquareArrowLeftDefinition),
     
-    LucideIconMetadata("Target", listOf("logo", "bullseye", "deadline", "projects", "overview", "work", "productivity"), listOf("gaming"), LucideIcons.All.TargetDefinition),
+    LucideIconMetadata("SquareArrowOutDownLeft", listOf("outwards", "direction", "south-west", "diagonal"), listOf("arrows"), LucideIcons.All.SquareArrowOutDownLeftDefinition),
     
-    LucideIconMetadata("Telescope", listOf("astronomy", "space", "discovery", "exploration", "explore", "vision", "perspective", "focus", "stargazing", "observe", "view"), listOf("science", "development", "tools"), LucideIcons.All.TelescopeDefinition),
+    LucideIconMetadata("SquareArrowOutDownRight", listOf("outwards", "direction", "south-east", "diagonal"), listOf("arrows"), LucideIcons.All.SquareArrowOutDownRightDefinition),
     
-    LucideIconMetadata("TentTree", listOf("camping", "campsite", "holiday", "retreat", "nomadic", "wilderness", "outdoors"), listOf("travel", "nature"), LucideIcons.All.TentTreeDefinition),
+    LucideIconMetadata("SquareArrowOutUpLeft", listOf("outwards", "direction", "north-west", "diagonal"), listOf("arrows"), LucideIcons.All.SquareArrowOutUpLeftDefinition),
     
-    LucideIconMetadata("Tent", listOf("tipi", "teepee", "wigwam", "lodge", "camping", "campsite", "holiday", "retreat", "nomadic", "native american", "indian", "wilderness", "outdoors"), listOf("travel", "nature", "sustainability"), LucideIcons.All.TentDefinition),
+    LucideIconMetadata("SquareArrowOutUpRight", listOf("outwards", "direction", "north-east", "diagonal", "share", "open", "external", "link"), listOf("arrows", "social"), LucideIcons.All.SquareArrowOutUpRightDefinition),
     
-    LucideIconMetadata("Terminal", listOf("code", "command line", "prompt", "shell"), listOf("development"), LucideIcons.All.TerminalDefinition),
+    LucideIconMetadata("SquareArrowRightEnter", listOf("left", "in", "inside", "input", "insert", "source", "import", "place", "->"), listOf("arrows", "shapes", "layout", "multimedia"), LucideIcons.All.SquareArrowRightEnterDefinition),
     
-    LucideIconMetadata("TestTubeDiagonal", listOf("tube", "vial", "phial", "flask", "ampoule", "ampule", "lab", "chemistry", "experiment", "test"), listOf("science"), LucideIcons.All.TestTubeDiagonalDefinition),
+    LucideIconMetadata("SquareArrowRightExit", listOf("out", "outside", "output", "export", "->"), listOf("arrows", "shapes", "layout", "multimedia"), LucideIcons.All.SquareArrowRightExitDefinition),
     
-    LucideIconMetadata("TestTube", listOf("tube", "vial", "phial", "flask", "ampoule", "ampule", "lab", "chemistry", "experiment", "test"), listOf("science"), LucideIcons.All.TestTubeDefinition),
+    LucideIconMetadata("SquareArrowRight", listOf("next", "forward", "direction", "west", "sign", "keyboard", "button", "->"), listOf("arrows"), LucideIcons.All.SquareArrowRightDefinition),
     
-    LucideIconMetadata("TestTubes", listOf("tubes", "vials", "phials", "flasks", "ampoules", "ampules", "lab", "chemistry", "experiment", "test"), listOf("science"), LucideIcons.All.TestTubesDefinition),
+    LucideIconMetadata("SquareArrowUpLeft", listOf("direction", "north-west", "diagonal", "sign", "keyboard", "button"), listOf("arrows"), LucideIcons.All.SquareArrowUpLeftDefinition),
     
-    LucideIconMetadata("TextAlignCenter", listOf("text", "alignment", "center"), listOf("text"), LucideIcons.All.TextAlignCenterDefinition),
+    LucideIconMetadata("SquareArrowUpRight", listOf("direction", "north-east", "diagonal", "sign", "keyboard", "button", "share"), listOf("arrows", "social"), LucideIcons.All.SquareArrowUpRightDefinition),
     
-    LucideIconMetadata("TextAlignEnd", listOf("text", "alignment", "right"), listOf("text"), LucideIcons.All.TextAlignEndDefinition),
+    LucideIconMetadata("SquareArrowUp", listOf("forward", "direction", "north", "sign", "keyboard", "button"), listOf("arrows"), LucideIcons.All.SquareArrowUpDefinition),
     
-    LucideIconMetadata("TextAlignJustify", listOf("text", "alignment", "justified", "menu", "list"), listOf("text"), LucideIcons.All.TextAlignJustifyDefinition),
+    LucideIconMetadata("SquareAsterisk", listOf("password", "secret", "access", "key", "multiply", "multiplication", "glob pattern", "wildcard", "*"), listOf("text", "security", "math", "development"), LucideIcons.All.SquareAsteriskDefinition),
     
-    LucideIconMetadata("TextAlignStart", listOf("text", "alignment", "left", "list"), listOf("text"), LucideIcons.All.TextAlignStartDefinition),
+    LucideIconMetadata("SquareBookmark", listOf("photo", "book"), listOf("photography", "multimedia"), LucideIcons.All.SquareBookmarkDefinition),
     
-    LucideIconMetadata("TextCursorInput", listOf("select"), listOf("text", "layout"), LucideIcons.All.TextCursorInputDefinition),
+    LucideIconMetadata("SquareBottomDashedScissors", listOf("cut", "snippet", "chop", "stationery", "crafts"), listOf("text", "design", "tools", "files", "development"), LucideIcons.All.SquareBottomDashedScissorsDefinition),
     
-    LucideIconMetadata("TextCursor", listOf("select", "caret", "type", "typing", "write", "writing", "edit", "insert", "input", "textarea"), listOf("text", "cursors"), LucideIcons.All.TextCursorDefinition),
+    LucideIconMetadata("SquareCenterlineDashedHorizontal", listOf("reflect", "mirror", "alignment", "dashed"), listOf("design", "photography"), LucideIcons.All.SquareCenterlineDashedHorizontalDefinition),
     
-    LucideIconMetadata("TextInitial", listOf("drop cap", "text", "format", "typography", "letter", "font size"), listOf("text"), LucideIcons.All.TextInitialDefinition),
+    LucideIconMetadata("SquareCenterlineDashedVertical", listOf("reflect", "mirror", "alignment", "dashed"), listOf("design", "photography"), LucideIcons.All.SquareCenterlineDashedVerticalDefinition),
     
-    LucideIconMetadata("TextQuote", listOf("blockquote", "quotation", "indent", "reply", "response"), listOf("text"), LucideIcons.All.TextQuoteDefinition),
+    LucideIconMetadata("SquareChartGantt", listOf("projects", "manage", "overview", "roadmap", "plan", "intentions", "timeline", "deadline", "date", "event", "range", "period", "productivity", "work", "agile", "code", "coding", "toolbar", "button"), listOf("charts", "time", "development", "design"), LucideIcons.All.SquareChartGanttDefinition),
     
-    LucideIconMetadata("TextSearch", listOf("find", "data", "copy", "txt", "pdf", "document", "scan", "magnifier", "magnifying glass", "lens"), listOf("text"), LucideIcons.All.TextSearchDefinition),
+    LucideIconMetadata("SquareCheckBig", listOf("done", "todo", "tick", "complete", "task"), listOf("notifications"), LucideIcons.All.SquareCheckBigDefinition),
     
-    LucideIconMetadata("TextWrap", listOf("words", "lines", "break", "paragraph"), listOf("text", "arrows"), LucideIcons.All.TextWrapDefinition),
+    LucideIconMetadata("SquareCheck", listOf("done", "todo", "tick", "complete", "task"), listOf("notifications"), LucideIcons.All.SquareCheckDefinition),
     
-    LucideIconMetadata("Theater", listOf("theater", "theatre", "entertainment", "podium", "stage", "musical"), listOf("buildings", "social"), LucideIcons.All.TheaterDefinition),
+    LucideIconMetadata("SquareChevronDown", listOf("back", "menu", "panel"), listOf("arrows", "navigation"), LucideIcons.All.SquareChevronDownDefinition),
     
-    LucideIconMetadata("ThermometerSnowflake", listOf("temperature", "celsius", "fahrenheit", "weather", "cold", "freeze", "freezing"), listOf("weather"), LucideIcons.All.ThermometerSnowflakeDefinition),
+    LucideIconMetadata("SquareChevronLeft", listOf("back", "previous", "less than", "fewer", "menu", "panel", "button", "keyboard", "<"), listOf("arrows", "navigation"), LucideIcons.All.SquareChevronLeftDefinition),
     
-    LucideIconMetadata("ThermometerSun", listOf("temperature", "celsius", "fahrenheit", "weather", "warm", "hot"), listOf("weather"), LucideIcons.All.ThermometerSunDefinition),
+    LucideIconMetadata("SquareChevronRight", listOf("forward", "next", "more than", "greater", "menu", "panel", "code", "coding", "command line", "terminal", "prompt", "shell", "console", ">"), listOf("arrows", "navigation", "development"), LucideIcons.All.SquareChevronRightDefinition),
     
-    LucideIconMetadata("Thermometer", listOf("temperature", "celsius", "fahrenheit", "weather"), listOf("weather"), LucideIcons.All.ThermometerDefinition),
+    LucideIconMetadata("SquareChevronUp", listOf("caret", "keyboard", "button", "mac", "control", "ctrl", "superscript", "exponential", "power", "ahead", "menu", "panel", "^"), listOf("arrows", "navigation", "math"), LucideIcons.All.SquareChevronUpDefinition),
     
-    LucideIconMetadata("ThumbsDown", listOf("dislike", "bad", "emotion"), listOf("account", "social", "emoji"), LucideIcons.All.ThumbsDownDefinition),
+    LucideIconMetadata("SquareCode", listOf("gist", "source", "programming", "html", "xml", "coding"), listOf("text", "development"), LucideIcons.All.SquareCodeDefinition),
     
-    LucideIconMetadata("ThumbsUp", listOf("like", "good", "emotion"), listOf("account", "social", "emoji"), LucideIcons.All.ThumbsUpDefinition),
+    LucideIconMetadata("SquareDashedBottomCode", listOf("rectangle", "aspect ratio", "1:1", "shape", "snippet", "code", "coding"), listOf("development", "files"), LucideIcons.All.SquareDashedBottomCodeDefinition),
     
-    LucideIconMetadata("TicketCheck", listOf("entry", "pass", "voucher", "event", "concert", "show", "booked", "purchased", "receipt", "redeemed", "validated", "verified", "certified", "checked", "used"), listOf("transportation"), LucideIcons.All.TicketCheckDefinition),
+    LucideIconMetadata("SquareDashedBottom", listOf("rectangle", "aspect ratio", "1:1", "shape", "snippet", "code", "coding"), listOf("development", "files"), LucideIcons.All.SquareDashedBottomDefinition),
     
-    LucideIconMetadata("TicketMinus", listOf("entry", "pass", "voucher", "event", "concert", "show", "remove", "cancel", "unbook", "subtract", "decrease", "-"), listOf("transportation"), LucideIcons.All.TicketMinusDefinition),
+    LucideIconMetadata("SquareDashedKanban", listOf("projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "draft", "template", "boilerplate", "code", "coding"), listOf("charts", "development", "design"), LucideIcons.All.SquareDashedKanbanDefinition),
     
-    LucideIconMetadata("TicketPercent", listOf("discount", "reduced", "offer", "voucher", "entry", "pass", "event", "concert", "show", "book", "purchase", "%"), listOf("transportation", "shopping"), LucideIcons.All.TicketPercentDefinition),
+    LucideIconMetadata("SquareDashedMousePointer", listOf("inspector", "element", "mouse", "click", "pointer", "box", "browser", "selector", "target", "dom", "node"), listOf("arrows", "cursors", "development", "tools"), LucideIcons.All.SquareDashedMousePointerDefinition),
     
-    LucideIconMetadata("TicketPlus", listOf("entry", "pass", "voucher", "event", "concert", "show", "book", "purchase", "add", "+"), listOf("transportation"), LucideIcons.All.TicketPlusDefinition),
+    LucideIconMetadata("SquareDashedPlus", listOf("selection", "select", "add", "new", "placeholder", "marquee", "box", "dashed", "plus", "insert", "frame", "empty"), listOf("design", "layout", "shapes"), LucideIcons.All.SquareDashedPlusDefinition),
     
-    LucideIconMetadata("TicketSlash", listOf("entry", "pass", "voucher", "event", "concert", "show", "redeemed", "used", "marked", "checked", "verified", "spoiled", "invalidated", "void", "denied", "refused", "banned", "barred", "forbidden", "prohibited", "cancelled", "cancellation", "refunded", "delete", "remove", "clear", "error"), listOf("transportation"), LucideIcons.All.TicketSlashDefinition),
+    LucideIconMetadata("SquareDashedText", listOf("find", "search", "selection", "dashed"), listOf("text", "cursors"), LucideIcons.All.SquareDashedTextDefinition),
     
-    LucideIconMetadata("TicketX", listOf("entry", "pass", "voucher", "event", "concert", "show", "cancelled", "cancellation", "refunded", "used", "void", "invalidated", "spoiled", "denied", "refused", "banned", "barred", "forbidden", "prohibited", "delete", "remove", "clear", "error", "x"), listOf("transportation"), LucideIcons.All.TicketXDefinition),
+    LucideIconMetadata("SquareDashedTopSolid", listOf("square", "border", "width", "layout", "style", "design", "rectangular", "marquee", "dashed", "box", "rectangle", "aspect ratio", "1:1"), listOf("design", "development", "layout"), LucideIcons.All.SquareDashedTopSolidDefinition),
     
-    LucideIconMetadata("Ticket", listOf("entry", "pass", "voucher", "event", "concert", "show", "perforated", "dashed"), listOf("account", "transportation"), LucideIcons.All.TicketDefinition),
+    LucideIconMetadata("SquareDashedXCorner", listOf("deselect", "unselect", "delete", "select", "selection", "border", "width", "layout", "style", "design", "rectangular", "marquee", "box", "rectangle", "aspect ratio", "1:1"), listOf("design", "development", "layout"), LucideIcons.All.SquareDashedXCornerDefinition),
     
-    LucideIconMetadata("TicketsPlane", listOf("plane", "trip", "airplane", "flight", "travel", "fly", "takeoff", "vacation", "passenger", "pass", "check-in", "airport"), listOf("transportation", "travel"), LucideIcons.All.TicketsPlaneDefinition),
+    LucideIconMetadata("SquareDashedX", listOf("deselect", "unselect", "delete", "select", "selection", "border", "width", "layout", "style", "design", "rectangular", "marquee", "box", "rectangle", "aspect ratio", "1:1"), listOf("design", "development", "layout"), LucideIcons.All.SquareDashedXDefinition),
     
-    LucideIconMetadata("Tickets", listOf("trip", "travel", "pass", "entry", "voucher", "event", "concert", "show", "perforated", "dashed"), listOf("travel", "account", "transportation"), LucideIcons.All.TicketsDefinition),
+    LucideIconMetadata("SquareDashed", listOf("selection", "square", "rectangular", "marquee", "tool", "dashed", "box"), listOf("text", "design"), LucideIcons.All.SquareDashedDefinition),
     
-    LucideIconMetadata("Timeline", listOf("tags", "history"), listOf("time"), LucideIcons.All.TimelineDefinition),
+    LucideIconMetadata("SquareDimensions", listOf("ratio", "size", "width", "height", "resize", "scale", "frame", "proportions", "aspect", "bounds", "measurements", "canvas"), listOf("design", "layout"), LucideIcons.All.SquareDimensionsDefinition),
     
-    LucideIconMetadata("TimerOff", listOf("time", "timer", "stopwatch"), listOf("time"), LucideIcons.All.TimerOffDefinition),
+    LucideIconMetadata("SquareDivide", listOf("calculate", "math", "÷", "/"), listOf("math"), LucideIcons.All.SquareDivideDefinition),
     
-    LucideIconMetadata("TimerReset", listOf("time", "timer", "stopwatch"), listOf("time"), LucideIcons.All.TimerResetDefinition),
+    LucideIconMetadata("SquareDot", listOf("git", "diff", "modified", "."), listOf("development"), LucideIcons.All.SquareDotDefinition),
     
-    LucideIconMetadata("Timer", listOf("time", "timer", "stopwatch"), listOf("time"), LucideIcons.All.TimerDefinition),
+    LucideIconMetadata("SquareEqual", listOf("calculate", "="), listOf("math"), LucideIcons.All.SquareEqualDefinition),
     
-    LucideIconMetadata("ToggleLeft", listOf("on", "off", "switch", "boolean"), listOf("layout", "account", "development"), LucideIcons.All.ToggleLeftDefinition),
+    LucideIconMetadata("SquareExclamationPoint", listOf("warning", "alert", "danger", "exclamation mark", "rectangle", "square", "notification", "attention", "important", "caution"), listOf("notifications", "shapes"), LucideIcons.All.SquareExclamationPointDefinition),
     
-    LucideIconMetadata("ToggleRight", listOf("on", "off", "switch", "boolean"), listOf("layout", "account", "development"), LucideIcons.All.ToggleRightDefinition),
+    LucideIconMetadata("SquareFunction", listOf("programming", "code", "automation", "math"), listOf("development", "math"), LucideIcons.All.SquareFunctionDefinition),
     
-    LucideIconMetadata("Toilet", listOf("toilet", "potty", "bathroom", "washroom"), listOf("devices", "home"), LucideIcons.All.ToiletDefinition),
+    LucideIconMetadata("SquareKanban", listOf("projects", "manage", "overview", "board", "tickets", "issues", "roadmap", "plan", "intentions", "productivity", "work", "agile", "code", "coding", "toolbar", "button"), listOf("charts", "development", "design"), LucideIcons.All.SquareKanbanDefinition),
     
-    LucideIconMetadata("ToolCase", listOf("tools", "maintenance", "repair"), listOf("tools", "development", "home"), LucideIcons.All.ToolCaseDefinition),
+    LucideIconMetadata("SquareLibrary", listOf("books", "reading", "written", "authors", "stories", "fiction", "novels", "information", "knowledge", "education", "high school", "university", "college", "academy", "learning", "study", "research", "collection", "vinyl", "records", "albums", "music", "package"), listOf("text", "photography", "multimedia", "navigation", "development"), LucideIcons.All.SquareLibraryDefinition),
     
-    LucideIconMetadata("Toolbox", listOf("toolkit", "tools", "trunk", "chest", "box", "storage", "utility", "utilities", "container", "kit", "set", "repair", "fix", "service", "maintenance", "mechanic", "workshop", "construction", "hardware", "equipment", "gear", "handyman", "engineering", "craft", "diy"), listOf("tools", "home"), LucideIcons.All.ToolboxDefinition),
+    LucideIconMetadata("SquareM", listOf("metro", "subway", "underground", "track", "line"), listOf("transportation", "navigation"), LucideIcons.All.SquareMDefinition),
     
-    LucideIconMetadata("Tornado", listOf("weather", "wind", "storm", "hurricane"), listOf("weather"), LucideIcons.All.TornadoDefinition),
+    LucideIconMetadata("SquareMenu", listOf("bars", "navigation", "hamburger", "options", "menu bar", "panel"), listOf("layout"), LucideIcons.All.SquareMenuDefinition),
     
-    LucideIconMetadata("Torus", listOf("donut", "doughnut", "ring", "hollow", "3d", "fast food", "junk food", "snack", "treat", "sweet", "sugar", "dessert"), listOf("shapes", "design", "tools", "food-beverage"), LucideIcons.All.TorusDefinition),
+    LucideIconMetadata("SquareMinus", listOf("subtract", "remove", "decrease", "reduce", "calculator", "button", "keyboard", "line", "divider", "separator", "horizontal rule", "hr", "html", "markup", "markdown", "---", "toolbar", "operator", "code", "coding", "minimum", "downgrade"), listOf("math", "development", "text", "tools", "devices"), LucideIcons.All.SquareMinusDefinition),
     
-    LucideIconMetadata("TouchpadOff", listOf("trackpad", "cursor"), listOf("devices"), LucideIcons.All.TouchpadOffDefinition),
+    LucideIconMetadata("SquareMousePointer", listOf("inspector", "element", "mouse", "click", "pointer", "box", "browser", "selector", "target", "dom", "node"), listOf("arrows", "cursors", "development", "tools"), LucideIcons.All.SquareMousePointerDefinition),
     
-    LucideIconMetadata("Touchpad", listOf("trackpad", "cursor"), listOf("devices"), LucideIcons.All.TouchpadDefinition),
+    LucideIconMetadata("SquareOff", listOf("/", "not", "slash", "off", "disabled", "inactive", "cancel", "none", "block", "forbidden", "unavailable", "stopped", "checkbox", "unchecked", "toggle", "negation", "form", "ui"), listOf("shapes", "design"), LucideIcons.All.SquareOffDefinition),
     
-    LucideIconMetadata("TowelRack", listOf("flannel", "bathroom", "toiletries", "sanitation", "clean", "fresh", "dry", "laundry", "laundrette", "hospitality", "housekeeping", "room service", "spa break", "health club", "amenities", "hanging"), listOf("home", "travel"), LucideIcons.All.TowelRackDefinition),
+    LucideIconMetadata("SquareParkingOff", listOf("parking lot", "car park", "no parking"), listOf("transportation", "navigation"), LucideIcons.All.SquareParkingOffDefinition),
     
-    LucideIconMetadata("TowerControl", listOf("airport", "travel", "tower", "transportation", "lighthouse"), listOf("travel", "transportation"), LucideIcons.All.TowerControlDefinition),
+    LucideIconMetadata("SquareParking", listOf("parking lot", "car park"), listOf("transportation", "navigation"), LucideIcons.All.SquareParkingDefinition),
     
-    LucideIconMetadata("ToyBrick", listOf("lego", "block", "addon", "plugin", "integration"), listOf("gaming", "development"), LucideIcons.All.ToyBrickDefinition),
+    LucideIconMetadata("SquarePause", listOf("music", "audio", "stop"), listOf("multimedia"), LucideIcons.All.SquarePauseDefinition),
     
-    LucideIconMetadata("Tractor", listOf("farming", "farmer", "ranch", "harvest", "equipment", "vehicle"), listOf("transportation", "sustainability", "food-beverage"), LucideIcons.All.TractorDefinition),
+    LucideIconMetadata("SquarePen", listOf("pencil", "edit", "change", "create", "draw", "sketch", "draft", "writer", "writing", "biro", "ink", "marker", "felt tip", "stationery", "artist"), listOf("text"), LucideIcons.All.SquarePenDefinition),
     
-    LucideIconMetadata("TrafficCone", listOf("roadworks", "tarmac", "safety", "block"), listOf("transportation"), LucideIcons.All.TrafficConeDefinition),
+    LucideIconMetadata("SquarePercent", listOf("verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"), listOf("social", "finance", "shopping", "math"), LucideIcons.All.SquarePercentDefinition),
     
-    LucideIconMetadata("TrainFrontTunnel", listOf("railway", "metro", "subway", "underground", "speed", "bullet", "fast", "track", "line"), listOf("transportation", "navigation"), LucideIcons.All.TrainFrontTunnelDefinition),
+    LucideIconMetadata("SquarePi", listOf("constant", "code", "coding", "programming", "symbol", "trigonometry", "geometry", "formula"), listOf("development", "math"), LucideIcons.All.SquarePiDefinition),
     
-    LucideIconMetadata("TrainFront", listOf("railway", "metro", "subway", "underground", "high-speed", "bullet", "fast", "track", "line"), listOf("transportation"), LucideIcons.All.TrainFrontDefinition),
+    LucideIconMetadata("SquarePilcrow", listOf("paragraph", "mark", "paraph", "blind", "typography", "type", "text", "prose", "symbol"), listOf("text"), LucideIcons.All.SquarePilcrowDefinition),
     
-    LucideIconMetadata("TrainTrack", listOf("railway", "line"), listOf("transportation", "navigation"), LucideIcons.All.TrainTrackDefinition),
+    LucideIconMetadata("SquarePlay", listOf("music", "audio", "video", "start", "run"), listOf("arrows", "multimedia"), LucideIcons.All.SquarePlayDefinition),
     
-    LucideIconMetadata("TramFront", listOf("railway", "metro", "subway", "underground", "track", "line", "tourism"), listOf("transportation"), LucideIcons.All.TramFrontDefinition),
+    LucideIconMetadata("SquarePlus", listOf("add", "new", "increase", "increment", "positive", "calculate", "calculator", "button", "keyboard", "toolbar", "maximum", "upgrade", "extra", "operator", "join", "concatenate", "code", "coding", "+"), listOf("math", "tools", "development", "text"), LucideIcons.All.SquarePlusDefinition),
     
-    LucideIconMetadata("Transgender", listOf("gender", "inclusive"), listOf("medical", "accessibility"), LucideIcons.All.TransgenderDefinition),
+    LucideIconMetadata("SquarePower", listOf("on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"), listOf("connectivity"), LucideIcons.All.SquarePowerDefinition),
     
-    LucideIconMetadata("Trash2", listOf("garbage", "delete", "remove", "bin"), listOf("files", "mail"), LucideIcons.All.Trash2Definition),
+    LucideIconMetadata("SquareRadical", listOf("calculate", "formula", "math", "operator", "root", "square", "symbol"), listOf("development", "math"), LucideIcons.All.SquareRadicalDefinition),
     
-    LucideIconMetadata("Trash", listOf("empty", "deletion", "cleanup", "junk", "clear", "garbage", "delete", "remove", "bin", "waste", "recycle", "discard", "binoculars", "rubbish"), listOf("files", "mail"), LucideIcons.All.TrashDefinition),
+    LucideIconMetadata("SquareRoundCorner", listOf("border", "radius", "style", "design", "corner", "layout", "round", "rounded"), listOf("design", "development", "layout"), LucideIcons.All.SquareRoundCornerDefinition),
     
-    LucideIconMetadata("TreeDeciduous", listOf("tree", "forest", "park", "nature"), listOf("nature", "sustainability"), LucideIcons.All.TreeDeciduousDefinition),
+    LucideIconMetadata("SquareScissors", listOf("cut", "snippet", "chop", "stationery", "crafts", "toolbar", "button"), listOf("text", "design", "tools", "files", "development"), LucideIcons.All.SquareScissorsDefinition),
     
-    LucideIconMetadata("TreePalm", listOf("vacation", "leisure", "island"), listOf("nature", "sustainability"), LucideIcons.All.TreePalmDefinition),
+    LucideIconMetadata("SquareSigma", listOf("sum", "calculate", "formula", "math", "enumeration", "enumerate"), listOf("text", "math"), LucideIcons.All.SquareSigmaDefinition),
     
-    LucideIconMetadata("TreePine", listOf("tree", "pine", "forest", "park", "nature"), listOf("nature", "sustainability"), LucideIcons.All.TreePineDefinition),
+    LucideIconMetadata("SquareSlash", listOf("git", "diff", "ignored", "divide", "division", "shortcut", "or", "/"), listOf("development", "math"), LucideIcons.All.SquareSlashDefinition),
     
-    LucideIconMetadata("Trees", listOf("tree", "forest", "park", "nature"), listOf("nature", "sustainability"), LucideIcons.All.TreesDefinition),
+    LucideIconMetadata("SquareSparkles", listOf("picture", "photo", "sparkles"), listOf("photography", "text", "multimedia", "files"), LucideIcons.All.SquareSparklesDefinition),
     
-    LucideIconMetadata("TrendingDown", listOf("statistics"), listOf("charts", "arrows"), LucideIcons.All.TrendingDownDefinition),
+    LucideIconMetadata("SquareSplitHorizontal", listOf("split", "divide"), listOf("layout"), LucideIcons.All.SquareSplitHorizontalDefinition),
     
-    LucideIconMetadata("TrendingUpDown", listOf("arrows", "estimated", "indeterminate", "data fluctuation", "uncertain", "forecast", "variable", "prediction", "dynamic", "volatile"), listOf("charts", "arrows"), LucideIcons.All.TrendingUpDownDefinition),
+    LucideIconMetadata("SquareSplitVertical", listOf("split", "divide"), listOf("layout"), LucideIcons.All.SquareSplitVerticalDefinition),
     
-    LucideIconMetadata("TrendingUp", listOf("statistics"), listOf("charts", "arrows"), LucideIcons.All.TrendingUpDefinition),
+    LucideIconMetadata("SquareSquare", listOf("float", "center", "rectangle"), listOf("layout"), LucideIcons.All.SquareSquareDefinition),
     
-    LucideIconMetadata("TriangleAlert", listOf("warning", "alert", "danger", "exclamation mark", "linter"), listOf("notifications", "shapes", "development"), LucideIcons.All.TriangleAlertDefinition),
+    LucideIconMetadata("SquareStack", listOf("versions", "clone", "copy", "duplicate", "multiple", "revisions", "version control", "backup", "history"), listOf("text", "files", "development"), LucideIcons.All.SquareStackDefinition),
     
-    LucideIconMetadata("TriangleDashed", listOf("equilateral", "delta", "shape", "pyramid", "hierarchy", "dashed"), listOf("shapes"), LucideIcons.All.TriangleDashedDefinition),
+    LucideIconMetadata("SquareStar", listOf("badge", "medal", "honour", "decoration", "order", "pin", "laurel", "trophy", "medallion", "insignia", "bronze", "silver", "gold"), listOf("sports", "gaming"), LucideIcons.All.SquareStarDefinition),
     
-    LucideIconMetadata("TriangleRight", listOf("volume", "controls", "controller", "tv remote", "geometry", "delta", "ramp", "slope", "incline", "increase"), listOf("shapes", "math"), LucideIcons.All.TriangleRightDefinition),
+    LucideIconMetadata("SquareStop", listOf("media", "music"), listOf("multimedia"), LucideIcons.All.SquareStopDefinition),
     
-    LucideIconMetadata("Triangle", listOf("equilateral", "delta", "shape", "pyramid", "hierarchy"), listOf("shapes"), LucideIcons.All.TriangleDefinition),
+    LucideIconMetadata("SquareTerminal", listOf("code", "command line", "prompt", "shell"), listOf("development"), LucideIcons.All.SquareTerminalDefinition),
     
-    LucideIconMetadata("Trophy", listOf("prize", "sports", "winner", "achievement", "award", "champion", "celebration", "victory"), listOf("sports", "gaming"), LucideIcons.All.TrophyDefinition),
+    LucideIconMetadata("SquareText", listOf("text", "paragraph", "content", "note", "document", "body", "copy", "article", "square", "container", "block", "card", "placeholder", "log", "page", "paper", "sheet", "list", "script", "code", "editor"), listOf("text", "shapes", "development"), LucideIcons.All.SquareTextDefinition),
     
-    LucideIconMetadata("TruckElectric", listOf("delivery", "van", "shipping", "haulage", "lorry", "electric"), listOf("transportation"), LucideIcons.All.TruckElectricDefinition),
+    LucideIconMetadata("SquareUserRound", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.SquareUserRoundDefinition),
     
-    LucideIconMetadata("Truck", listOf("delivery", "van", "shipping", "haulage", "lorry"), listOf("transportation"), LucideIcons.All.TruckDefinition),
+    LucideIconMetadata("SquareUser", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.SquareUserDefinition),
     
-    LucideIconMetadata("TurkishLira", listOf("currency", "money", "payment"), listOf("finance"), LucideIcons.All.TurkishLiraDefinition),
+    LucideIconMetadata("SquareX", listOf("cancel", "close", "delete", "remove", "times", "clear", "math", "multiply", "multiplication"), listOf("math", "notifications"), LucideIcons.All.SquareXDefinition),
     
-    LucideIconMetadata("Turntable", listOf("record player", "gramophone", "stereo", "phonograph", "vinyl", "lp", "disc", "platter", "cut", "music", "analog", "retro", "dj deck", "disc jockey", "scratch", "spinning"), listOf("multimedia", "home"), LucideIcons.All.TurntableDefinition),
+    LucideIconMetadata("Square", listOf("stop", "playback", "music", "audio", "video", "rectangle", "aspect ratio", "1:1", "shape"), listOf("shapes", "multimedia"), LucideIcons.All.SquareDefinition),
     
-    LucideIconMetadata("Turtle", listOf("animal", "pet", "tortoise", "slow", "speed"), listOf("animals"), LucideIcons.All.TurtleDefinition),
+    LucideIconMetadata("SquaresExclude", listOf("square", "pathfinder", "path", "exclude", "invert", "xor", "shape", "vector"), listOf("design"), LucideIcons.All.SquaresExcludeDefinition),
     
-    LucideIconMetadata("TvMinimalPlay", listOf("flatscreen", "television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "movie", "live", "ott", "running", "start", "film", "home cinema", "entertainment", "showtime", "channels", "catchup"), listOf("devices", "multimedia"), LucideIcons.All.TvMinimalPlayDefinition),
+    LucideIconMetadata("SquaresIntersect", listOf("square", "pathfinder", "path", "intersect", "shape", "include", "vector"), listOf("design"), LucideIcons.All.SquaresIntersectDefinition),
     
-    LucideIconMetadata("TvMinimal", listOf("flatscreen", "television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "home cinema", "entertainment", "showtime", "channels", "catchup"), listOf("devices", "multimedia"), LucideIcons.All.TvMinimalDefinition),
+    LucideIconMetadata("SquaresSubtract", listOf("square", "pathfinder", "path", "minus", "subtract", "subtraction", "shape", "front", "vector"), listOf("design"), LucideIcons.All.SquaresSubtractDefinition),
     
-    LucideIconMetadata("Tv", listOf("television", "stream", "display", "widescreen", "high-definition", "hd", "1080p", "4k", "8k", "smart", "digital", "video", "entertainment", "showtime", "channels", "terrestrial", "satellite", "cable", "broadcast", "live", "frequency", "tune", "scan", "aerial", "receiver", "transmission", "signal", "connection", "connectivity"), listOf("devices", "multimedia", "communication"), LucideIcons.All.TvDefinition),
+    LucideIconMetadata("SquaresUnite", listOf("square", "pathfinder", "path", "unite", "union", "shape", "merge", "vector"), listOf("design"), LucideIcons.All.SquaresUniteDefinition),
     
-    LucideIconMetadata("TypeOutline", listOf("text", "font", "typography", "silhouette", "profile", "contour", "stroke", "line"), listOf("text"), LucideIcons.All.TypeOutlineDefinition),
+    LucideIconMetadata("SquircleDashed", listOf("shape", "pending", "progress", "issue", "draft", "code", "coding", "version control"), listOf("development", "shapes", "design"), LucideIcons.All.SquircleDashedDefinition),
     
-    LucideIconMetadata("Type", listOf("text", "font", "typography"), listOf("text"), LucideIcons.All.TypeDefinition),
+    LucideIconMetadata("Squircle", listOf("shape"), listOf("shapes"), LucideIcons.All.SquircleDefinition),
     
-    LucideIconMetadata("UmbrellaOff", listOf("rain", "weather", "uncovered", "uninsured", "antivirus", "unprotected", "risky"), listOf("weather"), LucideIcons.All.UmbrellaOffDefinition),
+    LucideIconMetadata("Squirrel", listOf("animal", "rodent", "pet", "pest", "nuts", "retrieve", "updates", "storage", "stash"), listOf("animals"), LucideIcons.All.SquirrelDefinition),
     
-    LucideIconMetadata("Umbrella", listOf("rain", "weather"), listOf("weather"), LucideIcons.All.UmbrellaDefinition),
+    LucideIconMetadata("Stamp", listOf("mark", "print", "clone", "loyalty", "library"), listOf("design", "cursors", "tools"), LucideIcons.All.StampDefinition),
     
-    LucideIconMetadata("Underline", listOf("text", "format"), listOf("text"), LucideIcons.All.UnderlineDefinition),
+    LucideIconMetadata("StarCheck", listOf("bookmark", "favorite", "like", "review", "rating", "check", "star"), listOf("account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"), LucideIcons.All.StarCheckDefinition),
     
-    LucideIconMetadata("Undo2", listOf("redo", "rerun", "history", "back", "return", "reverse", "revert", "direction", "u-turn"), listOf("text", "arrows"), LucideIcons.All.Undo2Definition),
+    LucideIconMetadata("StarHalf", listOf("bookmark", "favorite", "like", "review", "rating"), listOf("social", "multimedia"), LucideIcons.All.StarHalfDefinition),
     
-    LucideIconMetadata("UndoDot", listOf("redo", "history", "step", "back"), listOf("text", "arrows"), LucideIcons.All.UndoDotDefinition),
+    LucideIconMetadata("StarMinus", listOf("bookmark", "favorite", "like", "review", "rating", "minus", "remove", "deselect", "star"), listOf("account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"), LucideIcons.All.StarMinusDefinition),
     
-    LucideIconMetadata("Undo", listOf("redo", "rerun", "history"), listOf("text", "arrows"), LucideIcons.All.UndoDefinition),
+    LucideIconMetadata("StarOff", listOf("dislike", "unlike", "remove", "unrate"), listOf("multimedia", "social"), LucideIcons.All.StarOffDefinition),
     
-    LucideIconMetadata("UnfoldHorizontal", listOf("arrow", "collapse", "fold", "vertical", "dashed"), listOf("arrows", "layout"), LucideIcons.All.UnfoldHorizontalDefinition),
+    LucideIconMetadata("StarPlus", listOf("bookmark", "favorite", "like", "review", "rating", "plus", "add", "join", "star"), listOf("account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"), LucideIcons.All.StarPlusDefinition),
     
-    LucideIconMetadata("UnfoldVertical", listOf("arrow", "expand", "vertical", "dashed"), listOf("arrows", "layout"), LucideIcons.All.UnfoldVerticalDefinition)
+    LucideIconMetadata("StarX", listOf("mark", "symbol", "shape", "vector", "design", "graphic", "bookmark", "favorite", "like", "review", "rating", "x", "cancel", "reject", "star"), listOf("account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"), LucideIcons.All.StarXDefinition)
     
 )

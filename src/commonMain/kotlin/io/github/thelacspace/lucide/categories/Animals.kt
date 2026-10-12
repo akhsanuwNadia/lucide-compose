@@ -16,6 +16,9 @@ object LucideIconsAnimals {
     val BoneDefinition get() = LucideIcons.All.BoneDefinition
     val Bone: ImageVector @Composable get() = LucideIcons.All.Bone
     
+    val BoneFractureDefinition get() = LucideIcons.All.BoneFractureDefinition
+    val BoneFracture: ImageVector @Composable get() = LucideIcons.All.BoneFracture
+    
     val BugDefinition get() = LucideIcons.All.BugDefinition
     val Bug: ImageVector @Composable get() = LucideIcons.All.Bug
     
@@ -33,6 +36,9 @@ object LucideIconsAnimals {
     
     val EggDefinition get() = LucideIcons.All.EggDefinition
     val Egg: ImageVector @Composable get() = LucideIcons.All.Egg
+    
+    val FeatherDefinition get() = LucideIcons.All.FeatherDefinition
+    val Feather: ImageVector @Composable get() = LucideIcons.All.Feather
     
     val FishDefinition get() = LucideIcons.All.FishDefinition
     val Fish: ImageVector @Composable get() = LucideIcons.All.Fish
@@ -63,6 +69,9 @@ object LucideIconsAnimals {
     
     val ShrimpDefinition get() = LucideIcons.All.ShrimpDefinition
     val Shrimp: ImageVector @Composable get() = LucideIcons.All.Shrimp
+    
+    val ShrimpOffDefinition get() = LucideIcons.All.ShrimpOffDefinition
+    val ShrimpOff: ImageVector @Composable get() = LucideIcons.All.ShrimpOff
     
     val SnailDefinition get() = LucideIcons.All.SnailDefinition
     val Snail: ImageVector @Composable get() = LucideIcons.All.Snail

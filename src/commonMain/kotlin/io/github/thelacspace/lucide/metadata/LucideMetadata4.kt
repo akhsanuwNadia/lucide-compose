@@ -3,14 +3,57 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata4 = listOf(
+    
+    LucideIconMetadata("CircleParking", listOf("parking lot", "car park"), listOf("transportation", "navigation"), LucideIcons.All.CircleParkingDefinition),
+    
+    LucideIconMetadata("CirclePause", listOf("music", "audio", "stop"), listOf("multimedia"), LucideIcons.All.CirclePauseDefinition),
+    
+    LucideIconMetadata("CirclePercent", listOf("verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"), listOf("social", "finance", "shopping", "math"), LucideIcons.All.CirclePercentDefinition),
+    
+    LucideIconMetadata("CirclePile", listOf("off", "zero", "record", "shape", "circle-pile", "circle", "pile", "stack", "layer", "structure", "form", "group", "collection", "stock", "inventory", "materials", "warehouse"), listOf("shapes"), LucideIcons.All.CirclePileDefinition),
+    
+    LucideIconMetadata("CirclePlay", listOf("music", "start", "run"), listOf("multimedia"), LucideIcons.All.CirclePlayDefinition),
+    
+    LucideIconMetadata("CirclePlus", listOf("add", "new", "increase", "increment", "positive", "calculate", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "operator", "join", "concatenate", "code", "coding", "+"), listOf("math", "development", "cursors", "gaming"), LucideIcons.All.CirclePlusDefinition),
+    
+    LucideIconMetadata("CirclePoundSterling", listOf("monetization", "coin", "penny", "marketing", "currency", "money", "payment", "british", "gbp", "£"), listOf("finance"), LucideIcons.All.CirclePoundSterlingDefinition),
+    
+    LucideIconMetadata("CirclePower", listOf("on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"), listOf("connectivity"), LucideIcons.All.CirclePowerDefinition),
+    
+    LucideIconMetadata("CircleQuestionMark", listOf("question mark"), listOf("accessibility", "text", "notifications"), LucideIcons.All.CircleQuestionMarkDefinition),
+    
+    LucideIconMetadata("CircleSlash2", listOf("diameter", "zero", "ø", "nothing", "null", "void", "ban", "math", "divide", "division", "half", "split", "/", "average", "avg", "mean", "median", "normal"), listOf("shapes", "math", "development"), LucideIcons.All.CircleSlash2Definition),
+    
+    LucideIconMetadata("CircleSlash", listOf("diameter", "zero", "Ø", "nothing", "null", "void", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure", "divide", "division", "or", "/"), listOf("development", "math"), LucideIcons.All.CircleSlashDefinition),
+    
+    LucideIconMetadata("CircleSmall", listOf("shape", "bullet", "gender", "genderless"), listOf("shapes", "medical"), LucideIcons.All.CircleSmallDefinition),
+    
+    LucideIconMetadata("CircleStar", listOf("badge", "medal", "honour", "decoration", "order", "pin", "laurel", "trophy", "medallion", "insignia", "bronze", "silver", "gold"), listOf("sports", "gaming"), LucideIcons.All.CircleStarDefinition),
+    
+    LucideIconMetadata("CircleStop", listOf("media", "music"), listOf("multimedia"), LucideIcons.All.CircleStopDefinition),
+    
+    LucideIconMetadata("CircleUserRound", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.CircleUserRoundDefinition),
+    
+    LucideIconMetadata("CircleUser", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.CircleUserDefinition),
+    
+    LucideIconMetadata("CircleX", listOf("cancel", "close", "delete", "remove", "times", "clear", "error", "incorrect", "wrong", "mistake", "failure", "linter", "multiply", "multiplication"), listOf("math", "development"), LucideIcons.All.CircleXDefinition),
+    
+    LucideIconMetadata("Circle", listOf("off", "zero", "record", "shape"), listOf("shapes"), LucideIcons.All.CircleDefinition),
     
     LucideIconMetadata("CircuitBoard", listOf("computing", "electricity", "electronics"), listOf("science", "development"), LucideIcons.All.CircuitBoardDefinition),
     
     LucideIconMetadata("Citrus", listOf("lemon", "orange", "grapefruit", "fruit"), listOf("food-beverage"), LucideIcons.All.CitrusDefinition),
     
     LucideIconMetadata("Clapperboard", listOf("movie", "film", "video", "camera", "cinema", "cut", "action", "television", "tv", "show", "entertainment"), listOf("multimedia"), LucideIcons.All.ClapperboardDefinition),
+    
+    LucideIconMetadata("ClefAlto", listOf("do", "c", "music", "note", "key", "soprano", "mezzo", "alto", "staff", "pitch", "baritone", "major", "scale"), listOf("multimedia"), LucideIcons.All.ClefAltoDefinition),
+    
+    LucideIconMetadata("ClefBass", listOf("fa", "f", "music", "note", "key", "baritone", "staff", "pitch", "bass", "subbass", "major", "scale"), listOf("multimedia"), LucideIcons.All.ClefBassDefinition),
+    
+    LucideIconMetadata("ClefTreble", listOf("sol", "g", "music", "note", "key", "treble", "staff", "pitch", "violin", "solfege", "major", "scale"), listOf("multimedia"), LucideIcons.All.ClefTrebleDefinition),
     
     LucideIconMetadata("ClipboardCheck", listOf("copied", "pasted", "done", "todo", "tick", "complete", "task"), listOf("text"), LucideIcons.All.ClipboardCheckDefinition),
     
@@ -64,6 +107,10 @@ internal val lucideMetadata4 = listOf(
     
     LucideIconMetadata("ClockArrowDown", listOf("time", "watch", "alarm", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"), listOf("time"), LucideIcons.All.ClockArrowDownDefinition),
     
+    LucideIconMetadata("ClockArrowLeft", listOf("time", "watch", "alarm", "assign", "range"), listOf("time"), LucideIcons.All.ClockArrowLeftDefinition),
+    
+    LucideIconMetadata("ClockArrowRight", listOf("time", "watch", "alarm", "range", "unassign"), listOf("time", "people", "arrows"), LucideIcons.All.ClockArrowRightDefinition),
+    
     LucideIconMetadata("ClockArrowUp", listOf("time", "watch", "alarm", "sort", "order", "ascending", "descending", "increasing", "decreasing", "rising", "falling"), listOf("time"), LucideIcons.All.ClockArrowUpDefinition),
     
     LucideIconMetadata("ClockCheck", listOf("time", "watch", "alarm"), listOf("time"), LucideIcons.All.ClockCheckDefinition),
@@ -78,7 +125,7 @@ internal val lucideMetadata4 = listOf(
     
     LucideIconMetadata("CloudAlert", listOf("weather", "danger", "warning", "alert", "error", "sync", "network", "exclamation"), listOf("development"), LucideIcons.All.CloudAlertDefinition),
     
-    LucideIconMetadata("CloudBackup", listOf("storage", "memory", "bytes", "servers", "backup", "timemachine", "rotate", "synchronize", "synchronise", "refresh", "reconnect", "transfer", "data", "security", "upload", "save", "remote", "safety"), listOf("arrows", "files"), LucideIcons.All.CloudBackupDefinition),
+    LucideIconMetadata("CloudBackup", listOf("storage", "memory", "bytes", "servers", "backup", "time machine", "rotate", "synchronize", "synchronise", "refresh", "reconnect", "transfer", "data", "security", "upload", "save", "remote", "safety"), listOf("arrows", "files"), LucideIcons.All.CloudBackupDefinition),
     
     LucideIconMetadata("CloudCheck", listOf("sync", "network", "success", "done", "completed", "saved", "persisted"), listOf("development"), LucideIcons.All.CloudCheckDefinition),
     
@@ -144,11 +191,11 @@ internal val lucideMetadata4 = listOf(
     
     LucideIconMetadata("Command", listOf("keyboard", "key", "mac", "cmd", "button"), listOf("development"), LucideIcons.All.CommandDefinition),
     
-    LucideIconMetadata("Compass", listOf("direction", "north", "east", "south", "west", "safari", "browser"), listOf("navigation", "travel"), LucideIcons.All.CompassDefinition),
+    LucideIconMetadata("Compass", listOf("direction", "north", "east", "south", "west", "browser"), listOf("navigation", "travel"), LucideIcons.All.CompassDefinition),
     
     LucideIconMetadata("Component", listOf("design", "element", "group", "module", "part", "symbol"), listOf("design", "development"), LucideIcons.All.ComponentDefinition),
     
-    LucideIconMetadata("Computer", listOf("pc", "chassis", "codespaces", "github"), listOf("devices", "development", "gaming"), LucideIcons.All.ComputerDefinition),
+    LucideIconMetadata("Computer", listOf("pc", "chassis", "codespaces"), listOf("devices", "development", "gaming"), LucideIcons.All.ComputerDefinition),
     
     LucideIconMetadata("ConciergeBell", listOf("reception", "bell", "porter"), listOf("travel"), LucideIcons.All.ConciergeBellDefinition),
     
@@ -158,52 +205,6 @@ internal val lucideMetadata4 = listOf(
     
     LucideIconMetadata("ContactRound", listOf("user", "person", "family", "friend", "acquaintance", "listing", "networking"), listOf("account", "connectivity", "communication", "social"), LucideIcons.All.ContactRoundDefinition),
     
-    LucideIconMetadata("Contact", listOf("user", "person", "family", "friend", "acquaintance", "listing", "networking"), listOf("account", "connectivity", "communication", "social"), LucideIcons.All.ContactDefinition),
-    
-    LucideIconMetadata("Container", listOf("storage", "shipping", "freight", "supply chain", "docker", "environment", "devops", "code", "coding"), listOf("development", "transportation", "mail"), LucideIcons.All.ContainerDefinition),
-    
-    LucideIconMetadata("Contrast", listOf("display", "accessibility"), listOf("photography", "accessibility", "design"), LucideIcons.All.ContrastDefinition),
-    
-    LucideIconMetadata("Cookie", listOf("biscuit", "privacy", "legal", "food"), listOf("account", "food-beverage"), LucideIcons.All.CookieDefinition),
-    
-    LucideIconMetadata("CookingPot", listOf("pod", "cooking", "recipe", "food", "kitchen", "chef", "restaurant", "dinner", "lunch", "breakfast", "meal", "eat"), listOf("food-beverage", "home"), LucideIcons.All.CookingPotDefinition),
-    
-    LucideIconMetadata("CopyCheck", listOf("clone", "duplicate", "done", "multiple"), listOf("text", "notifications"), LucideIcons.All.CopyCheckDefinition),
-    
-    LucideIconMetadata("CopyMinus", listOf("clone", "duplicate", "remove", "delete", "collapse", "subtract", "multiple", "-"), listOf("text", "math"), LucideIcons.All.CopyMinusDefinition),
-    
-    LucideIconMetadata("CopyPlus", listOf("clone", "duplicate", "add", "multiple", "expand", "+"), listOf("text", "math"), LucideIcons.All.CopyPlusDefinition),
-    
-    LucideIconMetadata("CopySlash", listOf("clone", "duplicate", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "multiple", "divide", "division", "split", "or", "/"), listOf("text", "development", "math"), LucideIcons.All.CopySlashDefinition),
-    
-    LucideIconMetadata("CopyX", listOf("cancel", "close", "delete", "remove", "clear", "multiple", "multiply", "multiplication", "times"), listOf("notifications", "math"), LucideIcons.All.CopyXDefinition),
-    
-    LucideIconMetadata("Copy", listOf("clone", "duplicate", "multiple"), listOf("text"), LucideIcons.All.CopyDefinition),
-    
-    LucideIconMetadata("Copyleft", listOf("licence"), listOf("text"), LucideIcons.All.CopyleftDefinition),
-    
-    LucideIconMetadata("Copyright", listOf("licence", "license"), listOf("text"), LucideIcons.All.CopyrightDefinition),
-    
-    LucideIconMetadata("CornerDownLeft", listOf("arrow", "return"), listOf("arrows"), LucideIcons.All.CornerDownLeftDefinition),
-    
-    LucideIconMetadata("CornerDownRight", listOf("arrow", "indent", "tab"), listOf("arrows", "text", "development"), LucideIcons.All.CornerDownRightDefinition),
-    
-    LucideIconMetadata("CornerLeftDown", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerLeftDownDefinition),
-    
-    LucideIconMetadata("CornerLeftUp", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerLeftUpDefinition),
-    
-    LucideIconMetadata("CornerRightDown", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerRightDownDefinition),
-    
-    LucideIconMetadata("CornerRightUp", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerRightUpDefinition),
-    
-    LucideIconMetadata("CornerUpLeft", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerUpLeftDefinition),
-    
-    LucideIconMetadata("CornerUpRight", listOf("arrow"), listOf("arrows"), LucideIcons.All.CornerUpRightDefinition),
-    
-    LucideIconMetadata("Cpu", listOf("processor", "cores", "technology", "computer", "chip", "circuit", "memory", "ram", "specs", "gigahertz", "ghz"), listOf("devices"), LucideIcons.All.CpuDefinition),
-    
-    LucideIconMetadata("CreativeCommons", listOf("licence", "license"), listOf("text"), LucideIcons.All.CreativeCommonsDefinition),
-    
-    LucideIconMetadata("CreditCard", listOf("bank", "purchase", "payment", "cc"), listOf("account", "finance"), LucideIcons.All.CreditCardDefinition)
+    LucideIconMetadata("Contact", listOf("user", "person", "family", "friend", "acquaintance", "listing", "networking"), listOf("account", "connectivity", "communication", "social"), LucideIcons.All.ContactDefinition)
     
 )

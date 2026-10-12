@@ -40,6 +40,9 @@ object LucideIconsScience {
     val EclipseDefinition get() = LucideIcons.All.EclipseDefinition
     val Eclipse: ImageVector @Composable get() = LucideIcons.All.Eclipse
     
+    val EqualApproximatelyNotDefinition get() = LucideIcons.All.EqualApproximatelyNotDefinition
+    val EqualApproximatelyNot: ImageVector @Composable get() = LucideIcons.All.EqualApproximatelyNot
+    
     val FlaskConicalDefinition get() = LucideIcons.All.FlaskConicalDefinition
     val FlaskConical: ImageVector @Composable get() = LucideIcons.All.FlaskConical
     
@@ -49,8 +52,23 @@ object LucideIconsScience {
     val FlaskRoundDefinition get() = LucideIcons.All.FlaskRoundDefinition
     val FlaskRound: ImageVector @Composable get() = LucideIcons.All.FlaskRound
     
+    val GalaxyDefinition get() = LucideIcons.All.GalaxyDefinition
+    val Galaxy: ImageVector @Composable get() = LucideIcons.All.Galaxy
+    
     val GaugeDefinition get() = LucideIcons.All.GaugeDefinition
     val Gauge: ImageVector @Composable get() = LucideIcons.All.Gauge
+    
+    val GermDefinition get() = LucideIcons.All.GermDefinition
+    val Germ: ImageVector @Composable get() = LucideIcons.All.Germ
+    
+    val GermOffDefinition get() = LucideIcons.All.GermOffDefinition
+    val GermOff: ImageVector @Composable get() = LucideIcons.All.GermOff
+    
+    val LambdaDefinition get() = LucideIcons.All.LambdaDefinition
+    val Lambda: ImageVector @Composable get() = LucideIcons.All.Lambda
+    
+    val LensDefinition get() = LucideIcons.All.LensDefinition
+    val Lens: ImageVector @Composable get() = LucideIcons.All.Lens
     
     val LensConcaveDefinition get() = LucideIcons.All.LensConcaveDefinition
     val LensConcave: ImageVector @Composable get() = LucideIcons.All.LensConcave
@@ -73,11 +91,17 @@ object LucideIconsScience {
     val OrbitDefinition get() = LucideIcons.All.OrbitDefinition
     val Orbit: ImageVector @Composable get() = LucideIcons.All.Orbit
     
+    val PhiDefinition get() = LucideIcons.All.PhiDefinition
+    val Phi: ImageVector @Composable get() = LucideIcons.All.Phi
+    
     val PipetteDefinition get() = LucideIcons.All.PipetteDefinition
     val Pipette: ImageVector @Composable get() = LucideIcons.All.Pipette
     
     val RadiationDefinition get() = LucideIcons.All.RadiationDefinition
     val Radiation: ImageVector @Composable get() = LucideIcons.All.Radiation
+    
+    val RobotArmDefinition get() = LucideIcons.All.RobotArmDefinition
+    val RobotArm: ImageVector @Composable get() = LucideIcons.All.RobotArm
     
     val SatelliteDefinition get() = LucideIcons.All.SatelliteDefinition
     val Satellite: ImageVector @Composable get() = LucideIcons.All.Satellite
@@ -114,5 +138,11 @@ object LucideIconsScience {
     
     val TestTubesDefinition get() = LucideIcons.All.TestTubesDefinition
     val TestTubes: ImageVector @Composable get() = LucideIcons.All.TestTubes
+    
+    val VirusDefinition get() = LucideIcons.All.VirusDefinition
+    val Virus: ImageVector @Composable get() = LucideIcons.All.Virus
+    
+    val VirusOffDefinition get() = LucideIcons.All.VirusOffDefinition
+    val VirusOff: ImageVector @Composable get() = LucideIcons.All.VirusOff
     
 }

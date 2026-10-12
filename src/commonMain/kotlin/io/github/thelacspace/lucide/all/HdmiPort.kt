@@ -10,22 +10,12 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("HdmiPort") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(22f, 9f)
-                arcToRelative(1f, 1f, 0f, false, false, -1f, -1f)
-                horizontalLineTo(3f)
-                arcToRelative(1f, 1f, 0f, false, false, -1f, 1f)
-                verticalLineToRelative(4f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, 1f)
-                horizontalLineToRelative(1f)
-                lineToRelative(2f, 2f)
-                horizontalLineToRelative(12f)
-                lineToRelative(2f, -2f)
-                horizontalLineToRelative(1f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, -1f)
-                close()
+                arcToRelative(1f, 1f, 0f, false, false, -1f, Hf)
+                arcToRelative(3f, af, 1f, true, false, 00f, -1f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.5f, 12f)
-                horizontalLineToRelative(9f)
+                moveTo(8f, 12f)
+                horizontalLineToRelative(8f)
             }
 }
 

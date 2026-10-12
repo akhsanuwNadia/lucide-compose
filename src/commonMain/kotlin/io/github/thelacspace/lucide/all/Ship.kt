@@ -9,31 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Ship") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 10.189f)
-                verticalLineTo(14f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(12f, 2f)
-                verticalLineToRelative(3f)
+                verticalLineToRelative(2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 13f)
-                verticalLineTo(7f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(7f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(6f)
+                moveTo(12f, 9.189f)
+                verticalLineTo(13f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.38f, 20f)
-                arcTo(11.6f, 11.6f, 0f, false, false, 21f, 14f)
-                lineToRelative(-8.188f, -3.639f)
-                arcToRelative(2f, 2f, 0f, false, false, -1.624f, 0f)
-                lineTo(3f, 14f)
-                arcToRelative(11.6f, 11.6f, 0f, false, false, 2.81f, 7.76f)
+                moveTo(19f, 12f)
+                verticalLineTo(6f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(7f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 21f)
+                moveTo(19.38f, 19f)
+                arcTo(11.6f, 11.6f, 0f, false, false, lf, -8.188f)
+                arcTo(-3.639f, af, 2f, false, false, 00f, -1.624f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(2f, 20f)
                 curveToRelative(.6f, .5f, 1.2f, 1f, 2.5f, 1f)
                 curveToRelative(2.5f, 0f, 2.5f, -2f, 5f, -2f)
                 curveToRelative(1.3f, 0f, 1.9f, .5f, 2.5f, 1f)

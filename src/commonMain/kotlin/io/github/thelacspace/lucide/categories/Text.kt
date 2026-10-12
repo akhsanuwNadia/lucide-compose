@@ -94,6 +94,9 @@ object LucideIconsText {
     val BookAudioDefinition get() = LucideIcons.All.BookAudioDefinition
     val BookAudio: ImageVector @Composable get() = LucideIcons.All.BookAudio
     
+    val BookBookmarkDefinition get() = LucideIcons.All.BookBookmarkDefinition
+    val BookBookmark: ImageVector @Composable get() = LucideIcons.All.BookBookmark
+    
     val BookCheckDefinition get() = LucideIcons.All.BookCheckDefinition
     val BookCheck: ImageVector @Composable get() = LucideIcons.All.BookCheck
     
@@ -108,9 +111,6 @@ object LucideIconsText {
     
     val BookImageDefinition get() = LucideIcons.All.BookImageDefinition
     val BookImage: ImageVector @Composable get() = LucideIcons.All.BookImage
-    
-    val BookMarkedDefinition get() = LucideIcons.All.BookMarkedDefinition
-    val BookMarked: ImageVector @Composable get() = LucideIcons.All.BookMarked
     
     val BookMinusDefinition get() = LucideIcons.All.BookMinusDefinition
     val BookMinus: ImageVector @Composable get() = LucideIcons.All.BookMinus
@@ -253,6 +253,9 @@ object LucideIconsText {
     val ExternalLinkDefinition get() = LucideIcons.All.ExternalLinkDefinition
     val ExternalLink: ImageVector @Composable get() = LucideIcons.All.ExternalLink
     
+    val FeatherDefinition get() = LucideIcons.All.FeatherDefinition
+    val Feather: ImageVector @Composable get() = LucideIcons.All.Feather
+    
     val FileTextDefinition get() = LucideIcons.All.FileTextDefinition
     val FileText: ImageVector @Composable get() = LucideIcons.All.FileText
     
@@ -331,11 +334,17 @@ object LucideIconsText {
     val KeyboardOffDefinition get() = LucideIcons.All.KeyboardOffDefinition
     val KeyboardOff: ImageVector @Composable get() = LucideIcons.All.KeyboardOff
     
+    val LambdaDefinition get() = LucideIcons.All.LambdaDefinition
+    val Lambda: ImageVector @Composable get() = LucideIcons.All.Lambda
+    
     val LanguagesDefinition get() = LucideIcons.All.LanguagesDefinition
     val Languages: ImageVector @Composable get() = LucideIcons.All.Languages
     
     val LayoutListDefinition get() = LucideIcons.All.LayoutListDefinition
     val LayoutList: ImageVector @Composable get() = LucideIcons.All.LayoutList
+    
+    val LettersDefinition get() = LucideIcons.All.LettersDefinition
+    val Letters: ImageVector @Composable get() = LucideIcons.All.Letters
     
     val LibraryDefinition get() = LucideIcons.All.LibraryDefinition
     val Library: ImageVector @Composable get() = LucideIcons.All.Library
@@ -370,6 +379,9 @@ object LucideIconsText {
     val ListChevronsUpDownDefinition get() = LucideIcons.All.ListChevronsUpDownDefinition
     val ListChevronsUpDown: ImageVector @Composable get() = LucideIcons.All.ListChevronsUpDown
     
+    val ListClockDefinition get() = LucideIcons.All.ListClockDefinition
+    val ListClock: ImageVector @Composable get() = LucideIcons.All.ListClock
+    
     val ListCollapseDefinition get() = LucideIcons.All.ListCollapseDefinition
     val ListCollapse: ImageVector @Composable get() = LucideIcons.All.ListCollapse
     
@@ -400,6 +412,12 @@ object LucideIconsText {
     val ListRestartDefinition get() = LucideIcons.All.ListRestartDefinition
     val ListRestart: ImageVector @Composable get() = LucideIcons.All.ListRestart
     
+    val ListSortAscendingDefinition get() = LucideIcons.All.ListSortAscendingDefinition
+    val ListSortAscending: ImageVector @Composable get() = LucideIcons.All.ListSortAscending
+    
+    val ListSortDescendingDefinition get() = LucideIcons.All.ListSortDescendingDefinition
+    val ListSortDescending: ImageVector @Composable get() = LucideIcons.All.ListSortDescending
+    
     val ListStartDefinition get() = LucideIcons.All.ListStartDefinition
     val ListStart: ImageVector @Composable get() = LucideIcons.All.ListStart
     
@@ -417,6 +435,12 @@ object LucideIconsText {
     
     val MailDefinition get() = LucideIcons.All.MailDefinition
     val Mail: ImageVector @Composable get() = LucideIcons.All.Mail
+    
+    val MailClockDefinition get() = LucideIcons.All.MailClockDefinition
+    val MailClock: ImageVector @Composable get() = LucideIcons.All.MailClock
+    
+    val MailDotDefinition get() = LucideIcons.All.MailDotDefinition
+    val MailDot: ImageVector @Composable get() = LucideIcons.All.MailDot
     
     val MapDefinition get() = LucideIcons.All.MapDefinition
     val Map: ImageVector @Composable get() = LucideIcons.All.Map
@@ -487,6 +511,9 @@ object LucideIconsText {
     val PencilRulerDefinition get() = LucideIcons.All.PencilRulerDefinition
     val PencilRuler: ImageVector @Composable get() = LucideIcons.All.PencilRuler
     
+    val PencilSparklesDefinition get() = LucideIcons.All.PencilSparklesDefinition
+    val PencilSparkles: ImageVector @Composable get() = LucideIcons.All.PencilSparkles
+    
     val PhoneDefinition get() = LucideIcons.All.PhoneDefinition
     val Phone: ImageVector @Composable get() = LucideIcons.All.Phone
     
@@ -550,8 +577,17 @@ object LucideIconsText {
     val SaveAllDefinition get() = LucideIcons.All.SaveAllDefinition
     val SaveAll: ImageVector @Composable get() = LucideIcons.All.SaveAll
     
+    val SaveCheckDefinition get() = LucideIcons.All.SaveCheckDefinition
+    val SaveCheck: ImageVector @Composable get() = LucideIcons.All.SaveCheck
+    
     val SaveOffDefinition get() = LucideIcons.All.SaveOffDefinition
     val SaveOff: ImageVector @Composable get() = LucideIcons.All.SaveOff
+    
+    val SavePenDefinition get() = LucideIcons.All.SavePenDefinition
+    val SavePen: ImageVector @Composable get() = LucideIcons.All.SavePen
+    
+    val SavePlusDefinition get() = LucideIcons.All.SavePlusDefinition
+    val SavePlus: ImageVector @Composable get() = LucideIcons.All.SavePlus
     
     val ScanTextDefinition get() = LucideIcons.All.ScanTextDefinition
     val ScanText: ImageVector @Composable get() = LucideIcons.All.ScanText
@@ -646,8 +682,14 @@ object LucideIconsText {
     val SquareSigmaDefinition get() = LucideIcons.All.SquareSigmaDefinition
     val SquareSigma: ImageVector @Composable get() = LucideIcons.All.SquareSigma
     
+    val SquareSparklesDefinition get() = LucideIcons.All.SquareSparklesDefinition
+    val SquareSparkles: ImageVector @Composable get() = LucideIcons.All.SquareSparkles
+    
     val SquareStackDefinition get() = LucideIcons.All.SquareStackDefinition
     val SquareStack: ImageVector @Composable get() = LucideIcons.All.SquareStack
+    
+    val SquareTextDefinition get() = LucideIcons.All.SquareTextDefinition
+    val SquareText: ImageVector @Composable get() = LucideIcons.All.SquareText
     
     val StickyNoteDefinition get() = LucideIcons.All.StickyNoteDefinition
     val StickyNote: ImageVector @Composable get() = LucideIcons.All.StickyNote
@@ -675,6 +717,9 @@ object LucideIconsText {
     
     val SubscriptDefinition get() = LucideIcons.All.SubscriptDefinition
     val Subscript: ImageVector @Composable get() = LucideIcons.All.Subscript
+    
+    val SummaryDefinition get() = LucideIcons.All.SummaryDefinition
+    val Summary: ImageVector @Composable get() = LucideIcons.All.Summary
     
     val SuperscriptDefinition get() = LucideIcons.All.SuperscriptDefinition
     val Superscript: ImageVector @Composable get() = LucideIcons.All.Superscript
@@ -711,6 +756,15 @@ object LucideIconsText {
     
     val TextAlignJustifyDefinition get() = LucideIcons.All.TextAlignJustifyDefinition
     val TextAlignJustify: ImageVector @Composable get() = LucideIcons.All.TextAlignJustify
+    
+    val TextAlignJustifyCenterDefinition get() = LucideIcons.All.TextAlignJustifyCenterDefinition
+    val TextAlignJustifyCenter: ImageVector @Composable get() = LucideIcons.All.TextAlignJustifyCenter
+    
+    val TextAlignJustifyEndDefinition get() = LucideIcons.All.TextAlignJustifyEndDefinition
+    val TextAlignJustifyEnd: ImageVector @Composable get() = LucideIcons.All.TextAlignJustifyEnd
+    
+    val TextAlignJustifyStartDefinition get() = LucideIcons.All.TextAlignJustifyStartDefinition
+    val TextAlignJustifyStart: ImageVector @Composable get() = LucideIcons.All.TextAlignJustifyStart
     
     val TextAlignStartDefinition get() = LucideIcons.All.TextAlignStartDefinition
     val TextAlignStart: ImageVector @Composable get() = LucideIcons.All.TextAlignStart

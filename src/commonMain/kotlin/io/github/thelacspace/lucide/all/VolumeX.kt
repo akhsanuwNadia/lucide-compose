@@ -10,7 +10,7 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("VolumeX") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(11f, 4.702f)
-                arcToRelative(.705f, .705f, 0f, false, false, -1.203f, -.498f)
+                arcToRelative(.7f, .7f, 0f, false, false, -1.203f, -.498f)
                 lineTo(6.413f, 7.587f)
                 arcTo(1.4f, 1.4f, 0f, false, true, 5.416f, 8f)
                 horizontalLineTo(3f)
@@ -20,16 +20,16 @@ private val _ActivityDefinition = LucideIconDefinition("VolumeX") { strokeWidth 
                 horizontalLineToRelative(2.416f)
                 arcToRelative(1.4f, 1.4f, 0f, false, true, .997f, .413f)
                 lineToRelative(3.383f, 3.384f)
-                arcTo(.705f, .705f, 0f, false, false, 11f, 19.298f)
+                arcTo(.7f, .7f, 0f, false, false, 11f, 19.298f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 9f)
-                lineTo(16f, 15f)
+                moveToRelative(16.5f, 14.5f)
+                lineToRelative(5f, -5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 9f)
-                lineTo(22f, 15f)
+                moveToRelative(16.5f, 9.5f)
+                lineToRelative(5f, 5f)
             }
 }
 

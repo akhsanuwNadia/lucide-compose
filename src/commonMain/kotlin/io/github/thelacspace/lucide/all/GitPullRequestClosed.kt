@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GitPullRequestClosed") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3.0f, 6.0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
+                moveToRelative(15.5f, 3.5f)
+                lineToRelative(5f, 5f)
+            }
+            lucidePath(strokeWidth) {
+                moveToRelative(15.5f, 8.5f)
+                lineToRelative(5f, -5f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(18f, 11.62f)
+                verticalLineTo(15f)
             }
             lucidePath(strokeWidth) {
                 moveTo(6f, 9f)
                 verticalLineToRelative(12f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(21f, 3f)
-                lineToRelative(-6f, 6f)
-            }
-            lucidePath(strokeWidth) {
-                moveToRelative(21f, 9f)
-                lineToRelative(-6f, -6f)
-            }
-            lucidePath(strokeWidth) {
-                moveTo(18f, 11.5f)
-                verticalLineTo(15f)
-            }
-            lucidePath(strokeWidth) {
                 moveTo(15.0f, 18.0f)
+                arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
+                arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
+            }
+            lucidePath(strokeWidth) {
+                moveTo(3.0f, 6.0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
                 arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
             }

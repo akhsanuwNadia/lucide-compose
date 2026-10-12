@@ -10,30 +10,22 @@ import io.github.thelacspace.lucide.lucidePath
 private val _ActivityDefinition = LucideIconDefinition("Barrel") { strokeWidth ->
     lucidePath(strokeWidth) {
                 moveTo(10f, 3f)
-                arcToRelative(41f, 41f, 0f, false, false, 0f, 18f)
             }
             lucidePath(strokeWidth) {
                 moveTo(14f, 3f)
-                arcToRelative(41f, 41f, 0f, false, true, 0f, 18f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 3f)
-                arcToRelative(2f, 2f, 0f, false, true, 1.68f, .92f)
-                arcToRelative(15.25f, 15.25f, 0f, false, true, 0f, 16.16f)
-                arcTo(2f, 2f, 0f, false, true, 17f, 21f)
-                horizontalLineTo(7f)
-                arcToRelative(2f, 2f, 0f, false, true, -1.68f, -.92f)
-                arcToRelative(15.25f, 15.25f, 0f, false, true, 0f, -16.16f)
-                arcTo(2f, 2f, 0f, false, true, 7f, 3f)
-                close()
+                moveTo(16.997f, 21f)
+                arcToRelative(2f, 2f, 0f, true, false, 15.25f, 15.25f)
+                arcToRelative(0f, 000f, -16.16f, false, false, 0f, 00f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.84f, 17f)
-                horizontalLineToRelative(16.32f)
+                moveTo(3.54f, 16f)
+                horizontalLineToRelative(16.914f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.84f, 7f)
-                horizontalLineToRelative(16.32f)
+                moveTo(3.54f, 8f)
+                horizontalLineToRelative(16.914f)
             }
 }
 

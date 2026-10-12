@@ -3,8 +3,19 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata2 = listOf(
+    
+    LucideIconMetadata("BookHeadphones", listOf("audiobook", "reading", "listening", "sound", "story", "fiction", "novel", "information", "knowledge", "education", "student", "study", "learning", "research"), listOf("multimedia", "text"), LucideIcons.All.BookHeadphonesDefinition),
+    
+    LucideIconMetadata("BookHeart", listOf("diary", "romance", "novel", "journal", "entry", "entries", "personal", "private", "secret", "crush", "like", "love", "emotion", "feminine", "girls", "teens", "teenager", "therapy", "therapeutic", "therapist", "planner", "organizer", "organiser", "notes", "notepad", "stationery", "sketchbook", "writing", "written", "reading", "favorite", "favourite", "high school"), listOf("social", "text", "gaming"), LucideIcons.All.BookHeartDefinition),
+    
+    LucideIconMetadata("BookImage", listOf("images", "pictures", "photos", "album", "collection", "event", "magazine", "catalog", "catalogue", "brochure", "browse", "gallery"), listOf("photography", "text", "multimedia", "files", "social", "shopping", "travel"), LucideIcons.All.BookImageDefinition),
+    
+    LucideIconMetadata("BookKey", listOf("code", "coding", "version control", "git", "repository", "private", "public", "secret", "unlocked", "hidden", "revealed", "knowledge", "learning"), listOf("development", "security", "gaming"), LucideIcons.All.BookKeyDefinition),
+    
+    LucideIconMetadata("BookLock", listOf("code", "coding", "version control", "git", "repository", "private", "secret", "hidden", "knowledge"), listOf("development", "security", "gaming"), LucideIcons.All.BookLockDefinition),
     
     LucideIconMetadata("BookMinus", listOf("code", "coding", "version control", "git", "repository", "remove", "delete", "censor", "cancel", "forbid", "prohibit", "ban", "uneducated", "re-educate", "unlearn", "downgrade"), listOf("development", "text", "gaming"), LucideIcons.All.BookMinusDefinition),
     
@@ -76,17 +87,25 @@ internal val lucideMetadata2 = listOf(
     
     LucideIconMetadata("BrickWall", listOf("bricks", "mortar", "cement", "materials", "construction", "builder", "labourer", "quantity surveyor", "blocks", "stone"), listOf("buildings", "home"), LucideIcons.All.BrickWallDefinition),
     
+    LucideIconMetadata("Bridge", listOf("overpass", "cross over", "traverse", "viaduct", "suspension", "infrastructure", "transportation", "crossing", "road", "river", "gate", "golden", "travel", "landmark", "route", "maritime", "clearance"), listOf("travel", "transportation", "buildings"), LucideIcons.All.BridgeDefinition),
+    
     LucideIconMetadata("BriefcaseBusiness", listOf("work", "bag", "baggage", "folder", "portfolio"), listOf("transportation"), LucideIcons.All.BriefcaseBusinessDefinition),
     
     LucideIconMetadata("BriefcaseConveyorBelt", listOf("baggage", "luggage", "travel", "suitcase", "conveyor", "carousel"), listOf("travel", "transportation"), LucideIcons.All.BriefcaseConveyorBeltDefinition),
     
     LucideIconMetadata("BriefcaseMedical", listOf("doctor", "medicine", "first aid"), listOf("medical", "transportation"), LucideIcons.All.BriefcaseMedicalDefinition),
     
+    LucideIconMetadata("BriefcasePlus", listOf("work", "bag", "baggage", "folder", "new", "add", "create", "increase", "briefcase", "portfolio", "business", "career", "employment", "professional", "plus"), listOf("transportation", "files", "account"), LucideIcons.All.BriefcasePlusDefinition),
+    
     LucideIconMetadata("Briefcase", listOf("work", "bag", "baggage", "folder"), listOf("transportation"), LucideIcons.All.BriefcaseDefinition),
     
     LucideIconMetadata("BringToFront", listOf("bring", "send", "move", "over", "forward", "front", "overlap", "layer", "order"), listOf("design", "layout"), LucideIcons.All.BringToFrontDefinition),
     
     LucideIconMetadata("Broccoli", listOf("leafy", "crisp", "fresh", "culinary", "vegetation", "vegetable", "food", "healthy", "vegan", "vegetarian", "nutrition", "diet", "plant", "green", "produce"), listOf("food-beverage"), LucideIcons.All.BroccoliDefinition),
+    
+    LucideIconMetadata("BroomSparkles", listOf("broomstick", "brush", "sweep", "sweeping", "floor", "cleaning", "ai", "magic", "sparkle", "smart", "automation", "housekeeping", "chores", "tidy", "spotless", "pristine", "dust", "debris", "bristles", "handle", "janitor", "maintenance", "witch", "halloween"), listOf("tools", "home", "gaming"), LucideIcons.All.BroomSparklesDefinition),
+    
+    LucideIconMetadata("Broom", listOf("broomstick", "brush", "sweep", "sweeping", "floor", "cleaning", "housekeeping", "chores", "tidy", "spotless", "dust", "debris", "bristles", "handle", "janitor", "maintenance", "witch", "halloween"), listOf("tools", "home", "gaming"), LucideIcons.All.BroomDefinition),
     
     LucideIconMetadata("BrushCleaning", listOf("cleaning", "utensil", "housekeeping", "tool", "sweeping", "scrubbing", "hygiene", "maintenance", "household", "cleaner", "chores", "equipment", "sanitation", "bristles", "handle", "home care", "sanitize", "purify", "wash", "disinfect", "sterilize", "scrub", "polish", "decontaminate", "wipe", "spotless", "remove", "empty", "erase", "purge", "eliminate"), listOf("home", "tools", "design"), LucideIcons.All.BrushCleaningDefinition),
     
@@ -100,7 +119,9 @@ internal val lucideMetadata2 = listOf(
     
     LucideIconMetadata("Bug", listOf("issue", "error", "defect", "testing", "troubleshoot", "problem", "report", "debug", "code", "insect", "beetle"), listOf("development", "animals"), LucideIcons.All.BugDefinition),
     
-    LucideIconMetadata("Building2", listOf("business", "company", "enterprise", "skyscraper", "organisation", "organization", "city"), listOf("account", "buildings"), LucideIcons.All.Building2Definition),
+    LucideIconMetadata("BuildingComplexPlus", listOf("business", "company", "enterprise", "skyscraper", "organisation", "organization", "city", "new", "add", "create", "increase", "office", "headquarters", "startup", "registration", "onboarding", "real estate", "property"), listOf("account", "buildings"), LucideIcons.All.BuildingComplexPlusDefinition),
+    
+    LucideIconMetadata("BuildingComplex", listOf("business", "company", "enterprise", "skyscraper", "organisation", "organization", "city"), listOf("account", "buildings"), LucideIcons.All.BuildingComplexDefinition),
     
     LucideIconMetadata("Building", listOf("organisation", "organization"), listOf("account", "buildings"), LucideIcons.All.BuildingDefinition),
     
@@ -127,6 +148,8 @@ internal val lucideMetadata2 = listOf(
     LucideIconMetadata("CalendarCheck2", listOf("date", "day", "month", "year", "event", "confirm", "subscribe", "schedule", "done", "todo", "tick", "complete", "task"), listOf("time"), LucideIcons.All.CalendarCheck2Definition),
     
     LucideIconMetadata("CalendarCheck", listOf("date", "day", "month", "year", "event", "confirm", "subscribe", "schedule", "done", "todo", "tick", "complete", "task"), listOf("time"), LucideIcons.All.CalendarCheckDefinition),
+    
+    LucideIconMetadata("CalendarChevronsRight", listOf("navigation", "arrow", "right", "chevron", "direction", "symbol", "pointer", "indicator", "next", "menu", "date", "day", "month", "year", "events", "chevrons"), listOf("time", "arrows", "navigation"), LucideIcons.All.CalendarChevronsRightDefinition),
     
     LucideIconMetadata("CalendarClock", listOf("date", "day", "month", "year", "event", "clock", "hour"), listOf("time"), LucideIcons.All.CalendarClockDefinition),
     
@@ -166,6 +189,10 @@ internal val lucideMetadata2 = listOf(
     
     LucideIconMetadata("Camera", listOf("photography", "lens", "focus", "capture", "shot", "visual", "image", "device", "equipment", "photo", "webcam", "video"), listOf("photography", "devices", "communication"), LucideIcons.All.CameraDefinition),
     
+    LucideIconMetadata("CanSoda", listOf("beverage", "drink", "food", "soda", "tin", "beer", "alcohol", "waste"), listOf("food-beverage"), LucideIcons.All.CanSodaDefinition),
+    
+    LucideIconMetadata("Can", listOf("food", "storage", "groceries", "tin", "metal", "recyclable", "container", "pantry", "grocery", "preserved"), listOf("food-beverage"), LucideIcons.All.CanDefinition),
+    
     LucideIconMetadata("CandyCane", listOf("sugar", "food", "sweet", "christmas", "xmas"), listOf("food-beverage"), LucideIcons.All.CandyCaneDefinition),
     
     LucideIconMetadata("CandyOff", listOf("sugar free", "food", "sweet", "allergy", "intolerance", "diet"), listOf("food-beverage"), LucideIcons.All.CandyOffDefinition),
@@ -178,32 +205,6 @@ internal val lucideMetadata2 = listOf(
     
     LucideIconMetadata("CaptionsOff", listOf("closed captions", "subtitles", "subhead", "transcription", "transcribe", "dialogue", "accessibility"), listOf("multimedia"), LucideIcons.All.CaptionsOffDefinition),
     
-    LucideIconMetadata("Captions", listOf("closed captions", "subtitles", "subhead", "transcription", "transcribe", "dialogue", "accessibility"), listOf("multimedia"), LucideIcons.All.CaptionsDefinition),
-    
-    LucideIconMetadata("CarFront", listOf("vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarFrontDefinition),
-    
-    LucideIconMetadata("CarTaxiFront", listOf("cab", "vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarTaxiFrontDefinition),
-    
-    LucideIconMetadata("Car", listOf("vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarDefinition),
-    
-    LucideIconMetadata("Caravan", listOf("trailer", "tow", "camping", "campsite", "mobile home", "holiday", "nomadic", "wilderness", "outdoors"), listOf("transportation", "travel", "nature"), LucideIcons.All.CaravanDefinition),
-    
-    LucideIconMetadata("CardSim", listOf("cellphone", "smartphone", "mobile", "network", "cellular", "service", "provider", "signal", "coverage", "disk", "data", "format", "storage", "flash", "digital", "contacts", "phone book", "contractual", "circuit board", "chip"), listOf("connectivity", "communication", "multimedia", "devices"), LucideIcons.All.CardSimDefinition),
-    
-    LucideIconMetadata("Carrot", listOf("vegetable", "food", "eat"), listOf("food-beverage"), LucideIcons.All.CarrotDefinition),
-    
-    LucideIconMetadata("CaseLower", listOf("text", "letters", "characters", "font", "typography"), listOf("text", "development"), LucideIcons.All.CaseLowerDefinition),
-    
-    LucideIconMetadata("CaseSensitive", listOf("text", "letters", "characters", "font", "typography"), listOf("text"), LucideIcons.All.CaseSensitiveDefinition),
-    
-    LucideIconMetadata("CaseUpper", listOf("text", "letters", "characters", "font", "typography"), listOf("text", "development"), LucideIcons.All.CaseUpperDefinition),
-    
-    LucideIconMetadata("CassetteTape", listOf("audio", "music", "recording", "play"), listOf("connectivity", "devices", "multimedia", "communication", "files"), LucideIcons.All.CassetteTapeDefinition),
-    
-    LucideIconMetadata("Cast", listOf("chromecast", "airplay", "screen"), listOf("devices", "connectivity"), LucideIcons.All.CastDefinition),
-    
-    LucideIconMetadata("Castle", listOf("fortress", "stronghold", "palace", "chateau", "building"), listOf("buildings", "gaming", "navigation"), LucideIcons.All.CastleDefinition),
-    
-    LucideIconMetadata("Cat", listOf("animal", "pet", "kitten", "feline"), listOf("animals"), LucideIcons.All.CatDefinition)
+    LucideIconMetadata("Captions", listOf("closed captions", "subtitles", "subhead", "transcription", "transcribe", "dialogue", "accessibility"), listOf("multimedia"), LucideIcons.All.CaptionsDefinition)
     
 )

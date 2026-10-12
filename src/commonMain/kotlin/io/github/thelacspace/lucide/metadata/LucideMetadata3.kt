@@ -3,8 +3,41 @@ package io.github.thelacspace.lucide.metadata
 import io.github.thelacspace.lucide.all.*
 import io.github.thelacspace.lucide.LucideIconMetadata
 import io.github.thelacspace.lucide.LucideIcons
+import io.github.thelacspace.lucide.LucideIconDefinition
 
 internal val lucideMetadata3 = listOf(
+    
+    LucideIconMetadata("CarBattery", listOf("battery", "automobile", "power cell", "electric", "power", "electricity", "energy", "accumulator", "charge", "transport", "vehicle", "car"), listOf("connectivity", "transportation"), LucideIcons.All.CarBatteryDefinition),
+    
+    LucideIconMetadata("CarFront", listOf("vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarFrontDefinition),
+    
+    LucideIconMetadata("CarTaxiFront", listOf("cab", "vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarTaxiFrontDefinition),
+    
+    LucideIconMetadata("Car", listOf("vehicle", "drive", "trip", "journey"), listOf("transportation"), LucideIcons.All.CarDefinition),
+    
+    LucideIconMetadata("Caravan", listOf("trailer", "tow", "camping", "campsite", "mobile home", "holiday", "nomadic", "wilderness", "outdoors"), listOf("transportation", "travel", "nature"), LucideIcons.All.CaravanDefinition),
+    
+    LucideIconMetadata("CardSim", listOf("cellphone", "smartphone", "mobile", "network", "cellular", "service", "provider", "signal", "coverage", "disk", "data", "format", "storage", "flash", "digital", "contacts", "phone book", "contractual", "circuit board", "chip"), listOf("connectivity", "communication", "multimedia", "devices"), LucideIcons.All.CardSimDefinition),
+    
+    LucideIconMetadata("Carrot", listOf("orange", "healthy", "nature", "fresh", "root", "produce", "organic", "nutrition", "vegetable", "food", "eat"), listOf("food-beverage"), LucideIcons.All.CarrotDefinition),
+    
+    LucideIconMetadata("CartonOff", listOf("milk", "dairy", "beverage", "drink", "diet", "lactose free", "non dairy", "liquid", "liter", "litre", "pint", "pints", "pasteurized", "skim", "skimmed", "container", "packaging", "allergy", "intolerance", "vegan", "unavailable"), listOf("food-beverage"), LucideIcons.All.CartonOffDefinition),
+    
+    LucideIconMetadata("Carton", listOf("milk", "dairy", "beverage", "drink", "diet", "lactose", "liquid", "liter", "litre", "pint", "pints", "pasteurized", "skim", "skimmed", "container", "packaging", "grocery", "juice", "cream", "cow"), listOf("food-beverage"), LucideIcons.All.CartonDefinition),
+    
+    LucideIconMetadata("CaseLower", listOf("text", "letters", "characters", "font", "typography"), listOf("text", "development"), LucideIcons.All.CaseLowerDefinition),
+    
+    LucideIconMetadata("CaseSensitive", listOf("text", "letters", "characters", "font", "typography"), listOf("text"), LucideIcons.All.CaseSensitiveDefinition),
+    
+    LucideIconMetadata("CaseUpper", listOf("text", "letters", "characters", "font", "typography"), listOf("text", "development"), LucideIcons.All.CaseUpperDefinition),
+    
+    LucideIconMetadata("CassetteTape", listOf("audio", "music", "recording", "play"), listOf("connectivity", "devices", "multimedia", "communication", "files"), LucideIcons.All.CassetteTapeDefinition),
+    
+    LucideIconMetadata("Cast", listOf("stream", "streaming", "screen", "display", "wireless", "broadcast", "transmit", "media", "receiver", "remote display", "screen sharing", "media streaming"), listOf("devices", "connectivity"), LucideIcons.All.CastDefinition),
+    
+    LucideIconMetadata("Castle", listOf("fortress", "stronghold", "palace", "chateau", "building"), listOf("buildings", "gaming", "navigation"), LucideIcons.All.CastleDefinition),
+    
+    LucideIconMetadata("Cat", listOf("animal", "pet", "kitten", "feline"), listOf("animals"), LucideIcons.All.CatDefinition),
     
     LucideIconMetadata("CctvOff", listOf("camera", "surveillance", "recording", "film", "videotape", "crime", "watching"), listOf("security", "devices", "communication", "connectivity", "photography"), LucideIcons.All.CctvOffDefinition),
     
@@ -144,6 +177,8 @@ internal val lucideMetadata3 = listOf(
     
     LucideIconMetadata("CircleChevronUp", listOf("caret", "ahead", "menu", "^"), listOf("arrows"), LucideIcons.All.CircleChevronUpDefinition),
     
+    LucideIconMetadata("CircleDashedCheck", listOf("approved", "pending", "changes", "revision", "reapproval", "published", "schedule", "assignment", "request", "review", "progress", "issue", "draft", "code", "coding", "version control"), listOf("shapes", "development", "notifications"), LucideIcons.All.CircleDashedCheckDefinition),
+    
     LucideIconMetadata("CircleDashed", listOf("pending", "dot", "progress", "issue", "draft", "code", "coding", "version control"), listOf("development", "shapes"), LucideIcons.All.CircleDashedDefinition),
     
     LucideIconMetadata("CircleDivide", listOf("calculate", "math", "÷", "/"), listOf("math"), LucideIcons.All.CircleDivideDefinition),
@@ -152,15 +187,17 @@ internal val lucideMetadata3 = listOf(
     
     LucideIconMetadata("CircleDotDashed", listOf("pending", "dot", "progress", "issue", "draft", "code", "coding", "version control"), listOf("development", "shapes"), LucideIcons.All.CircleDotDashedDefinition),
     
-    LucideIconMetadata("CircleDot", listOf("pending", "dot", "progress", "issue", "code", "coding", "version control", "choices", "multiple choice", "choose"), listOf("development", "shapes"), LucideIcons.All.CircleDotDefinition),
+    LucideIconMetadata("CircleDot", listOf("pending", "dot", "progress", "issue", "code", "coding", "version control", "choices", "multiple choice", "choose", "album", "music", "songs", "format", "cd", "dvd", "vinyl", "sleeve", "cover", "platinum", "compilation", "ep", "recording", "playback", "spin", "rotate", "rpm", "dj"), listOf("development", "shapes"), LucideIcons.All.CircleDotDefinition),
     
     LucideIconMetadata("CircleEllipsis", listOf("ellipsis", "et cetera", "etc", "loader", "loading", "progress", "pending", "throbber", "menu", "options", "operator", "code", "spread", "rest", "more", "further", "extra", "overflow", "dots", "…", "..."), listOf("layout", "development"), LucideIcons.All.CircleEllipsisDefinition),
     
     LucideIconMetadata("CircleEqual", listOf("calculate", "shape", "="), listOf("math"), LucideIcons.All.CircleEqualDefinition),
     
+    LucideIconMetadata("CircleEuro", listOf("symbol", "economy", "banking", "europe", "€", "euro", "currency", "money", "payment", "coin", "finance", "financial", "exchange"), listOf("shopping", "finance"), LucideIcons.All.CircleEuroDefinition),
+    
     LucideIconMetadata("CircleFadingArrowUp", listOf("north", "up", "upgrade", "improve", "circle", "button"), listOf("arrows", "development"), LucideIcons.All.CircleFadingArrowUpDefinition),
     
-    LucideIconMetadata("CircleFadingPlus", listOf("stories", "social media", "instagram", "facebook", "meta", "snapchat", "sharing", "content"), listOf("communication", "social"), LucideIcons.All.CircleFadingPlusDefinition),
+    LucideIconMetadata("CircleFadingPlus", listOf("stories", "social media", "sharing", "content"), listOf("communication", "social"), LucideIcons.All.CircleFadingPlusDefinition),
     
     LucideIconMetadata("CircleGauge", listOf("dashboard", "dial", "meter", "speed", "pressure", "measure", "level"), listOf("transportation", "sports", "science"), LucideIcons.All.CircleGaugeDefinition),
     
@@ -168,42 +205,6 @@ internal val lucideMetadata3 = listOf(
     
     LucideIconMetadata("CircleOff", listOf("diameter", "zero", "Ø", "nothing", "null", "void", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure"), listOf("shapes"), LucideIcons.All.CircleOffDefinition),
     
-    LucideIconMetadata("CircleParkingOff", listOf("parking lot", "car park", "no parking"), listOf("transportation", "navigation"), LucideIcons.All.CircleParkingOffDefinition),
-    
-    LucideIconMetadata("CircleParking", listOf("parking lot", "car park"), listOf("transportation", "navigation"), LucideIcons.All.CircleParkingDefinition),
-    
-    LucideIconMetadata("CirclePause", listOf("music", "audio", "stop"), listOf("multimedia"), LucideIcons.All.CirclePauseDefinition),
-    
-    LucideIconMetadata("CirclePercent", listOf("verified", "unverified", "sale", "discount", "offer", "marketing", "sticker", "price tag"), listOf("social", "finance", "shopping", "math"), LucideIcons.All.CirclePercentDefinition),
-    
-    LucideIconMetadata("CirclePile", listOf("off", "zero", "record", "shape", "circle-pile", "circle", "pile", "stack", "layer", "structure", "form", "group", "collection", "stock", "inventory", "materials", "warehouse"), listOf("shapes"), LucideIcons.All.CirclePileDefinition),
-    
-    LucideIconMetadata("CirclePlay", listOf("music", "start", "run"), listOf("multimedia"), LucideIcons.All.CirclePlayDefinition),
-    
-    LucideIconMetadata("CirclePlus", listOf("add", "new", "increase", "increment", "positive", "calculate", "crosshair", "aim", "target", "scope", "sight", "reticule", "maximum", "upgrade", "extra", "operator", "join", "concatenate", "code", "coding", "+"), listOf("math", "development", "cursors", "gaming"), LucideIcons.All.CirclePlusDefinition),
-    
-    LucideIconMetadata("CirclePoundSterling", listOf("monetization", "coin", "penny", "marketing", "currency", "money", "payment", "british", "gbp", "£"), listOf("finance"), LucideIcons.All.CirclePoundSterlingDefinition),
-    
-    LucideIconMetadata("CirclePower", listOf("on", "off", "device", "switch", "toggle", "binary", "boolean", "reboot", "restart", "button", "keyboard", "troubleshoot"), listOf("connectivity"), LucideIcons.All.CirclePowerDefinition),
-    
-    LucideIconMetadata("CircleQuestionMark", listOf("question mark"), listOf("accessibility", "text", "notifications"), LucideIcons.All.CircleQuestionMarkDefinition),
-    
-    LucideIconMetadata("CircleSlash2", listOf("diameter", "zero", "ø", "nothing", "null", "void", "ban", "math", "divide", "division", "half", "split", "/", "average", "avg", "mean", "median", "normal"), listOf("shapes", "math", "development"), LucideIcons.All.CircleSlash2Definition),
-    
-    LucideIconMetadata("CircleSlash", listOf("diameter", "zero", "Ø", "nothing", "null", "void", "cancel", "ban", "no", "stop", "forbidden", "prohibited", "error", "incorrect", "mistake", "wrong", "failure", "divide", "division", "or", "/"), listOf("development", "math"), LucideIcons.All.CircleSlashDefinition),
-    
-    LucideIconMetadata("CircleSmall", listOf("shape", "bullet", "gender", "genderless"), listOf("shapes", "medical"), LucideIcons.All.CircleSmallDefinition),
-    
-    LucideIconMetadata("CircleStar", listOf("badge", "medal", "honour", "decoration", "order", "pin", "laurel", "trophy", "medallion", "insignia", "bronze", "silver", "gold"), listOf("sports", "gaming"), LucideIcons.All.CircleStarDefinition),
-    
-    LucideIconMetadata("CircleStop", listOf("media", "music"), listOf("multimedia"), LucideIcons.All.CircleStopDefinition),
-    
-    LucideIconMetadata("CircleUserRound", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.CircleUserRoundDefinition),
-    
-    LucideIconMetadata("CircleUser", listOf("person", "account", "contact"), listOf("account"), LucideIcons.All.CircleUserDefinition),
-    
-    LucideIconMetadata("CircleX", listOf("cancel", "close", "delete", "remove", "times", "clear", "error", "incorrect", "wrong", "mistake", "failure", "linter", "multiply", "multiplication"), listOf("math", "development"), LucideIcons.All.CircleXDefinition),
-    
-    LucideIconMetadata("Circle", listOf("off", "zero", "record", "shape"), listOf("shapes"), LucideIcons.All.CircleDefinition)
+    LucideIconMetadata("CircleParkingOff", listOf("parking lot", "car park", "no parking"), listOf("transportation", "navigation"), LucideIcons.All.CircleParkingOffDefinition)
     
 )

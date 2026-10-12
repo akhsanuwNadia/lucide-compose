@@ -9,7 +9,7 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BookX") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(14.5f, 7f)
+                moveToRelative(14.5f, 7.5f)
                 lineToRelative(-5f, 5f)
             }
             lucidePath(strokeWidth) {
@@ -25,7 +25,7 @@ private val _ActivityDefinition = LucideIconDefinition("BookX") { strokeWidth ->
                 horizontalLineTo(20f)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9.5f, 7f)
+                moveToRelative(9.5f, 7.5f)
                 lineToRelative(5f, 5f)
             }
 }

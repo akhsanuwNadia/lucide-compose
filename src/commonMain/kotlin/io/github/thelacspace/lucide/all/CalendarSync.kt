@@ -16,16 +16,14 @@ private val _ActivityDefinition = LucideIconDefinition("CalendarSync") { strokeW
             lucidePath(strokeWidth) {
                 moveToRelative(11f, 14f)
                 lineToRelative(1.535f, -1.605f)
-                arcToRelative(5f, 5f, 0f, false, true, 8f, 1.5f)
             }
             lucidePath(strokeWidth) {
                 moveTo(16f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
             lucidePath(strokeWidth) {
                 moveToRelative(21f, 18f)
                 lineToRelative(-1.535f, 1.605f)
-                arcToRelative(5f, 5f, 0f, false, true, -8f, -1.5f)
             }
             lucidePath(strokeWidth) {
                 moveTo(21f, 22f)
@@ -33,22 +31,18 @@ private val _ActivityDefinition = LucideIconDefinition("CalendarSync") { strokeW
                 horizontalLineToRelative(-4f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 8.5f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(4.3f)
+                moveTo(21f, 8.517f)
+                verticalLineTo(5f)
+                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
+                arcToRelative(5f, af, 2f, false, false, 00f, -2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
+                moveTo(3f, 9f)
                 horizontalLineToRelative(4f)
             }
             lucidePath(strokeWidth) {
                 moveTo(8f, 2f)
-                verticalLineToRelative(4f)
+                verticalLineToRelative(3f)
             }
 }
 
