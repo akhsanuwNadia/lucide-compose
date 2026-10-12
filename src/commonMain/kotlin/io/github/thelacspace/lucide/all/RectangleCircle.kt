@@ -9,18 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RectangleCircle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14f, 4f)
-                verticalLineToRelative(16f)
-                horizontalLineTo(3f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, -1f)
-                verticalLineTo(5f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, -1f)
+                moveTo(14.0,4.0)
+                lineTo(14.0,20.0)
+                lineTo(3.0,20.0)
+                curveTo(2.4477152824401855,20.0,2.0,19.552284240722656,2.0,19.0)
+                lineTo(2.0,5.0)
+                curveTo(2.0,4.4477152824401855,2.4477152824401855,4.0,3.0,4.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 0f, true, false, 16.0f, 0f)
-                arcToRelative(8.0f, 8.0f, 0f, true, false, -16.0f, 0f)
+                moveTo(6.0,12.0)
+                curveTo(5.987179756164551,14.866647720336914,7.509161472320557,17.521041870117188,9.989636421203613,18.958078384399414)
+                curveTo(12.470111846923828,20.395116806030273,15.529888153076172,20.395116806030273,18.01036262512207,18.958078384399414)
+                curveTo(20.4908390045166,17.521041870117188,22.012819290161133,14.866647720336914,22.0,12.0)
+                curveTo(22.012819290161133,9.133352279663086,20.4908390045166,6.4789581298828125,18.01036262512207,5.0419206619262695)
+                curveTo(15.529888153076172,3.6048834323883057,12.470111846923828,3.6048834323883057,9.989636421203613,5.0419206619262695)
+                curveTo(7.509161472320557,6.4789581298828125,5.987179756164551,9.133352279663086,6.0,12.0)
             }
 }
 

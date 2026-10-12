@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Tornado") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 4f)
-                horizontalLineTo(3f)
+                moveTo(21.0,4.0)
+                lineTo(3.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 8f)
-                horizontalLineTo(6f)
+                moveTo(18.0,8.0)
+                lineTo(6.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 12f)
-                horizontalLineTo(9f)
+                moveTo(19.0,12.0)
+                lineTo(9.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 16f)
-                horizontalLineToRelative(-6f)
+                moveTo(16.0,16.0)
+                lineTo(10.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(11f, 20f)
-                horizontalLineTo(9f)
+                moveTo(11.0,20.0)
+                lineTo(9.0,20.0)
             }
 }
 

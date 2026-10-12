@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ZodiacPisces") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19f, 21f)
-                arcToRelative(15f, 15f, 0f, false, true, 0f, -18f)
+                moveTo(19.0,21.0)
+                curveTo(15.0,15.666666984558105,15.0,8.333333015441895,19.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 12f)
-                horizontalLineTo(4f)
+                moveTo(20.0,12.0)
+                lineTo(4.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 3f)
-                arcToRelative(15f, 15f, 0f, false, true, 0f, 18f)
+                moveTo(5.0,3.0)
+                curveTo(9.0,8.333333015441895,9.0,15.666666984558105,5.0,21.0)
             }
 }
 

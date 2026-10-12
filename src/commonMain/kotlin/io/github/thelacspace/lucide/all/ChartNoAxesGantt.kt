@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartNoAxesGantt") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6f, 5f)
-                horizontalLineToRelative(12f)
+                moveTo(6.0,5.0)
+                lineTo(18.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 12f)
-                horizontalLineToRelative(10f)
+                moveTo(4.0,12.0)
+                lineTo(14.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 19f)
-                horizontalLineToRelative(8f)
+                moveTo(12.0,19.0)
+                lineTo(20.0,19.0)
             }
 }
 

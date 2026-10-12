@@ -9,15 +9,15 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Undo") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 7f)
-                verticalLineToRelative(6f)
-                horizontalLineToRelative(6f)
+                moveTo(3.0,7.0)
+                lineTo(3.0,13.0)
+                lineTo(9.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 17f)
-                arcToRelative(9f, 9f, 0f, false, false, -9f, -9f)
-                arcToRelative(9f, 9f, 0f, false, false, -6f, 2.3f)
-                lineTo(3f, 13f)
+                moveTo(21.0,17.0)
+                curveTo(21.0,12.029437065124512,16.970561981201172,8.0,12.0,8.0)
+                curveTo(9.78512191772461,8.0022554397583,7.648853302001953,8.821158409118652,6.0,10.300000190734863)
+                lineTo(3.0,13.0)
             }
 }
 

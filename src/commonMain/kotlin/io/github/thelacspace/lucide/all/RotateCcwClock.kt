@@ -9,20 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RotateCcwClock") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 12f)
-                arcToRelative(9f, 9f, 0f, true, false, 9f, -9f)
-                arcToRelative(9.75f, 9.75f, 0f, false, false, -6.74f, 2.74f)
-                lineTo(3f, 8f)
+                moveTo(3.0,12.0)
+                curveTo(3.0,16.970561981201172,7.029437065124512,21.0,12.0,21.0)
+                curveTo(16.970561981201172,21.0,21.0,16.970561981201172,21.0,12.0)
+                curveTo(21.0,7.029437065124512,16.970561981201172,3.0,12.0,3.0)
+                curveTo(9.483951568603516,3.009464979171753,7.068969249725342,3.9912235736846924,5.260000228881836,5.739999771118164)
+                lineTo(3.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 3f)
-                verticalLineToRelative(5f)
-                horizontalLineToRelative(5f)
+                moveTo(3.0,3.0)
+                lineTo(3.0,8.0)
+                lineTo(8.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 7f)
-                verticalLineToRelative(5f)
-                lineToRelative(4f, 2f)
+                moveTo(12.0,7.0)
+                lineTo(12.0,12.0)
+                lineTo(16.0,14.0)
             }
 }
 

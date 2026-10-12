@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ShoppingBasket") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(15f, 11f)
-                lineToRelative(-1f, 9f)
+                moveTo(15.0,11.0)
+                lineTo(14.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(19f, 11f)
-                lineToRelative(-4f, -7f)
+                moveTo(19.0,11.0)
+                lineTo(15.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 11f)
-                horizontalLineToRelative(20f)
+                moveTo(2.0,11.0)
+                lineTo(22.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(3.5f, 11f)
-                lineToRelative(1.6f, 7.4f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 1.6f)
-                horizontalLineToRelative(9.8f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -1.6f)
-                lineToRelative(1.7f, -7.4f)
+                moveTo(3.5,11.0)
+                lineTo(5.099999904632568,18.399999618530273)
+                curveTo(5.292946815490723,19.34624671936035,6.1344780921936035,20.019472122192383,7.099999904632568,20.0)
+                lineTo(16.899999618530273,20.0)
+                curveTo(17.865520477294922,20.019472122192383,18.70705223083496,19.34624671936035,18.899999618530273,18.399999618530273)
+                lineTo(20.600000381469727,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.5f, 15.5f)
-                horizontalLineToRelative(15f)
+                moveTo(4.5,15.5)
+                lineTo(19.5,15.5)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(5f, 11f)
-                lineToRelative(4f, -7f)
+                moveTo(5.0,11.0)
+                lineTo(9.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 11f)
-                lineToRelative(1f, 9f)
+                moveTo(9.0,11.0)
+                lineTo(10.0,20.0)
             }
 }
 

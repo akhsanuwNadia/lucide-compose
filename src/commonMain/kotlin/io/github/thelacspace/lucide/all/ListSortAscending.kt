@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListSortAscending") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 19f)
-                horizontalLineToRelative(18f)
+                moveTo(3.0,19.0)
+                lineTo(21.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 12f)
-                horizontalLineTo(3f)
+                moveTo(15.0,12.0)
+                lineTo(3.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 5f)
-                horizontalLineTo(3f)
+                moveTo(9.0,5.0)
+                lineTo(3.0,5.0)
             }
 }
 

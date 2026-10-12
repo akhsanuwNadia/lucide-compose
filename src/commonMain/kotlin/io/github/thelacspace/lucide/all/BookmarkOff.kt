@@ -9,24 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BookmarkOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19f, 19f)
-                verticalLineToRelative(1f)
-                arcToRelative(1f, 1f, 0f, false, true, -1.496f, .868f)
-                lineToRelative(-4.512f, -2.578f)
-                arcToRelative(2f, 2f, 0f, false, false, -1.984f, 0f)
-                lineToRelative(-4.512f, 2.578f)
-                arcTo(1f, 1f, 0f, false, true, 5f, 20f)
-                verticalLineTo(5f)
+                moveTo(19.0,19.0)
+                lineTo(19.0,20.0)
+                curveTo(18.99988555908203,20.35638427734375,18.81011199951172,20.685775756835938,18.501855850219727,20.864627838134766)
+                curveTo(18.193601608276367,21.043481826782227,17.81345558166504,21.044767379760742,17.503999710083008,20.868000030517578)
+                lineTo(12.991999626159668,18.290000915527344)
+                curveTo(12.377276420593262,17.938859939575195,11.622722625732422,17.938859939575195,11.007999420166016,18.290000915527344)
+                lineTo(6.495999336242676,20.868000030517578)
+                curveTo(6.186542987823486,21.04476547241211,5.806397914886475,21.043481826782227,5.498143196105957,20.864627838134766)
+                curveTo(5.1898884773254395,20.685773849487305,5.000114917755127,20.35638427734375,5.0,20.0)
+                lineTo(5.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2f, 2f)
-                lineToRelative(20f, 20f)
+                moveTo(2.0,2.0)
+                lineTo(22.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.656f, 3f)
-                horizontalLineTo(17f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(8.344f)
+                moveTo(8.656000137329102,3.0)
+                lineTo(17.0,3.0)
+                curveTo(18.104570388793945,3.0,19.0,3.895430564880371,19.0,5.0)
+                lineTo(19.0,13.343999862670898)
             }
 }
 

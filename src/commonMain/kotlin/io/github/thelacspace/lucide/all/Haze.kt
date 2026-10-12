@@ -9,36 +9,37 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Haze") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(5.2f, 6.2f)
-                lineToRelative(1.4f, 1.4f)
+                moveTo(5.199999809265137,6.199999809265137)
+                lineTo(6.599999904632568,7.599999904632568)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 13f)
-                horizontalLineToRelative(2f)
+                moveTo(2.0,13.0)
+                lineTo(4.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 13f)
-                horizontalLineToRelative(2f)
+                moveTo(20.0,13.0)
+                lineTo(22.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17.4f, 7.6f)
-                lineToRelative(1.4f, -1.4f)
+                moveTo(17.399999618530273,7.599999904632568)
+                lineTo(18.799999237060547,6.199999809265137)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 17f)
-                horizontalLineTo(2f)
+                moveTo(22.0,17.0)
+                lineTo(2.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 21f)
-                horizontalLineTo(2f)
+                moveTo(22.0,21.0)
+                lineTo(2.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 13f)
-                arcToRelative(4f, 4f, 0f, false, false, -8f, 0f)
+                moveTo(16.0,13.0)
+                curveTo(15.990151405334473,10.797843933105469,14.202178001403809,9.01784896850586,12.0,9.01784896850586)
+                curveTo(9.797821998596191,9.01784896850586,8.009848594665527,10.797843933105469,8.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 5f)
-                verticalLineTo(2.5f)
+                moveTo(12.0,5.0)
+                lineTo(12.0,2.5)
             }
 }
 

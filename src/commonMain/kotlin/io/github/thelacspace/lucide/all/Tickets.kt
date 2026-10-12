@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Tickets") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(3.173f, 8.18f)
-                lineToRelative(11f, -5f)
-                arcToRelative(2f, 2f, 0f, false, true, 2.647f, .993f)
-                lineTo(18.56f, 8f)
+                moveTo(3.1730000972747803,8.180000305175781)
+                lineTo(14.17300033569336,3.1800003051757812)
+                curveTo(15.178176879882812,2.723809242248535,16.362886428833008,3.168243169784546,16.81999969482422,4.173000335693359)
+                lineTo(18.559999465942383,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 10f)
-                verticalLineTo(8f)
+                moveTo(6.0,10.0)
+                lineTo(6.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 14f)
-                verticalLineToRelative(1f)
+                moveTo(6.0,14.0)
+                lineTo(6.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 19f)
-                verticalLineToRelative(2f)
+                moveTo(6.0,19.0)
+                lineTo(6.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 8.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(13.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-13.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,8.0)
+                lineTo(20.0,8.0)
+                lineTo(22.0,8.0)
+                lineTo(22.0,21.0)
+                lineTo(20.0,21.0)
+                lineTo(4.0,21.0)
+                lineTo(2.0,21.0)
+                lineTo(2.0,8.0)
+                lineTo(4.0,8.0)
                 close()
             }
 }

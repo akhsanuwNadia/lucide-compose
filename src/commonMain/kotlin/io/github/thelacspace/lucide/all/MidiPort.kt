@@ -9,35 +9,41 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MidiPort") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 18f)
-                horizontalLineToRelative(.01f)
+                moveTo(12.0,18.0)
+                lineTo(12.010000228881836,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 2.458f)
-                verticalLineTo(5f)
-                arcToRelative(1f, 1f, 0f, true, false, 1f, hf)
-                arcToRelative(-4f, af, 1f, true, false, 01f, -1f)
+                moveTo(15.0,2.4579999446868896)
+                lineTo(15.0,5.0)
+                curveTo(15.0,5.5522847175598145,14.552285194396973,6.0,14.0,6.0)
+                lineTo(10.0,6.0)
+                curveTo(9.447714805603027,6.0,9.0,5.5522847175598145,9.0,5.0)
+                lineTo(9.0,2.4579999446868896)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 16f)
-                horizontalLineToRelative(.01f)
+                moveTo(16.0,16.0)
+                lineTo(16.010000228881836,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(18.0,12.0)
+                lineTo(18.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(6.0,12.0)
+                lineTo(6.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 16f)
-                horizontalLineToRelative(.01f)
+                moveTo(8.0,16.0)
+                lineTo(8.010000228881836,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0f, 12.0f)
-                arcToRelative(10.0f, 10.0f, 0f, true, false, 20.0f, 0f)
-                arcToRelative(10.0f, 10.0f, 0f, true, false, -20.0f, 0f)
+                moveTo(2.0,12.0)
+                curveTo(1.9839749336242676,15.583309173583984,3.8864517211914062,18.901302337646484,6.987045764923096,20.697599411010742)
+                curveTo(10.087639808654785,22.493896484375,13.912360191345215,22.493896484375,17.012954711914062,20.697599411010742)
+                curveTo(20.113548278808594,18.901302337646484,22.01602554321289,15.583309173583984,22.0,12.0)
+                curveTo(22.01602554321289,8.416690826416016,20.113548278808594,5.098697662353516,17.012954711914062,3.302401065826416)
+                curveTo(13.912360191345215,1.5061043500900269,10.087639808654785,1.5061043500900269,6.987045764923096,3.302401065826416)
+                curveTo(3.8864517211914062,5.098697662353516,1.9839749336242676,8.416690826416016,2.0,12.0)
             }
 }
 

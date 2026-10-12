@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignStartHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6.0f, 6.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(6.0,6.0)
+                lineTo(8.0,6.0)
+                lineTo(10.0,6.0)
+                lineTo(10.0,22.0)
+                lineTo(8.0,22.0)
+                lineTo(6.0,22.0)
+                lineTo(4.0,22.0)
+                lineTo(4.0,6.0)
+                lineTo(6.0,6.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0f, 6.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(9.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-9.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(16.0,6.0)
+                lineTo(18.0,6.0)
+                lineTo(20.0,6.0)
+                lineTo(20.0,15.0)
+                lineTo(18.0,15.0)
+                lineTo(16.0,15.0)
+                lineTo(14.0,15.0)
+                lineTo(14.0,6.0)
+                lineTo(16.0,6.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 2f)
-                horizontalLineTo(2f)
+                moveTo(22.0,2.0)
+                lineTo(2.0,2.0)
             }
 }
 

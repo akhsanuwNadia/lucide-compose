@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PictureInPicture2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 9f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(10f)
-                curveToRelative(0f, 1.1f, .9f, 2f, 2f, 2f)
-                horizontalLineToRelative(4f)
+                moveTo(21.0,9.0)
+                lineTo(21.0,6.0)
+                curveTo(21.0,4.895430564880371,20.104570388793945,4.0,19.0,4.0)
+                lineTo(4.0,4.0)
+                curveTo(2.895430564880371,4.0,2.0,4.895430564880371,2.0,6.0)
+                lineTo(2.0,16.0)
+                curveTo(2.0,17.100000381469727,2.9000000953674316,18.0,4.0,18.0)
+                lineTo(8.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0f, 13.0f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(7.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-6.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-7.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(14.0,13.0)
+                lineTo(20.0,13.0)
+                lineTo(22.0,13.0)
+                lineTo(22.0,20.0)
+                lineTo(20.0,20.0)
+                lineTo(14.0,20.0)
+                lineTo(12.0,20.0)
+                lineTo(12.0,13.0)
+                lineTo(14.0,13.0)
                 close()
             }
 }

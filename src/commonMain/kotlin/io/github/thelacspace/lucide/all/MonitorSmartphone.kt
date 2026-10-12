@@ -9,34 +9,34 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MonitorSmartphone") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18f, 8f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(7f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(8f)
+                moveTo(18.0,8.0)
+                lineTo(18.0,6.0)
+                curveTo(18.0,4.895430564880371,17.104570388793945,4.0,16.0,4.0)
+                lineTo(4.0,4.0)
+                curveTo(2.895430564880371,4.0,2.0,4.895430564880371,2.0,6.0)
+                lineTo(2.0,13.0)
+                curveTo(2.0,14.104569435119629,2.895430564880371,15.0,4.0,15.0)
+                lineTo(12.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 19f)
-                verticalLineToRelative(-3.96f)
-                verticalLineToRelative(3.15f)
+                moveTo(10.0,19.0)
+                lineTo(10.0,15.039999961853027)
+                lineTo(10.0,18.190000534057617)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 19f)
-                horizontalLineToRelative(5f)
+                moveTo(7.0,19.0)
+                lineTo(12.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0f, 12.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(18.0,12.0)
+                lineTo(20.0,12.0)
+                lineTo(22.0,12.0)
+                lineTo(22.0,22.0)
+                lineTo(20.0,22.0)
+                lineTo(18.0,22.0)
+                lineTo(16.0,22.0)
+                lineTo(16.0,12.0)
+                lineTo(18.0,12.0)
                 close()
             }
 }

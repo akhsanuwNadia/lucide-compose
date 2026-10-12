@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListFilter") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 5f)
-                horizontalLineToRelative(20f)
+                moveTo(2.0,5.0)
+                lineTo(22.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                horizontalLineToRelative(12f)
+                moveTo(6.0,12.0)
+                lineTo(18.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 19f)
-                horizontalLineToRelative(6f)
+                moveTo(9.0,19.0)
+                lineTo(15.0,19.0)
             }
 }
 

@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Download") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 15f)
-                verticalLineTo(3f)
+                moveTo(12.0,15.0)
+                lineTo(12.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 15f)
-                verticalLineToRelative(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineToRelative(-4f)
+                moveTo(21.0,15.0)
+                lineTo(21.0,19.0)
+                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                lineTo(3.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(7f, 10f)
-                lineToRelative(5f, 5f)
-                lineToRelative(5f, -5f)
+                moveTo(7.0,10.0)
+                lineTo(12.0,15.0)
+                lineTo(17.0,10.0)
             }
 }
 

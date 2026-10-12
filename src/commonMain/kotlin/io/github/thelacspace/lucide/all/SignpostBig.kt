@@ -9,28 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SignpostBig") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 9f)
-                horizontalLineTo(4f)
-                lineTo(2f, 7f)
-                lineToRelative(2f, -2f)
-                horizontalLineToRelative(6f)
+                moveTo(10.0,9.0)
+                lineTo(4.0,9.0)
+                lineTo(2.0,7.0)
+                lineTo(4.0,5.0)
+                lineTo(10.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 5f)
-                horizontalLineToRelative(6f)
-                lineToRelative(2f, 2f)
-                lineToRelative(-2f, 2f)
-                horizontalLineToRelative(-6f)
+                moveTo(14.0,5.0)
+                lineTo(20.0,5.0)
+                lineTo(22.0,7.0)
+                lineTo(20.0,9.0)
+                lineTo(14.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 22f)
-                verticalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, true, true, 4f, 0f)
-                verticalLineToRelative(18f)
+                moveTo(10.0,22.0)
+                lineTo(10.0,4.0)
+                curveTo(9.996794700622559,3.2833380699157715,10.377290725708008,2.619739532470703,10.997408866882324,2.2604801654815674)
+                curveTo(11.617527961730957,1.9012209177017212,12.382472038269043,1.9012209177017212,13.002591133117676,2.2604801654815674)
+                curveTo(13.622709274291992,2.619739532470703,14.003205299377441,3.2833380699157715,14.0,4.0)
+                lineTo(14.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 22f)
-                horizontalLineToRelative(8f)
+                moveTo(8.0,22.0)
+                lineTo(16.0,22.0)
             }
 }
 

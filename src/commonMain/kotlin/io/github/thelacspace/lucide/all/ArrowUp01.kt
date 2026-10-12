@@ -9,34 +9,34 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ArrowUp01") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(3f, 8f)
-                lineToRelative(4f, -4f)
-                lineToRelative(4f, 4f)
+                moveTo(3.0,8.0)
+                lineTo(7.0,4.0)
+                lineTo(11.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 4f)
-                verticalLineToRelative(16f)
+                moveTo(7.0,4.0)
+                lineTo(7.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0f, 4.0f)
-                horizontalLineToRelative(4.0f)
-                arcToRelative(0.0f, 2.0f, 0f, false, true, 0.0f, 2.0f)
-                verticalLineToRelative(2.0f)
-                arcToRelative(0.0f, 2.0f, 0f, false, true, -0.0f, 2.0f)
-                horizontalLineToRelative(-4.0f)
-                arcToRelative(0.0f, 2.0f, 0f, false, true, -0.0f, -2.0f)
-                verticalLineToRelative(-2.0f)
-                arcToRelative(0.0f, 2.0f, 0f, false, true, 0.0f, -2.0f)
+                moveTo(15.0,4.0)
+                lineTo(19.0,4.0)
+                lineTo(19.0,6.0)
+                lineTo(19.0,8.0)
+                lineTo(19.0,10.0)
+                lineTo(15.0,10.0)
+                lineTo(15.0,8.0)
+                lineTo(15.0,6.0)
+                lineTo(15.0,4.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 20f)
-                verticalLineToRelative(-6f)
-                horizontalLineToRelative(-2f)
+                moveTo(17.0,20.0)
+                lineTo(17.0,14.0)
+                lineTo(15.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 20f)
-                horizontalLineToRelative(4f)
+                moveTo(15.0,20.0)
+                lineTo(19.0,20.0)
             }
 }
 

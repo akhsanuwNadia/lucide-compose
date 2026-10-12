@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CalendarPlus2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8f, 2f)
-                verticalLineToRelative(3f)
+                moveTo(8.0,2.0)
+                lineTo(8.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 2f)
-                verticalLineToRelative(3f)
+                moveTo(16.0,2.0)
+                lineTo(16.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,21.0)
+                lineTo(19.0,21.0)
+                lineTo(5.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 9f)
-                horizontalLineToRelative(18f)
+                moveTo(3.0,9.0)
+                lineTo(21.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 15f)
-                horizontalLineToRelative(4f)
+                moveTo(10.0,15.0)
+                lineTo(14.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 13f)
-                verticalLineToRelative(4f)
+                moveTo(12.0,13.0)
+                lineTo(12.0,17.0)
             }
 }
 

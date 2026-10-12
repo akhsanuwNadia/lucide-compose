@@ -9,28 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListRestart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 5f)
-                horizontalLineTo(3f)
+                moveTo(21.0,5.0)
+                lineTo(3.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 12f)
-                horizontalLineTo(3f)
+                moveTo(7.0,12.0)
+                lineTo(3.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 19f)
-                horizontalLineTo(3f)
+                moveTo(7.0,19.0)
+                lineTo(3.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 18f)
-                arcToRelative(5f, 5f, 0f, false, false, 9f, -3f)
-                arcToRelative(4.5f, 4.5f, 0f, false, false, -4.5f, -4.5f)
-                curveToRelative(-1.33f, 0f, -2.54f, .54f, -3.41f, 1.41f)
-                lineTo(11f, 14f)
+                moveTo(12.0,18.0)
+                curveTo(13.291291236877441,19.721721649169922,15.539427757263184,20.423986434936523,17.581138610839844,19.74341583251953)
+                curveTo(19.62285041809082,19.062847137451172,21.0,17.152151107788086,21.0,15.0)
+                curveTo(21.0,12.514719009399414,18.985280990600586,10.5,16.5,10.5)
+                curveTo(15.170000076293945,10.5,13.960000038146973,11.039999961853027,13.09000015258789,11.90999984741211)
+                lineTo(11.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(11f, 10f)
-                verticalLineToRelative(4f)
-                horizontalLineToRelative(4f)
+                moveTo(11.0,10.0)
+                lineTo(11.0,14.0)
+                lineTo(15.0,14.0)
             }
 }
 

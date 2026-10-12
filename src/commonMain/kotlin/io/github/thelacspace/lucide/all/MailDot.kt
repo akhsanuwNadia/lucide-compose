@@ -9,25 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MailDot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.674f, 4f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(12f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-4.675f)
+                moveTo(12.673999786376953,4.0)
+                lineTo(4.0,4.0)
+                curveTo(2.895430564880371,4.0,2.0,4.895430564880371,2.0,6.0)
+                lineTo(2.0,18.0)
+                curveTo(2.0,19.104570388793945,2.895430564880371,20.0,4.0,20.0)
+                lineTo(20.0,20.0)
+                curveTo(21.104570388793945,20.0,22.0,19.104570388793945,22.0,18.0)
+                lineTo(22.0,13.324999809265137)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2f, 7f)
-                lineToRelative(9f, 5.701f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 0f)
-                lineToRelative(1.084f, -.686f)
+                moveTo(2.0,7.0)
+                lineTo(11.0,12.701000213623047)
+                curveTo(11.618802070617676,13.058265686035156,12.381197929382324,13.058265686035156,13.0,12.701000213623047)
+                lineTo(14.083999633789062,12.015000343322754)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0f, 7.0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
+                moveTo(16.0,7.0)
+                curveTo(15.995192527770996,8.074993133544922,16.565935134887695,9.070390701293945,17.496112823486328,9.60927963256836)
+                curveTo(18.426292419433594,10.148168563842773,19.573707580566406,10.148168563842773,20.503887176513672,9.60927963256836)
+                curveTo(21.434064865112305,9.070390701293945,22.00480842590332,8.074993133544922,22.0,7.0)
+                curveTo(22.00480842590332,5.925007343292236,21.434064865112305,4.929609298706055,20.503887176513672,4.390720367431641)
+                curveTo(19.573707580566406,3.8518311977386475,18.426292419433594,3.8518311977386475,17.496112823486328,4.390720367431641)
+                curveTo(16.565935134887695,4.929609298706055,15.995192527770996,5.925007343292236,16.0,7.0)
             }
 }
 

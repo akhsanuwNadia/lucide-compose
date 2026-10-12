@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TextCursor") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17f, 22f)
-                horizontalLineToRelative(-1f)
-                arcToRelative(4f, 4f, 0f, false, true, -4f, -4f)
-                verticalLineTo(6f)
-                arcToRelative(4f, 4f, 0f, false, true, 4f, -4f)
-                horizontalLineToRelative(1f)
+                moveTo(17.0,22.0)
+                lineTo(16.0,22.0)
+                curveTo(13.790861129760742,22.0,12.0,20.209138870239258,12.0,18.0)
+                lineTo(12.0,6.0)
+                curveTo(12.0,3.790860891342163,13.790861129760742,2.0,16.0,2.0)
+                lineTo(17.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 22f)
-                horizontalLineToRelative(1f)
-                arcToRelative(4f, 4f, 0f, false, false, 4f, -4f)
+                moveTo(7.0,22.0)
+                lineTo(8.0,22.0)
+                curveTo(10.209138870239258,22.0,12.0,20.209138870239258,12.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 2f)
-                horizontalLineToRelative(1f)
-                arcToRelative(4f, 4f, 0f, false, true, 4f, 4f)
+                moveTo(7.0,2.0)
+                lineTo(8.0,2.0)
+                curveTo(10.209138870239258,2.0,12.0,3.790860891342163,12.0,6.0)
             }
 }
 

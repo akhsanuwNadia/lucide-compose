@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
         println("Usage: generator <source_dir> <version> [output_dir] [template_dir]")
         return
     }
-    
+
     val sourceDir = File(args[0])
     val version = if (args.size > 1) args[1] else "unknown"
     val outputDir = if (args.size > 2) File(args[2]) else File("src/commonMain/kotlin/io/github/thelacspace/lucide")

@@ -9,27 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GitMergeConflict") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 6f)
-                horizontalLineToRelative(4f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(7f)
+                moveTo(12.0,6.0)
+                lineTo(16.0,6.0)
+                curveTo(17.104570388793945,6.0,18.0,6.895430564880371,18.0,8.0)
+                lineTo(18.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                verticalLineToRelative(9f)
+                moveTo(6.0,12.0)
+                lineTo(6.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(8.5f, 3.5f)
-                lineToRelative(-5f, 5f)
+                moveTo(8.5,3.5)
+                lineTo(3.5,8.5)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(8.5f, 8.5f)
-                lineToRelative(-5f, -5f)
+                moveTo(8.5,8.5)
+                lineTo(3.5,3.5)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0f, 18.0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, 6.0f, 0f)
-                arcToRelative(3.0f, 3.0f, 0f, true, false, -6.0f, 0f)
+                moveTo(15.0,18.0)
+                curveTo(14.995192527770996,19.074993133544922,15.565935134887695,20.070390701293945,16.496112823486328,20.60927963256836)
+                curveTo(17.426292419433594,21.148168563842773,18.573707580566406,21.148168563842773,19.503887176513672,20.60927963256836)
+                curveTo(20.434064865112305,20.070390701293945,21.00480842590332,19.074993133544922,21.0,18.0)
+                curveTo(21.00480842590332,16.925006866455078,20.434064865112305,15.929609298706055,19.503887176513672,15.39072036743164)
+                curveTo(18.573707580566406,14.851831436157227,17.426292419433594,14.851831436157227,16.496112823486328,15.39072036743164)
+                curveTo(15.565935134887695,15.929609298706055,14.995192527770996,16.925006866455078,15.0,18.0)
             }
 }
 

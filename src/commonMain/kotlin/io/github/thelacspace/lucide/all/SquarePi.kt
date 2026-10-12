@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquarePi") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,21.0)
+                lineTo(19.0,21.0)
+                lineTo(5.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 7f)
-                horizontalLineToRelative(10f)
+                moveTo(7.0,7.0)
+                lineTo(17.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 7f)
-                verticalLineToRelative(10f)
+                moveTo(10.0,7.0)
+                lineTo(10.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 17f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(7f)
+                moveTo(16.0,17.0)
+                curveTo(14.895430564880371,17.0,14.0,16.104570388793945,14.0,15.0)
+                lineTo(14.0,7.0)
             }
 }
 

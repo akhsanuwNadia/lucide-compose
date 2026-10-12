@@ -9,16 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Book") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 19.5f)
-                verticalLineToRelative(-15f)
-                arcTo(2.5f, 2.5f, 0f, false, true, 6.5f, 2f)
-                horizontalLineTo(19f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, 1f)
-                verticalLineToRelative(18f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, 1f)
-                horizontalLineTo(6.5f)
-                arcToRelative(1f, 1f, 0f, false, true, 0f, -5f)
-                horizontalLineTo(20f)
+                moveTo(4.0,19.5)
+                lineTo(4.0,4.5)
+                curveTo(4.0,3.119288206100464,5.119287967681885,2.0,6.5,2.0)
+                lineTo(19.0,2.0)
+                curveTo(19.552284240722656,2.0,20.0,2.4477152824401855,20.0,3.0)
+                lineTo(20.0,21.0)
+                curveTo(20.0,21.552284240722656,19.552284240722656,22.0,19.0,22.0)
+                lineTo(6.5,22.0)
+                curveTo(5.123652458190918,21.993844985961914,4.011155605316162,20.876361846923828,4.011155605316162,19.5)
+                curveTo(4.011155605316162,18.123638153076172,5.123652458190918,17.006155014038086,6.5,17.0)
+                lineTo(20.0,17.0)
             }
 }
 

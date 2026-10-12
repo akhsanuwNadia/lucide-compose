@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Dock") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 8f)
-                horizontalLineToRelative(20f)
+                moveTo(2.0,8.0)
+                lineTo(22.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 4.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,4.0)
+                lineTo(20.0,4.0)
+                lineTo(22.0,4.0)
+                lineTo(22.0,20.0)
+                lineTo(20.0,20.0)
+                lineTo(4.0,20.0)
+                lineTo(2.0,20.0)
+                lineTo(2.0,4.0)
+                lineTo(4.0,4.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 16f)
-                horizontalLineToRelative(12f)
+                moveTo(6.0,16.0)
+                lineTo(18.0,16.0)
             }
 }
 

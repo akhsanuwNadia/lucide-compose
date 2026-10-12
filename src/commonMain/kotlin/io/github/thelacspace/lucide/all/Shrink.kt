@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Shrink") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(15f, 15f)
-                lineToRelative(6f, 6f)
-                moveToRelative(-6f, -6f)
-                verticalLineToRelative(4.8f)
-                moveToRelative(0f, -4.8f)
-                horizontalLineToRelative(4.8f)
+                moveTo(15.0,15.0)
+                lineTo(21.0,21.0)
+                moveTo(15.0,15.0)
+                lineTo(15.0,19.799999237060547)
+                moveTo(15.0,14.999999046325684)
+                lineTo(19.799999237060547,14.999999046325684)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 19.8f)
-                verticalLineTo(15f)
-                moveToRelative(0f, 0f)
-                horizontalLineTo(4.2f)
-                moveTo(9f, 15f)
-                lineToRelative(-6f, 6f)
+                moveTo(9.0,19.799999237060547)
+                lineTo(9.0,15.0)
+                moveTo(9.0,15.0)
+                lineTo(4.199999809265137,15.0)
+                moveTo(9.0,15.0)
+                lineTo(3.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 4.2f)
-                verticalLineTo(9f)
-                moveToRelative(0f, 0f)
-                horizontalLineToRelative(4.8f)
-                moveTo(15f, 9f)
-                lineToRelative(6f, -6f)
+                moveTo(15.0,4.199999809265137)
+                lineTo(15.0,9.0)
+                moveTo(15.0,9.0)
+                lineTo(19.799999237060547,9.0)
+                moveTo(15.0,9.0)
+                lineTo(21.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 4.2f)
-                verticalLineTo(9f)
-                moveToRelative(0f, 0f)
-                horizontalLineTo(4.2f)
-                moveTo(9f, 9f)
-                lineTo(3f, 3f)
+                moveTo(9.0,4.199999809265137)
+                lineTo(9.0,9.0)
+                moveTo(9.0,9.0)
+                lineTo(4.199999809265137,9.0)
+                moveTo(9.0,9.0)
+                lineTo(3.0,3.0)
             }
 }
 

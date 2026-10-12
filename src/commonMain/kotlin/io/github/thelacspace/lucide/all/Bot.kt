@@ -9,37 +9,37 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 8f)
-                verticalLineTo(4f)
-                horizontalLineTo(8f)
+                moveTo(12.0,8.0)
+                lineTo(12.0,4.0)
+                lineTo(8.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0f, 8.0f)
-                horizontalLineToRelative(12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(6.0,8.0)
+                lineTo(18.0,8.0)
+                lineTo(20.0,8.0)
+                lineTo(20.0,20.0)
+                lineTo(18.0,20.0)
+                lineTo(6.0,20.0)
+                lineTo(4.0,20.0)
+                lineTo(4.0,8.0)
+                lineTo(6.0,8.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 14f)
-                horizontalLineToRelative(2f)
+                moveTo(2.0,14.0)
+                lineTo(4.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 14f)
-                horizontalLineToRelative(2f)
+                moveTo(20.0,14.0)
+                lineTo(22.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 13f)
-                verticalLineToRelative(2f)
+                moveTo(15.0,13.0)
+                lineTo(15.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 13f)
-                verticalLineToRelative(2f)
+                moveTo(9.0,13.0)
+                lineTo(9.0,15.0)
             }
 }
 

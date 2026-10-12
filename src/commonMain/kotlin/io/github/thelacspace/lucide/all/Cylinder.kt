@@ -9,10 +9,11 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Cylinder") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                verticalLineToRelative(14f)
-                arcToRelative(9f, 3f, 0f, false, false, 18f, 0f)
-                verticalLineTo(5f)
+                moveTo(3.0,5.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0221588611602783,20.6516170501709,7.045098781585693,21.986614227294922,12.0,21.986614227294922)
+                curveTo(16.95490074157715,21.986614227294922,20.977840423583984,20.6516170501709,21.0,19.0)
+                lineTo(21.0,5.0)
             }
 }
 

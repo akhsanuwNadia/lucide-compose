@@ -9,29 +9,34 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WifiLock") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 8.82f)
+                moveTo(2.0,8.819999694824219)
+                curveTo(7.6940131187438965,3.7271194458007812,16.305986404418945,3.7271194458007812,22.0,8.819999694824219)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 16f)
-                verticalLineToRelative(-2f)
-                arcToRelative(2f, 2f, 0f, false, false, 0f, vf)
+                moveTo(20.0,16.0)
+                lineTo(20.0,14.0)
+                curveTo(19.995075225830078,12.898921966552734,19.101089477539062,12.00892448425293,18.0,12.00892448425293)
+                curveTo(16.898910522460938,12.00892448425293,16.004924774169922,12.898921966552734,16.0,14.0)
+                lineTo(16.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 12.859f)
+                moveTo(5.0,12.859000205993652)
+                curveTo(7.228026866912842,10.674515724182129,10.348027229309082,9.655226707458496,13.435999870300293,10.10300064086914)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5f, 16.429f)
+                moveTo(8.5,16.429000854492188)
+                curveTo(9.010343551635742,15.928418159484863,9.622096061706543,15.543089866638184,10.293999671936035,15.29900074005127)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0f, 16.0f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(5.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-5.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(15.0,16.0)
+                lineTo(21.0,16.0)
+                lineTo(22.0,16.0)
+                lineTo(22.0,21.0)
+                lineTo(21.0,21.0)
+                lineTo(15.0,21.0)
+                lineTo(14.0,21.0)
+                lineTo(14.0,16.0)
+                lineTo(15.0,16.0)
                 close()
             }
 }

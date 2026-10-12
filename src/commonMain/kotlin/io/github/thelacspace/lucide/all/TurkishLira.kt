@@ -9,17 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TurkishLira") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 4f)
-                lineTo(5f, 9f)
+                moveTo(15.0,4.0)
+                lineTo(5.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 8.5f)
-                lineToRelative(-10f, 5f)
+                moveTo(15.0,8.5)
+                lineTo(5.0,13.5)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 12f)
-                arcToRelative(9f, 9f, 0f, false, true, -9f, 9f)
-                verticalLineTo(3f)
+                moveTo(18.0,12.0)
+                curveTo(18.0,16.970561981201172,13.970562934875488,21.0,9.0,21.0)
+                lineTo(9.0,3.0)
             }
 }
 

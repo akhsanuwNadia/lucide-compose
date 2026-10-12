@@ -9,18 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MountainSnow") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(8f, 3f)
-                lineToRelative(4f, 8f)
-                lineToRelative(5f, -5f)
-                lineToRelative(5f, 15f)
-                horizontalLineTo(2f)
-                lineTo(8f, 3f)
+                moveTo(8.0,3.0)
+                lineTo(12.0,11.0)
+                lineTo(17.0,6.0)
+                lineTo(22.0,21.0)
+                lineTo(2.0,21.0)
+                lineTo(8.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4.14f, 15.08f)
-                curveToRelative(2.62f, -1.57f, 5.24f, -1.43f, 7.86f, .42f)
-                curveToRelative(2.74f, 1.94f, 5.49f, 2f, 8.23f, .19f)
+                moveTo(4.139999866485596,15.079999923706055)
+                curveTo(6.759999752044678,13.510000228881836,9.379999160766602,13.649999618530273,12.0,15.5)
+                curveTo(14.739999771118164,17.440000534057617,17.489999771118164,17.5,20.229999542236328,15.6899995803833)
             }
 }
 

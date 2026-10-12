@@ -9,43 +9,43 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RulerDimensionLine") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 15f)
-                verticalLineToRelative(-3f)
+                moveTo(10.0,15.0)
+                lineTo(10.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 15f)
-                verticalLineToRelative(-3f)
+                moveTo(14.0,15.0)
+                lineTo(14.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 15f)
-                verticalLineToRelative(-3f)
+                moveTo(18.0,15.0)
+                lineTo(18.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 8f)
-                verticalLineTo(4f)
+                moveTo(2.0,8.0)
+                lineTo(2.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 6f)
-                horizontalLineTo(2f)
+                moveTo(22.0,6.0)
+                lineTo(2.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 8f)
-                verticalLineTo(4f)
+                moveTo(22.0,8.0)
+                lineTo(22.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 15f)
-                verticalLineToRelative(-3f)
+                moveTo(6.0,15.0)
+                lineTo(6.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 12.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,12.0)
+                lineTo(20.0,12.0)
+                lineTo(22.0,12.0)
+                lineTo(22.0,20.0)
+                lineTo(20.0,20.0)
+                lineTo(4.0,20.0)
+                lineTo(2.0,20.0)
+                lineTo(2.0,12.0)
+                lineTo(4.0,12.0)
                 close()
             }
 }

@@ -9,20 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SatelliteDish") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18f, 12f)
+                moveTo(18.0,12.0)
+                curveTo(18.0,8.686291694641113,15.313708305358887,6.0,12.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.824f, 10.459f)
-                arcToRelative(8f, 8f, 0f, false, false, cf, .558f)
-                arcToRelative(-.276f, .623f, -1.012f, false, false, lf, -9.448f)
-                arcToRelative(-9.448f, cf, -.44f, false, false, -.375f, -1.452f)
+                moveTo(2.8239998817443848,10.458999633789062)
+                curveTo(1.303692102432251,13.533958435058594,1.9129480123519897,17.235925674438477,4.338510990142822,19.661489486694336)
+                curveTo(6.764073848724365,22.087051391601562,10.466041564941406,22.696306228637695,13.541000366210938,21.17599868774414)
+                curveTo(14.098999977111816,20.899999618530273,14.164000511169434,20.163999557495117,13.723999977111816,19.7239990234375)
+                lineTo(4.276000022888184,10.275999069213867)
+                curveTo(3.8359999656677246,9.835999488830566,3.0999999046325684,9.900999069213867,2.8239998817443848,10.458998680114746)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 12f)
+                moveTo(22.0,12.0)
+                curveTo(22.0,6.477152347564697,17.52284812927246,2.0,12.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 15f)
-                lineToRelative(4f, -4f)
+                moveTo(9.0,15.0)
+                lineTo(13.0,11.0)
             }
 }
 

@@ -9,18 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareRoundCorner") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 11f)
-                arcToRelative(8f, 8f, 0f, false, false, -8f, -8f)
+                moveTo(21.0,11.0)
+                curveTo(21.0,6.581721782684326,17.418277740478516,3.0,13.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 15f)
-                verticalLineToRelative(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(4f)
+                moveTo(21.0,15.0)
+                lineTo(21.0,19.0)
+                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                lineTo(3.0,5.0)
+                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
+                lineTo(9.0,3.0)
             }
 }
 

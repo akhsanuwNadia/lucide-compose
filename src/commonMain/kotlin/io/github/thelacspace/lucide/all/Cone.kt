@@ -9,10 +9,11 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Cone") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(20.9f, 18.55f)
-                lineToRelative(-8f, -15.98f)
-                arcToRelative(1f, 1f, 0f, false, false, -1.8f, 0f)
-                lineToRelative(-8f, 15.98f)
+                moveTo(20.899999618530273,18.549999237060547)
+                lineTo(12.899999618530273,2.5699996948242188)
+                curveTo(12.73291301727295,2.2250092029571533,12.383321762084961,2.005889415740967,12.0,2.005889415740967)
+                curveTo(11.616677284240723,2.005889415740967,11.267086029052734,2.2250092029571533,11.09999942779541,2.5699996948242188)
+                lineTo(3.09999942779541,18.549999237060547)
             }
 }
 

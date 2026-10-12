@@ -9,15 +9,15 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TrendingDown") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16f, 17f)
-                horizontalLineToRelative(6f)
-                verticalLineToRelative(-6f)
+                moveTo(16.0,17.0)
+                lineTo(22.0,17.0)
+                lineTo(22.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 17f)
-                lineToRelative(-8.5f, -8.5f)
-                lineToRelative(-5f, 5f)
-                lineTo(2f, 7f)
+                moveTo(22.0,17.0)
+                lineTo(13.5,8.5)
+                lineTo(8.5,13.5)
+                lineTo(2.0,7.0)
             }
 }
 

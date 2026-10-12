@@ -9,23 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Carrot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 16f)
-                arcToRelative(1f, 1f, 0f, false, false, -7f, -7f)
-                quadToRelative(-4f, 4f, -5.987f, 12.385f)
-                arcToRelative(.5f, .5f, 0f, false, false, .602f, .602f)
-                quadTo(11f, 20f, 15f, 16f)
-                lineToRelative(-3f, -3f)
+                moveTo(15.0,16.0)
+                curveTo(16.918270111083984,14.064496040344238,16.91128921508789,10.942523956298828,14.984382629394531,9.015617370605469)
+                curveTo(13.057476043701172,7.088711261749268,9.935503959655762,7.081730365753174,8.0,9.0)
+                quadTo(4.0,13.0,2.013000011444092,21.385000228881836)
+                curveTo(1.9729048013687134,21.5538330078125,2.0232138633728027,21.731380462646484,2.145916700363159,21.854084014892578)
+                curveTo(2.2686195373535156,21.97678565979004,2.4461679458618164,22.027095794677734,2.615000009536743,21.98699951171875)
+                quadTo(11.0,20.0,15.0,16.0)
+                lineTo(12.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 9f)
-                quadToRelative(4f, 4f, 7f, 0f)
-                quadToRelative(-3f, -4f, -7f, 0f)
-                quadToRelative(4f, -4f, 0f, -7f)
-                quadToRelative(-4f, 3f, 0f, 7f)
+                moveTo(15.0,9.0)
+                quadTo(19.0,13.0,22.0,9.0)
+                quadTo(19.0,5.0,15.0,9.0)
+                quadTo(19.0,5.0,15.0,2.0)
+                quadTo(11.0,5.0,15.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(8f, 15f)
-                lineToRelative(-2.58f, -2.58f)
+                moveTo(8.0,15.0)
+                lineTo(5.420000076293945,12.420000076293945)
             }
 }
 

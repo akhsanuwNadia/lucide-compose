@@ -9,22 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Link2Off") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(9f, 17f)
-                horizontalLineTo(7f)
-                arcTo(5f, 5f, 0f, false, true, 7f, 7f)
+                moveTo(9.0,17.0)
+                lineTo(7.0,17.0)
+                curveTo(4.247304439544678,16.987689971923828,2.022310733795166,14.75272274017334,2.022310733795166,12.0)
+                curveTo(2.022310733795166,9.24727725982666,4.247304439544678,7.01231050491333,7.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 7f)
-                horizontalLineToRelative(2f)
-                arcToRelative(5f, 5f, 0f, false, true, 4f, 8f)
+                moveTo(15.0,7.0)
+                lineTo(17.0,7.0)
+                curveTo(18.89385986328125,7.0,20.62517547607422,8.070012092590332,21.472135543823242,9.763932228088379)
+                curveTo(22.319095611572266,11.457852363586426,22.136316299438477,13.484911918640137,21.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 12f)
-                lineTo(12f, 12f)
+                moveTo(8.0,12.0)
+                lineTo(12.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 2f)
-                lineTo(22f, 22f)
+                moveTo(2.0,2.0)
+                lineTo(22.0,22.0)
             }
 }
 

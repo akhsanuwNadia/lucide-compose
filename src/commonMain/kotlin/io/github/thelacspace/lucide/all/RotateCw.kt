@@ -9,15 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RotateCw") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 12f)
-                arcToRelative(9f, 9f, 0f, true, true, -9f, -9f)
-                curveToRelative(2.52f, 0f, 4.93f, 1f, 6.74f, 2.74f)
-                lineTo(21f, 8f)
+                moveTo(21.0,12.0)
+                curveTo(21.0,16.970561981201172,16.970561981201172,21.0,12.0,21.0)
+                curveTo(7.029437065124512,21.0,3.0,16.970561981201172,3.0,12.0)
+                curveTo(3.0,7.029437065124512,7.029437065124512,3.0,12.0,3.0)
+                curveTo(14.520000457763672,3.0,16.93000030517578,4.0,18.739999771118164,5.739999771118164)
+                lineTo(21.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 3f)
-                verticalLineToRelative(5f)
-                horizontalLineToRelative(-5f)
+                moveTo(21.0,3.0)
+                lineTo(21.0,8.0)
+                lineTo(16.0,8.0)
             }
 }
 

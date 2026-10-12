@@ -9,8 +9,8 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Slash") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 2f)
-                lineTo(2f, 22f)
+                moveTo(22.0,2.0)
+                lineTo(2.0,22.0)
             }
 }
 

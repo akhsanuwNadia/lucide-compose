@@ -9,9 +9,9 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FishSymbol") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 16f)
-                reflectiveCurveToRelative(9f, -15f, 20f, -4f)
-                curveTo(11f, 23f, 2f, 8f, 2f, 8f)
+                moveTo(2.0,16.0)
+                curveTo(2.0,16.0,11.0,1.0,22.0,12.0)
+                curveTo(11.0,23.0,2.0,8.0,2.0,8.0)
             }
 }
 

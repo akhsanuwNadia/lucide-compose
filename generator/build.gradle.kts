@@ -44,3 +44,10 @@ tasks.register<JavaExec>("generate") {
         templateDir.absolutePath
     )
 }
+
+
+dependencies {
+    implementation("org.apache.xmlgraphics:batik-anim:1.19")
+    implementation("org.apache.xmlgraphics:batik-parser:1.19")
+    implementation("org.apache.xmlgraphics:batik-dom:1.19")
+}

@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Kanban") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5f, 3f)
-                verticalLineToRelative(14f)
+                moveTo(5.0,3.0)
+                lineTo(5.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 3f)
-                verticalLineToRelative(8f)
+                moveTo(12.0,3.0)
+                lineTo(12.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 3f)
-                verticalLineToRelative(18f)
+                moveTo(19.0,3.0)
+                lineTo(19.0,21.0)
             }
 }
 

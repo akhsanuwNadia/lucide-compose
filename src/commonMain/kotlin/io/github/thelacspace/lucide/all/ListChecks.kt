@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListChecks") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(13f, 5f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,5.0)
+                lineTo(21.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 12f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,12.0)
+                lineTo(21.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 19f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,19.0)
+                lineTo(21.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(3f, 17f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveTo(3.0,17.0)
+                lineTo(5.0,19.0)
+                lineTo(9.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(3f, 7f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveTo(3.0,7.0)
+                lineTo(5.0,9.0)
+                lineTo(9.0,5.0)
             }
 }
 

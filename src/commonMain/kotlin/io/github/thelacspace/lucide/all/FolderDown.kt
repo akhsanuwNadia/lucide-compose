@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FolderDown") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(20f, 20f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineTo(8f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineToRelative(-7.9f)
-                arcToRelative(2f, 2f, 0f, false, true, -1.69f, -.9f)
-                lineTo(9.6f, 3.9f)
-                arcTo(2f, 2f, 0f, false, false, 7.93f, 3f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(13f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
+                moveTo(20.0,20.0)
+                curveTo(21.104570388793945,20.0,22.0,19.104570388793945,22.0,18.0)
+                lineTo(22.0,8.0)
+                curveTo(22.0,6.895430564880371,21.104570388793945,6.0,20.0,6.0)
+                lineTo(12.100000381469727,6.0)
+                curveTo(11.420332908630371,6.006663799285889,10.783802032470703,5.667683124542236,10.40999984741211,5.099999904632568)
+                lineTo(9.600000381469727,3.9000000953674316)
+                curveTo(9.230077743530273,3.3382794857025146,8.60258674621582,3.000110626220703,7.929999828338623,3.0)
+                lineTo(4.0,3.0)
+                curveTo(2.895430564880371,3.0,2.0,3.895430564880371,2.0,5.0)
+                lineTo(2.0,18.0)
+                curveTo(2.0,19.104570388793945,2.895430564880371,20.0,4.0,20.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 10f)
-                verticalLineToRelative(6f)
+                moveTo(12.0,10.0)
+                lineTo(12.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 13f)
-                lineToRelative(-3f, 3f)
-                lineToRelative(-3f, -3f)
+                moveTo(15.0,13.0)
+                lineTo(12.0,16.0)
+                lineTo(9.0,13.0)
             }
 }
 

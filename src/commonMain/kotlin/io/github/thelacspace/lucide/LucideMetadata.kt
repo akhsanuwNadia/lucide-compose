@@ -16,7 +16,7 @@ data class LucideIconMetadata(
 }
 
 object LucideMetadata {
-    const val VERSION = "1.16.0"
+    const val VERSION = "1.16.1"
 
     val allIcons: List<LucideIconMetadata> by lazy {
         

@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareArrowRightExit") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 12f)
-                horizontalLineToRelative(11f)
+                moveTo(10.0,12.0)
+                lineTo(21.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 16f)
-                lineToRelative(4f, -4f)
-                lineToRelative(-4f, -4f)
+                moveTo(17.0,16.0)
+                lineTo(21.0,12.0)
+                lineTo(17.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 6.344f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-1.344f)
+                moveTo(21.0,6.343999862670898)
+                lineTo(21.0,5.0)
+                curveTo(21.0,3.895430564880371,20.104570388793945,3.0,19.0,3.0)
+                lineTo(5.0,3.0)
+                curveTo(3.895430564880371,3.0,3.0,3.895430564880371,3.0,5.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(19.0,21.0)
+                curveTo(20.104570388793945,21.0,21.0,20.104570388793945,21.0,19.0)
+                lineTo(21.0,17.6560001373291)
             }
 }
 

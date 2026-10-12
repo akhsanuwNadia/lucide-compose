@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TestTube") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.5f, 2f)
-                verticalLineToRelative(17.5f)
-                curveToRelative(0f, 1.4f, -1.1f, 2.5f, -2.5f, 2.5f)
-                curveToRelative(-1.4f, 0f, -2.5f, -1.1f, -2.5f, -2.5f)
-                verticalLineTo(2f)
+                moveTo(14.5,2.0)
+                lineTo(14.5,19.5)
+                curveTo(14.5,20.899999618530273,13.399999618530273,22.0,12.0,22.0)
+                curveTo(10.600000381469727,22.0,9.5,20.899999618530273,9.5,19.5)
+                lineTo(9.5,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5f, 2f)
-                horizontalLineToRelative(7f)
+                moveTo(8.5,2.0)
+                lineTo(15.5,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.5f, 16f)
-                horizontalLineToRelative(-5f)
+                moveTo(14.5,16.0)
+                lineTo(9.5,16.0)
             }
 }
 

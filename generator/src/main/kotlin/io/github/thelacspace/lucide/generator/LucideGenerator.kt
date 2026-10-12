@@ -6,8 +6,12 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
+import org.apache.batik.parser.AWTPathProducer
 import org.w3c.dom.Element
+import java.awt.geom.Path2D
+import java.awt.geom.PathIterator
 import java.io.File
+import java.io.StringReader
 import javax.xml.parsers.DocumentBuilderFactory
 
 data class IconMetadata(
@@ -182,120 +186,30 @@ class LucideGenerator(
     }
 
     fun convertPathDataToCompose(d: String): String {
-        val tokens = Regex("([a-zA-Z])|([-+]?\\d*\\.?\\d+)").findAll(d).map { it.value }.toList()
         val sb = StringBuilder()
-        var i = 0
-        var currentCommand = ""
 
-        while (i < tokens.size) {
-            val token = tokens[i]
-            if (token[0].isLetter()) {
-                currentCommand = token
-                i++
+        val shape = AWTPathProducer.createShape(
+            StringReader(d),
+            Path2D.WIND_NON_ZERO
+        )
+
+        val iterator = shape.getPathIterator(null)
+
+        while (!iterator.isDone) {
+            val pathRaw = DoubleArray(6)
+            val idx = iterator.currentSegment(pathRaw)
+
+            when(idx){
+                PathIterator.SEG_MOVETO -> sb.append("moveTo(${pathRaw[0]},${pathRaw[1]})\n")
+                PathIterator.SEG_LINETO -> sb.append("lineTo(${pathRaw[0]},${pathRaw[1]})\n")
+                PathIterator.SEG_QUADTO -> sb.append("quadTo(${pathRaw[0]},${pathRaw[1]},${pathRaw[2]},${pathRaw[3]})\n")
+                PathIterator.SEG_CUBICTO -> sb.append("curveTo(${pathRaw[0]},${pathRaw[1]},${pathRaw[2]},${pathRaw[3]},${pathRaw[4]},${pathRaw[5]})\n")
+                PathIterator.SEG_CLOSE -> sb.append("close()\n")
+                else -> {}
             }
-
-            if (i >= tokens.size && currentCommand.lowercase() != "z") break
-
-            try {
-                when (currentCommand) {
-                    "M" -> {
-                        sb.append("moveTo(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "m" -> {
-                        sb.append("moveToRelative(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "L" -> {
-                        sb.append("lineTo(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "l" -> {
-                        sb.append("lineToRelative(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "H" -> {
-                        sb.append("horizontalLineTo(${tokens[i]}f)\n"); i += 1
-                    }
-
-                    "h" -> {
-                        sb.append("horizontalLineToRelative(${tokens[i]}f)\n"); i += 1
-                    }
-
-                    "V" -> {
-                        sb.append("verticalLineTo(${tokens[i]}f)\n"); i += 1
-                    }
-
-                    "v" -> {
-                        sb.append("verticalLineToRelative(${tokens[i]}f)\n"); i += 1
-                    }
-
-                    "C" -> {
-                        sb.append("curveTo(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f, ${tokens[i + 4]}f, ${tokens[i + 5]}f)\n"); i += 6
-                    }
-
-                    "c" -> {
-                        sb.append("curveToRelative(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f, ${tokens[i + 4]}f, ${tokens[i + 5]}f)\n"); i += 6
-                    }
-
-                    "S" -> {
-                        sb.append("reflectiveCurveTo(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f)\n"); i += 4
-                    }
-
-                    "s" -> {
-                        sb.append("reflectiveCurveToRelative(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f)\n"); i += 4
-                    }
-
-                    "Q" -> {
-                        sb.append("quadTo(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f)\n"); i += 4
-                    }
-
-                    "q" -> {
-                        sb.append("quadToRelative(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, ${tokens[i + 3]}f)\n"); i += 4
-                    }
-
-                    "T" -> {
-                        sb.append("reflectiveQuadTo(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "t" -> {
-                        sb.append("reflectiveQuadToRelative(${tokens[i]}f, ${tokens[i + 1]}f)\n"); i += 2
-                    }
-
-                    "A" -> {
-                        val largeArc = tokens[i + 3].toFloat().toInt() == 1
-                        val sweep = tokens[i + 4].toFloat().toInt() == 1
-                        sb.append("arcTo(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, $largeArc, $sweep, ${tokens[i + 5]}f, ${tokens[i + 6]}f)\n")
-                        i += 7
-                    }
-
-                    "a" -> {
-                        val largeArc = tokens[i + 3].toFloat().toInt() == 1
-                        val sweep = tokens[i + 4].toFloat().toInt() == 1
-                        sb.append("arcToRelative(${tokens[i]}f, ${tokens[i + 1]}f, ${tokens[i + 2]}f, $largeArc, $sweep, ${tokens[i + 5]}f, ${tokens[i + 6]}f)\n")
-                        i += 7
-                    }
-
-                    "Z", "z" -> {
-                        sb.append("close()\n")
-                    }
-
-                    else -> {
-                        i++
-                    }
-                }
-            } catch (e: Exception) {
-                println("Error parsing tokens for command $currentCommand: ${e.message}")
-                break
-            }
-
-            if (i < tokens.size && !tokens[i][0].isLetter() && currentCommand.lowercase() != "z") {
-                if (currentCommand.lowercase() == "m") currentCommand =
-                    if (currentCommand == "m") "l" else "L"
-            } else {
-                currentCommand = ""
-            }
+            iterator.next()
         }
+
         return sb.toString().trim()
     }
 

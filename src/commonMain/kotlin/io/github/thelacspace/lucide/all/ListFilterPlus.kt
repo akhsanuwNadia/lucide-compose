@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListFilterPlus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 5f)
-                horizontalLineTo(2f)
+                moveTo(12.0,5.0)
+                lineTo(2.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                horizontalLineToRelative(12f)
+                moveTo(6.0,12.0)
+                lineTo(18.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 19f)
-                horizontalLineToRelative(6f)
+                moveTo(9.0,19.0)
+                lineTo(15.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 5f)
-                horizontalLineToRelative(6f)
+                moveTo(16.0,5.0)
+                lineTo(22.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 8f)
-                verticalLineTo(2f)
+                moveTo(19.0,8.0)
+                lineTo(19.0,2.0)
             }
 }
 

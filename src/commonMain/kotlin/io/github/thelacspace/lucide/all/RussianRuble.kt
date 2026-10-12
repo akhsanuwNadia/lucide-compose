@@ -9,15 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RussianRuble") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6f, 11f)
-                horizontalLineToRelative(8f)
-                arcToRelative(4f, 4f, 0f, false, false, 0f, -8f)
-                horizontalLineTo(9f)
-                verticalLineToRelative(18f)
+                moveTo(6.0,11.0)
+                lineTo(14.0,11.0)
+                curveTo(16.20215606689453,10.990151405334473,17.98215103149414,9.202178001403809,17.98215103149414,7.0)
+                curveTo(17.98215103149414,4.797821521759033,16.20215606689453,3.0098483562469482,14.0,3.0)
+                lineTo(9.0,3.0)
+                lineTo(9.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 15f)
-                horizontalLineToRelative(8f)
+                moveTo(6.0,15.0)
+                lineTo(14.0,15.0)
             }
 }
 

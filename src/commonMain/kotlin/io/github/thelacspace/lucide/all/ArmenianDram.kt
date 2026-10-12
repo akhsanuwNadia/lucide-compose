@@ -9,17 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ArmenianDram") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11f, 10f)
-                horizontalLineToRelative(8f)
+                moveTo(11.0,10.0)
+                lineTo(19.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(11f, 14f)
-                horizontalLineToRelative(8f)
+                moveTo(11.0,14.0)
+                lineTo(19.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 20f)
-                verticalLineTo(10f)
-                arcToRelative(6f, 6f, 0f, false, false, -12f, 0f)
+                moveTo(17.0,20.0)
+                lineTo(17.0,10.0)
+                curveTo(16.985227584838867,6.696765422821045,14.303267478942871,4.026772975921631,11.0,4.026772975921631)
+                curveTo(7.696732521057129,4.026772975921631,5.014772415161133,6.696765422821045,5.0,10.0)
             }
 }
 

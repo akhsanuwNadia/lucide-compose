@@ -9,19 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Euro") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 10f)
-                horizontalLineToRelative(12f)
+                moveTo(4.0,10.0)
+                lineTo(16.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 14f)
-                horizontalLineToRelative(9f)
+                moveTo(4.0,14.0)
+                lineTo(13.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 6f)
-                arcToRelative(7.7f, 7.7f, 0f, false, false, -5.2f, -2f)
-                arcTo(7.9f, 7.9f, 0f, false, false, 6f, 12f)
-                curveToRelative(0f, 4.4f, 3.5f, 8f, 7.8f, 8f)
-                curveToRelative(2f, 0f, 3.8f, -.8f, 5.2f, -2f)
+                moveTo(19.0,6.0)
+                curveTo(17.57706642150879,4.707642078399658,15.722210884094238,3.9942357540130615,13.800000190734863,4.0)
+                curveTo(11.704736709594727,4.0263543128967285,9.705778121948242,4.884056091308594,8.242958068847656,6.3843841552734375)
+                curveTo(6.7801384925842285,7.884711742401123,5.9733099937438965,9.904740333557129,6.0,12.0)
+                curveTo(6.0,16.399999618530273,9.5,20.0,13.800000190734863,20.0)
+                curveTo(15.800000190734863,20.0,17.600000381469727,19.200000762939453,19.0,18.0)
             }
 }
 

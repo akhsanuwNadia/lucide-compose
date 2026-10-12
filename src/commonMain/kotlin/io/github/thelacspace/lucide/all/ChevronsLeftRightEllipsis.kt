@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChevronsLeftRightEllipsis") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(12.0,12.0)
+                lineTo(12.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(16.0,12.0)
+                lineTo(16.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 7f)
-                lineToRelative(5f, 5f)
-                lineToRelative(-5f, 5f)
+                moveTo(17.0,7.0)
+                lineTo(22.0,12.0)
+                lineTo(17.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(7f, 7f)
-                lineToRelative(-5f, 5f)
-                lineToRelative(5f, 5f)
+                moveTo(7.0,7.0)
+                lineTo(2.0,12.0)
+                lineTo(7.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(8.0,12.0)
+                lineTo(8.010000228881836,12.0)
             }
 }
 

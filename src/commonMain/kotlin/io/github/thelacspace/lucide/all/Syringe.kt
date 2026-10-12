@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Syringe") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(18f, 2f)
-                lineToRelative(4f, 4f)
+                moveTo(18.0,2.0)
+                lineTo(22.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 7f)
-                lineToRelative(3f, -3f)
+                moveTo(17.0,7.0)
+                lineTo(20.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 9f)
-                lineTo(8.7f, 19.3f)
-                curveToRelative(-1f, 1f, -2.5f, 1f, -3.4f, 0f)
-                lineToRelative(-.6f, -.6f)
-                curveToRelative(-1f, -1f, -1f, -2.5f, 0f, -3.4f)
-                lineTo(15f, 5f)
+                moveTo(19.0,9.0)
+                lineTo(8.699999809265137,19.299999237060547)
+                curveTo(7.699999809265137,20.299999237060547,6.199999809265137,20.299999237060547,5.299999713897705,19.299999237060547)
+                lineTo(4.699999809265137,18.69999885559082)
+                curveTo(3.6999998092651367,17.69999885559082,3.6999998092651367,16.19999885559082,4.699999809265137,15.299999237060547)
+                lineTo(15.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 11f)
-                lineToRelative(4f, 4f)
+                moveTo(9.0,11.0)
+                lineTo(13.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(5f, 19f)
-                lineToRelative(-3f, 3f)
+                moveTo(5.0,19.0)
+                lineTo(2.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(14f, 4f)
-                lineToRelative(6f, 6f)
+                moveTo(14.0,4.0)
+                lineTo(20.0,10.0)
             }
 }
 

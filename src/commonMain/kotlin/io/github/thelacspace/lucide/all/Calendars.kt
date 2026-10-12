@@ -9,39 +9,39 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Calendars") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 2f)
-                verticalLineToRelative(2f)
+                moveTo(12.0,2.0)
+                lineTo(12.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.726f, 21.01f)
-                arcTo(2f, 2f, 0f, false, true, 14f, 22f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(10f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
+                moveTo(15.72599983215332,21.010000228881836)
+                curveTo(15.367290496826172,21.62308692932129,14.710314750671387,21.999916076660156,14.0,22.0)
+                lineTo(4.0,22.0)
+                curveTo(2.895430564880371,22.0,2.0,21.104570388793945,2.0,20.0)
+                lineTo(2.0,10.0)
+                curveTo(2.0,8.895430564880371,2.895430564880371,8.0,4.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 2f)
-                verticalLineToRelative(2f)
+                moveTo(18.0,2.0)
+                lineTo(18.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 13f)
-                horizontalLineToRelative(2f)
+                moveTo(2.0,13.0)
+                lineTo(4.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 8f)
-                horizontalLineToRelative(14f)
+                moveTo(8.0,8.0)
+                lineTo(22.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0f, 3.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(10.0,3.0)
+                lineTo(20.0,3.0)
+                lineTo(22.0,3.0)
+                lineTo(22.0,17.0)
+                lineTo(20.0,17.0)
+                lineTo(10.0,17.0)
+                lineTo(8.0,17.0)
+                lineTo(8.0,3.0)
+                lineTo(10.0,3.0)
                 close()
             }
 }

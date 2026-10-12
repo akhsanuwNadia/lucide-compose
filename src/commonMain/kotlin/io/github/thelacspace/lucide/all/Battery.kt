@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Battery") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 14f)
-                lineTo(22f, 10f)
+                moveTo(22.0,14.0)
+                lineTo(22.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 6.0f)
-                horizontalLineToRelative(12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,6.0)
+                lineTo(16.0,6.0)
+                lineTo(18.0,6.0)
+                lineTo(18.0,18.0)
+                lineTo(16.0,18.0)
+                lineTo(4.0,18.0)
+                lineTo(2.0,18.0)
+                lineTo(2.0,6.0)
+                lineTo(4.0,6.0)
                 close()
             }
 }

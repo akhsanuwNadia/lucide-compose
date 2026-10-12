@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Undo2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(9f, 14f)
-                lineTo(4f, 9f)
-                lineToRelative(5f, -5f)
+                moveTo(9.0,14.0)
+                lineTo(4.0,9.0)
+                lineTo(9.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 9f)
-                horizontalLineToRelative(10.5f)
-                arcToRelative(5.5f, 5.5f, 0f, false, true, 5.5f, 5.5f)
-                arcToRelative(5.5f, 5.5f, 0f, false, true, -5.5f, 5.5f)
-                horizontalLineTo(11f)
+                moveTo(4.0,9.0)
+                lineTo(14.5,9.0)
+                curveTo(17.537565231323242,9.0,20.0,11.462433815002441,20.0,14.5)
+                curveTo(20.0,17.537565231323242,17.537565231323242,20.0,14.5,20.0)
+                lineTo(11.0,20.0)
             }
 }
 

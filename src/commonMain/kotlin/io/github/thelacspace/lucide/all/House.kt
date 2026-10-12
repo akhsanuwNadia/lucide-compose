@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("House") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 21f)
-                verticalLineToRelative(-8f)
-                arcToRelative(1f, 1f, 0f, false, false, -1f, -1f)
-                horizontalLineToRelative(-4f)
-                arcToRelative(1f, 1f, 0f, false, false, -1f, 1f)
-                verticalLineToRelative(8f)
+                moveTo(15.0,21.0)
+                lineTo(15.0,13.0)
+                curveTo(15.0,12.447714805603027,14.552285194396973,12.0,14.0,12.0)
+                lineTo(10.0,12.0)
+                curveTo(9.447714805603027,12.0,9.0,12.447714805603027,9.0,13.0)
+                lineTo(9.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 10f)
-                arcToRelative(2f, 2f, 0f, false, true, .709f, -1.528f)
-                lineToRelative(7f, -6f)
-                arcToRelative(2f, 2f, 0f, false, true, 2.582f, 0f)
-                lineToRelative(7f, 6f)
-                arcTo(2f, 2f, 0f, false, true, 21f, 10f)
-                verticalLineToRelative(9f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
+                moveTo(3.0,10.0)
+                curveTo(2.999858856201172,9.411126136779785,3.259241819381714,8.852117538452148,3.7090001106262207,8.472000122070312)
+                lineTo(10.708999633789062,2.4720001220703125)
+                curveTo(11.454387664794922,1.8420276641845703,12.545611381530762,1.8420276641845703,13.290999412536621,2.4720001220703125)
+                lineTo(20.291000366210938,8.472000122070312)
+                curveTo(20.740758895874023,8.852118492126465,21.000141143798828,9.411126136779785,21.0,10.0)
+                lineTo(21.0,19.0)
+                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
                 close()
             }
 }

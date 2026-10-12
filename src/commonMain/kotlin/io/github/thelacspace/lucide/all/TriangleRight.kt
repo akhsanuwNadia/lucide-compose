@@ -9,12 +9,12 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TriangleRight") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 18f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(3f)
-                curveToRelative(-1.1f, 0f, -1.3f, -.6f, -.4f, -1.3f)
-                lineTo(20.4f, 4.3f)
-                curveToRelative(.9f, -.7f, 1.6f, -.4f, 1.6f, .7f)
+                moveTo(22.0,18.0)
+                curveTo(22.0,19.104570388793945,21.104570388793945,20.0,20.0,20.0)
+                lineTo(3.0,20.0)
+                curveTo(1.899999976158142,20.0,1.7000000476837158,19.399999618530273,2.5999999046325684,18.700000762939453)
+                lineTo(20.399999618530273,4.300000190734863)
+                curveTo(21.299999237060547,3.6000001430511475,22.0,3.9000000953674316,22.0,5.0)
                 close()
             }
 }

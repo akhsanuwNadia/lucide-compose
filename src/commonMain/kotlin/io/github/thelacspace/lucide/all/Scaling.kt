@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Scaling") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 3f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-7f)
+                moveTo(12.0,3.0)
+                lineTo(5.0,3.0)
+                curveTo(3.895430564880371,3.0,3.0,3.895430564880371,3.0,5.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(19.0,21.0)
+                curveTo(20.104570388793945,21.0,21.0,20.104570388793945,21.0,19.0)
+                lineTo(21.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 15f)
-                horizontalLineTo(9f)
-                verticalLineToRelative(-5f)
+                moveTo(14.0,15.0)
+                lineTo(9.0,15.0)
+                lineTo(9.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 3f)
-                horizontalLineToRelative(5f)
-                verticalLineToRelative(5f)
+                moveTo(16.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 3f)
-                lineTo(9f, 15f)
+                moveTo(21.0,3.0)
+                lineTo(9.0,15.0)
             }
 }
 

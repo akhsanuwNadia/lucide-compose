@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WavesArrowUp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 2f)
-                verticalLineToRelative(8f)
+                moveTo(12.0,2.0)
+                lineTo(12.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 15f)
-                curveToRelative(.6f, .5f, 1.2f, 1f, 2.5f, 1f)
-                curveToRelative(2.5f, 0f, 2.5f, -2f, 5f, -2f)
-                curveToRelative(2.6f, 0f, 2.4f, 2f, 5f, 2f)
-                curveToRelative(2.5f, 0f, 2.5f, -2f, 5f, -2f)
-                curveToRelative(1.3f, 0f, 1.9f, .5f, 2.5f, 1f)
+                moveTo(2.0,15.0)
+                curveTo(2.5999999046325684,15.5,3.200000047683716,16.0,4.5,16.0)
+                curveTo(7.0,16.0,7.0,14.0,9.5,14.0)
+                curveTo(12.100000381469727,14.0,11.899999618530273,16.0,14.5,16.0)
+                curveTo(17.0,16.0,17.0,14.0,19.5,14.0)
+                curveTo(20.799999237060547,14.0,21.399999618530273,14.5,22.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 21f)
-                curveToRelative(.6f, .5f, 1.2f, 1f, 2.5f, 1f)
-                curveToRelative(2.5f, 0f, 2.5f, -2f, 5f, -2f)
-                curveToRelative(2.6f, 0f, 2.4f, 2f, 5f, 2f)
-                curveToRelative(2.5f, 0f, 2.5f, -2f, 5f, -2f)
-                curveToRelative(1.3f, 0f, 1.9f, .5f, 2.5f, 1f)
+                moveTo(2.0,21.0)
+                curveTo(2.5999999046325684,21.5,3.200000047683716,22.0,4.5,22.0)
+                curveTo(7.0,22.0,7.0,20.0,9.5,20.0)
+                curveTo(12.100000381469727,20.0,11.899999618530273,22.0,14.5,22.0)
+                curveTo(17.0,22.0,17.0,20.0,19.5,20.0)
+                curveTo(20.799999237060547,20.0,21.399999618530273,20.5,22.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(8f, 6f)
-                lineToRelative(4f, -4f)
-                lineToRelative(4f, 4f)
+                moveTo(8.0,6.0)
+                lineTo(12.0,2.0)
+                lineTo(16.0,6.0)
             }
 }
 

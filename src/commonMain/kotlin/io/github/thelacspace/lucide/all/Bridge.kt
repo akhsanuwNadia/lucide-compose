@@ -9,30 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bridge") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 9.728f)
-                verticalLineTo(16f)
+                moveTo(10.0,9.727999687194824)
+                lineTo(10.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 9.728f)
-                verticalLineTo(16f)
+                moveTo(14.0,9.727999687194824)
+                lineTo(14.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 20f)
-                verticalLineTo(4f)
+                moveTo(18.0,20.0)
+                lineTo(18.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 11f)
-                lineToRelative(-4f, -4f)
-                arcTo(7.5f, 7.5f, 0f, false, true, 6f, 7f)
-                lineToRelative(-4f, 4f)
+                moveTo(22.0,11.0)
+                lineTo(18.0,7.0)
+                curveTo(16.58359146118164,8.888544082641602,14.360679626464844,10.0,12.0,10.0)
+                curveTo(9.639320373535156,10.0,7.416408061981201,8.888544082641602,6.0,7.0)
+                lineTo(2.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 16f)
-                horizontalLineTo(2f)
+                moveTo(22.0,16.0)
+                lineTo(2.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 20f)
-                verticalLineTo(4f)
+                moveTo(6.0,20.0)
+                lineTo(6.0,4.0)
             }
 }
 

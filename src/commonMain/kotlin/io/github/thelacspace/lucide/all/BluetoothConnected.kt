@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BluetoothConnected") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(7f, 7f)
-                lineToRelative(10f, 10f)
-                lineToRelative(-5f, 5f)
-                verticalLineTo(2f)
-                lineToRelative(5f, 5f)
-                lineTo(7f, 17f)
+                moveTo(7.0,7.0)
+                lineTo(17.0,17.0)
+                lineTo(12.0,22.0)
+                lineTo(12.0,2.0)
+                lineTo(17.0,7.0)
+                lineTo(7.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 12f)
-                lineTo(21f, 12f)
+                moveTo(18.0,12.0)
+                lineTo(21.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 12f)
-                lineTo(6f, 12f)
+                moveTo(3.0,12.0)
+                lineTo(6.0,12.0)
             }
 }
 

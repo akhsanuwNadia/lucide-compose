@@ -9,18 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DoorClosed") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19f, 21f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
-                arcToRelative(7f, af, 2f, false, false, 00f, -2f)
+                moveTo(19.0,21.0)
+                lineTo(19.0,5.0)
+                curveTo(19.0,3.895430564880371,18.104570388793945,3.0,17.0,3.0)
+                lineTo(7.0,3.0)
+                curveTo(5.895430564880371,3.0,5.0,3.895430564880371,5.0,5.0)
+                lineTo(5.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 21f)
-                horizontalLineToRelative(20f)
+                moveTo(2.0,21.0)
+                lineTo(22.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(9.0,12.0)
+                lineTo(9.010000228881836,12.0)
             }
 }
 

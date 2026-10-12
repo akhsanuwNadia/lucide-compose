@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GalleryThumbnails") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,17.0)
+                lineTo(19.0,17.0)
+                lineTo(5.0,17.0)
+                lineTo(3.0,17.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 21f)
-                horizontalLineToRelative(1f)
+                moveTo(4.0,21.0)
+                lineTo(5.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 21f)
-                horizontalLineToRelative(1f)
+                moveTo(9.0,21.0)
+                lineTo(10.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 21f)
-                horizontalLineToRelative(1f)
+                moveTo(14.0,21.0)
+                lineTo(15.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 21f)
-                horizontalLineToRelative(1f)
+                moveTo(19.0,21.0)
+                lineTo(20.0,21.0)
             }
 }
 

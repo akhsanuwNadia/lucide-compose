@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LogOut") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(16f, 17f)
-                lineToRelative(5f, -5f)
-                lineToRelative(-5f, -5f)
+                moveTo(16.0,17.0)
+                lineTo(21.0,12.0)
+                lineTo(16.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 12f)
-                horizontalLineTo(9f)
+                moveTo(21.0,12.0)
+                lineTo(9.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 21f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(4f)
+                moveTo(9.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                lineTo(3.0,5.0)
+                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
+                lineTo(9.0,3.0)
             }
 }
 

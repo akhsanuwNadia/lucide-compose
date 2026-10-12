@@ -9,31 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PhoneCall") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(13f, 2f)
-                arcToRelative(9f, 9f, 0f, false, true, 9f, 9f)
+                moveTo(13.0,2.0)
+                curveTo(17.970561981201172,2.0,22.0,6.029437065124512,22.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 6f)
-                arcToRelative(5f, 5f, 0f, false, true, 5f, 5f)
+                moveTo(13.0,6.0)
+                curveTo(15.76142406463623,6.0,18.0,8.23857593536377,18.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13.832f, 16.568f)
-                arcToRelative(1f, 1f, 0f, false, false, 1.213f, -.303f)
-                lineToRelative(.355f, -.465f)
-                arcTo(2f, 2f, 0f, false, true, 17f, 15f)
-                horizontalLineToRelative(3f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(3f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                arcTo(18f, 18f, 0f, false, true, 2f, 4f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(3f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(3f)
-                arcToRelative(2f, 2f, 0f, false, true, -.8f, 1.6f)
-                lineToRelative(-.468f, .351f)
-                arcToRelative(1f, 1f, 0f, false, false, -.292f, 1.233f)
-                arcToRelative(14f, 14f, 0f, false, false, 6.392f, 6.384f)
+                moveTo(13.831999778747559,16.56800079345703)
+                curveTo(14.257412910461426,16.76337242126465,14.761430740356445,16.63747215270996,15.045000076293945,16.26500129699707)
+                lineTo(15.399999618530273,15.80000114440918)
+                curveTo(15.777708053588867,15.296388626098633,16.370485305786133,15.0,17.0,15.0)
+                lineTo(20.0,15.0)
+                curveTo(21.104570388793945,15.0,22.0,15.895430564880371,22.0,17.0)
+                lineTo(22.0,20.0)
+                curveTo(22.0,21.104570388793945,21.104570388793945,22.0,20.0,22.0)
+                curveTo(10.058874130249023,22.0,2.0,13.941125869750977,2.0,4.0)
+                curveTo(2.0,2.895430564880371,2.895430564880371,2.0,4.0,2.0)
+                lineTo(7.0,2.0)
+                curveTo(8.104569435119629,2.0,9.0,2.895430564880371,9.0,4.0)
+                lineTo(9.0,7.0)
+                curveTo(9.0,7.629514694213867,8.703611373901367,8.222291946411133,8.199999809265137,8.600000381469727)
+                lineTo(7.73199987411499,8.951000213623047)
+                curveTo(7.35347318649292,9.240028381347656,7.231302738189697,9.755904197692871,7.440000057220459,10.184000015258789)
+                curveTo(8.806680679321289,12.959866523742676,11.054425239562988,15.20479679107666,13.832000732421875,16.56800079345703)
             }
 }
 

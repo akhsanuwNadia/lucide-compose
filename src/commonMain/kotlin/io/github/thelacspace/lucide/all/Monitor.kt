@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Monitor") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0f, 3.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,3.0)
+                lineTo(20.0,3.0)
+                lineTo(22.0,3.0)
+                lineTo(22.0,17.0)
+                lineTo(20.0,17.0)
+                lineTo(4.0,17.0)
+                lineTo(2.0,17.0)
+                lineTo(2.0,3.0)
+                lineTo(4.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 21f)
-                lineTo(16f, 21f)
+                moveTo(8.0,21.0)
+                lineTo(16.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 17f)
-                lineTo(12f, 21f)
+                moveTo(12.0,17.0)
+                lineTo(12.0,21.0)
             }
 }
 

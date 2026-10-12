@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Maximize2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 3f)
-                horizontalLineToRelative(6f)
-                verticalLineToRelative(6f)
+                moveTo(15.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(21f, 3f)
-                lineToRelative(-7f, 7f)
+                moveTo(21.0,3.0)
+                lineTo(14.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(3f, 21f)
-                lineToRelative(7f, -7f)
+                moveTo(3.0,21.0)
+                lineTo(10.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 21f)
-                horizontalLineTo(3f)
-                verticalLineToRelative(-6f)
+                moveTo(9.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,15.0)
             }
 }
 

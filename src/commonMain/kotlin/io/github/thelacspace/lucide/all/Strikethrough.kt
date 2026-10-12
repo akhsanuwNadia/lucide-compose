@@ -9,18 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Strikethrough") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16f, 4f)
-                horizontalLineTo(9f)
-                arcToRelative(3f, 3f, 0f, false, false, -2.83f, 4f)
+                moveTo(16.0,4.0)
+                lineTo(9.0,4.0)
+                curveTo(8.02581787109375,3.9994893074035645,7.112044334411621,4.4720377922058105,6.549391269683838,5.267306804656982)
+                curveTo(5.986738681793213,6.062575817108154,5.845272541046143,7.0815324783325195,6.170000076293945,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 12f)
-                arcToRelative(4f, 4f, 0f, false, true, 0f, 8f)
-                horizontalLineTo(6f)
+                moveTo(14.0,12.0)
+                curveTo(16.20215606689453,12.009848594665527,17.98215103149414,13.797821998596191,17.98215103149414,16.0)
+                curveTo(17.98215103149414,18.202178955078125,16.20215606689453,19.99015235900879,14.0,20.0)
+                lineTo(6.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 12f)
-                lineTo(20f, 12f)
+                moveTo(4.0,12.0)
+                lineTo(20.0,12.0)
             }
 }
 

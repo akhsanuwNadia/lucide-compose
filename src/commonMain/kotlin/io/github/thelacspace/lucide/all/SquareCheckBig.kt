@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareCheckBig") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21f, 10.656f)
-                verticalLineTo(19f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(12.344f)
+                moveTo(21.0,10.656000137329102)
+                lineTo(21.0,19.0)
+                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                lineTo(3.0,5.0)
+                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
+                lineTo(17.3439998626709,3.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 11f)
-                lineToRelative(3f, 3f)
-                lineTo(22f, 4f)
+                moveTo(9.0,11.0)
+                lineTo(12.0,14.0)
+                lineTo(22.0,4.0)
             }
 }
 

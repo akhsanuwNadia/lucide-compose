@@ -9,13 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Lambda") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.38f, 10f)
-                lineTo(5f, 20f)
+                moveTo(11.380000114440918,10.0)
+                lineTo(5.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 18f)
-                arcToRelative(2f, 2f, 0f, true, false, 2f, cf)
-                arcToRelative(-4.87f, -.003f, -5.052f, false, false, -16f, af)
+                moveTo(19.0,18.0)
+                curveTo(19.0,19.104570388793945,18.104570388793945,20.0,17.0,20.0)
+                curveTo(12.130000114440918,19.996999740600586,11.947999954223633,4.0,7.0,4.0)
+                curveTo(5.895430564880371,4.0,5.0,4.895430564880371,5.0,6.0)
             }
 }
 

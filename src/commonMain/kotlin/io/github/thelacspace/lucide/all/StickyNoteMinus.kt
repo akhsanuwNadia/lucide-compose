@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("StickyNoteMinus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 3f)
-                verticalLineToRelative(5f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, 1f)
-                horizontalLineToRelative(5f)
+                moveTo(15.0,3.0)
+                lineTo(15.0,8.0)
+                curveTo(15.0,8.552285194396973,15.447714805603027,9.0,16.0,9.0)
+                lineTo(21.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 14f)
-                verticalLineTo(9f)
-                arcToRelative(2.4f, 2.4f, 0f, false, false, -.706f, -1.706f)
-                lineToRelative(-3.588f, -3.588f)
-                arcTo(2.4f, 2.4f, 0f, false, false, 15f, 3f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(7.35f)
+                moveTo(21.0,14.0)
+                lineTo(21.0,9.0)
+                curveTo(21.001569747924805,8.359942436218262,20.747406005859375,7.745773792266846,20.29400062561035,7.294000148773193)
+                lineTo(16.70600128173828,3.7060000896453857)
+                curveTo(16.254226684570312,3.252593517303467,15.640058517456055,2.998430013656616,15.0,3.0)
+                lineTo(5.0,3.0)
+                curveTo(3.895430564880371,3.0,3.0,3.895430564880371,3.0,5.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(12.350000381469727,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 18f)
-                horizontalLineToRelative(-6f)
+                moveTo(21.0,18.0)
+                lineTo(15.0,18.0)
             }
 }
 

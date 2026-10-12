@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ShieldOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(2f, 2f)
-                lineToRelative(20f, 20f)
+                moveTo(2.0,2.0)
+                lineTo(22.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 5f)
-                arcToRelative(1f, 1f, 0f, false, false, -1f, 1f)
-                verticalLineToRelative(7f)
-                curveToRelative(0f, 5f, 3.5f, 7.5f, 7.67f, 8.94f)
-                arcToRelative(1f, 1f, 0f, false, false, .67f, .01f)
-                curveToRelative(2.35f, -.82f, 4.48f, -1.97f, 5.9f, -3.71f)
+                moveTo(5.0,5.0)
+                curveTo(4.4477152824401855,5.0,4.0,5.4477152824401855,4.0,6.0)
+                lineTo(4.0,13.0)
+                curveTo(4.0,18.0,7.5,20.5,11.670000076293945,21.939998626708984)
+                curveTo(11.885537147521973,22.02028465270996,12.122162818908691,22.02381706237793,12.34000015258789,21.94999885559082)
+                curveTo(14.690000534057617,21.1299991607666,16.81999969482422,19.979999542236328,18.239999771118164,18.23999786376953)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.309f, 3.652f)
-                arcTo(12.252f, 12.252f, 0f, false, false, 11.24f, 2.28f)
-                arcToRelative(1.17f, 1.17f, 0f, false, true, 1.52f, 0f)
-                curveTo(14.51f, 3.81f, 17f, 5f, 19f, 5f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, 1f)
-                verticalLineToRelative(7f)
-                arcToRelative(9.784f, 9.784f, 0f, false, true, -.08f, 1.264f)
+                moveTo(9.309000015258789,3.6519999504089355)
+                curveTo(9.99547004699707,3.2581088542938232,10.642157554626465,2.798628807067871,11.239999771118164,2.2799999713897705)
+                curveTo(11.67767333984375,1.9060670137405396,12.32232666015625,1.9060670137405396,12.760000228881836,2.2799999713897705)
+                curveTo(14.510000228881836,3.809999942779541,17.0,5.0,19.0,5.0)
+                curveTo(19.552284240722656,5.0,20.0,5.4477152824401855,20.0,6.0)
+                lineTo(20.0,13.0)
+                curveTo(20.000659942626953,13.422618865966797,19.97393798828125,13.844836235046387,19.920000076293945,14.263999938964844)
             }
 }
 

@@ -9,29 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TagPlus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16f, 13f)
-                horizontalLineToRelative(6f)
+                moveTo(16.0,13.0)
+                lineTo(22.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(16.5f, 6.5f)
-                lineToRelative(-3.914f, -3.914f)
-                arcTo(2f, 2f, 0f, false, false, 11.172f, 2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(7.172f)
-                arcToRelative(2f, 2f, 0f, false, false, .586f, 1.414f)
-                lineToRelative(8.704f, 8.704f)
-                arcToRelative(2.426f, 2.426f, 0f, false, false, 3.42f, 0f)
-                lineToRelative(1.79f, -1.79f)
+                moveTo(16.5,6.5)
+                lineTo(12.586000442504883,2.5859999656677246)
+                curveTo(12.211014747619629,2.2109010219573975,11.70238971710205,2.0001132488250732,11.17199993133545,2.0)
+                lineTo(4.0,2.0)
+                curveTo(2.895430564880371,2.0,2.0,2.895430564880371,2.0,4.0)
+                lineTo(2.0,11.17199993133545)
+                curveTo(2.0001132488250732,11.70238971710205,2.2109010219573975,12.211014747619629,2.5859999656677246,12.586000442504883)
+                lineTo(11.290000915527344,21.290000915527344)
+                curveTo(12.236154556274414,22.230180740356445,13.763847351074219,22.230180740356445,14.710000991821289,21.290000915527344)
+                lineTo(16.5,19.5)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 10f)
-                verticalLineToRelative(6f)
+                moveTo(19.0,10.0)
+                lineTo(19.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0f, 7.5f)
-                arcToRelative(0.5f, 0.5f, 0f, true, false, 1.0f, 0f)
-                arcToRelative(0.5f, 0.5f, 0f, true, false, -1.0f, 0f)
+                moveTo(7.0,7.5)
+                curveTo(6.999198913574219,7.679165363311768,7.094322681427002,7.845065116882324,7.24935245513916,7.934879779815674)
+                curveTo(7.40438175201416,8.024694442749023,7.59561824798584,8.024694442749023,7.75064754486084,7.934879779815674)
+                curveTo(7.905677318572998,7.845065116882324,8.000801086425781,7.679165363311768,8.0,7.5)
+                curveTo(8.000801086425781,7.320834636688232,7.905677318572998,7.154934883117676,7.75064754486084,7.065120220184326)
+                curveTo(7.59561824798584,6.975305080413818,7.40438175201416,6.975305080413818,7.24935245513916,7.065120220184326)
+                curveTo(7.094322681427002,7.154934883117676,6.999198913574219,7.320834636688232,7.0,7.5)
             }
 }
 

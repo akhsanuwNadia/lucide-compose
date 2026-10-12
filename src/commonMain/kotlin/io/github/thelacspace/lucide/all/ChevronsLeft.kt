@@ -9,14 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChevronsLeft") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(11f, 17f)
-                lineToRelative(-5f, -5f)
-                lineToRelative(5f, -5f)
+                moveTo(11.0,17.0)
+                lineTo(6.0,12.0)
+                lineTo(11.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(18f, 17f)
-                lineToRelative(-5f, -5f)
-                lineToRelative(5f, -5f)
+                moveTo(18.0,17.0)
+                lineTo(13.0,12.0)
+                lineTo(18.0,7.0)
             }
 }
 

@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Highlighter") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(9f, 11f)
-                lineToRelative(-6f, 6f)
-                verticalLineToRelative(3f)
-                horizontalLineToRelative(9f)
-                lineToRelative(3f, -3f)
+                moveTo(9.0,11.0)
+                lineTo(3.0,17.0)
+                lineTo(3.0,20.0)
+                lineTo(12.0,20.0)
+                lineTo(15.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 12f)
-                lineToRelative(-4.6f, 4.6f)
-                arcToRelative(2f, 2f, 0f, false, true, -2.8f, 0f)
-                lineToRelative(-5.2f, -5.2f)
-                arcToRelative(2f, 2f, 0f, false, true, 0f, -2.8f)
-                lineTo(14f, 4f)
+                moveTo(22.0,12.0)
+                lineTo(17.399999618530273,16.600000381469727)
+                curveTo(16.622312545776367,17.362285614013672,15.377686500549316,17.362285614013672,14.59999942779541,16.600000381469727)
+                lineTo(9.399999618530273,11.40000057220459)
+                curveTo(8.637713432312012,10.622313499450684,8.637713432312012,9.377687454223633,9.399999618530273,8.600000381469727)
+                lineTo(14.0,4.0)
             }
 }
 

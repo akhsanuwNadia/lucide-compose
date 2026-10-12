@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WavesArrowDown") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 10f)
-                lineTo(12f, 2f)
+                moveTo(12.0,10.0)
+                lineTo(12.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 6f)
-                lineTo(12f, 10f)
-                lineTo(8f, 6f)
+                moveTo(16.0,6.0)
+                lineTo(12.0,10.0)
+                lineTo(8.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 15f)
-                curveTo(2.6f, 15.5f, 3.2f, 16f, 4.5f, 16f)
-                curveTo(7f, 16f, 7f, 14f, 9.5f, 14f)
-                curveTo(12.1f, 14f, 11.9f, 16f, 14.5f, 16f)
-                curveTo(17f, 16f, 17f, 14f, 19.5f, 14f)
-                curveTo(20.8f, 14f, 21.4f, 14.5f, 22f, 15f)
+                moveTo(2.0,15.0)
+                curveTo(2.5999999046325684,15.5,3.200000047683716,16.0,4.5,16.0)
+                curveTo(7.0,16.0,7.0,14.0,9.5,14.0)
+                curveTo(12.100000381469727,14.0,11.899999618530273,16.0,14.5,16.0)
+                curveTo(17.0,16.0,17.0,14.0,19.5,14.0)
+                curveTo(20.799999237060547,14.0,21.399999618530273,14.5,22.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 21f)
-                curveTo(2.6f, 21.5f, 3.2f, 22f, 4.5f, 22f)
-                curveTo(7f, 22f, 7f, 20f, 9.5f, 20f)
-                curveTo(12.1f, 20f, 11.9f, 22f, 14.5f, 22f)
-                curveTo(17f, 22f, 17f, 20f, 19.5f, 20f)
-                curveTo(20.8f, 20f, 21.4f, 20.5f, 22f, 21f)
+                moveTo(2.0,21.0)
+                curveTo(2.5999999046325684,21.5,3.200000047683716,22.0,4.5,22.0)
+                curveTo(7.0,22.0,7.0,20.0,9.5,20.0)
+                curveTo(12.100000381469727,20.0,11.899999618530273,22.0,14.5,22.0)
+                curveTo(17.0,22.0,17.0,20.0,19.5,20.0)
+                curveTo(20.799999237060547,20.0,21.399999618530273,20.5,22.0,21.0)
             }
 }
 

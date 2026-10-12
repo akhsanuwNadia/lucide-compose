@@ -9,14 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CheckCheck") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18f, 6f)
-                lineTo(7f, 17f)
-                lineToRelative(-5f, -5f)
+                moveTo(18.0,6.0)
+                lineTo(7.0,17.0)
+                lineTo(2.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 10f)
-                lineToRelative(-7.5f, 7.5f)
-                lineTo(13f, 16f)
+                moveTo(22.0,10.0)
+                lineTo(14.5,17.5)
+                lineTo(13.0,16.0)
             }
 }
 

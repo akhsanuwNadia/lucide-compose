@@ -9,16 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Whistle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 6f)
-                verticalLineToRelative(4f)
+                moveTo(10.0,6.0)
+                lineTo(10.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 6f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, 1f)
-                verticalLineToRelative(2f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, 1f)
-                horizontalLineToRelative(-5.675f)
-                arcTo(7f, 7f, 0f, true, true, 9f, 6f)
+                moveTo(21.0,6.0)
+                curveTo(21.552284240722656,6.0,22.0,6.4477152824401855,22.0,7.0)
+                lineTo(22.0,9.0)
+                curveTo(22.0,9.552285194396973,21.552284240722656,10.0,21.0,10.0)
+                lineTo(15.324999809265137,10.0)
+                curveTo(16.660341262817383,12.815146446228027,15.974241256713867,16.17401123046875,13.64185905456543,18.239967346191406)
+                curveTo(11.309476852416992,20.305925369262695,7.8923563957214355,20.58157730102539,5.258975028991699,18.91619873046875)
+                curveTo(2.625593423843384,17.250818252563477,1.4099634885787964,14.045363426208496,2.276790142059326,11.052572250366211)
+                curveTo(3.1436169147491455,8.059781074523926,5.8842034339904785,6.000197887420654,9.0,6.0)
                 close()
             }
 }

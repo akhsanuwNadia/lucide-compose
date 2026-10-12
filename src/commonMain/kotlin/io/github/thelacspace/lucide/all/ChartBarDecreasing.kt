@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartBarDecreasing") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 3f)
-                verticalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(16f)
+                moveTo(3.0,3.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(21.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 11f)
-                horizontalLineToRelative(8f)
+                moveTo(7.0,11.0)
+                lineTo(15.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 16f)
-                horizontalLineToRelative(3f)
+                moveTo(7.0,16.0)
+                lineTo(10.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 6f)
-                horizontalLineToRelative(12f)
+                moveTo(7.0,6.0)
+                lineTo(19.0,6.0)
             }
 }
 

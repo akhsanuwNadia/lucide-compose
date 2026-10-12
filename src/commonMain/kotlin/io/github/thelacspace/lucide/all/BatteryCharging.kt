@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BatteryCharging") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(11f, 7f)
-                lineToRelative(-3f, 5f)
-                horizontalLineToRelative(4f)
-                lineToRelative(-3f, 5f)
+                moveTo(11.0,7.0)
+                lineTo(8.0,12.0)
+                lineTo(12.0,12.0)
+                lineTo(9.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.856f, 6f)
-                horizontalLineTo(16f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(8f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineToRelative(-2.935f)
+                moveTo(14.855999946594238,6.0)
+                lineTo(16.0,6.0)
+                curveTo(17.104570388793945,6.0,18.0,6.895430564880371,18.0,8.0)
+                lineTo(18.0,16.0)
+                curveTo(18.0,17.104570388793945,17.104570388793945,18.0,16.0,18.0)
+                lineTo(13.065000534057617,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 14f)
-                verticalLineToRelative(-4f)
+                moveTo(22.0,14.0)
+                lineTo(22.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.14f, 18f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(8f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(2.936f)
+                moveTo(5.139999866485596,18.0)
+                lineTo(4.0,18.0)
+                curveTo(2.895430564880371,18.0,2.0,17.104570388793945,2.0,16.0)
+                lineTo(2.0,8.0)
+                curveTo(2.0,6.895430564880371,2.895430564880371,6.0,4.0,6.0)
+                lineTo(6.935999870300293,6.0)
             }
 }
 

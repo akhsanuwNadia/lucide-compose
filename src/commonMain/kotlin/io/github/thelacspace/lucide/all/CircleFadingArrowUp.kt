@@ -9,33 +9,34 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CircleFadingArrowUp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 2f)
-                arcToRelative(10f, 10f, 0f, false, true, 7.38f, 16.75f)
+                moveTo(12.0,2.0)
+                curveTo(15.964218139648438,1.9992769956588745,19.55459976196289,4.34032678604126,21.1529598236084,7.968036651611328)
+                curveTo(22.751317977905273,11.595746040344238,22.055849075317383,15.825129508972168,19.380001068115234,18.75)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(16f, 12f)
-                lineToRelative(-4f, -4f)
-                lineToRelative(-4f, 4f)
+                moveTo(16.0,12.0)
+                lineTo(12.0,8.0)
+                lineTo(8.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 16f)
-                verticalLineTo(8f)
+                moveTo(12.0,16.0)
+                lineTo(12.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.5f, 8.875f)
-                arcToRelative(10f, 10f, 0f, false, false, -.5f, 3f)
+                moveTo(2.5,8.875)
+                curveTo(2.181349754333496,9.843657493591309,2.012733221054077,10.855356216430664,2.0,11.875)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.83f, 16f)
-                arcToRelative(10f, 10f, 0f, false, false, 2.43f, 3.4f)
+                moveTo(2.8299999237060547,16.0)
+                curveTo(3.3915011882781982,17.291828155517578,4.219581604003906,18.450458526611328,5.260000228881836,19.399999618530273)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.636f, 5.235f)
-                arcToRelative(10f, 10f, 0f, false, true, .891f, -.857f)
+                moveTo(4.636000156402588,5.235000133514404)
+                curveTo(4.915040969848633,4.9312310218811035,5.21260929107666,4.645017623901367,5.5269999504089355,4.378000259399414)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.644f, 21.42f)
-                arcToRelative(10f, 10f, 0f, false, false, 7.631f, -.38f)
+                moveTo(8.644000053405762,21.420000076293945)
+                curveTo(11.137696266174316,22.308368682861328,13.88189697265625,22.171716690063477,16.274999618530273,21.040000915527344)
             }
 }
 

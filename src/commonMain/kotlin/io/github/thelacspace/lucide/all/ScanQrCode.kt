@@ -9,53 +9,53 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ScanQrCode") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17f, 12f)
-                verticalLineToRelative(4f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, 1f)
-                horizontalLineToRelative(-4f)
+                moveTo(17.0,12.0)
+                lineTo(17.0,16.0)
+                curveTo(17.0,16.552284240722656,16.552284240722656,17.0,16.0,17.0)
+                lineTo(12.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 3f)
-                horizontalLineToRelative(2f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(2f)
+                moveTo(17.0,3.0)
+                lineTo(19.0,3.0)
+                curveTo(20.104570388793945,3.0,21.0,3.895430564880371,21.0,5.0)
+                lineTo(21.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 8f)
-                verticalLineTo(7f)
+                moveTo(17.0,8.0)
+                lineTo(17.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 17f)
-                verticalLineToRelative(2f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineToRelative(-2f)
+                moveTo(21.0,17.0)
+                lineTo(21.0,19.0)
+                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                lineTo(17.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 7f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(2f)
+                moveTo(3.0,7.0)
+                lineTo(3.0,5.0)
+                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
+                lineTo(7.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 17f)
-                horizontalLineToRelative(.01f)
+                moveTo(7.0,17.0)
+                lineTo(7.010000228881836,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 21f)
-                horizontalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineToRelative(-2f)
+                moveTo(7.0,21.0)
+                lineTo(5.0,21.0)
+                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                lineTo(3.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0f, 7.0f)
-                horizontalLineToRelative(3.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(5.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-3.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-5.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(8.0,7.0)
+                lineTo(11.0,7.0)
+                lineTo(12.0,7.0)
+                lineTo(12.0,12.0)
+                lineTo(11.0,12.0)
+                lineTo(8.0,12.0)
+                lineTo(7.0,12.0)
+                lineTo(7.0,7.0)
+                lineTo(8.0,7.0)
                 close()
             }
 }

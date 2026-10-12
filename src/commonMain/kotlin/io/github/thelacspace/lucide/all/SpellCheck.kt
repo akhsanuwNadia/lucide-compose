@@ -9,18 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SpellCheck") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(20f, 15f)
-                lineToRelative(-5.5f, 5.5f)
-                lineTo(12f, 18f)
+                moveTo(20.0,15.0)
+                lineTo(14.5,20.5)
+                lineTo(12.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(4f, 16f)
-                lineToRelative(6f, -12f)
-                lineToRelative(5.115f, 10.23f)
+                moveTo(4.0,16.0)
+                lineTo(10.0,4.0)
+                lineTo(15.114999771118164,14.229999542236328)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                horizontalLineToRelative(8f)
+                moveTo(6.0,12.0)
+                lineTo(14.0,12.0)
             }
 }
 

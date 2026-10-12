@@ -9,23 +9,23 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Vote") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(9f, 12f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveTo(9.0,12.0)
+                lineTo(11.0,14.0)
+                lineTo(15.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 7f)
-                curveToRelative(0f, -1.1f, .9f, -2f, 2f, -2f)
-                horizontalLineToRelative(10f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(12f)
-                horizontalLineTo(5f)
-                verticalLineTo(7f)
+                moveTo(5.0,7.0)
+                curveTo(5.0,5.900000095367432,5.900000095367432,5.0,7.0,5.0)
+                lineTo(17.0,5.0)
+                curveTo(18.104570388793945,5.0,19.0,5.895430564880371,19.0,7.0)
+                lineTo(19.0,19.0)
+                lineTo(5.0,19.0)
+                lineTo(5.0,7.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 19f)
-                horizontalLineTo(2f)
+                moveTo(22.0,19.0)
+                lineTo(2.0,19.0)
             }
 }
 

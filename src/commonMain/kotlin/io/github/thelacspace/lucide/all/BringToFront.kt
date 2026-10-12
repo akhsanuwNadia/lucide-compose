@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BringToFront") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0f, 8.0f)
-                horizontalLineToRelative(4.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-4.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(10.0,8.0)
+                lineTo(14.0,8.0)
+                lineTo(16.0,8.0)
+                lineTo(16.0,16.0)
+                lineTo(14.0,16.0)
+                lineTo(10.0,16.0)
+                lineTo(8.0,16.0)
+                lineTo(8.0,8.0)
+                lineTo(10.0,8.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 10f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(4f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
+                moveTo(4.0,10.0)
+                curveTo(2.895430564880371,10.0,2.0,9.104569435119629,2.0,8.0)
+                lineTo(2.0,4.0)
+                curveTo(2.0,2.895430564880371,2.895430564880371,2.0,4.0,2.0)
+                lineTo(8.0,2.0)
+                curveTo(9.104569435119629,2.0,10.0,2.895430564880371,10.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 20f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(4f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
+                moveTo(14.0,20.0)
+                curveTo(14.0,21.104570388793945,14.895430564880371,22.0,16.0,22.0)
+                lineTo(20.0,22.0)
+                curveTo(21.104570388793945,22.0,22.0,21.104570388793945,22.0,20.0)
+                lineTo(22.0,16.0)
+                curveTo(22.0,14.895430564880371,21.104570388793945,14.0,20.0,14.0)
             }
 }
 

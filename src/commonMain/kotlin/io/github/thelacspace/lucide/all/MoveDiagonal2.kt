@@ -9,18 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MoveDiagonal2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19f, 13f)
-                verticalLineToRelative(6f)
-                horizontalLineToRelative(-6f)
+                moveTo(19.0,13.0)
+                lineTo(19.0,19.0)
+                lineTo(13.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 11f)
-                verticalLineTo(5f)
-                horizontalLineToRelative(6f)
+                moveTo(5.0,11.0)
+                lineTo(5.0,5.0)
+                lineTo(11.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(5f, 5f)
-                lineToRelative(14f, 14f)
+                moveTo(5.0,5.0)
+                lineTo(19.0,19.0)
             }
 }
 

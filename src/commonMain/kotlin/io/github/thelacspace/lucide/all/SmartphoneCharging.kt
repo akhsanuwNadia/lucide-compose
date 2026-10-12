@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SmartphoneCharging") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0f, 2.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(2.0f, 2.0f, 0f, false, true, 2.0f, 2.0f)
-                verticalLineToRelative(16.0f)
-                arcToRelative(2.0f, 2.0f, 0f, false, true, -2.0f, 2.0f)
-                horizontalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 2.0f, 0f, false, true, -2.0f, -2.0f)
-                verticalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 2.0f, 0f, false, true, 2.0f, -2.0f)
+                moveTo(7.0,2.0)
+                lineTo(17.0,2.0)
+                curveTo(18.104570388793945,2.0,19.0,2.895430564880371,19.0,4.0)
+                lineTo(19.0,20.0)
+                curveTo(19.0,21.104570388793945,18.104570388793945,22.0,17.0,22.0)
+                lineTo(7.0,22.0)
+                curveTo(5.895430564880371,22.0,5.0,21.104570388793945,5.0,20.0)
+                lineTo(5.0,4.0)
+                curveTo(5.0,2.895430564880371,5.895430564880371,2.0,7.0,2.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(12.667f, 8f)
-                lineTo(10f, 12f)
-                horizontalLineToRelative(4f)
-                lineToRelative(-2.667f, 4f)
+                moveTo(12.666999816894531,8.0)
+                lineTo(10.0,12.0)
+                lineTo(14.0,12.0)
+                lineTo(11.333000183105469,16.0)
             }
 }
 

@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Logs") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                horizontalLineToRelative(1f)
+                moveTo(3.0,5.0)
+                lineTo(4.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 12f)
-                horizontalLineToRelative(1f)
+                moveTo(3.0,12.0)
+                lineTo(4.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 19f)
-                horizontalLineToRelative(1f)
+                moveTo(3.0,19.0)
+                lineTo(4.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 5f)
-                horizontalLineToRelative(1f)
+                moveTo(8.0,5.0)
+                lineTo(9.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 12f)
-                horizontalLineToRelative(1f)
+                moveTo(8.0,12.0)
+                lineTo(9.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 19f)
-                horizontalLineToRelative(1f)
+                moveTo(8.0,19.0)
+                lineTo(9.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 5f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,5.0)
+                lineTo(21.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 12f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,12.0)
+                lineTo(21.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 19f)
-                horizontalLineToRelative(8f)
+                moveTo(13.0,19.0)
+                lineTo(21.0,19.0)
             }
 }
 

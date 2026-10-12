@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Antenna") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 12f)
-                lineTo(7f, 2f)
+                moveTo(2.0,12.0)
+                lineTo(7.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(7f, 12f)
-                lineToRelative(5f, -10f)
+                moveTo(7.0,12.0)
+                lineTo(12.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(12f, 12f)
-                lineToRelative(5f, -10f)
+                moveTo(12.0,12.0)
+                lineTo(17.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 12f)
-                lineToRelative(5f, -10f)
+                moveTo(17.0,12.0)
+                lineTo(22.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.5f, 7f)
-                horizontalLineToRelative(15f)
+                moveTo(4.5,7.0)
+                lineTo(19.5,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 16f)
-                verticalLineToRelative(6f)
+                moveTo(12.0,16.0)
+                lineTo(12.0,22.0)
             }
 }
 

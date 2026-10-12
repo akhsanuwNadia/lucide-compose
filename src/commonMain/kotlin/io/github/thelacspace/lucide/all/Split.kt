@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Split") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16f, 3f)
-                horizontalLineToRelative(5f)
-                verticalLineToRelative(5f)
+                moveTo(16.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 3f)
-                horizontalLineTo(3f)
-                verticalLineToRelative(5f)
+                moveTo(8.0,3.0)
+                lineTo(3.0,3.0)
+                lineTo(3.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 22f)
-                verticalLineToRelative(-8.3f)
-                arcToRelative(4f, 4f, 0f, false, false, -1.172f, -2.872f)
-                lineTo(3f, 3f)
+                moveTo(12.0,22.0)
+                lineTo(12.0,13.699999809265137)
+                curveTo(12.011545181274414,12.623993873596191,11.589071273803711,11.58871841430664,10.82800006866455,10.82800006866455)
+                lineTo(3.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 9f)
-                lineToRelative(6f, -6f)
+                moveTo(15.0,9.0)
+                lineTo(21.0,3.0)
             }
 }
 

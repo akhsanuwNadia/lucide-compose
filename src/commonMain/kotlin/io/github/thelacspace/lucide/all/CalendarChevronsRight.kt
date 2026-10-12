@@ -9,32 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CalendarChevronsRight") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(13f, 21f)
-                lineToRelative(3f, -3f)
-                lineToRelative(-3f, -3f)
+                moveTo(13.0,21.0)
+                lineTo(16.0,18.0)
+                lineTo(13.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 2f)
-                verticalLineToRelative(3f)
+                moveTo(16.0,2.0)
+                lineTo(16.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(19f, 21f)
-                lineToRelative(3f, -3f)
-                lineToRelative(-3f, -3f)
+                moveTo(19.0,21.0)
+                lineTo(22.0,18.0)
+                lineTo(19.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 11.5f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, Hf)
-                arcToRelative(5f, af, 2f, false, false, 00f, -2f)
+                moveTo(21.0,11.5)
+                lineTo(21.0,5.0)
+                curveTo(21.0,3.895430564880371,20.104570388793945,3.0,19.0,3.0)
+                lineTo(5.0,3.0)
+                curveTo(3.895430564880371,3.0,3.0,3.895430564880371,3.0,5.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(9.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 9f)
-                horizontalLineToRelative(18f)
+                moveTo(3.0,9.0)
+                lineTo(21.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 2f)
-                verticalLineToRelative(3f)
+                moveTo(8.0,2.0)
+                lineTo(8.0,5.0)
             }
 }
 

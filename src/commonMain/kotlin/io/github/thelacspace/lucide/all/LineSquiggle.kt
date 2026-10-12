@@ -9,12 +9,12 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LineSquiggle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7f, 3.5f)
-                curveToRelative(5f, -2f, 7f, 2.5f, 3f, 4f)
-                curveTo(1.5f, 10f, 2f, 15f, 5f, 16f)
-                curveToRelative(5f, 2f, 9f, -10f, 14f, -7f)
-                reflectiveCurveToRelative(.5f, 13.5f, -4f, 12f)
-                curveToRelative(-5f, -2.5f, .5f, -11f, 6f, -2f)
+                moveTo(7.0,3.5)
+                curveTo(12.0,1.5,14.0,6.0,10.0,7.5)
+                curveTo(1.5,10.0,2.0,15.0,5.0,16.0)
+                curveTo(10.0,18.0,14.0,6.0,19.0,9.0)
+                curveTo(24.0,12.0,19.5,22.5,15.0,21.0)
+                curveTo(10.0,18.5,15.5,10.0,21.0,19.0)
             }
 }
 

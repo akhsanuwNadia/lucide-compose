@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RectangleEllipsis") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0f, 6.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,6.0)
+                lineTo(20.0,6.0)
+                lineTo(22.0,6.0)
+                lineTo(22.0,18.0)
+                lineTo(20.0,18.0)
+                lineTo(4.0,18.0)
+                lineTo(2.0,18.0)
+                lineTo(2.0,6.0)
+                lineTo(4.0,6.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(12.0,12.0)
+                lineTo(12.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(17.0,12.0)
+                lineTo(17.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(7.0,12.0)
+                lineTo(7.010000228881836,12.0)
             }
 }
 

@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListChevronsDownUp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                horizontalLineToRelative(8f)
+                moveTo(3.0,5.0)
+                lineTo(11.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 12f)
-                horizontalLineToRelative(8f)
+                moveTo(3.0,12.0)
+                lineTo(11.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 19f)
-                horizontalLineToRelative(8f)
+                moveTo(3.0,19.0)
+                lineTo(11.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 5f)
-                lineToRelative(3f, 3f)
-                lineToRelative(3f, -3f)
+                moveTo(15.0,5.0)
+                lineTo(18.0,8.0)
+                lineTo(21.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 19f)
-                lineToRelative(3f, -3f)
-                lineToRelative(3f, 3f)
+                moveTo(15.0,19.0)
+                lineTo(18.0,16.0)
+                lineTo(21.0,19.0)
             }
 }
 

@@ -9,26 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("VenusAndMars") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 20f)
-                horizontalLineToRelative(4f)
+                moveTo(10.0,20.0)
+                lineTo(14.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 16f)
-                verticalLineToRelative(6f)
+                moveTo(12.0,16.0)
+                lineTo(12.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 2f)
-                horizontalLineToRelative(4f)
-                verticalLineToRelative(4f)
+                moveTo(17.0,2.0)
+                lineTo(21.0,2.0)
+                lineTo(21.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(21f, 2f)
-                lineToRelative(-5.46f, 5.46f)
+                moveTo(21.0,2.0)
+                lineTo(15.539999961853027,7.460000038146973)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0f, 11.0f)
-                arcToRelative(5.0f, 5.0f, 0f, true, false, 10.0f, 0f)
-                arcToRelative(5.0f, 5.0f, 0f, true, false, -10.0f, 0f)
+                moveTo(7.0,11.0)
+                curveTo(6.991987228393555,12.791654586791992,7.943225860595703,14.450651168823242,9.493522644042969,15.348799705505371)
+                curveTo(11.043819427490234,16.2469482421875,12.956180572509766,16.2469482421875,14.506477355957031,15.348799705505371)
+                curveTo(16.056774139404297,14.450651168823242,17.008012771606445,12.791654586791992,17.0,11.0)
+                curveTo(17.008012771606445,9.208345413208008,16.056774139404297,7.549348831176758,14.506477355957031,6.651200771331787)
+                curveTo(12.956180572509766,5.753052234649658,11.043819427490234,5.753052234649658,9.493522644042969,6.651200771331787)
+                curveTo(7.943225860595703,7.549348831176758,6.991987228393555,9.208345413208008,7.0,11.0)
             }
 }
 

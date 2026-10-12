@@ -9,23 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareParking") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,21.0)
+                lineTo(19.0,21.0)
+                lineTo(5.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 17f)
-                verticalLineTo(7f)
-                horizontalLineToRelative(4f)
-                arcToRelative(3f, 3f, 0f, false, true, 0f, 6f)
-                horizontalLineTo(9f)
+                moveTo(9.0,17.0)
+                lineTo(9.0,7.0)
+                lineTo(13.0,7.0)
+                curveTo(14.651617050170898,7.007386207580566,15.986613273620605,8.348365783691406,15.986613273620605,10.0)
+                curveTo(15.986613273620605,11.651634216308594,14.651617050170898,12.992613792419434,13.0,13.0)
+                lineTo(9.0,13.0)
             }
 }
 

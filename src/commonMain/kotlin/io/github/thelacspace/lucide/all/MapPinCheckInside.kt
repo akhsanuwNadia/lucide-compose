@@ -9,16 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MapPinCheckInside") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(20f, 10f)
-                curveToRelative(0f, 4.993f, -5.539f, 10.193f, -7.399f, 11.799f)
-                arcToRelative(1f, 1f, 0f, false, true, -1.202f, 0f)
-                curveTo(9.539f, 20.193f, 4f, 14.993f, 4f, 10f)
-                arcToRelative(8f, 8f, 0f, false, true, 16f, 0f)
+                moveTo(20.0,10.0)
+                curveTo(20.0,14.993000030517578,14.461000442504883,20.19300079345703,12.60099983215332,21.798999786376953)
+                curveTo(12.245038032531738,22.066667556762695,11.754961967468262,22.066667556762695,11.39900016784668,21.798999786376953)
+                curveTo(9.538999557495117,20.19300079345703,4.0,14.993000030517578,4.0,10.0)
+                curveTo(4.0196967124938965,5.595687389373779,7.595643043518066,2.0356972217559814,12.0,2.0356972217559814)
+                curveTo(16.404356002807617,2.0356972217559814,19.980302810668945,5.595687389373779,20.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(9f, 10f)
-                lineToRelative(2f, 2f)
-                lineToRelative(4f, -4f)
+                moveTo(9.0,10.0)
+                lineTo(11.0,12.0)
+                lineTo(15.0,8.0)
             }
 }
 

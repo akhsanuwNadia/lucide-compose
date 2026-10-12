@@ -9,17 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CircleArrowOutDownRight") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 22f)
-                arcToRelative(10f, 10f, 0f, true, true, 10f, -10f)
+                moveTo(12.0,22.0)
+                curveTo(6.477152347564697,22.0,2.0,17.52284812927246,2.0,12.0)
+                curveTo(2.0,6.477152347564697,6.477152347564697,2.0,12.0,2.0)
+                curveTo(17.52284812927246,2.0,22.0,6.477152347564697,22.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 22f)
-                lineTo(12f, 12f)
+                moveTo(22.0,22.0)
+                lineTo(12.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 16f)
-                verticalLineToRelative(6f)
-                horizontalLineToRelative(-6f)
+                moveTo(22.0,16.0)
+                lineTo(22.0,22.0)
+                lineTo(16.0,22.0)
             }
 }
 

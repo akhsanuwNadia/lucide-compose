@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Tv") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(17f, 2f)
-                lineToRelative(-5f, 5f)
-                lineToRelative(-5f, -5f)
+                moveTo(17.0,2.0)
+                lineTo(12.0,7.0)
+                lineTo(7.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 7.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(15.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-15.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,7.0)
+                lineTo(20.0,7.0)
+                lineTo(22.0,7.0)
+                lineTo(22.0,22.0)
+                lineTo(20.0,22.0)
+                lineTo(4.0,22.0)
+                lineTo(2.0,22.0)
+                lineTo(2.0,7.0)
+                lineTo(4.0,7.0)
                 close()
             }
 }

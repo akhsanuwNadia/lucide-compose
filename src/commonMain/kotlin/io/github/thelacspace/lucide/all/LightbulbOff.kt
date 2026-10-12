@@ -9,26 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LightbulbOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.8f, 11.2f)
-                curveToRelative(.8f, -.9f, 1.2f, -2f, 1.2f, -3.2f)
-                arcToRelative(6f, 6f, 0f, false, false, -9.3f, -5f)
+                moveTo(16.799999237060547,11.199999809265137)
+                curveTo(17.599998474121094,10.300000190734863,18.0,9.199999809265137,18.0,8.0)
+                curveTo(17.99596405029297,5.795267105102539,16.783096313476562,3.770350694656372,14.841219902038574,2.7263309955596924)
+                curveTo(12.89934253692627,1.6823112964630127,10.541315078735352,1.787391185760498,8.699999809265137,3.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2f, 2f)
-                lineToRelative(20f, 20f)
+                moveTo(2.0,2.0)
+                lineTo(22.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.3f, 6.3f)
-                arcToRelative(4.67f, 4.67f, 0f, false, false, 1.2f, 5.2f)
-                curveToRelative(.7f, .7f, 1.3f, 1.5f, 1.5f, 2.5f)
+                moveTo(6.300000190734863,6.300000190734863)
+                curveTo(5.572678565979004,8.113683700561523,6.051467418670654,10.188436508178711,7.5,11.5)
+                curveTo(8.199999809265137,12.199999809265137,8.800000190734863,13.0,9.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 18f)
-                horizontalLineToRelative(6f)
+                moveTo(9.0,18.0)
+                lineTo(15.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 22f)
-                horizontalLineToRelative(4f)
+                moveTo(10.0,22.0)
+                lineTo(14.0,22.0)
             }
 }
 

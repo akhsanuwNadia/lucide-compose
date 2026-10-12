@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Menu") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 5f)
-                horizontalLineToRelative(16f)
+                moveTo(4.0,5.0)
+                lineTo(20.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 12f)
-                horizontalLineToRelative(16f)
+                moveTo(4.0,12.0)
+                lineTo(20.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 19f)
-                horizontalLineToRelative(16f)
+                moveTo(4.0,19.0)
+                lineTo(20.0,19.0)
             }
 }
 

@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Braces") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8f, 3f)
-                horizontalLineTo(7f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(5f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(5f)
-                curveToRelative(0f, 1.1f, .9f, 2f, 2f, 2f)
-                horizontalLineToRelative(1f)
+                moveTo(8.0,3.0)
+                lineTo(7.0,3.0)
+                curveTo(5.895430564880371,3.0,5.0,3.895430564880371,5.0,5.0)
+                lineTo(5.0,10.0)
+                curveTo(5.0,11.104569435119629,4.104569435119629,12.0,3.0,12.0)
+                curveTo(4.104569435119629,12.0,5.0,12.895430564880371,5.0,14.0)
+                lineTo(5.0,19.0)
+                curveTo(5.0,20.100000381469727,5.900000095367432,21.0,7.0,21.0)
+                lineTo(8.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 21f)
-                horizontalLineToRelative(1f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineToRelative(-5f)
-                curveToRelative(0f, -1.1f, .9f, -2f, 2f, -2f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(5f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineToRelative(-1f)
+                moveTo(16.0,21.0)
+                lineTo(17.0,21.0)
+                curveTo(18.104570388793945,21.0,19.0,20.104570388793945,19.0,19.0)
+                lineTo(19.0,14.0)
+                curveTo(19.0,12.899999618530273,19.899999618530273,12.0,21.0,12.0)
+                curveTo(19.895429611206055,12.0,19.0,11.104569435119629,19.0,10.0)
+                lineTo(19.0,5.0)
+                curveTo(19.0,3.895430564880371,18.104570388793945,3.0,17.0,3.0)
+                lineTo(16.0,3.0)
             }
 }
 

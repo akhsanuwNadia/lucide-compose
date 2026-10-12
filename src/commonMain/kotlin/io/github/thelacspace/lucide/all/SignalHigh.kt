@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SignalHigh") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 20f)
-                horizontalLineToRelative(.01f)
+                moveTo(2.0,20.0)
+                lineTo(2.009999990463257,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 20f)
-                verticalLineToRelative(-4f)
+                moveTo(7.0,20.0)
+                lineTo(7.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 20f)
-                verticalLineToRelative(-8f)
+                moveTo(12.0,20.0)
+                lineTo(12.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 20f)
-                verticalLineTo(8f)
+                moveTo(17.0,20.0)
+                lineTo(17.0,8.0)
             }
 }
 

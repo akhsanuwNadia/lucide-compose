@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Vibrate") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(2f, 8f)
-                lineToRelative(2f, 2f)
-                lineToRelative(-2f, 2f)
-                lineToRelative(2f, 2f)
-                lineToRelative(-2f, 2f)
+                moveTo(2.0,8.0)
+                lineTo(4.0,10.0)
+                lineTo(2.0,12.0)
+                lineTo(4.0,14.0)
+                lineTo(2.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 8f)
-                lineToRelative(-2f, 2f)
-                lineToRelative(2f, 2f)
-                lineToRelative(-2f, 2f)
-                lineToRelative(2f, 2f)
+                moveTo(22.0,8.0)
+                lineTo(20.0,10.0)
+                lineTo(22.0,12.0)
+                lineTo(20.0,14.0)
+                lineTo(22.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0f, 5.0f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(9.0,5.0)
+                lineTo(15.0,5.0)
+                lineTo(16.0,5.0)
+                lineTo(16.0,19.0)
+                lineTo(15.0,19.0)
+                lineTo(9.0,19.0)
+                lineTo(8.0,19.0)
+                lineTo(8.0,5.0)
+                lineTo(9.0,5.0)
                 close()
             }
 }

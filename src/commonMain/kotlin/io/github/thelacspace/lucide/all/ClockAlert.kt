@@ -9,21 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ClockAlert") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 6f)
-                verticalLineToRelative(6f)
-                lineToRelative(4f, 2f)
+                moveTo(12.0,6.0)
+                lineTo(12.0,12.0)
+                lineTo(16.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 12f)
-                verticalLineToRelative(5f)
+                moveTo(20.0,12.0)
+                lineTo(20.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 21f)
-                horizontalLineToRelative(.01f)
+                moveTo(20.0,21.0)
+                lineTo(20.010000228881836,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.25f, 8.2f)
-                arcTo(10f, 10f, 0f, true, false, 16f, 21.16f)
+                moveTo(21.25,8.199999809265137)
+                curveTo(19.707096099853516,4.4391937255859375,16.041160583496094,1.9866021871566772,11.97617244720459,1.9956058263778687)
+                curveTo(7.9111833572387695,2.0046095848083496,4.256147861480713,4.473416328430176,2.72991943359375,8.241020202636719)
+                curveTo(1.2036908864974976,12.008624076843262,2.110016345977783,16.325204849243164,5.022677898406982,19.160802841186523)
+                curveTo(7.935339450836182,21.996400833129883,12.274664878845215,22.78668212890625,16.0,21.15999984741211)
             }
 }
 

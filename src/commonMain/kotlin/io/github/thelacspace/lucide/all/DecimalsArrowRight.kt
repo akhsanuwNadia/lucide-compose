@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DecimalsArrowRight") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 18f)
-                horizontalLineToRelative(10f)
+                moveTo(10.0,18.0)
+                lineTo(20.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 21f)
-                lineToRelative(3f, -3f)
-                lineToRelative(-3f, -3f)
+                moveTo(17.0,21.0)
+                lineTo(20.0,18.0)
+                lineTo(17.0,15.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 11f)
-                horizontalLineToRelative(.01f)
+                moveTo(3.0,11.0)
+                lineTo(3.009999990463257,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.5f, 3.0f)
-                horizontalLineToRelative(0.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, 2.5f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, -2.5f, 0.0f)
-                horizontalLineToRelative(-0.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, -2.5f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, 2.5f, -0.0f)
+                moveTo(17.5,3.0)
+                lineTo(17.5,3.0)
+                lineTo(20.0,3.0)
+                lineTo(20.0,11.0)
+                lineTo(17.5,11.0)
+                lineTo(17.5,11.0)
+                lineTo(15.0,11.0)
+                lineTo(15.0,3.0)
+                lineTo(17.5,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5f, 3.0f)
-                horizontalLineToRelative(0.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, 2.5f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, -2.5f, 0.0f)
-                horizontalLineToRelative(-0.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, -2.5f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.5f, 0.0f, 0f, false, true, 2.5f, -0.0f)
+                moveTo(8.5,3.0)
+                lineTo(8.5,3.0)
+                lineTo(11.0,3.0)
+                lineTo(11.0,11.0)
+                lineTo(8.5,11.0)
+                lineTo(8.5,11.0)
+                lineTo(6.0,11.0)
+                lineTo(6.0,3.0)
+                lineTo(8.5,3.0)
                 close()
             }
 }

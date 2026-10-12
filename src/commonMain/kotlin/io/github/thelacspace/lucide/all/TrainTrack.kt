@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TrainTrack") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2f, 17f)
-                lineTo(17f, 2f)
+                moveTo(2.0,17.0)
+                lineTo(17.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2f, 14f)
-                lineToRelative(8f, 8f)
+                moveTo(2.0,14.0)
+                lineTo(10.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(5f, 11f)
-                lineToRelative(8f, 8f)
+                moveTo(5.0,11.0)
+                lineTo(13.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(8f, 8f)
-                lineToRelative(8f, 8f)
+                moveTo(8.0,8.0)
+                lineTo(16.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(11f, 5f)
-                lineToRelative(8f, 8f)
+                moveTo(11.0,5.0)
+                lineTo(19.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(14f, 2f)
-                lineToRelative(8f, 8f)
+                moveTo(14.0,2.0)
+                lineTo(22.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 22f)
-                lineTo(22f, 7f)
+                moveTo(7.0,22.0)
+                lineTo(22.0,7.0)
             }
 }
 

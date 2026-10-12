@@ -9,17 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SwissFranc") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 21f)
-                verticalLineTo(3f)
-                horizontalLineToRelative(8f)
+                moveTo(10.0,21.0)
+                lineTo(10.0,3.0)
+                lineTo(18.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 16f)
-                horizontalLineToRelative(9f)
+                moveTo(6.0,16.0)
+                lineTo(15.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 9.5f)
-                horizontalLineToRelative(7f)
+                moveTo(10.0,9.5)
+                lineTo(17.0,9.5)
             }
 }
 

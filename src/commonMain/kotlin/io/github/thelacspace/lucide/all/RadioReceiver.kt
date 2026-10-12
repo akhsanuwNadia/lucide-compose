@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RadioReceiver") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5f, 16f)
-                verticalLineToRelative(2f)
+                moveTo(5.0,16.0)
+                lineTo(5.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(19f, 16f)
-                verticalLineToRelative(2f)
+                moveTo(19.0,16.0)
+                lineTo(19.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 8.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,8.0)
+                lineTo(20.0,8.0)
+                lineTo(22.0,8.0)
+                lineTo(22.0,16.0)
+                lineTo(20.0,16.0)
+                lineTo(4.0,16.0)
+                lineTo(2.0,16.0)
+                lineTo(2.0,8.0)
+                lineTo(4.0,8.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(18.0,12.0)
+                lineTo(18.010000228881836,12.0)
             }
 }
 

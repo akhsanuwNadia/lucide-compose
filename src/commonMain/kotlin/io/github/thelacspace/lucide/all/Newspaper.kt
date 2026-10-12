@@ -9,37 +9,38 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Newspaper") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15f, 18f)
-                horizontalLineToRelative(-5f)
+                moveTo(15.0,18.0)
+                lineTo(10.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 14f)
-                horizontalLineToRelative(-8f)
+                moveTo(18.0,14.0)
+                lineTo(10.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 22f)
-                horizontalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, -2f)
-                horizontalLineTo(8f)
-                arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
-                verticalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, true, -4f, 0f)
-                verticalLineToRelative(-9f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(2f)
+                moveTo(4.0,22.0)
+                lineTo(20.0,22.0)
+                curveTo(21.104570388793945,22.0,22.0,21.104570388793945,22.0,20.0)
+                lineTo(22.0,4.0)
+                curveTo(22.0,2.895430564880371,21.104570388793945,2.0,20.0,2.0)
+                lineTo(8.0,2.0)
+                curveTo(6.895430564880371,2.0,6.0,2.895430564880371,6.0,4.0)
+                lineTo(6.0,20.0)
+                curveTo(5.995075702667236,21.101078033447266,5.101089000701904,21.99107551574707,4.0,21.99107551574707)
+                curveTo(2.8989107608795166,21.99107551574707,2.0049242973327637,21.101078033447266,2.0,20.0)
+                lineTo(2.0,11.0)
+                curveTo(2.0,9.895430564880371,2.895430564880371,9.0,4.0,9.0)
+                lineTo(6.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(11.0f, 6.0f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(4.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-6.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-4.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(11.0,6.0)
+                lineTo(17.0,6.0)
+                lineTo(18.0,6.0)
+                lineTo(18.0,10.0)
+                lineTo(17.0,10.0)
+                lineTo(11.0,10.0)
+                lineTo(10.0,10.0)
+                lineTo(10.0,6.0)
+                lineTo(11.0,6.0)
                 close()
             }
 }

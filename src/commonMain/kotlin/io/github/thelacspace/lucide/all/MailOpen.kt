@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MailOpen") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21.2f, 8.4f)
-                curveToRelative(.5f, .38f, .8f, .97f, .8f, 1.6f)
-                verticalLineToRelative(10f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(10f)
-                arcToRelative(2f, 2f, 0f, false, true, .8f, -1.6f)
-                lineToRelative(8f, -6f)
-                arcToRelative(2f, 2f, 0f, false, true, 2.4f, 0f)
-                lineToRelative(8f, 6f)
+                moveTo(21.200000762939453,8.399999618530273)
+                curveTo(21.700000762939453,8.779999732971191,22.0,9.369999885559082,22.0,10.0)
+                lineTo(22.0,20.0)
+                curveTo(22.0,21.104570388793945,21.104570388793945,22.0,20.0,22.0)
+                lineTo(4.0,22.0)
+                curveTo(2.895430564880371,22.0,2.0,21.104570388793945,2.0,20.0)
+                lineTo(2.0,10.0)
+                curveTo(1.9999998807907104,9.370485305786133,2.2963881492614746,8.777708053588867,2.799999952316284,8.399999618530273)
+                lineTo(10.800000190734863,2.3999996185302734)
+                curveTo(11.51111125946045,1.8666659593582153,12.488889694213867,1.8666659593582153,13.200000762939453,2.3999996185302734)
+                lineTo(21.200000762939453,8.399999618530273)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 10f)
-                lineToRelative(-8.97f, 5.7f)
-                arcToRelative(1.94f, 1.94f, 0f, false, true, -2.06f, 0f)
-                lineTo(2f, 10f)
+                moveTo(22.0,10.0)
+                lineTo(13.029999732971191,15.699999809265137)
+                curveTo(12.400046348571777,16.094680786132812,11.599952697753906,16.094680786132812,10.969999313354492,15.699999809265137)
+                lineTo(2.0,10.0)
             }
 }
 

@@ -9,44 +9,44 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CableCar") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 3f)
-                horizontalLineToRelative(.01f)
+                moveTo(10.0,3.0)
+                lineTo(10.010000228881836,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 2f)
-                horizontalLineToRelative(.01f)
+                moveTo(14.0,2.0)
+                lineTo(14.010000228881836,2.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(2f, 9f)
-                lineToRelative(20f, -5f)
+                moveTo(2.0,9.0)
+                lineTo(22.0,4.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 12f)
-                verticalLineTo(6.5f)
+                moveTo(12.0,12.0)
+                lineTo(12.0,6.5)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0f, 12.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(3.0f, 0.0f, 0f, false, true, 3.0f, 0.0f)
-                verticalLineToRelative(10.0f)
-                arcToRelative(3.0f, 0.0f, 0f, false, true, -3.0f, 0.0f)
-                horizontalLineToRelative(-10.0f)
-                arcToRelative(3.0f, 0.0f, 0f, false, true, -3.0f, -0.0f)
-                verticalLineToRelative(-10.0f)
-                arcToRelative(3.0f, 0.0f, 0f, false, true, 3.0f, -0.0f)
+                moveTo(7.0,12.0)
+                lineTo(17.0,12.0)
+                lineTo(20.0,12.0)
+                lineTo(20.0,22.0)
+                lineTo(17.0,22.0)
+                lineTo(7.0,22.0)
+                lineTo(4.0,22.0)
+                lineTo(4.0,12.0)
+                lineTo(7.0,12.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 12f)
-                verticalLineToRelative(5f)
+                moveTo(9.0,12.0)
+                lineTo(9.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 12f)
-                verticalLineToRelative(5f)
+                moveTo(15.0,12.0)
+                lineTo(15.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 17f)
-                horizontalLineToRelative(16f)
+                moveTo(4.0,17.0)
+                lineTo(20.0,17.0)
             }
 }
 

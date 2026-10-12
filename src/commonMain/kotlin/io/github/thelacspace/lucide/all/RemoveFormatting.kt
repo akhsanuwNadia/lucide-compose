@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RemoveFormatting") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 7f)
-                verticalLineTo(4f)
-                horizontalLineToRelative(16f)
-                verticalLineToRelative(3f)
+                moveTo(4.0,7.0)
+                lineTo(4.0,4.0)
+                lineTo(20.0,4.0)
+                lineTo(20.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 20f)
-                horizontalLineToRelative(6f)
+                moveTo(5.0,20.0)
+                lineTo(11.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 4f)
-                lineTo(8f, 20f)
+                moveTo(13.0,4.0)
+                lineTo(8.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 15f)
-                lineToRelative(5f, 5f)
+                moveTo(15.0,15.0)
+                lineTo(20.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(20f, 15f)
-                lineToRelative(-5f, 5f)
+                moveTo(20.0,15.0)
+                lineTo(15.0,20.0)
             }
 }
 

@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Scale") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 3f)
-                verticalLineToRelative(18f)
+                moveTo(12.0,3.0)
+                lineTo(12.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(19f, 8f)
-                lineToRelative(3f, 8f)
-                arcToRelative(5f, 5f, 0f, false, true, -6f, 0f)
+                moveTo(19.0,8.0)
+                lineTo(22.0,16.0)
+                curveTo(20.22222137451172,17.33333396911621,17.77777862548828,17.33333396911621,16.0,16.0)
                 close()
-                verticalLineTo(7f)
+                lineTo(19.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 7f)
-                horizontalLineToRelative(1f)
-                arcToRelative(17f, 17f, 0f, false, false, 8f, -2f)
-                arcToRelative(17f, 17f, 0f, false, false, 8f, 2f)
-                horizontalLineToRelative(1f)
+                moveTo(3.0,7.0)
+                lineTo(4.0,7.0)
+                curveTo(6.790394306182861,7.0,9.537887573242188,6.313126564025879,12.0,5.0)
+                curveTo(14.462112426757812,6.313126564025879,17.209606170654297,7.0,20.0,7.0)
+                lineTo(21.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(5f, 8f)
-                lineToRelative(3f, 8f)
-                arcToRelative(5f, 5f, 0f, false, true, -6f, 0f)
+                moveTo(5.0,8.0)
+                lineTo(8.0,16.0)
+                curveTo(6.222222328186035,17.33333396911621,3.777777671813965,17.33333396911621,2.0,16.0)
                 close()
-                verticalLineTo(7f)
+                lineTo(5.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 21f)
-                horizontalLineToRelative(10f)
+                moveTo(7.0,21.0)
+                lineTo(17.0,21.0)
             }
 }
 

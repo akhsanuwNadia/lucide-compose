@@ -9,40 +9,43 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Beer") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17f, 11f)
-                horizontalLineToRelative(1f)
-                arcToRelative(3f, 3f, 0f, false, true, 0f, 6f)
-                horizontalLineToRelative(-1f)
+                moveTo(17.0,11.0)
+                lineTo(18.0,11.0)
+                curveTo(19.6516170501709,11.007386207580566,20.986614227294922,12.348365783691406,20.986614227294922,14.0)
+                curveTo(20.986614227294922,15.651634216308594,19.6516170501709,16.992612838745117,18.0,17.0)
+                lineTo(17.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 12f)
-                verticalLineToRelative(6f)
+                moveTo(9.0,12.0)
+                lineTo(9.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 12f)
-                verticalLineToRelative(6f)
+                moveTo(13.0,12.0)
+                lineTo(13.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 7.5f)
-                curveToRelative(-1f, 0f, -1.44f, .5f, -3f, .5f)
-                reflectiveCurveToRelative(-2f, -.5f, -3f, -.5f)
-                reflectiveCurveToRelative(-1.72f, .5f, -2.5f, .5f)
-                arcToRelative(2.5f, 2.5f, 0f, false, true, 0f, -5f)
-                curveToRelative(.78f, 0f, 1.57f, .5f, 2.5f, .5f)
-                reflectiveCurveTo(9.44f, 2f, 11f, 2f)
-                reflectiveCurveToRelative(2f, 1.5f, 3f, 1.5f)
-                reflectiveCurveToRelative(1.72f, -.5f, 2.5f, -.5f)
-                arcToRelative(2.5f, 2.5f, 0f, false, true, 0f, 5f)
-                curveToRelative(-.78f, 0f, -1.5f, -.5f, -2.5f, -.5f)
+                moveTo(14.0,7.5)
+                curveTo(13.0,7.5,12.559999465942383,8.0,11.0,8.0)
+                curveTo(9.440000534057617,8.0,9.0,7.5,8.0,7.5)
+                curveTo(7.0,7.5,6.279999732971191,8.0,5.5,8.0)
+                curveTo(4.123652458190918,7.993844985961914,3.011155366897583,6.87636137008667,3.011155366897583,5.5)
+                curveTo(3.011155366897583,4.12363862991333,4.123652458190918,3.006155252456665,5.5,3.0)
+                curveTo(6.279999732971191,3.0,7.070000171661377,3.5,8.0,3.5)
+                curveTo(8.930000305175781,3.5,9.4399995803833,2.0,11.0,2.0)
+                curveTo(12.5600004196167,2.0,13.0,3.5,14.0,3.5)
+                curveTo(15.0,3.5,15.720000267028809,3.0,16.5,3.0)
+                curveTo(17.8763484954834,3.006155252456665,18.98884391784668,4.12363862991333,18.98884391784668,5.5)
+                curveTo(18.98884391784668,6.87636137008667,17.8763484954834,7.993844985961914,16.5,8.0)
+                curveTo(15.720000267028809,8.0,15.0,7.5,14.0,7.5)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 8f)
-                verticalLineToRelative(12f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(8f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, -2f)
-                verticalLineTo(8f)
+                moveTo(5.0,8.0)
+                lineTo(5.0,20.0)
+                curveTo(5.0,21.104570388793945,5.895430564880371,22.0,7.0,22.0)
+                lineTo(15.0,22.0)
+                curveTo(16.104570388793945,22.0,17.0,21.104570388793945,17.0,20.0)
+                lineTo(17.0,8.0)
             }
 }
 

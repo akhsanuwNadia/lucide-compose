@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PcCase") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0f, 2.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(20.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-20.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(7.0,2.0)
+                lineTo(17.0,2.0)
+                lineTo(19.0,2.0)
+                lineTo(19.0,22.0)
+                lineTo(17.0,22.0)
+                lineTo(7.0,22.0)
+                lineTo(5.0,22.0)
+                lineTo(5.0,2.0)
+                lineTo(7.0,2.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 14f)
-                horizontalLineToRelative(.01f)
+                moveTo(15.0,14.0)
+                lineTo(15.010000228881836,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 6f)
-                horizontalLineToRelative(6f)
+                moveTo(9.0,6.0)
+                lineTo(15.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 10f)
-                horizontalLineToRelative(6f)
+                moveTo(9.0,10.0)
+                lineTo(15.0,10.0)
             }
 }
 

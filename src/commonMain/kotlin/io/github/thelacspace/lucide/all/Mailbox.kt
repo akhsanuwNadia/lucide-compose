@@ -9,31 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Mailbox") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 17f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
-                horizontalLineTo(4f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, -2f)
-                verticalLineTo(9.5f)
-                curveTo(2f, 7f, 4f, 5f, 6.5f, 5f)
-                horizontalLineTo(18f)
-                curveToRelative(2.2f, 0f, 4f, 1.8f, 4f, 4f)
-                verticalLineToRelative(8f)
+                moveTo(22.0,17.0)
+                curveTo(22.0,18.104570388793945,21.104570388793945,19.0,20.0,19.0)
+                lineTo(4.0,19.0)
+                curveTo(2.895430564880371,19.0,2.0,18.104570388793945,2.0,17.0)
+                lineTo(2.0,9.5)
+                curveTo(2.0,7.0,4.0,5.0,6.5,5.0)
+                lineTo(18.0,5.0)
+                curveTo(20.200000762939453,5.0,22.0,6.800000190734863,22.0,9.0)
+                lineTo(22.0,17.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 9f)
-                lineTo(18f, 9f)
-                lineTo(18f, 11f)
+                moveTo(15.0,9.0)
+                lineTo(18.0,9.0)
+                lineTo(18.0,11.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.5f, 5f)
-                curveTo(9f, 5f, 11f, 7f, 11f, 9.5f)
-                verticalLineTo(17f)
-                arcToRelative(2f, 2f, 0f, false, true, -2f, 2f)
+                moveTo(6.5,5.0)
+                curveTo(9.0,5.0,11.0,7.0,11.0,9.5)
+                lineTo(11.0,17.0)
+                curveTo(11.0,18.104570388793945,10.104569435119629,19.0,9.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 10f)
-                lineTo(7f, 10f)
+                moveTo(6.0,10.0)
+                lineTo(7.0,10.0)
             }
 }
 

@@ -9,25 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Currency") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 0f, true, false, 16.0f, 0f)
-                arcToRelative(8.0f, 8.0f, 0f, true, false, -16.0f, 0f)
+                moveTo(4.0,12.0)
+                curveTo(3.98717999458313,14.866647720336914,5.509161472320557,17.521041870117188,7.989636421203613,18.958078384399414)
+                curveTo(10.470111846923828,20.395116806030273,13.529888153076172,20.395116806030273,16.01036262512207,18.958078384399414)
+                curveTo(18.4908390045166,17.521041870117188,20.012819290161133,14.866647720336914,20.0,12.0)
+                curveTo(20.012819290161133,9.133352279663086,18.4908390045166,6.4789581298828125,16.01036262512207,5.0419206619262695)
+                curveTo(13.529888153076172,3.6048834323883057,10.470111846923828,3.6048834323883057,7.989636421203613,5.0419206619262695)
+                curveTo(5.509161472320557,6.4789581298828125,3.98717999458313,9.133352279663086,4.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 3f)
-                lineTo(6f, 6f)
+                moveTo(3.0,3.0)
+                lineTo(6.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 3f)
-                lineTo(18f, 6f)
+                moveTo(21.0,3.0)
+                lineTo(18.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 21f)
-                lineTo(6f, 18f)
+                moveTo(3.0,21.0)
+                lineTo(6.0,18.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 21f)
-                lineTo(18f, 18f)
+                moveTo(21.0,21.0)
+                lineTo(18.0,18.0)
             }
 }
 

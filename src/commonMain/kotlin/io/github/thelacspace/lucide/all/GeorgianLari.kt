@@ -9,20 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GeorgianLari") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.5f, 21f)
-                arcToRelative(7.5f, 7.5f, 0f, true, true, 7.35f, -9f)
+                moveTo(11.5,21.0)
+                curveTo(7.553310394287109,20.999195098876953,4.282514572143555,17.939838409423828,4.018350124359131,14.001998901367188)
+                curveTo(3.754185914993286,10.064159393310547,6.5870490074157715,6.595347881317139,10.498268127441406,6.067405700683594)
+                curveTo(14.4094877243042,5.539463043212891,18.0606632232666,8.133049964904785,18.850000381469727,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(13f, 12f)
-                verticalLineTo(3f)
+                moveTo(13.0,12.0)
+                lineTo(13.0,3.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 21f)
-                horizontalLineToRelative(16f)
+                moveTo(4.0,21.0)
+                lineTo(20.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 12f)
-                verticalLineTo(3f)
+                moveTo(9.0,12.0)
+                lineTo(9.0,3.0)
             }
 }
 

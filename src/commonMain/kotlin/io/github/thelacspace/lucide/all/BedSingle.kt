@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BedSingle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 20f)
-                verticalLineToRelative(-8f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(14f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(8f)
+                moveTo(3.0,20.0)
+                lineTo(3.0,12.0)
+                curveTo(3.0,10.895430564880371,3.895430564880371,10.0,5.0,10.0)
+                lineTo(19.0,10.0)
+                curveTo(20.104570388793945,10.0,21.0,10.895430564880371,21.0,12.0)
+                lineTo(21.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 10f)
-                verticalLineTo(6f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
-                horizontalLineToRelative(10f)
-                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
-                verticalLineToRelative(4f)
+                moveTo(5.0,10.0)
+                lineTo(5.0,6.0)
+                curveTo(5.0,4.895430564880371,5.895430564880371,4.0,7.0,4.0)
+                lineTo(17.0,4.0)
+                curveTo(18.104570388793945,4.0,19.0,4.895430564880371,19.0,6.0)
+                lineTo(19.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 18f)
-                horizontalLineToRelative(18f)
+                moveTo(3.0,18.0)
+                lineTo(21.0,18.0)
             }
 }
 

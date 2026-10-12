@@ -9,33 +9,35 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bird") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16f, 7f)
-                horizontalLineToRelative(.01f)
+                moveTo(16.0,7.0)
+                lineTo(16.010000228881836,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.4f, 18f)
-                horizontalLineTo(12f)
-                arcToRelative(8f, 8f, 0f, false, false, 8f, -8f)
-                verticalLineTo(7f)
-                arcToRelative(4f, 4f, 0f, false, false, -7.28f, -2.3f)
-                lineTo(2f, 20f)
+                moveTo(3.4000000953674316,18.0)
+                lineTo(12.0,18.0)
+                curveTo(16.418277740478516,18.0,20.0,14.418277740478516,20.0,10.0)
+                lineTo(20.0,7.0)
+                curveTo(20.004619598388672,5.251180648803711,18.872621536254883,3.702106237411499,17.205039978027344,3.175260543823242)
+                curveTo(15.537460327148438,2.6484150886535645,13.720953941345215,3.265956401824951,12.719999313354492,4.699999809265137)
+                lineTo(2.0,20.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(20f, 7f)
-                lineToRelative(2f, .5f)
-                lineToRelative(-2f, .5f)
+                moveTo(20.0,7.0)
+                lineTo(22.0,7.5)
+                lineTo(20.0,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(10f, 18f)
-                verticalLineToRelative(3f)
+                moveTo(10.0,18.0)
+                lineTo(10.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 17.75f)
-                verticalLineTo(21f)
+                moveTo(14.0,17.75)
+                lineTo(14.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 18f)
-                arcToRelative(6f, 6f, 0f, false, false, 3.84f, -10.61f)
+                moveTo(7.0,18.0)
+                curveTo(9.526259422302246,17.999874114990234,11.781824111938477,16.417383193969727,12.641559600830078,14.041916847229004)
+                curveTo(13.50129508972168,11.666450500488281,12.78100872039795,9.006932258605957,10.84000015258789,7.390000343322754)
             }
 }
 

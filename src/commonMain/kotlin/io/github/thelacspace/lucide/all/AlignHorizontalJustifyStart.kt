@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignHorizontalJustifyStart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0f, 5.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(8.0,5.0)
+                lineTo(10.0,5.0)
+                lineTo(12.0,5.0)
+                lineTo(12.0,19.0)
+                lineTo(10.0,19.0)
+                lineTo(8.0,19.0)
+                lineTo(6.0,19.0)
+                lineTo(6.0,5.0)
+                lineTo(8.0,5.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0f, 7.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-10.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(18.0,7.0)
+                lineTo(20.0,7.0)
+                lineTo(22.0,7.0)
+                lineTo(22.0,17.0)
+                lineTo(20.0,17.0)
+                lineTo(18.0,17.0)
+                lineTo(16.0,17.0)
+                lineTo(16.0,7.0)
+                lineTo(18.0,7.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 2f)
-                verticalLineToRelative(20f)
+                moveTo(2.0,2.0)
+                lineTo(2.0,22.0)
             }
 }
 

@@ -9,14 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Flame") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 3f)
-                quadToRelative(1f, 4f, 4f, 6.5f)
-                reflectiveQuadToRelative(3f, 5.5f)
-                arcToRelative(1f, 1f, 0f, false, true, -14f, 0f)
-                arcToRelative(5f, 5f, 0f, false, true, 1f, -3f)
-                arcToRelative(1f, 1f, 0f, false, false, 5f, 0f)
-                curveToRelative(0f, -2f, -1.5f, -3f, -1.5f, -5f)
-                quadToRelative(0f, -2f, 2.5f, -4f)
+                moveTo(12.0,3.0)
+                quadTo(13.0,7.0,16.0,9.5)
+                quadTo(19.0,12.0,19.0,15.0)
+                curveTo(18.982765197753906,18.85377311706543,15.853812217712402,21.968765258789062,12.0,21.968765258789062)
+                curveTo(8.146187782287598,21.968765258789062,5.017234802246094,18.85377311706543,5.0,15.0)
+                curveTo(5.0,13.9181489944458,5.350889205932617,12.865480422973633,6.0,12.0)
+                curveTo(6.006155014038086,13.376347541809082,7.12363862991333,14.488844871520996,8.5,14.488844871520996)
+                curveTo(9.876361846923828,14.488844871520996,10.993844985961914,13.376347541809082,11.0,12.0)
+                curveTo(11.0,10.0,9.5,9.0,9.5,7.0)
+                quadTo(9.5,5.0,12.0,3.0)
             }
 }
 

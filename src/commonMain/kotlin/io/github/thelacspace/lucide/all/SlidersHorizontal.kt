@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SlidersHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 5f)
-                horizontalLineTo(3f)
+                moveTo(10.0,5.0)
+                lineTo(3.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 19f)
-                horizontalLineTo(3f)
+                moveTo(12.0,19.0)
+                lineTo(3.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 3f)
-                verticalLineToRelative(4f)
+                moveTo(14.0,3.0)
+                lineTo(14.0,7.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 17f)
-                verticalLineToRelative(4f)
+                moveTo(16.0,17.0)
+                lineTo(16.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 12f)
-                horizontalLineToRelative(-9f)
+                moveTo(21.0,12.0)
+                lineTo(12.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 19f)
-                horizontalLineToRelative(-5f)
+                moveTo(21.0,19.0)
+                lineTo(16.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 5f)
-                horizontalLineToRelative(-7f)
+                moveTo(21.0,5.0)
+                lineTo(14.0,5.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 10f)
-                verticalLineToRelative(4f)
+                moveTo(8.0,10.0)
+                lineTo(8.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 12f)
-                horizontalLineTo(3f)
+                moveTo(8.0,12.0)
+                lineTo(3.0,12.0)
             }
 }
 

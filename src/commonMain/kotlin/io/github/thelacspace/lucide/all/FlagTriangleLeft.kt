@@ -9,12 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FlagTriangleLeft") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18f, 22f)
-                verticalLineTo(2.8f)
-                arcToRelative(.8f, .8f, 0f, false, false, -1.17f, -.71f)
-                lineTo(5.45f, 7.78f)
-                arcToRelative(.8f, .8f, 0f, false, false, 0f, 1.44f)
-                lineTo(18f, 15.5f)
+                moveTo(18.0,22.0)
+                lineTo(18.0,2.799999952316284)
+                curveTo(18.000246047973633,2.520167589187622,17.854259490966797,2.2605459690093994,17.61503028869629,2.1153724193573)
+                curveTo(17.37580108642578,1.9701989889144897,17.07810401916504,1.9605772495269775,16.829999923706055,2.0899999141693115)
+                lineTo(5.449999809265137,7.78000020980835)
+                curveTo(5.174007415771484,7.913669586181641,4.998711585998535,8.193342208862305,4.998711585998535,8.5)
+                curveTo(4.998711585998535,8.806658744812012,5.174007415771484,9.086331367492676,5.449999809265137,9.220000267028809)
+                lineTo(18.0,15.5)
             }
 }
 

@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TvMinimal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7f, 21f)
-                horizontalLineToRelative(10f)
+                moveTo(7.0,21.0)
+                lineTo(17.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 3.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,3.0)
+                lineTo(20.0,3.0)
+                lineTo(22.0,3.0)
+                lineTo(22.0,17.0)
+                lineTo(20.0,17.0)
+                lineTo(4.0,17.0)
+                lineTo(2.0,17.0)
+                lineTo(2.0,3.0)
+                lineTo(4.0,3.0)
                 close()
             }
 }

@@ -2,11 +2,11 @@
 
 [![Publish to Maven Central](https://github.com/thelacspace/lucide-compose/actions/workflows/publish.yml/badge.svg)](https://github.com/thelacspace/lucide-compose/actions/workflows/publish.yml)
 
-A Kotlin Multiplatform library providing [Lucide Icons](https://lucide.dev/) (v1.16.0) as `ImageVector`s for Jetpack Compose and Compose Multiplatform.
+A Kotlin Multiplatform library providing [Lucide Icons](https://lucide.dev/) (v1.16.1) as `ImageVector`s for Jetpack Compose and Compose Multiplatform.
 
 ## Features
 
-- **Up-to-date**: Includes icons from **Lucide v1.16.0**.
+- **Up-to-date**: Includes icons from **Lucide v1.16.1**.
 - **Multiplatform support**: Works on Android, iOS, and JVM (Desktop).
 - **Fully Customizable**: Adjust stroke width, color, and size globally or per icon.
 - **Categorized**: Icons are organized into categories for easier discovery.
@@ -21,7 +21,7 @@ Add the following to your `commonMain` dependencies in `build.gradle.kts`:
 ```kotlin
 sourceSets {
     commonMain.dependencies {
-        implementation("io.github.thelacspace:lucide-compose:1.16.0")
+        implementation("io.github.thelacspace:lucide-compose:1.16.1")
     }
 }
 ```
@@ -32,11 +32,11 @@ Add the dependency to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("io.github.thelacspace:lucide-compose:1.16.0")
+    implementation("io.github.thelacspace:lucide-compose:1.16.1")
 }
 ```
 
-*(Note: The version follows the format `[lucide-version]-[library-patch]`, e.g., `1.16.0`)*
+*(Note: The version follows the format `[lucide-version]-[library-patch]`, e.g., `1.16.1`)*
 
 ## Usage
 

@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Shuffle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(18f, 14f)
-                lineToRelative(4f, 4f)
-                lineToRelative(-4f, 4f)
+                moveTo(18.0,14.0)
+                lineTo(22.0,18.0)
+                lineTo(18.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(18f, 2f)
-                lineToRelative(4f, 4f)
-                lineToRelative(-4f, 4f)
+                moveTo(18.0,2.0)
+                lineTo(22.0,6.0)
+                lineTo(18.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 18f)
-                horizontalLineToRelative(1.973f)
-                arcToRelative(4f, 4f, 0f, false, false, 3.3f, -1.7f)
-                lineToRelative(5.454f, -8.6f)
-                arcToRelative(4f, 4f, 0f, false, true, 3.3f, -1.7f)
-                horizontalLineTo(22f)
+                moveTo(2.0,18.0)
+                lineTo(3.9730000495910645,18.0)
+                curveTo(5.2852654457092285,18.008962631225586,6.518460273742676,17.373680114746094,7.2729997634887695,16.299999237060547)
+                lineTo(12.726999282836914,7.69999885559082)
+                curveTo(13.481538772583008,6.626318454742432,14.714733123779297,5.9910359382629395,16.02699851989746,5.999999046325684)
+                lineTo(22.0,5.999999046325684)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 6f)
-                horizontalLineToRelative(1.972f)
-                arcToRelative(4f, 4f, 0f, false, true, 3.6f, 2.2f)
+                moveTo(2.0,6.0)
+                lineTo(3.9720001220703125,6.0)
+                curveTo(5.4926276206970215,5.989417552947998,6.88773775100708,6.841984748840332,7.572000026702881,8.199999809265137)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 18f)
-                horizontalLineToRelative(-6.041f)
-                arcToRelative(4f, 4f, 0f, false, true, -3.3f, -1.8f)
-                lineToRelative(-.359f, -.45f)
+                moveTo(22.0,18.0)
+                lineTo(15.958999633789062,18.0)
+                curveTo(14.628029823303223,17.986425399780273,13.39100170135498,17.311683654785156,12.6589994430542,16.200000762939453)
+                lineTo(12.299999237060547,15.750000953674316)
             }
 }
 

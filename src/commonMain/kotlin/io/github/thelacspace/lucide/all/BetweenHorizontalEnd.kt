@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BetweenHorizontalEnd") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0f, 3.0f)
-                horizontalLineToRelative(11.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(7.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-11.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-7.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(4.0,3.0)
+                lineTo(15.0,3.0)
+                lineTo(16.0,3.0)
+                lineTo(16.0,10.0)
+                lineTo(15.0,10.0)
+                lineTo(4.0,10.0)
+                lineTo(3.0,10.0)
+                lineTo(3.0,3.0)
+                lineTo(4.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 15f)
-                lineToRelative(-3f, -3f)
-                lineToRelative(3f, -3f)
+                moveTo(22.0,15.0)
+                lineTo(19.0,12.0)
+                lineTo(22.0,9.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 14.0f)
-                horizontalLineToRelative(11.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, 0.0f)
-                verticalLineToRelative(7.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, 0.0f)
-                horizontalLineToRelative(-11.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, -1.0f, -0.0f)
-                verticalLineToRelative(-7.0f)
-                arcToRelative(1.0f, 0.0f, 0f, false, true, 1.0f, -0.0f)
+                moveTo(4.0,14.0)
+                lineTo(15.0,14.0)
+                lineTo(16.0,14.0)
+                lineTo(16.0,21.0)
+                lineTo(15.0,21.0)
+                lineTo(4.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,14.0)
+                lineTo(4.0,14.0)
                 close()
             }
 }

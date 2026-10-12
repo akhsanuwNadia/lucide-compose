@@ -9,12 +9,12 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Space") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22f, 17f)
-                verticalLineToRelative(1f)
-                curveToRelative(0f, .5f, -.5f, 1f, -1f, 1f)
-                horizontalLineTo(3f)
-                curveToRelative(-.5f, 0f, -1f, -.5f, -1f, -1f)
-                verticalLineToRelative(-1f)
+                moveTo(22.0,17.0)
+                lineTo(22.0,18.0)
+                curveTo(22.0,18.5,21.5,19.0,21.0,19.0)
+                lineTo(3.0,19.0)
+                curveTo(2.5,19.0,2.0,18.5,2.0,18.0)
+                lineTo(2.0,17.0)
             }
 }
 

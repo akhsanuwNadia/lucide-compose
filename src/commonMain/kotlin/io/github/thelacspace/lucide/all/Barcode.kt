@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Barcode") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 5f)
-                verticalLineToRelative(14f)
+                moveTo(3.0,5.0)
+                lineTo(3.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 5f)
-                verticalLineToRelative(14f)
+                moveTo(8.0,5.0)
+                lineTo(8.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 5f)
-                verticalLineToRelative(14f)
+                moveTo(12.0,5.0)
+                lineTo(12.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(17f, 5f)
-                verticalLineToRelative(14f)
+                moveTo(17.0,5.0)
+                lineTo(17.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 5f)
-                verticalLineToRelative(14f)
+                moveTo(21.0,5.0)
+                lineTo(21.0,19.0)
             }
 }
 

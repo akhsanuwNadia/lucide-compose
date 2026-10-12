@@ -9,19 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("EggOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveToRelative(2f, 2f)
-                lineToRelative(20f, 20f)
+                moveTo(2.0,2.0)
+                lineTo(22.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 14.347f)
-                verticalLineTo(14f)
-                curveToRelative(0f, -6f, -4f, -12f, -8f, -12f)
-                curveToRelative(-1.078f, 0f, -2.157f, .436f, -3.157f, 1.19f)
+                moveTo(20.0,14.347000122070312)
+                lineTo(20.0,14.0)
+                curveTo(20.0,8.0,16.0,2.0,12.0,2.0)
+                curveTo(10.92199993133545,2.0,9.843000411987305,2.435999870300293,8.843000411987305,3.190000057220459)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.206f, 6.21f)
-                curveTo(4.871f, 8.4f, 4f, 11.2f, 4f, 14f)
-                arcToRelative(8f, 8f, 0f, false, false, 14.568f, 4.568f)
+                moveTo(6.205999851226807,6.210000038146973)
+                curveTo(4.870999813079834,8.399999618530273,4.0,11.199999809265137,4.0,14.0)
+                curveTo(3.9997479915618896,17.496431350708008,6.270140647888184,20.587968826293945,9.606401443481445,21.63409996032715)
+                curveTo(12.942662239074707,22.68023109436035,16.57179069519043,21.438570022583008,18.56800079345703,18.56800079345703)
             }
 }
 

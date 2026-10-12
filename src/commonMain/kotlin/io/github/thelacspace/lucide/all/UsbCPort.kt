@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("UsbCPort") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6f, 12f)
-                horizontalLineToRelative(12f)
+                moveTo(6.0,12.0)
+                lineTo(18.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0f, 8.0f)
-                horizontalLineToRelative(12.0f)
-                arcToRelative(4.0f, 0.0f, 0f, false, true, 4.0f, 0.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(4.0f, 0.0f, 0f, false, true, -4.0f, 0.0f)
-                horizontalLineToRelative(-12.0f)
-                arcToRelative(4.0f, 0.0f, 0f, false, true, -4.0f, -0.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(4.0f, 0.0f, 0f, false, true, 4.0f, -0.0f)
+                moveTo(6.0,8.0)
+                lineTo(18.0,8.0)
+                lineTo(22.0,8.0)
+                lineTo(22.0,16.0)
+                lineTo(18.0,16.0)
+                lineTo(6.0,16.0)
+                lineTo(2.0,16.0)
+                lineTo(2.0,8.0)
+                lineTo(6.0,8.0)
                 close()
             }
 }

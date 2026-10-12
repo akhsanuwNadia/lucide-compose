@@ -9,47 +9,47 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Keyboard") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 8f)
-                horizontalLineToRelative(.01f)
+                moveTo(10.0,8.0)
+                lineTo(10.010000228881836,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(12.0,12.0)
+                lineTo(12.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 8f)
-                horizontalLineToRelative(.01f)
+                moveTo(14.0,8.0)
+                lineTo(14.010000228881836,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(16.0,12.0)
+                lineTo(16.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 8f)
-                horizontalLineToRelative(.01f)
+                moveTo(18.0,8.0)
+                lineTo(18.010000228881836,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 8f)
-                horizontalLineToRelative(.01f)
+                moveTo(6.0,8.0)
+                lineTo(6.010000228881836,8.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 16f)
-                horizontalLineToRelative(10f)
+                moveTo(7.0,16.0)
+                lineTo(17.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 12f)
-                horizontalLineToRelative(.01f)
+                moveTo(8.0,12.0)
+                lineTo(8.010000228881836,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0f, 4.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-16.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(4.0,4.0)
+                lineTo(20.0,4.0)
+                lineTo(22.0,4.0)
+                lineTo(22.0,20.0)
+                lineTo(20.0,20.0)
+                lineTo(4.0,20.0)
+                lineTo(2.0,20.0)
+                lineTo(2.0,4.0)
+                lineTo(4.0,4.0)
                 close()
             }
 }

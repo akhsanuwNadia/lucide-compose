@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartSpline") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3f, 3f)
-                verticalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(16f)
+                moveTo(3.0,3.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(21.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 16f)
-                curveToRelative(.5f, -2f, 1.5f, -7f, 4f, -7f)
-                curveToRelative(2f, 0f, 2f, 3f, 4f, 3f)
-                curveToRelative(2.5f, 0f, 4.5f, -5f, 5f, -7f)
+                moveTo(7.0,16.0)
+                curveTo(7.5,14.0,8.5,9.0,11.0,9.0)
+                curveTo(13.0,9.0,13.0,12.0,15.0,12.0)
+                curveTo(17.5,12.0,19.5,7.0,20.0,5.0)
             }
 }
 

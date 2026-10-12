@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Heading2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4f, 12f)
-                horizontalLineToRelative(8f)
+                moveTo(4.0,12.0)
+                lineTo(12.0,12.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(4f, 18f)
-                verticalLineTo(6f)
+                moveTo(4.0,18.0)
+                lineTo(4.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 18f)
-                verticalLineTo(6f)
+                moveTo(12.0,18.0)
+                lineTo(12.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 18f)
-                horizontalLineToRelative(-4f)
-                curveToRelative(0f, -4f, 4f, -3f, 4f, -6f)
-                curveToRelative(0f, -1.5f, -2f, -2.5f, -4f, -1f)
+                moveTo(21.0,18.0)
+                lineTo(17.0,18.0)
+                curveTo(17.0,14.0,21.0,15.0,21.0,12.0)
+                curveTo(21.0,10.5,19.0,9.5,17.0,11.0)
             }
 }
 

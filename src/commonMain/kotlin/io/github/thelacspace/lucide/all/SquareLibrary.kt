@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareLibrary") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,21.0)
+                lineTo(19.0,21.0)
+                lineTo(5.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(7f, 7f)
-                verticalLineToRelative(10f)
+                moveTo(7.0,7.0)
+                lineTo(7.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(11f, 7f)
-                verticalLineToRelative(10f)
+                moveTo(11.0,7.0)
+                lineTo(11.0,17.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(15f, 7f)
-                lineToRelative(2f, 10f)
+                moveTo(15.0,7.0)
+                lineTo(17.0,17.0)
             }
 }
 

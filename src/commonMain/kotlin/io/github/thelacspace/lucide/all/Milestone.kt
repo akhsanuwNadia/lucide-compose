@@ -9,24 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Milestone") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12f, 13f)
-                verticalLineToRelative(8f)
+                moveTo(12.0,13.0)
+                lineTo(12.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 3f)
-                verticalLineToRelative(3f)
+                moveTo(12.0,3.0)
+                lineTo(12.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.172f, 6f)
-                arcToRelative(2f, 2f, 0f, false, true, 1.414f, .586f)
-                lineToRelative(2.06f, 2.06f)
-                arcToRelative(1.207f, 1.207f, 0f, false, true, 0f, 1.708f)
-                lineToRelative(-2.06f, 2.06f)
-                arcToRelative(2f, 2f, 0f, false, true, -1.414f, .586f)
-                horizontalLineTo(4f)
-                arcToRelative(1f, 1f, 0f, false, true, -1f, -1f)
-                verticalLineTo(7f)
-                arcToRelative(1f, 1f, 0f, false, true, 1f, -1f)
+                moveTo(18.172000885009766,6.0)
+                curveTo(18.702390670776367,6.000113487243652,19.211015701293945,6.210901260375977,19.586000442504883,6.585999965667725)
+                lineTo(21.645999908447266,8.645999908447266)
+                curveTo(21.872676849365234,8.872398376464844,22.000043869018555,9.179627418518066,22.000043869018555,9.5)
+                curveTo(22.000043869018555,9.820372581481934,21.872676849365234,10.127601623535156,21.645999908447266,10.354000091552734)
+                lineTo(19.586000442504883,12.413999557495117)
+                curveTo(19.211015701293945,12.789098739624023,18.702390670776367,12.999886512756348,18.172000885009766,13.0)
+                lineTo(4.0,13.0)
+                curveTo(3.4477152824401855,13.0,3.0,12.552285194396973,3.0,12.0)
+                lineTo(3.0,7.0)
+                curveTo(3.0,6.4477152824401855,3.4477152824401855,6.0,4.0,6.0)
                 close()
             }
 }

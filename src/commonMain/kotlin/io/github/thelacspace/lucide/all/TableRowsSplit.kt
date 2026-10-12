@@ -9,56 +9,56 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TableRowsSplit") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14f, 10f)
-                horizontalLineToRelative(2f)
+                moveTo(14.0,10.0)
+                lineTo(16.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 22f)
-                verticalLineToRelative(-8f)
+                moveTo(15.0,22.0)
+                lineTo(15.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(15f, 2f)
-                verticalLineToRelative(4f)
+                moveTo(15.0,2.0)
+                lineTo(15.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 10f)
-                horizontalLineToRelative(2f)
+                moveTo(2.0,10.0)
+                lineTo(4.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 10f)
-                horizontalLineToRelative(2f)
+                moveTo(20.0,10.0)
+                lineTo(22.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 19f)
-                horizontalLineToRelative(18f)
+                moveTo(3.0,19.0)
+                lineTo(21.0,19.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 22f)
-                verticalLineToRelative(-6f)
-                arcToRelative(2f, 2f, 135f, false, true, 2f, -2f)
-                horizontalLineToRelative(14f)
-                arcToRelative(2f, 2f, 45f, false, true, 2f, 2f)
-                verticalLineToRelative(6f)
+                moveTo(3.0,22.0)
+                lineTo(3.0,16.0)
+                curveTo(3.0,14.895430564880371,3.895430564880371,14.0,5.0,14.0)
+                lineTo(19.0,14.0)
+                curveTo(20.104570388793945,14.0,21.0,14.895430564880371,21.0,16.0)
+                lineTo(21.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 2f)
-                verticalLineToRelative(2f)
-                arcToRelative(2f, 2f, 45f, false, false, 2f, 2f)
-                horizontalLineToRelative(14f)
-                arcToRelative(2f, 2f, 135f, false, false, 2f, -2f)
-                verticalLineTo(2f)
+                moveTo(3.0,2.0)
+                lineTo(3.0,4.0)
+                curveTo(3.0,5.104569435119629,3.895430564880371,6.0,5.0,6.0)
+                lineTo(19.0,6.0)
+                curveTo(20.104570388793945,6.0,21.0,5.104569435119629,21.0,4.0)
+                lineTo(21.0,2.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 10f)
-                horizontalLineToRelative(2f)
+                moveTo(8.0,10.0)
+                lineTo(10.0,10.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 22f)
-                verticalLineToRelative(-8f)
+                moveTo(9.0,22.0)
+                lineTo(9.0,14.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(9f, 2f)
-                verticalLineToRelative(4f)
+                moveTo(9.0,2.0)
+                lineTo(9.0,6.0)
             }
 }
 

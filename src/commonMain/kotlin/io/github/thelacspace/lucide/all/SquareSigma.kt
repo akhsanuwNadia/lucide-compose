@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareSigma") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0f, 3.0f)
-                horizontalLineToRelative(14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, 0.0f)
-                verticalLineToRelative(18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, 0.0f)
-                horizontalLineToRelative(-14.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, -2.0f, -0.0f)
-                verticalLineToRelative(-18.0f)
-                arcToRelative(2.0f, 0.0f, 0f, false, true, 2.0f, -0.0f)
+                moveTo(5.0,3.0)
+                lineTo(19.0,3.0)
+                lineTo(21.0,3.0)
+                lineTo(21.0,21.0)
+                lineTo(19.0,21.0)
+                lineTo(5.0,21.0)
+                lineTo(3.0,21.0)
+                lineTo(3.0,3.0)
+                lineTo(5.0,3.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(16f, 8.9f)
-                verticalLineTo(7f)
-                horizontalLineTo(8f)
-                lineToRelative(4f, 5f)
-                lineToRelative(-4f, 5f)
-                horizontalLineToRelative(8f)
-                verticalLineToRelative(-1.9f)
+                moveTo(16.0,8.899999618530273)
+                lineTo(16.0,7.0)
+                lineTo(8.0,7.0)
+                lineTo(12.0,12.0)
+                lineTo(8.0,17.0)
+                lineTo(16.0,17.0)
+                lineTo(16.0,15.100000381469727)
             }
 }
 

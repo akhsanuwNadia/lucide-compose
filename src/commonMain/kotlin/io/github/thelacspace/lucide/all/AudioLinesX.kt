@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AudioLinesX") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 3f)
-                verticalLineToRelative(18f)
+                moveTo(10.0,3.0)
+                lineTo(10.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(14f, 8f)
-                verticalLineToRelative(6.35f)
+                moveTo(14.0,8.0)
+                lineTo(14.0,14.350000381469727)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(17f, 17f)
-                lineToRelative(5f, 5f)
+                moveTo(17.0,17.0)
+                lineTo(22.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(18f, 5f)
-                verticalLineToRelative(8.1f)
+                moveTo(18.0,5.0)
+                lineTo(18.0,13.100000381469727)
             }
             lucidePath(strokeWidth) {
-                moveTo(2f, 10f)
-                verticalLineToRelative(3f)
+                moveTo(2.0,10.0)
+                lineTo(2.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(22f, 10f)
-                verticalLineToRelative(3f)
+                moveTo(22.0,10.0)
+                lineTo(22.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveToRelative(22f, 17f)
-                lineToRelative(-5f, 5f)
+                moveTo(22.0,17.0)
+                lineTo(17.0,22.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(6f, 6f)
-                verticalLineToRelative(11f)
+                moveTo(6.0,6.0)
+                lineTo(6.0,17.0)
             }
 }
 

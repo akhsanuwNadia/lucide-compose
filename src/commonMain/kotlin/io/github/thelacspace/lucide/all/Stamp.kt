@@ -9,27 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Stamp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14f, 13f)
-                verticalLineTo(8.5f)
-                curveTo(14f, 7f, 15f, 7f, 15f, 5f)
-                arcToRelative(3f, 3f, 0f, false, false, -6f, 0f)
-                curveToRelative(0f, 2f, 1f, 2f, 1f, 3.5f)
-                verticalLineTo(13f)
+                moveTo(14.0,13.0)
+                lineTo(14.0,8.5)
+                curveTo(14.0,7.0,15.0,7.0,15.0,5.0)
+                curveTo(14.992613792419434,3.3483827114105225,13.651634216308594,2.0133864879608154,12.0,2.0133864879608154)
+                curveTo(10.348365783691406,2.0133864879608154,9.007386207580566,3.3483827114105225,9.0,5.0)
+                curveTo(9.0,7.0,10.0,7.0,10.0,8.5)
+                lineTo(10.0,13.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20f, 15.5f)
-                arcToRelative(2.5f, 2.5f, 0f, false, false, -2.5f, -2.5f)
-                horizontalLineToRelative(-11f)
-                arcTo(2.5f, 2.5f, 0f, false, false, 4f, 15.5f)
-                verticalLineTo(17f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, 1f)
-                horizontalLineToRelative(14f)
-                arcToRelative(1f, 1f, 0f, false, false, 1f, -1f)
+                moveTo(20.0,15.5)
+                curveTo(20.0,14.119288444519043,18.880712509155273,13.0,17.5,13.0)
+                lineTo(6.5,13.0)
+                curveTo(5.119287967681885,13.0,4.0,14.119288444519043,4.0,15.5)
+                lineTo(4.0,17.0)
+                curveTo(4.0,17.552284240722656,4.4477152824401855,18.0,5.0,18.0)
+                lineTo(19.0,18.0)
+                curveTo(19.552284240722656,18.0,20.0,17.552284240722656,20.0,17.0)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(5f, 22f)
-                horizontalLineToRelative(14f)
+                moveTo(5.0,22.0)
+                lineTo(19.0,22.0)
             }
 }
 

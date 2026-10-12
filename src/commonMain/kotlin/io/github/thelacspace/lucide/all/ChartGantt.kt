@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartGantt") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10f, 6f)
-                horizontalLineToRelative(8f)
+                moveTo(10.0,6.0)
+                lineTo(18.0,6.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(12f, 16f)
-                horizontalLineToRelative(6f)
+                moveTo(12.0,16.0)
+                lineTo(18.0,16.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(3f, 3f)
-                verticalLineToRelative(16f)
-                arcToRelative(2f, 2f, 0f, false, false, 2f, 2f)
-                horizontalLineToRelative(16f)
+                moveTo(3.0,3.0)
+                lineTo(3.0,19.0)
+                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
+                lineTo(21.0,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(8f, 11f)
-                horizontalLineToRelative(7f)
+                moveTo(8.0,11.0)
+                lineTo(15.0,11.0)
             }
 }
 

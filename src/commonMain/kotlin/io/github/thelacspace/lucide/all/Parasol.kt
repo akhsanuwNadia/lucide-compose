@@ -9,19 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Parasol") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.5f, 11.134f)
-                lineTo(18.196f, 21f)
+                moveTo(12.5,11.133999824523926)
+                lineTo(18.195999145507812,21.0)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.425f, 5.299f)
-                arcToRelative(10f, 10f, 0f, false, false, -16.941f, 9.78f)
-                curveToRelative(.183f, .563f, .843f, .774f, 1.355f, .478f)
-                lineTo(20.16f, 6.711f)
-                curveToRelative(.512f, -.296f, .66f, -.973f, .264f, -1.413f)
+                moveTo(20.424999237060547,5.298999786376953)
+                curveTo(17.265396118164062,1.792365312576294,12.084067344665527,0.9725449085235596,7.996226787567139,3.3324458599090576)
+                curveTo(3.908385753631592,5.692347049713135,2.027320623397827,10.58927059173584,3.483999252319336,15.078999519348145)
+                curveTo(3.666999340057373,15.641999244689941,4.326999187469482,15.852999687194824,4.838999271392822,15.556999206542969)
+                lineTo(20.15999984741211,6.710999965667725)
+                curveTo(20.671998977661133,6.414999961853027,20.81999969482422,5.73799991607666,20.423999786376953,5.297999858856201)
             }
             lucidePath(strokeWidth) {
-                moveTo(21f, 21f)
-                horizontalLineTo(3f)
+                moveTo(21.0,21.0)
+                lineTo(3.0,21.0)
             }
 }
 
