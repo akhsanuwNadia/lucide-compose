@@ -9,50 +9,50 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Combine") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.0,3.0)
-                curveTo(14.552285194396973,3.0,15.0,3.4477152824401855,15.0,4.0)
-                lineTo(15.0,9.0)
-                curveTo(15.0,9.552285194396973,14.552285194396973,10.0,14.0,10.0)
+                moveTo(14.0f,3.0f)
+                curveTo(14.552285f,3.0f,15.0f,3.4477153f,15.0f,4.0f)
+                lineTo(15.0f,9.0f)
+                curveTo(15.0f,9.552285f,14.552285f,10.0f,14.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,3.0)
-                curveTo(19.552284240722656,3.0,20.0,3.4477152824401855,20.0,4.0)
-                lineTo(20.0,9.0)
-                curveTo(20.0,9.552285194396973,19.552284240722656,10.0,19.0,10.0)
+                moveTo(19.0f,3.0f)
+                curveTo(19.552284f,3.0f,20.0f,3.4477153f,20.0f,4.0f)
+                lineTo(20.0f,9.0f)
+                curveTo(20.0f,9.552285f,19.552284f,10.0f,19.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,15.0)
-                lineTo(10.0,18.0)
+                moveTo(7.0f,15.0f)
+                lineTo(10.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,21.0)
-                lineTo(10.0,18.0)
-                lineTo(5.0,18.0)
-                curveTo(3.895430564880371,18.0,3.0,17.104570388793945,3.0,16.0)
-                lineTo(3.0,14.0)
+                moveTo(7.0f,21.0f)
+                lineTo(10.0f,18.0f)
+                lineTo(5.0f,18.0f)
+                curveTo(3.8954306f,18.0f,3.0f,17.10457f,3.0f,16.0f)
+                lineTo(3.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,14.0)
-                lineTo(20.0,14.0)
-                lineTo(21.0,14.0)
-                lineTo(21.0,21.0)
-                lineTo(20.0,21.0)
-                lineTo(15.0,21.0)
-                lineTo(14.0,21.0)
-                lineTo(14.0,14.0)
-                lineTo(15.0,14.0)
+                moveTo(15.0f,14.0f)
+                lineTo(20.0f,14.0f)
+                lineTo(21.0f,14.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(20.0f,21.0f)
+                lineTo(15.0f,21.0f)
+                lineTo(14.0f,21.0f)
+                lineTo(14.0f,14.0f)
+                lineTo(15.0f,14.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(9.0,3.0)
-                lineTo(10.0,3.0)
-                lineTo(10.0,10.0)
-                lineTo(9.0,10.0)
-                lineTo(4.0,10.0)
-                lineTo(3.0,10.0)
-                lineTo(3.0,3.0)
-                lineTo(4.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(9.0f,3.0f)
+                lineTo(10.0f,3.0f)
+                lineTo(10.0f,10.0f)
+                lineTo(9.0f,10.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(3.0f,10.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(4.0f,3.0f)
                 close()
             }
 }

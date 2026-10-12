@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("IterationCw") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,10.0)
-                curveTo(4.0,5.581721782684326,7.581721782684326,2.0,12.0,2.0)
-                curveTo(16.418277740478516,2.0,20.0,5.581721782684326,20.0,10.0)
-                curveTo(20.0,14.418277740478516,16.418277740478516,18.0,12.0,18.0)
-                lineTo(4.0,18.0)
+                moveTo(4.0f,10.0f)
+                curveTo(4.0f,5.581722f,7.581722f,2.0f,12.0f,2.0f)
+                curveTo(16.418278f,2.0f,20.0f,5.581722f,20.0f,10.0f)
+                curveTo(20.0f,14.418278f,16.418278f,18.0f,12.0f,18.0f)
+                lineTo(4.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,22.0)
-                lineTo(4.0,18.0)
-                lineTo(8.0,14.0)
+                moveTo(8.0f,22.0f)
+                lineTo(4.0f,18.0f)
+                lineTo(8.0f,14.0f)
             }
 }
 

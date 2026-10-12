@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SaudiRiyal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(20.0,19.5)
-                lineTo(14.5,20.700000762939453)
+                moveTo(20.0f,19.5f)
+                lineTo(14.5f,20.7f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.5,4.0)
-                lineTo(14.5,15.220000267028809)
-                curveTo(14.50008487701416,15.527790069580078,14.641902923583984,15.81839370727539,14.884478569030762,16.007844924926758)
-                curveTo(15.127054214477539,16.197296142578125,15.443358421325684,16.26448631286621,15.741999626159668,16.190000534057617)
-                lineTo(20.0,15.199999809265137)
+                moveTo(14.5f,4.0f)
+                lineTo(14.5f,15.22f)
+                curveTo(14.500085f,15.52779f,14.641903f,15.818394f,14.884479f,16.007845f)
+                curveTo(15.127054f,16.197296f,15.443358f,16.264486f,15.742f,16.19f)
+                lineTo(20.0f,15.2f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.9779999256134033,19.35099983215332)
-                lineTo(8.526999473571777,17.987998962402344)
-                curveTo(9.418168067932129,17.744997024536133,10.026993751525879,16.923311233520508,10.0,16.0)
-                lineTo(10.0,2.0)
+                moveTo(2.978f,19.351f)
+                lineTo(8.526999f,17.987999f)
+                curveTo(9.418168f,17.744997f,10.026994f,16.923311f,10.0f,16.0f)
+                lineTo(10.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,10.0)
-                lineTo(4.0,13.5)
+                moveTo(20.0f,10.0f)
+                lineTo(4.0f,13.5f)
             }
 }
 

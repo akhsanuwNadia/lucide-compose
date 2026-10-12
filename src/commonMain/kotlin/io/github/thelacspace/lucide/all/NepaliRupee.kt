@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("NepaliRupee") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18.0,16.17300033569336)
-                curveTo(19.77646827697754,14.72599983215332,20.26361846923828,12.215460777282715,19.15725326538086,10.20906925201416)
-                curveTo(18.05088996887207,8.202676773071289,15.667763710021973,7.274866104125977,13.496000289916992,8.005000114440918)
+                moveTo(18.0f,16.173f)
+                curveTo(19.776468f,14.726f,20.263618f,12.215461f,19.157253f,10.209069f)
+                curveTo(18.05089f,8.202677f,15.667764f,7.274866f,13.496f,8.005f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(20.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(20.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,13.0)
-                lineTo(13.5,21.0)
+                moveTo(5.0f,13.0f)
+                lineTo(13.5f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,13.0)
-                lineTo(9.0,13.0)
+                moveTo(5.0f,13.0f)
+                lineTo(9.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,13.0)
-                curveTo(15.5,13.0,14.666999816894531,3.0,8.0,3.0)
+                moveTo(8.0f,13.0f)
+                curveTo(15.5f,13.0f,14.667f,3.0f,8.0f,3.0f)
             }
 }
 

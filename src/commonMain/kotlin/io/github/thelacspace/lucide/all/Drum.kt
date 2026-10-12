@@ -9,31 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Drum") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(10.0,10.0)
+                moveTo(2.0f,2.0f)
+                lineTo(10.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,2.0)
-                lineTo(14.0,10.0)
+                moveTo(22.0f,2.0f)
+                lineTo(14.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,13.399999618530273)
-                lineTo(7.0,21.299999237060547)
+                moveTo(7.0f,13.4f)
+                lineTo(7.0f,21.3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,14.0)
-                lineTo(12.0,22.0)
+                moveTo(12.0f,14.0f)
+                lineTo(12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,13.399999618530273)
-                lineTo(17.0,21.299999237060547)
+                moveTo(17.0f,13.4f)
+                lineTo(17.0f,21.3f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,9.0)
-                lineTo(2.0,17.0)
-                curveTo(2.02462100982666,19.752695083618164,6.494554042816162,21.977689743041992,12.0,21.977689743041992)
-                curveTo(17.50544548034668,21.977689743041992,21.975379943847656,19.752695083618164,22.0,17.0)
-                lineTo(22.0,9.0)
+                moveTo(2.0f,9.0f)
+                lineTo(2.0f,17.0f)
+                curveTo(2.024621f,19.752695f,6.494554f,21.97769f,12.0f,21.97769f)
+                curveTo(17.505445f,21.97769f,21.97538f,19.752695f,22.0f,17.0f)
+                lineTo(22.0f,9.0f)
             }
 }
 

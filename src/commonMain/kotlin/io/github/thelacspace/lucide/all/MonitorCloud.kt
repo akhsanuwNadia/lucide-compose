@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MonitorCloud") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.0,13.0)
-                curveTo(9.474556922912598,12.999199867248535,8.192584037780762,11.853796005249023,8.020682334899902,10.338068962097168)
-                curveTo(7.848780632019043,8.822342872619629,8.84168815612793,7.418939590454102,10.328208923339844,7.076546669006348)
-                curveTo(11.814730644226074,6.734154224395752,13.321518898010254,7.561798095703125,13.829999923706055,9.0)
-                lineTo(14.0,9.0)
-                curveTo(15.101078033447266,9.004923820495605,15.99107551574707,9.898910522460938,15.99107551574707,11.0)
-                curveTo(15.99107551574707,12.101089477539062,15.101078033447266,12.995076179504395,14.0,13.0)
+                moveTo(11.0f,13.0f)
+                curveTo(9.474557f,12.9992f,8.192584f,11.853796f,8.020682f,10.338069f)
+                curveTo(7.8487806f,8.822343f,8.841688f,7.4189396f,10.328209f,7.0765467f)
+                curveTo(11.814731f,6.734154f,13.321519f,7.561798f,13.83f,9.0f)
+                lineTo(14.0f,9.0f)
+                curveTo(15.101078f,9.004924f,15.9910755f,9.8989105f,15.9910755f,11.0f)
+                curveTo(15.9910755f,12.1010895f,15.101078f,12.995076f,14.0f,13.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,17.0)
-                lineTo(12.0,21.0)
+                moveTo(12.0f,17.0f)
+                lineTo(12.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,21.0)
-                lineTo(16.0,21.0)
+                moveTo(8.0f,21.0f)
+                lineTo(16.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(20.0,3.0)
-                lineTo(22.0,3.0)
-                lineTo(22.0,17.0)
-                lineTo(20.0,17.0)
-                lineTo(4.0,17.0)
-                lineTo(2.0,17.0)
-                lineTo(2.0,3.0)
-                lineTo(4.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(20.0f,3.0f)
+                lineTo(22.0f,3.0f)
+                lineTo(22.0f,17.0f)
+                lineTo(20.0f,17.0f)
+                lineTo(4.0f,17.0f)
+                lineTo(2.0f,17.0f)
+                lineTo(2.0f,3.0f)
+                lineTo(4.0f,3.0f)
                 close()
             }
 }

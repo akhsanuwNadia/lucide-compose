@@ -9,12 +9,12 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WifiLow") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,20.0)
-                lineTo(12.010000228881836,20.0)
+                moveTo(12.0f,20.0f)
+                lineTo(12.01f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5,16.429000854492188)
-                curveTo(10.444217681884766,14.523286819458008,13.555782318115234,14.523286819458008,15.5,16.429000854492188)
+                moveTo(8.5f,16.429f)
+                curveTo(10.444218f,14.523287f,13.555782f,14.523287f,15.5f,16.429f)
             }
 }
 

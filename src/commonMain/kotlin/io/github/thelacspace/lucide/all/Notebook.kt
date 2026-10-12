@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Notebook") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,6.0)
-                lineTo(6.0,6.0)
+                moveTo(2.0f,6.0f)
+                lineTo(6.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,10.0)
-                lineTo(6.0,10.0)
+                moveTo(2.0f,10.0f)
+                lineTo(6.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,14.0)
-                lineTo(6.0,14.0)
+                moveTo(2.0f,14.0f)
+                lineTo(6.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,18.0)
-                lineTo(6.0,18.0)
+                moveTo(2.0f,18.0f)
+                lineTo(6.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,2.0)
-                lineTo(18.0,2.0)
-                lineTo(20.0,2.0)
-                lineTo(20.0,22.0)
-                lineTo(18.0,22.0)
-                lineTo(6.0,22.0)
-                lineTo(4.0,22.0)
-                lineTo(4.0,2.0)
-                lineTo(6.0,2.0)
+                moveTo(6.0f,2.0f)
+                lineTo(18.0f,2.0f)
+                lineTo(20.0f,2.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(18.0f,22.0f)
+                lineTo(6.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                lineTo(4.0f,2.0f)
+                lineTo(6.0f,2.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,2.0)
-                lineTo(16.0,22.0)
+                moveTo(16.0f,2.0f)
+                lineTo(16.0f,22.0f)
             }
 }
 

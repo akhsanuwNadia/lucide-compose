@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("HardDriveUpload") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,6.0)
-                lineTo(12.0,2.0)
-                lineTo(8.0,6.0)
+                moveTo(16.0f,6.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(8.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,10.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,14.0)
-                lineTo(20.0,14.0)
-                lineTo(22.0,14.0)
-                lineTo(22.0,22.0)
-                lineTo(20.0,22.0)
-                lineTo(4.0,22.0)
-                lineTo(2.0,22.0)
-                lineTo(2.0,14.0)
-                lineTo(4.0,14.0)
+                moveTo(4.0f,14.0f)
+                lineTo(20.0f,14.0f)
+                lineTo(22.0f,14.0f)
+                lineTo(22.0f,22.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                lineTo(2.0f,22.0f)
+                lineTo(2.0f,14.0f)
+                lineTo(4.0f,14.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,18.0)
-                lineTo(6.010000228881836,18.0)
+                moveTo(6.0f,18.0f)
+                lineTo(6.01f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,18.0)
-                lineTo(10.010000228881836,18.0)
+                moveTo(10.0f,18.0f)
+                lineTo(10.01f,18.0f)
             }
 }
 

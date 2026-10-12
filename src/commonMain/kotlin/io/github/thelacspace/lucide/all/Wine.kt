@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Wine") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,22.0)
-                lineTo(16.0,22.0)
+                moveTo(8.0f,22.0f)
+                lineTo(16.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,10.0)
-                lineTo(17.0,10.0)
+                moveTo(7.0f,10.0f)
+                lineTo(17.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,15.0)
-                lineTo(12.0,22.0)
+                moveTo(12.0f,15.0f)
+                lineTo(12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,15.0)
-                curveTo(14.76142406463623,15.0,17.0,12.76142406463623,17.0,10.0)
-                curveTo(17.0,8.0,16.5,6.0,15.0,2.0)
-                lineTo(9.0,2.0)
-                curveTo(7.5,6.0,7.0,8.0,7.0,10.0)
-                curveTo(7.0,12.76142406463623,9.23857593536377,15.0,12.0,15.0)
+                moveTo(12.0f,15.0f)
+                curveTo(14.761424f,15.0f,17.0f,12.761424f,17.0f,10.0f)
+                curveTo(17.0f,8.0f,16.5f,6.0f,15.0f,2.0f)
+                lineTo(9.0f,2.0f)
+                curveTo(7.5f,6.0f,7.0f,8.0f,7.0f,10.0f)
+                curveTo(7.0f,12.761424f,9.238576f,15.0f,12.0f,15.0f)
                 close()
             }
 }

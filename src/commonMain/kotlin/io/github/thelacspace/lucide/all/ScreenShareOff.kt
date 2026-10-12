@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ScreenShareOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(13.0,3.0)
-                lineTo(4.0,3.0)
-                curveTo(2.895430564880371,3.0,2.0,3.895430564880371,2.0,5.0)
-                lineTo(2.0,15.0)
-                curveTo(2.0,16.104570388793945,2.895430564880371,17.0,4.0,17.0)
-                lineTo(20.0,17.0)
-                curveTo(21.104570388793945,17.0,22.0,16.104570388793945,22.0,15.0)
-                lineTo(22.0,12.0)
+                moveTo(13.0f,3.0f)
+                lineTo(4.0f,3.0f)
+                curveTo(2.8954306f,3.0f,2.0f,3.8954306f,2.0f,5.0f)
+                lineTo(2.0f,15.0f)
+                curveTo(2.0f,16.10457f,2.8954306f,17.0f,4.0f,17.0f)
+                lineTo(20.0f,17.0f)
+                curveTo(21.10457f,17.0f,22.0f,16.10457f,22.0f,15.0f)
+                lineTo(22.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,21.0)
-                lineTo(16.0,21.0)
+                moveTo(8.0f,21.0f)
+                lineTo(16.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,17.0)
-                lineTo(12.0,21.0)
+                moveTo(12.0f,17.0f)
+                lineTo(12.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,3.0)
-                lineTo(17.0,8.0)
+                moveTo(22.0f,3.0f)
+                lineTo(17.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,3.0)
-                lineTo(22.0,8.0)
+                moveTo(17.0f,3.0f)
+                lineTo(22.0f,8.0f)
             }
 }
 

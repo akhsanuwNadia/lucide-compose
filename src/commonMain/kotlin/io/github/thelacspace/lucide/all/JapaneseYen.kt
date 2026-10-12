@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("JapaneseYen") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,9.5)
-                lineTo(12.0,21.0)
-                moveTo(12.0,9.5)
-                lineTo(6.0,3.0)
-                moveTo(12.0,9.5)
-                lineTo(18.0,3.0)
+                moveTo(12.0f,9.5f)
+                lineTo(12.0f,21.0f)
+                moveTo(12.0f,9.5f)
+                lineTo(6.0f,3.0f)
+                moveTo(12.0f,9.5f)
+                lineTo(18.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,15.0)
-                lineTo(18.0,15.0)
+                moveTo(6.0f,15.0f)
+                lineTo(18.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,11.0)
-                lineTo(18.0,11.0)
+                moveTo(6.0f,11.0f)
+                lineTo(18.0f,11.0f)
             }
 }
 

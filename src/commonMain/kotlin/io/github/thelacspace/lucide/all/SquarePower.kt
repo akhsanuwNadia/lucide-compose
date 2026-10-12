@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquarePower") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,7.0)
-                lineTo(12.0,11.0)
+                moveTo(12.0f,7.0f)
+                lineTo(12.0f,11.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.998000144958496,9.003000259399414)
-                curveTo(6.452209949493408,11.066740989685059,6.7292704582214355,13.967531204223633,8.637773513793945,15.701345443725586)
-                curveTo(10.546276092529297,17.43515968322754,13.460267066955566,17.433338165283203,15.36660099029541,15.697139739990234)
-                curveTo(17.272933959960938,13.960941314697266,17.546369552612305,11.059806823730469,15.998000144958496,8.998000144958496)
+                moveTo(7.998f,9.003f)
+                curveTo(6.45221f,11.066741f,6.7292705f,13.967531f,8.6377735f,15.701345f)
+                curveTo(10.546276f,17.43516f,13.460267f,17.433338f,15.366601f,15.69714f)
+                curveTo(17.272934f,13.960941f,17.54637f,11.059807f,15.998f,8.998f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,3.0)
-                lineTo(19.0,3.0)
-                lineTo(21.0,3.0)
-                lineTo(21.0,21.0)
-                lineTo(19.0,21.0)
-                lineTo(5.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,3.0)
-                lineTo(5.0,3.0)
+                moveTo(5.0f,3.0f)
+                lineTo(19.0f,3.0f)
+                lineTo(21.0f,3.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(19.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(5.0f,3.0f)
                 close()
             }
 }

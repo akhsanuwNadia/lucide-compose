@@ -9,39 +9,39 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BriefcaseMedical") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,11.0)
-                lineTo(12.0,15.0)
+                moveTo(12.0f,11.0f)
+                lineTo(12.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,13.0)
-                lineTo(10.0,13.0)
+                moveTo(14.0f,13.0f)
+                lineTo(10.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,6.0)
-                lineTo(16.0,4.0)
-                curveTo(16.0,2.895430564880371,15.104569435119629,2.0,14.0,2.0)
-                lineTo(10.0,2.0)
-                curveTo(8.895430564880371,2.0,8.0,2.895430564880371,8.0,4.0)
-                lineTo(8.0,6.0)
+                moveTo(16.0f,6.0f)
+                lineTo(16.0f,4.0f)
+                curveTo(16.0f,2.8954306f,15.104569f,2.0f,14.0f,2.0f)
+                lineTo(10.0f,2.0f)
+                curveTo(8.895431f,2.0f,8.0f,2.8954306f,8.0f,4.0f)
+                lineTo(8.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,6.0)
-                lineTo(18.0,20.0)
+                moveTo(18.0f,6.0f)
+                lineTo(18.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,6.0)
-                lineTo(6.0,20.0)
+                moveTo(6.0f,6.0f)
+                lineTo(6.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(22.0,6.0)
-                lineTo(22.0,20.0)
-                lineTo(20.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(2.0,20.0)
-                lineTo(2.0,6.0)
-                lineTo(4.0,6.0)
+                moveTo(4.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(22.0f,6.0f)
+                lineTo(22.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(2.0f,20.0f)
+                lineTo(2.0f,6.0f)
+                lineTo(4.0f,6.0f)
                 close()
             }
 }

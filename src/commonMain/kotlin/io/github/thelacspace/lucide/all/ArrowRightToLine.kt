@@ -9,17 +9,17 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ArrowRightToLine") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17.0,12.0)
-                lineTo(3.0,12.0)
+                moveTo(17.0f,12.0f)
+                lineTo(3.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(11.0,18.0)
-                lineTo(17.0,12.0)
-                lineTo(11.0,6.0)
+                moveTo(11.0f,18.0f)
+                lineTo(17.0f,12.0f)
+                lineTo(11.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,5.0)
-                lineTo(21.0,19.0)
+                moveTo(21.0f,5.0f)
+                lineTo(21.0f,19.0f)
             }
 }
 

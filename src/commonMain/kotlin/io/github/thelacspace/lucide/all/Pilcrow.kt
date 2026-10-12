@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Pilcrow") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(13.0,4.0)
-                lineTo(13.0,20.0)
+                moveTo(13.0f,4.0f)
+                lineTo(13.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,4.0)
-                lineTo(17.0,20.0)
+                moveTo(17.0f,4.0f)
+                lineTo(17.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,4.0)
-                lineTo(9.5,4.0)
-                curveTo(7.022573947906494,4.01107931137085,5.020079612731934,6.022549152374268,5.020079612731934,8.5)
-                curveTo(5.020079612731934,10.977450370788574,7.022573947906494,12.988920211791992,9.5,13.0)
-                lineTo(13.0,13.0)
+                moveTo(19.0f,4.0f)
+                lineTo(9.5f,4.0f)
+                curveTo(7.022574f,4.0110793f,5.0200796f,6.022549f,5.0200796f,8.5f)
+                curveTo(5.0200796f,10.97745f,7.022574f,12.98892f,9.5f,13.0f)
+                lineTo(13.0f,13.0f)
             }
 }
 

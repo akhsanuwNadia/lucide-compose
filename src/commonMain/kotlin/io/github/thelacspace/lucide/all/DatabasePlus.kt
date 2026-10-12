@@ -9,27 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DatabasePlus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19.0,16.0)
-                lineTo(19.0,22.0)
+                moveTo(19.0f,16.0f)
+                lineTo(19.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,12.53600025177002)
-                lineTo(21.0,5.0)
+                moveTo(21.0f,12.536f)
+                lineTo(21.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,19.0)
-                lineTo(16.0,19.0)
+                moveTo(22.0f,19.0f)
+                lineTo(16.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,12.0)
-                curveTo(3.000088930130005,12.985325813293457,4.4517059326171875,13.907818794250488,6.88355016708374,14.467970848083496)
-                curveTo(9.315394401550293,15.028122901916504,12.417388916015625,15.154511451721191,15.18239974975586,14.806099891662598)
+                moveTo(3.0f,12.0f)
+                curveTo(3.000089f,12.985326f,4.451706f,13.907819f,6.88355f,14.467971f)
+                curveTo(9.315394f,15.028123f,12.417389f,15.154511f,15.1824f,14.8061f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,5.0)
-                lineTo(3.0,19.0)
-                curveTo(2.9997000694274902,19.872392654418945,4.138664245605469,20.701618194580078,6.120068550109863,21.271574020385742)
-                curveTo(8.101473808288574,21.84153175354004,10.72903823852539,22.09575653076172,13.317999839782715,21.968000411987305)
+                moveTo(3.0f,5.0f)
+                lineTo(3.0f,19.0f)
+                curveTo(2.9997f,19.872393f,4.1386642f,20.701618f,6.1200686f,21.271574f)
+                curveTo(8.101474f,21.841532f,10.729038f,22.095757f,13.318f,21.968f)
             }
 }
 

@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BetweenVerticalStart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,8.0)
-                lineTo(9.0,8.0)
-                lineTo(10.0,8.0)
-                lineTo(10.0,21.0)
-                lineTo(9.0,21.0)
-                lineTo(4.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,8.0)
-                lineTo(4.0,8.0)
+                moveTo(4.0f,8.0f)
+                lineTo(9.0f,8.0f)
+                lineTo(10.0f,8.0f)
+                lineTo(10.0f,21.0f)
+                lineTo(9.0f,21.0f)
+                lineTo(4.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,8.0f)
+                lineTo(4.0f,8.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,2.0)
-                lineTo(12.0,5.0)
-                lineTo(9.0,2.0)
+                moveTo(15.0f,2.0f)
+                lineTo(12.0f,5.0f)
+                lineTo(9.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,8.0)
-                lineTo(20.0,8.0)
-                lineTo(21.0,8.0)
-                lineTo(21.0,21.0)
-                lineTo(20.0,21.0)
-                lineTo(15.0,21.0)
-                lineTo(14.0,21.0)
-                lineTo(14.0,8.0)
-                lineTo(15.0,8.0)
+                moveTo(15.0f,8.0f)
+                lineTo(20.0f,8.0f)
+                lineTo(21.0f,8.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(20.0f,21.0f)
+                lineTo(15.0f,21.0f)
+                lineTo(14.0f,21.0f)
+                lineTo(14.0f,8.0f)
+                lineTo(15.0f,8.0f)
                 close()
             }
 }

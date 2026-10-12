@@ -9,27 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Gavel") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.0,13.0)
-                lineTo(5.619000434875488,21.380001068115234)
-                curveTo(4.789497375488281,22.202392578125,3.4512858390808105,22.199623107910156,2.6251935958862305,21.37380599975586)
-                curveTo(1.7991015911102295,20.547988891601562,1.7958862781524658,19.20977783203125,2.6180005073547363,18.380001068115234)
-                lineTo(11.00200080871582,9.999001502990723)
+                moveTo(14.0f,13.0f)
+                lineTo(5.6190004f,21.380001f)
+                curveTo(4.7894974f,22.202393f,3.4512858f,22.199623f,2.6251936f,21.373806f)
+                curveTo(1.7991016f,20.547989f,1.7958863f,19.209778f,2.6180005f,18.380001f)
+                lineTo(11.002001f,9.9990015f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,16.0)
-                lineTo(22.0,10.0)
+                moveTo(16.0f,16.0f)
+                lineTo(22.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.5,10.5)
-                lineTo(13.5,2.5)
+                moveTo(21.5f,10.5f)
+                lineTo(13.5f,2.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,8.0)
-                lineTo(14.0,2.0)
+                moveTo(8.0f,8.0f)
+                lineTo(14.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5,7.5)
-                lineTo(16.5,15.5)
+                moveTo(8.5f,7.5f)
+                lineTo(16.5f,15.5f)
             }
 }
 

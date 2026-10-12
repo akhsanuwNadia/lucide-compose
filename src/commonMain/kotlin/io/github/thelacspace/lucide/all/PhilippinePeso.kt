@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PhilippinePeso") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(20.0,11.0)
-                lineTo(4.0,11.0)
+                moveTo(20.0f,11.0f)
+                lineTo(4.0f,11.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,7.0)
-                lineTo(4.0,7.0)
+                moveTo(20.0f,7.0f)
+                lineTo(4.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,21.0)
-                lineTo(7.0,4.0)
-                curveTo(7.0,3.4477152824401855,7.4477152824401855,3.0,8.0,3.0)
-                lineTo(12.0,3.0)
-                curveTo(15.303234100341797,3.014772653579712,17.97322654724121,5.696732521057129,17.97322654724121,9.0)
-                curveTo(17.97322654724121,12.303267478942871,15.303234100341797,14.985227584838867,12.0,15.0)
-                lineTo(7.0,15.0)
+                moveTo(7.0f,21.0f)
+                lineTo(7.0f,4.0f)
+                curveTo(7.0f,3.4477153f,7.4477153f,3.0f,8.0f,3.0f)
+                lineTo(12.0f,3.0f)
+                curveTo(15.303234f,3.0147727f,17.973227f,5.6967325f,17.973227f,9.0f)
+                curveTo(17.973227f,12.3032675f,15.303234f,14.985228f,12.0f,15.0f)
+                lineTo(7.0f,15.0f)
             }
 }
 

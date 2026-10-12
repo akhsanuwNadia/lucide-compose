@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LibraryBig") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(10.0,3.0)
-                lineTo(11.0,3.0)
-                lineTo(11.0,21.0)
-                lineTo(10.0,21.0)
-                lineTo(4.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,3.0)
-                lineTo(4.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(10.0f,3.0f)
+                lineTo(11.0f,3.0f)
+                lineTo(11.0f,21.0f)
+                lineTo(10.0f,21.0f)
+                lineTo(4.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(4.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,3.0)
-                lineTo(7.0,21.0)
+                moveTo(7.0f,3.0f)
+                lineTo(7.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.399999618530273,18.899999618530273)
-                curveTo(20.600000381469727,19.399999618530273,20.299999237060547,20.0,19.799999237060547,20.19999885559082)
-                lineTo(17.899999618530273,20.899999618530273)
-                curveTo(17.399999618530273,21.100000381469727,16.799999237060547,20.799999237060547,16.600000381469727,20.299999237060547)
-                lineTo(11.100000381469727,5.099999904632568)
-                curveTo(10.90000057220459,4.599999904632568,11.200000762939453,4.0,11.700000762939453,3.799999952316284)
-                lineTo(13.600000381469727,3.0999999046325684)
-                curveTo(14.100000381469727,2.8999998569488525,14.700000762939453,3.1999998092651367,14.90000057220459,3.6999998092651367)
+                moveTo(20.4f,18.9f)
+                curveTo(20.6f,19.4f,20.3f,20.0f,19.8f,20.199999f)
+                lineTo(17.9f,20.9f)
+                curveTo(17.4f,21.1f,16.8f,20.8f,16.6f,20.3f)
+                lineTo(11.1f,5.1f)
+                curveTo(10.900001f,4.6f,11.200001f,4.0f,11.700001f,3.8f)
+                lineTo(13.6f,3.1f)
+                curveTo(14.1f,2.8999999f,14.700001f,3.1999998f,14.900001f,3.6999998f)
                 close()
             }
 }

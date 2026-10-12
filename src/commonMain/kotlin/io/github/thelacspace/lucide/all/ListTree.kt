@@ -9,27 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListTree") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,5.0)
-                lineTo(21.0,5.0)
+                moveTo(8.0f,5.0f)
+                lineTo(21.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(13.0,12.0)
-                lineTo(21.0,12.0)
+                moveTo(13.0f,12.0f)
+                lineTo(21.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(13.0,19.0)
-                lineTo(21.0,19.0)
+                moveTo(13.0f,19.0f)
+                lineTo(21.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,10.0)
-                curveTo(3.0,11.104569435119629,3.895430564880371,12.0,5.0,12.0)
-                lineTo(8.0,12.0)
+                moveTo(3.0f,10.0f)
+                curveTo(3.0f,11.104569f,3.8954306f,12.0f,5.0f,12.0f)
+                lineTo(8.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,5.0)
-                lineTo(3.0,17.0)
-                curveTo(3.0,18.104570388793945,3.895430564880371,19.0,5.0,19.0)
-                lineTo(8.0,19.0)
+                moveTo(3.0f,5.0f)
+                lineTo(3.0f,17.0f)
+                curveTo(3.0f,18.10457f,3.8954306f,19.0f,5.0f,19.0f)
+                lineTo(8.0f,19.0f)
             }
 }
 

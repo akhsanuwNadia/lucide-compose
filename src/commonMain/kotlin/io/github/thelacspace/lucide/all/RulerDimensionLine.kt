@@ -9,43 +9,43 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RulerDimensionLine") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,15.0)
-                lineTo(10.0,12.0)
+                moveTo(10.0f,15.0f)
+                lineTo(10.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,15.0)
-                lineTo(14.0,12.0)
+                moveTo(14.0f,15.0f)
+                lineTo(14.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,15.0)
-                lineTo(18.0,12.0)
+                moveTo(18.0f,15.0f)
+                lineTo(18.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,8.0)
-                lineTo(2.0,4.0)
+                moveTo(2.0f,8.0f)
+                lineTo(2.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,6.0)
-                lineTo(2.0,6.0)
+                moveTo(22.0f,6.0f)
+                lineTo(2.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,8.0)
-                lineTo(22.0,4.0)
+                moveTo(22.0f,8.0f)
+                lineTo(22.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,15.0)
-                lineTo(6.0,12.0)
+                moveTo(6.0f,15.0f)
+                lineTo(6.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,12.0)
-                lineTo(20.0,12.0)
-                lineTo(22.0,12.0)
-                lineTo(22.0,20.0)
-                lineTo(20.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(2.0,20.0)
-                lineTo(2.0,12.0)
-                lineTo(4.0,12.0)
+                moveTo(4.0f,12.0f)
+                lineTo(20.0f,12.0f)
+                lineTo(22.0f,12.0f)
+                lineTo(22.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(2.0f,20.0f)
+                lineTo(2.0f,12.0f)
+                lineTo(4.0f,12.0f)
                 close()
             }
 }

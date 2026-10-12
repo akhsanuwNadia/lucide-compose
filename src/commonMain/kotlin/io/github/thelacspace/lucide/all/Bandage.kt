@@ -9,39 +9,39 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bandage") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,10.010000228881836)
-                lineTo(10.010000228881836,10.010000228881836)
+                moveTo(10.0f,10.01f)
+                lineTo(10.01f,10.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,14.010000228881836)
-                lineTo(10.010000228881836,14.010000228881836)
+                moveTo(10.0f,14.01f)
+                lineTo(10.01f,14.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,10.010000228881836)
-                lineTo(14.010000228881836,10.010000228881836)
+                moveTo(14.0f,10.01f)
+                lineTo(14.01f,10.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,14.010000228881836)
-                lineTo(14.010000228881836,14.010000228881836)
+                moveTo(14.0f,14.01f)
+                lineTo(14.01f,14.01f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,6.0)
-                lineTo(18.0,18.0)
+                moveTo(18.0f,6.0f)
+                lineTo(18.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,6.0)
-                lineTo(6.0,18.0)
+                moveTo(6.0f,6.0f)
+                lineTo(6.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(22.0,6.0)
-                lineTo(22.0,18.0)
-                lineTo(20.0,18.0)
-                lineTo(4.0,18.0)
-                lineTo(2.0,18.0)
-                lineTo(2.0,6.0)
-                lineTo(4.0,6.0)
+                moveTo(4.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(22.0f,6.0f)
+                lineTo(22.0f,18.0f)
+                lineTo(20.0f,18.0f)
+                lineTo(4.0f,18.0f)
+                lineTo(2.0f,18.0f)
+                lineTo(2.0f,6.0f)
+                lineTo(4.0f,6.0f)
                 close()
             }
 }

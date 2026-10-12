@@ -9,47 +9,47 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MicAudioLines") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,3.0)
-                lineTo(10.0,5.341000080108643)
+                moveTo(10.0f,3.0f)
+                lineTo(10.0f,5.341f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,17.0)
-                lineTo(12.0,21.0)
+                moveTo(12.0f,17.0f)
+                lineTo(12.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,5.0)
-                lineTo(14.0,5.341000080108643)
+                moveTo(14.0f,5.0f)
+                lineTo(14.0f,5.341f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,5.0)
-                lineTo(18.0,18.0)
+                moveTo(18.0f,5.0f)
+                lineTo(18.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,10.0)
-                lineTo(2.0,13.0)
+                moveTo(2.0f,10.0f)
+                lineTo(2.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,10.0)
-                lineTo(22.0,13.0)
+                moveTo(22.0f,10.0f)
+                lineTo(22.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,6.0)
-                lineTo(6.0,17.0)
+                moveTo(6.0f,6.0f)
+                lineTo(6.0f,17.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,21.0)
-                lineTo(15.0,21.0)
+                moveTo(9.0f,21.0f)
+                lineTo(15.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,9.0)
-                lineTo(12.0,9.0)
-                lineTo(14.0,9.0)
-                lineTo(14.0,17.0)
-                lineTo(12.0,17.0)
-                lineTo(12.0,17.0)
-                lineTo(10.0,17.0)
-                lineTo(10.0,9.0)
-                lineTo(12.0,9.0)
+                moveTo(12.0f,9.0f)
+                lineTo(12.0f,9.0f)
+                lineTo(14.0f,9.0f)
+                lineTo(14.0f,17.0f)
+                lineTo(12.0f,17.0f)
+                lineTo(12.0f,17.0f)
+                lineTo(10.0f,17.0f)
+                lineTo(10.0f,9.0f)
+                lineTo(12.0f,9.0f)
                 close()
             }
 }

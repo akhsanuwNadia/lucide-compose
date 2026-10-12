@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ListCollapse") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,5.0)
-                lineTo(21.0,5.0)
+                moveTo(10.0f,5.0f)
+                lineTo(21.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,12.0)
-                lineTo(21.0,12.0)
+                moveTo(10.0f,12.0f)
+                lineTo(21.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,19.0)
-                lineTo(21.0,19.0)
+                moveTo(10.0f,19.0f)
+                lineTo(21.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,10.0)
-                lineTo(6.0,7.0)
-                lineTo(3.0,4.0)
+                moveTo(3.0f,10.0f)
+                lineTo(6.0f,7.0f)
+                lineTo(3.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,20.0)
-                lineTo(6.0,17.0)
-                lineTo(3.0,14.0)
+                moveTo(3.0f,20.0f)
+                lineTo(6.0f,17.0f)
+                lineTo(3.0f,14.0f)
             }
 }
 

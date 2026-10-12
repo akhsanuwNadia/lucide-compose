@@ -9,34 +9,34 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CalendarOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,2.0)
-                lineTo(16.0,5.0)
+                moveTo(16.0f,2.0f)
+                lineTo(16.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(22.0,22.0)
+                moveTo(2.0f,2.0f)
+                lineTo(22.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,9.0)
-                lineTo(15.5,9.0)
+                moveTo(21.0f,9.0f)
+                lineTo(15.5f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,9.0)
-                lineTo(9.0,9.0)
+                moveTo(3.0f,9.0f)
+                lineTo(9.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.5859999656677246,3.5859999656677246)
-                curveTo(3.2109012603759766,3.9609854221343994,3.0001132488250732,4.469610214233398,3.0,5.0)
-                lineTo(3.0,19.0)
-                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
-                lineTo(19.0,21.0)
-                curveTo(19.5303897857666,20.99988555908203,20.03901481628418,20.789098739624023,20.413999557495117,20.413999557495117)
+                moveTo(3.586f,3.586f)
+                curveTo(3.2109013f,3.9609854f,3.0001132f,4.46961f,3.0f,5.0f)
+                lineTo(3.0f,19.0f)
+                curveTo(3.0f,20.10457f,3.8954306f,21.0f,5.0f,21.0f)
+                lineTo(19.0f,21.0f)
+                curveTo(19.53039f,20.999886f,20.039015f,20.789099f,20.414f,20.414f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.656000137329102,3.0)
-                lineTo(19.0,3.0)
-                curveTo(20.104570388793945,3.0,21.0,3.895430564880371,21.0,5.0)
-                lineTo(21.0,15.343999862670898)
+                moveTo(8.656f,3.0f)
+                lineTo(19.0f,3.0f)
+                curveTo(20.10457f,3.0f,21.0f,3.8954306f,21.0f,5.0f)
+                lineTo(21.0f,15.344f)
             }
 }
 

@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WavesArrowUp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,10.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,15.0)
-                curveTo(2.5999999046325684,15.5,3.200000047683716,16.0,4.5,16.0)
-                curveTo(7.0,16.0,7.0,14.0,9.5,14.0)
-                curveTo(12.100000381469727,14.0,11.899999618530273,16.0,14.5,16.0)
-                curveTo(17.0,16.0,17.0,14.0,19.5,14.0)
-                curveTo(20.799999237060547,14.0,21.399999618530273,14.5,22.0,15.0)
+                moveTo(2.0f,15.0f)
+                curveTo(2.6f,15.5f,3.2f,16.0f,4.5f,16.0f)
+                curveTo(7.0f,16.0f,7.0f,14.0f,9.5f,14.0f)
+                curveTo(12.1f,14.0f,11.9f,16.0f,14.5f,16.0f)
+                curveTo(17.0f,16.0f,17.0f,14.0f,19.5f,14.0f)
+                curveTo(20.8f,14.0f,21.4f,14.5f,22.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,21.0)
-                curveTo(2.5999999046325684,21.5,3.200000047683716,22.0,4.5,22.0)
-                curveTo(7.0,22.0,7.0,20.0,9.5,20.0)
-                curveTo(12.100000381469727,20.0,11.899999618530273,22.0,14.5,22.0)
-                curveTo(17.0,22.0,17.0,20.0,19.5,20.0)
-                curveTo(20.799999237060547,20.0,21.399999618530273,20.5,22.0,21.0)
+                moveTo(2.0f,21.0f)
+                curveTo(2.6f,21.5f,3.2f,22.0f,4.5f,22.0f)
+                curveTo(7.0f,22.0f,7.0f,20.0f,9.5f,20.0f)
+                curveTo(12.1f,20.0f,11.9f,22.0f,14.5f,22.0f)
+                curveTo(17.0f,22.0f,17.0f,20.0f,19.5f,20.0f)
+                curveTo(20.8f,20.0f,21.4f,20.5f,22.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,6.0)
-                lineTo(12.0,2.0)
-                lineTo(16.0,6.0)
+                moveTo(8.0f,6.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(16.0f,6.0f)
             }
 }
 

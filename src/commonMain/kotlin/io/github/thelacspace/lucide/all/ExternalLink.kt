@@ -9,23 +9,23 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ExternalLink") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,3.0)
-                lineTo(21.0,3.0)
-                lineTo(21.0,9.0)
+                moveTo(15.0f,3.0f)
+                lineTo(21.0f,3.0f)
+                lineTo(21.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,14.0)
-                lineTo(21.0,3.0)
+                moveTo(10.0f,14.0f)
+                lineTo(21.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,13.0)
-                lineTo(18.0,19.0)
-                curveTo(18.0,20.104570388793945,17.104570388793945,21.0,16.0,21.0)
-                lineTo(5.0,21.0)
-                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
-                lineTo(3.0,8.0)
-                curveTo(3.0,6.895430564880371,3.895430564880371,6.0,5.0,6.0)
-                lineTo(11.0,6.0)
+                moveTo(18.0f,13.0f)
+                lineTo(18.0f,19.0f)
+                curveTo(18.0f,20.10457f,17.10457f,21.0f,16.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                curveTo(3.8954306f,21.0f,3.0f,20.10457f,3.0f,19.0f)
+                lineTo(3.0f,8.0f)
+                curveTo(3.0f,6.8954306f,3.8954306f,6.0f,5.0f,6.0f)
+                lineTo(11.0f,6.0f)
             }
 }
 

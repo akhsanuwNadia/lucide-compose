@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PanelLeftClose") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0,3.0)
-                lineTo(19.0,3.0)
-                lineTo(21.0,3.0)
-                lineTo(21.0,21.0)
-                lineTo(19.0,21.0)
-                lineTo(5.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,3.0)
-                lineTo(5.0,3.0)
+                moveTo(5.0f,3.0f)
+                lineTo(19.0f,3.0f)
+                lineTo(21.0f,3.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(19.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(5.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,3.0)
-                lineTo(9.0,21.0)
+                moveTo(9.0f,3.0f)
+                lineTo(9.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,15.0)
-                lineTo(13.0,12.0)
-                lineTo(16.0,9.0)
+                moveTo(16.0f,15.0f)
+                lineTo(13.0f,12.0f)
+                lineTo(16.0f,9.0f)
             }
 }
 

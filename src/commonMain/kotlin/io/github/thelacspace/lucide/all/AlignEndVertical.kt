@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignEndVertical") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,4.0)
-                lineTo(16.0,4.0)
-                lineTo(18.0,4.0)
-                lineTo(18.0,10.0)
-                lineTo(16.0,10.0)
-                lineTo(4.0,10.0)
-                lineTo(2.0,10.0)
-                lineTo(2.0,4.0)
-                lineTo(4.0,4.0)
+                moveTo(4.0f,4.0f)
+                lineTo(16.0f,4.0f)
+                lineTo(18.0f,4.0f)
+                lineTo(18.0f,10.0f)
+                lineTo(16.0f,10.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(2.0f,10.0f)
+                lineTo(2.0f,4.0f)
+                lineTo(4.0f,4.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(11.0,14.0)
-                lineTo(16.0,14.0)
-                lineTo(18.0,14.0)
-                lineTo(18.0,20.0)
-                lineTo(16.0,20.0)
-                lineTo(11.0,20.0)
-                lineTo(9.0,20.0)
-                lineTo(9.0,14.0)
-                lineTo(11.0,14.0)
+                moveTo(11.0f,14.0f)
+                lineTo(16.0f,14.0f)
+                lineTo(18.0f,14.0f)
+                lineTo(18.0f,20.0f)
+                lineTo(16.0f,20.0f)
+                lineTo(11.0f,20.0f)
+                lineTo(9.0f,20.0f)
+                lineTo(9.0f,14.0f)
+                lineTo(11.0f,14.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,22.0)
-                lineTo(22.0,2.0)
+                moveTo(22.0f,22.0f)
+                lineTo(22.0f,2.0f)
             }
 }
 

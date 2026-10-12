@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Mouse") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,2.0)
-                lineTo(19.0,2.0)
-                lineTo(19.0,22.0)
-                lineTo(12.0,22.0)
-                lineTo(12.0,22.0)
-                lineTo(5.0,22.0)
-                lineTo(5.0,2.0)
-                lineTo(12.0,2.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(19.0f,2.0f)
+                lineTo(19.0f,22.0f)
+                lineTo(12.0f,22.0f)
+                lineTo(12.0f,22.0f)
+                lineTo(5.0f,22.0f)
+                lineTo(5.0f,2.0f)
+                lineTo(12.0f,2.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,6.0)
-                lineTo(12.0,10.0)
+                moveTo(12.0f,6.0f)
+                lineTo(12.0f,10.0f)
             }
 }
 

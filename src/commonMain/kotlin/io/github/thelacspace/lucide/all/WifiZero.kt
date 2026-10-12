@@ -9,8 +9,8 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WifiZero") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,20.0)
-                lineTo(12.010000228881836,20.0)
+                moveTo(12.0f,20.0f)
+                lineTo(12.01f,20.0f)
             }
 }
 

@@ -196,14 +196,14 @@ class LucideGenerator(
         val iterator = shape.getPathIterator(null)
 
         while (!iterator.isDone) {
-            val pathRaw = DoubleArray(6)
+            val pathRaw = FloatArray(6)
             val idx = iterator.currentSegment(pathRaw)
 
             when(idx){
-                PathIterator.SEG_MOVETO -> sb.append("moveTo(${pathRaw[0]},${pathRaw[1]})\n")
-                PathIterator.SEG_LINETO -> sb.append("lineTo(${pathRaw[0]},${pathRaw[1]})\n")
-                PathIterator.SEG_QUADTO -> sb.append("quadTo(${pathRaw[0]},${pathRaw[1]},${pathRaw[2]},${pathRaw[3]})\n")
-                PathIterator.SEG_CUBICTO -> sb.append("curveTo(${pathRaw[0]},${pathRaw[1]},${pathRaw[2]},${pathRaw[3]},${pathRaw[4]},${pathRaw[5]})\n")
+                PathIterator.SEG_MOVETO -> sb.append("moveTo(${pathRaw[0]}f,${pathRaw[1]}f)\n")
+                PathIterator.SEG_LINETO -> sb.append("lineTo(${pathRaw[0]}f,${pathRaw[1]}f)\n")
+                PathIterator.SEG_QUADTO -> sb.append("quadTo(${pathRaw[0]}f,${pathRaw[1]}f,${pathRaw[2]}f,${pathRaw[3]}f)\n")
+                PathIterator.SEG_CUBICTO -> sb.append("curveTo(${pathRaw[0]}f,${pathRaw[1]}f,${pathRaw[2]}f,${pathRaw[3]}f,${pathRaw[4]}f,${pathRaw[5]}f)\n")
                 PathIterator.SEG_CLOSE -> sb.append("close()\n")
                 else -> {}
             }

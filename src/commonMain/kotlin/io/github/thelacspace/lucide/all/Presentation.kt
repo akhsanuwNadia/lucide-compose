@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Presentation") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,3.0)
-                lineTo(22.0,3.0)
+                moveTo(2.0f,3.0f)
+                lineTo(22.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,3.0)
-                lineTo(21.0,14.0)
-                curveTo(21.0,15.104569435119629,20.104570388793945,16.0,19.0,16.0)
-                lineTo(5.0,16.0)
-                curveTo(3.895430564880371,16.0,3.0,15.104569435119629,3.0,14.0)
-                lineTo(3.0,3.0)
+                moveTo(21.0f,3.0f)
+                lineTo(21.0f,14.0f)
+                curveTo(21.0f,15.104569f,20.10457f,16.0f,19.0f,16.0f)
+                lineTo(5.0f,16.0f)
+                curveTo(3.8954306f,16.0f,3.0f,15.104569f,3.0f,14.0f)
+                lineTo(3.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,21.0)
-                lineTo(12.0,16.0)
-                lineTo(17.0,21.0)
+                moveTo(7.0f,21.0f)
+                lineTo(12.0f,16.0f)
+                lineTo(17.0f,21.0f)
             }
 }
 

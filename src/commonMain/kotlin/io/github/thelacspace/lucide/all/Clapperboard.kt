@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Clapperboard") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.295999526977539,3.4639999866485596)
-                lineTo(15.315999984741211,7.420000076293945)
+                moveTo(12.296f,3.464f)
+                lineTo(15.316f,7.42f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.200000762939453,6.0)
-                lineTo(3.0,11.0)
-                lineTo(2.0999999046325684,8.600000381469727)
-                curveTo(1.7999999523162842,7.500000476837158,2.3999998569488525,6.40000057220459,3.3999998569488525,6.100000381469727)
-                lineTo(16.899999618530273,2.1000003814697266)
-                curveTo(18.0,1.8000004291534424,19.100000381469727,2.4000003337860107,19.399999618530273,3.4000003337860107)
+                moveTo(20.2f,6.0f)
+                lineTo(3.0f,11.0f)
+                lineTo(2.1f,8.6f)
+                curveTo(1.8f,7.5000005f,2.3999999f,6.4000006f,3.3999999f,6.1000004f)
+                lineTo(16.9f,2.1000004f)
+                curveTo(18.0f,1.8000004f,19.1f,2.4000003f,19.4f,3.4000003f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,11.0)
-                lineTo(21.0,11.0)
-                lineTo(21.0,19.0)
-                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
-                lineTo(5.0,21.0)
-                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
+                moveTo(3.0f,11.0f)
+                lineTo(21.0f,11.0f)
+                lineTo(21.0f,19.0f)
+                curveTo(21.0f,20.10457f,20.10457f,21.0f,19.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                curveTo(3.8954306f,21.0f,3.0f,20.10457f,3.0f,19.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6.179999828338623,5.276000022888184)
-                lineTo(9.279999732971191,9.175000190734863)
+                moveTo(6.18f,5.276f)
+                lineTo(9.28f,9.175f)
             }
 }
 

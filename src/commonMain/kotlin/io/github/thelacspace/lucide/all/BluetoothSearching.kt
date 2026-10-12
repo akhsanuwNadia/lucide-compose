@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BluetoothSearching") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0,7.0)
-                lineTo(17.0,17.0)
-                lineTo(12.0,22.0)
-                lineTo(12.0,2.0)
-                lineTo(17.0,7.0)
-                lineTo(7.0,17.0)
+                moveTo(7.0f,7.0f)
+                lineTo(17.0f,17.0f)
+                lineTo(12.0f,22.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(17.0f,7.0f)
+                lineTo(7.0f,17.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.829999923706055,14.829999923706055)
-                curveTo(21.58110809326172,14.079727172851562,22.00314712524414,13.061636924743652,22.00314712524414,12.0)
-                curveTo(22.00314712524414,10.938363075256348,21.58110809326172,9.920272827148438,20.829999923706055,9.170000076293945)
+                moveTo(20.83f,14.83f)
+                curveTo(21.581108f,14.079727f,22.003147f,13.061637f,22.003147f,12.0f)
+                curveTo(22.003147f,10.938363f,21.581108f,9.920273f,20.83f,9.17f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,12.0)
-                lineTo(18.010000228881836,12.0)
+                moveTo(18.0f,12.0f)
+                lineTo(18.01f,12.0f)
             }
 }
 

@@ -9,13 +9,13 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Terminal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,19.0)
-                lineTo(20.0,19.0)
+                moveTo(12.0f,19.0f)
+                lineTo(20.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,17.0)
-                lineTo(10.0,11.0)
-                lineTo(4.0,5.0)
+                moveTo(4.0f,17.0f)
+                lineTo(10.0f,11.0f)
+                lineTo(4.0f,5.0f)
             }
 }
 

@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AppWindowMac") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,4.0)
-                lineTo(20.0,4.0)
-                lineTo(22.0,4.0)
-                lineTo(22.0,20.0)
-                lineTo(20.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(2.0,20.0)
-                lineTo(2.0,4.0)
-                lineTo(4.0,4.0)
+                moveTo(4.0f,4.0f)
+                lineTo(20.0f,4.0f)
+                lineTo(22.0f,4.0f)
+                lineTo(22.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(2.0f,20.0f)
+                lineTo(2.0f,4.0f)
+                lineTo(4.0f,4.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,8.0)
-                lineTo(6.010000228881836,8.0)
+                moveTo(6.0f,8.0f)
+                lineTo(6.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,8.0)
-                lineTo(10.010000228881836,8.0)
+                moveTo(10.0f,8.0f)
+                lineTo(10.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,8.0)
-                lineTo(14.010000228881836,8.0)
+                moveTo(14.0f,8.0f)
+                lineTo(14.01f,8.0f)
             }
 }
 

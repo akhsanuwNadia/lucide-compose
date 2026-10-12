@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TextAlignStart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21.0,5.0)
-                lineTo(3.0,5.0)
+                moveTo(21.0f,5.0f)
+                lineTo(3.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,12.0)
-                lineTo(3.0,12.0)
+                moveTo(15.0f,12.0f)
+                lineTo(3.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,19.0)
-                lineTo(3.0,19.0)
+                moveTo(17.0f,19.0f)
+                lineTo(3.0f,19.0f)
             }
 }
 

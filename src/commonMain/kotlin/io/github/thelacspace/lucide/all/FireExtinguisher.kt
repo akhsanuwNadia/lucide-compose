@@ -9,38 +9,38 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FireExtinguisher") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,6.5)
-                lineTo(15.0,3.0)
-                curveTo(15.0,2.4477152824401855,14.552285194396973,2.0,14.0,2.0)
-                lineTo(12.0,2.0)
-                curveTo(11.447714805603027,2.0,11.0,2.4477152824401855,11.0,3.0)
-                lineTo(11.0,6.5)
+                moveTo(15.0f,6.5f)
+                lineTo(15.0f,3.0f)
+                curveTo(15.0f,2.4477153f,14.552285f,2.0f,14.0f,2.0f)
+                lineTo(12.0f,2.0f)
+                curveTo(11.447715f,2.0f,11.0f,2.4477153f,11.0f,3.0f)
+                lineTo(11.0f,6.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,18.0)
-                lineTo(17.0,18.0)
+                moveTo(9.0f,18.0f)
+                lineTo(17.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,3.0)
-                lineTo(15.0,3.0)
+                moveTo(18.0f,3.0f)
+                lineTo(15.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(11.0,3.0)
-                curveTo(7.686291694641113,3.0,5.0,5.686291694641113,5.0,9.0)
-                lineTo(5.0,20.0)
+                moveTo(11.0f,3.0f)
+                curveTo(7.6862917f,3.0f,5.0f,5.6862917f,5.0f,9.0f)
+                lineTo(5.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,13.0)
-                lineTo(9.0,13.0)
+                moveTo(5.0f,13.0f)
+                lineTo(9.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,10.0)
-                curveTo(16.99015235900879,7.7978434562683105,15.202178001403809,6.017848491668701,13.0,6.017848491668701)
-                curveTo(10.797821998596191,6.017848491668701,9.009848594665527,7.7978434562683105,9.0,10.0)
-                lineTo(9.0,20.0)
-                curveTo(9.0,21.104570388793945,9.895430564880371,22.0,11.0,22.0)
-                lineTo(15.0,22.0)
-                curveTo(16.104570388793945,22.0,17.0,21.104570388793945,17.0,20.0)
+                moveTo(17.0f,10.0f)
+                curveTo(16.990152f,7.7978435f,15.202178f,6.0178485f,13.0f,6.0178485f)
+                curveTo(10.797822f,6.0178485f,9.009849f,7.7978435f,9.0f,10.0f)
+                lineTo(9.0f,20.0f)
+                curveTo(9.0f,21.10457f,9.895431f,22.0f,11.0f,22.0f)
+                lineTo(15.0f,22.0f)
+                curveTo(16.10457f,22.0f,17.0f,21.10457f,17.0f,20.0f)
                 close()
             }
 }

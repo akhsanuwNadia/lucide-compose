@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Redo2") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,14.0)
-                lineTo(20.0,9.0)
-                lineTo(15.0,4.0)
+                moveTo(15.0f,14.0f)
+                lineTo(20.0f,9.0f)
+                lineTo(15.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,9.0)
-                lineTo(9.5,9.0)
-                curveTo(6.462433815002441,9.0,4.0,11.462433815002441,4.0,14.5)
-                curveTo(4.0,17.537565231323242,6.462433815002441,20.0,9.5,20.0)
-                lineTo(13.0,20.0)
+                moveTo(20.0f,9.0f)
+                lineTo(9.5f,9.0f)
+                curveTo(6.462434f,9.0f,4.0f,11.462434f,4.0f,14.5f)
+                curveTo(4.0f,17.537565f,6.462434f,20.0f,9.5f,20.0f)
+                lineTo(13.0f,20.0f)
             }
 }
 

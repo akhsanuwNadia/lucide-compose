@@ -9,11 +9,11 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Egg") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                curveTo(8.0,2.0,4.0,8.0,4.0,14.0)
-                curveTo(4.0196967124938965,18.404312133789062,7.595643043518066,21.96430206298828,12.0,21.96430206298828)
-                curveTo(16.404356002807617,21.96430206298828,19.980302810668945,18.404312133789062,20.0,14.0)
-                curveTo(20.0,8.0,16.0,2.0,12.0,2.0)
+                moveTo(12.0f,2.0f)
+                curveTo(8.0f,2.0f,4.0f,8.0f,4.0f,14.0f)
+                curveTo(4.0196967f,18.404312f,7.595643f,21.964302f,12.0f,21.964302f)
+                curveTo(16.404356f,21.964302f,19.980303f,18.404312f,20.0f,14.0f)
+                curveTo(20.0f,8.0f,16.0f,2.0f,12.0f,2.0f)
             }
 }
 

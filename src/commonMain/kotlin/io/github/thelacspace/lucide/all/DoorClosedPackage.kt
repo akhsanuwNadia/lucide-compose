@@ -9,35 +9,35 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DoorClosedPackage") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18.0,13.0)
-                lineTo(18.0,16.0)
+                moveTo(18.0f,13.0f)
+                lineTo(18.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,9.0)
-                lineTo(19.0,5.0)
-                curveTo(19.0,3.895430564880371,18.104570388793945,3.0,17.0,3.0)
-                lineTo(7.0,3.0)
-                curveTo(5.895430564880371,3.0,5.0,3.895430564880371,5.0,5.0)
-                lineTo(5.0,21.0)
+                moveTo(19.0f,9.0f)
+                lineTo(19.0f,5.0f)
+                curveTo(19.0f,3.8954306f,18.10457f,3.0f,17.0f,3.0f)
+                lineTo(7.0f,3.0f)
+                curveTo(5.8954306f,3.0f,5.0f,3.8954306f,5.0f,5.0f)
+                lineTo(5.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,21.0)
-                lineTo(10.0,21.0)
+                moveTo(2.0f,21.0f)
+                lineTo(10.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,12.0)
-                lineTo(9.010000228881836,12.0)
+                moveTo(9.0f,12.0f)
+                lineTo(9.01f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,13.0)
-                lineTo(21.0,13.0)
-                lineTo(22.0,13.0)
-                lineTo(22.0,21.0)
-                lineTo(21.0,21.0)
-                lineTo(15.0,21.0)
-                lineTo(14.0,21.0)
-                lineTo(14.0,13.0)
-                lineTo(15.0,13.0)
+                moveTo(15.0f,13.0f)
+                lineTo(21.0f,13.0f)
+                lineTo(22.0f,13.0f)
+                lineTo(22.0f,21.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(15.0f,21.0f)
+                lineTo(14.0f,21.0f)
+                lineTo(14.0f,13.0f)
+                lineTo(15.0f,13.0f)
                 close()
             }
 }

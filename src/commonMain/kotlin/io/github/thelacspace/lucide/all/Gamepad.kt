@@ -9,31 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Gamepad") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6.0,12.0)
-                lineTo(10.0,12.0)
+                moveTo(6.0f,12.0f)
+                lineTo(10.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,10.0)
-                lineTo(8.0,14.0)
+                moveTo(8.0f,10.0f)
+                lineTo(8.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,13.0)
-                lineTo(15.010000228881836,13.0)
+                moveTo(15.0f,13.0f)
+                lineTo(15.01f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,11.0)
-                lineTo(18.010000228881836,11.0)
+                moveTo(18.0f,11.0f)
+                lineTo(18.01f,11.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(22.0,6.0)
-                lineTo(22.0,18.0)
-                lineTo(20.0,18.0)
-                lineTo(4.0,18.0)
-                lineTo(2.0,18.0)
-                lineTo(2.0,6.0)
-                lineTo(4.0,6.0)
+                moveTo(4.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(22.0f,6.0f)
+                lineTo(22.0f,18.0f)
+                lineTo(20.0f,18.0f)
+                lineTo(4.0f,18.0f)
+                lineTo(2.0f,18.0f)
+                lineTo(2.0f,6.0f)
+                lineTo(4.0f,6.0f)
                 close()
             }
 }

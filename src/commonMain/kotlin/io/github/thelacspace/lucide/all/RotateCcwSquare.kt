@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RotateCcwSquare") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(20.0,9.0)
-                lineTo(20.0,7.0)
-                curveTo(20.0,5.895430564880371,19.104570388793945,5.0,18.0,5.0)
-                lineTo(12.0,5.0)
+                moveTo(20.0f,9.0f)
+                lineTo(20.0f,7.0f)
+                curveTo(20.0f,5.8954306f,19.10457f,5.0f,18.0f,5.0f)
+                lineTo(12.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,2.0)
-                lineTo(12.0,5.0)
-                lineTo(15.0,8.0)
+                moveTo(15.0f,2.0f)
+                lineTo(12.0f,5.0f)
+                lineTo(15.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,13.0)
-                lineTo(20.0,18.0)
-                curveTo(20.0,19.104570388793945,19.104570388793945,20.0,18.0,20.0)
-                lineTo(6.0,20.0)
-                curveTo(4.895430564880371,20.0,4.0,19.104570388793945,4.0,18.0)
-                lineTo(4.0,7.0)
-                curveTo(4.0,5.895430564880371,4.895430564880371,5.0,6.0,5.0)
-                lineTo(8.0,5.0)
+                moveTo(20.0f,13.0f)
+                lineTo(20.0f,18.0f)
+                curveTo(20.0f,19.10457f,19.10457f,20.0f,18.0f,20.0f)
+                lineTo(6.0f,20.0f)
+                curveTo(4.8954306f,20.0f,4.0f,19.10457f,4.0f,18.0f)
+                lineTo(4.0f,7.0f)
+                curveTo(4.0f,5.8954306f,4.8954306f,5.0f,6.0f,5.0f)
+                lineTo(8.0f,5.0f)
             }
 }
 

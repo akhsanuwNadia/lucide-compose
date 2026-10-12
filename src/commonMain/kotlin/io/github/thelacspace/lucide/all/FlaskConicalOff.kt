@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FlaskConicalOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,2.0)
-                lineTo(10.0,4.3429999351501465)
+                moveTo(10.0f,2.0f)
+                lineTo(10.0f,4.343f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,2.0)
-                lineTo(14.0,8.343000411987305)
+                moveTo(14.0f,2.0f)
+                lineTo(14.0f,8.343f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(22.0,22.0)
+                moveTo(2.0f,2.0f)
+                lineTo(22.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,20.0)
-                curveTo(20.0,21.104570388793945,19.104570388793945,22.0,18.0,22.0)
-                lineTo(6.0,22.0)
-                curveTo(5.293577194213867,22.000164031982422,4.639467239379883,21.627649307250977,4.279190540313721,21.020004272460938)
-                curveTo(3.9189138412475586,20.412357330322266,3.9059174060821533,19.65972328186035,4.244999885559082,19.040000915527344)
-                lineTo(9.472000122070312,9.477001190185547)
+                moveTo(20.0f,20.0f)
+                curveTo(20.0f,21.10457f,19.10457f,22.0f,18.0f,22.0f)
+                lineTo(6.0f,22.0f)
+                curveTo(5.293577f,22.000164f,4.6394672f,21.62765f,4.2791905f,21.020004f)
+                curveTo(3.9189138f,20.412357f,3.9059174f,19.659723f,4.245f,19.04f)
+                lineTo(9.472f,9.477001f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.453000068664551,15.0)
-                lineTo(15.0,15.0)
+                moveTo(6.453f,15.0f)
+                lineTo(15.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5,2.0)
-                lineTo(15.5,2.0)
+                moveTo(8.5f,2.0f)
+                lineTo(15.5f,2.0f)
             }
 }
 

@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MailWarning") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22.0,10.5)
-                lineTo(22.0,6.0)
-                curveTo(22.0,4.895430564880371,21.104570388793945,4.0,20.0,4.0)
-                lineTo(4.0,4.0)
-                curveTo(2.895430564880371,4.0,2.0,4.895430564880371,2.0,6.0)
-                lineTo(2.0,18.0)
-                curveTo(2.0,19.100000381469727,2.9000000953674316,20.0,4.0,20.0)
-                lineTo(16.5,20.0)
+                moveTo(22.0f,10.5f)
+                lineTo(22.0f,6.0f)
+                curveTo(22.0f,4.8954306f,21.10457f,4.0f,20.0f,4.0f)
+                lineTo(4.0f,4.0f)
+                curveTo(2.8954306f,4.0f,2.0f,4.8954306f,2.0f,6.0f)
+                lineTo(2.0f,18.0f)
+                curveTo(2.0f,19.1f,2.9f,20.0f,4.0f,20.0f)
+                lineTo(16.5f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,7.0)
-                lineTo(13.029999732971191,12.699999809265137)
-                curveTo(12.400046348571777,13.094680786132812,11.599952697753906,13.094680786132812,10.969999313354492,12.699999809265137)
-                lineTo(2.0,7.0)
+                moveTo(22.0f,7.0f)
+                lineTo(13.03f,12.7f)
+                curveTo(12.400046f,13.094681f,11.599953f,13.094681f,10.969999f,12.7f)
+                lineTo(2.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,14.0)
-                lineTo(20.0,18.0)
+                moveTo(20.0f,14.0f)
+                lineTo(20.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,22.0)
-                lineTo(20.0,22.010000228881836)
+                moveTo(20.0f,22.0f)
+                lineTo(20.0f,22.01f)
             }
 }
 

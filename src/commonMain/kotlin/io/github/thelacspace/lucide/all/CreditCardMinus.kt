@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CreditCardMinus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22.0,13.0)
-                lineTo(22.0,7.0)
-                curveTo(22.0,5.895430564880371,21.104570388793945,5.0,20.0,5.0)
-                lineTo(4.0,5.0)
-                curveTo(2.895430564880371,5.0,2.0,5.895430564880371,2.0,7.0)
-                lineTo(2.0,17.0)
-                curveTo(2.0,18.104570388793945,2.895430564880371,19.0,4.0,19.0)
-                lineTo(12.53600025177002,19.0)
+                moveTo(22.0f,13.0f)
+                lineTo(22.0f,7.0f)
+                curveTo(22.0f,5.8954306f,21.10457f,5.0f,20.0f,5.0f)
+                lineTo(4.0f,5.0f)
+                curveTo(2.8954306f,5.0f,2.0f,5.8954306f,2.0f,7.0f)
+                lineTo(2.0f,17.0f)
+                curveTo(2.0f,18.10457f,2.8954306f,19.0f,4.0f,19.0f)
+                lineTo(12.536f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,10.0)
-                lineTo(2.0,10.0)
+                moveTo(22.0f,10.0f)
+                lineTo(2.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,14.0)
-                lineTo(8.0,14.0)
+                moveTo(6.0f,14.0f)
+                lineTo(8.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,17.0)
-                lineTo(22.0,17.0)
+                moveTo(16.0f,17.0f)
+                lineTo(22.0f,17.0f)
             }
 }
 

@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartNoAxesCombined") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,16.0)
-                lineTo(12.0,21.0)
+                moveTo(12.0f,16.0f)
+                lineTo(12.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,14.638999938964844)
-                lineTo(16.0,21.0)
+                moveTo(16.0f,14.639f)
+                lineTo(16.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,10.656000137329102)
-                lineTo(20.0,21.0)
+                moveTo(20.0f,10.656f)
+                lineTo(20.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,3.0)
-                lineTo(13.354000091552734,11.645999908447266)
-                curveTo(13.2601957321167,11.740041732788086,13.132827758789062,11.792893409729004,13.0,11.792893409729004)
-                curveTo(12.867172241210938,11.792893409729004,12.7398042678833,11.740041732788086,12.645999908447266,11.645999908447266)
-                lineTo(9.354000091552734,8.354000091552734)
-                curveTo(9.158750534057617,8.158809661865234,8.842249870300293,8.158809661865234,8.647000312805176,8.354000091552734)
-                lineTo(2.0,15.0)
+                moveTo(22.0f,3.0f)
+                lineTo(13.354f,11.646f)
+                curveTo(13.260196f,11.740042f,13.132828f,11.792893f,13.0f,11.792893f)
+                curveTo(12.867172f,11.792893f,12.739804f,11.740042f,12.646f,11.646f)
+                lineTo(9.354f,8.354f)
+                curveTo(9.158751f,8.15881f,8.84225f,8.15881f,8.647f,8.354f)
+                lineTo(2.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,18.46299934387207)
-                lineTo(4.0,21.0)
+                moveTo(4.0f,18.463f)
+                lineTo(4.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,14.656000137329102)
-                lineTo(8.0,21.0)
+                moveTo(8.0f,14.656f)
+                lineTo(8.0f,21.0f)
             }
 }
 

@@ -9,38 +9,38 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TowerControl") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(18.200000762939453,12.270000457763672)
-                lineTo(20.0,6.0)
-                lineTo(4.0,6.0)
-                lineTo(5.800000190734863,12.270000457763672)
-                curveTo(5.919723987579346,12.697093963623047,6.3064799308776855,12.994285583496094,6.75,13.0)
-                lineTo(17.25,13.0)
-                curveTo(17.697237014770508,12.998720169067383,18.08924674987793,12.700630187988281,18.209999084472656,12.270000457763672)
+                moveTo(18.2f,12.27f)
+                lineTo(20.0f,6.0f)
+                lineTo(4.0f,6.0f)
+                lineTo(5.8f,12.27f)
+                curveTo(5.919724f,12.697094f,6.30648f,12.994286f,6.75f,13.0f)
+                lineTo(17.25f,13.0f)
+                curveTo(17.697237f,12.99872f,18.089247f,12.70063f,18.21f,12.27f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,13.0)
-                lineTo(8.0,22.0)
+                moveTo(8.0f,13.0f)
+                lineTo(8.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,22.0)
-                lineTo(16.0,13.0)
+                moveTo(16.0f,22.0f)
+                lineTo(16.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,6.0)
-                lineTo(10.0,13.0)
+                moveTo(9.0f,6.0f)
+                lineTo(10.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,6.0)
-                lineTo(14.0,13.0)
+                moveTo(15.0f,6.0f)
+                lineTo(14.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,6.0)
-                lineTo(12.0,2.0)
+                moveTo(12.0f,6.0f)
+                lineTo(12.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(13.0,2.0)
-                lineTo(11.0,2.0)
+                moveTo(13.0f,2.0f)
+                lineTo(11.0f,2.0f)
             }
 }
 

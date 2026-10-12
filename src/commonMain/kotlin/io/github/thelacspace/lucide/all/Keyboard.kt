@@ -9,47 +9,47 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Keyboard") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,8.0)
-                lineTo(10.010000228881836,8.0)
+                moveTo(10.0f,8.0f)
+                lineTo(10.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,12.0)
-                lineTo(12.010000228881836,12.0)
+                moveTo(12.0f,12.0f)
+                lineTo(12.01f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,8.0)
-                lineTo(14.010000228881836,8.0)
+                moveTo(14.0f,8.0f)
+                lineTo(14.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,12.0)
-                lineTo(16.010000228881836,12.0)
+                moveTo(16.0f,12.0f)
+                lineTo(16.01f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,8.0)
-                lineTo(18.010000228881836,8.0)
+                moveTo(18.0f,8.0f)
+                lineTo(18.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,8.0)
-                lineTo(6.010000228881836,8.0)
+                moveTo(6.0f,8.0f)
+                lineTo(6.01f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,16.0)
-                lineTo(17.0,16.0)
+                moveTo(7.0f,16.0f)
+                lineTo(17.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,12.0)
-                lineTo(8.010000228881836,12.0)
+                moveTo(8.0f,12.0f)
+                lineTo(8.01f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,4.0)
-                lineTo(20.0,4.0)
-                lineTo(22.0,4.0)
-                lineTo(22.0,20.0)
-                lineTo(20.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(2.0,20.0)
-                lineTo(2.0,4.0)
-                lineTo(4.0,4.0)
+                moveTo(4.0f,4.0f)
+                lineTo(20.0f,4.0f)
+                lineTo(22.0f,4.0f)
+                lineTo(22.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(2.0f,20.0f)
+                lineTo(2.0f,4.0f)
+                lineTo(4.0f,4.0f)
                 close()
             }
 }

@@ -9,33 +9,33 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("UtilityPole") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,22.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,5.0)
-                lineTo(22.0,5.0)
+                moveTo(2.0f,5.0f)
+                lineTo(22.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,3.0)
-                lineTo(3.0,5.0)
+                moveTo(3.0f,3.0f)
+                lineTo(3.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,3.0)
-                lineTo(7.0,5.0)
+                moveTo(7.0f,3.0f)
+                lineTo(7.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,3.0)
-                lineTo(17.0,5.0)
+                moveTo(17.0f,3.0f)
+                lineTo(17.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,3.0)
-                lineTo(21.0,5.0)
+                moveTo(21.0f,3.0f)
+                lineTo(21.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,5.0)
-                lineTo(12.0,12.0)
-                lineTo(5.0,5.0)
+                moveTo(19.0f,5.0f)
+                lineTo(12.0f,12.0f)
+                lineTo(5.0f,5.0f)
             }
 }
 

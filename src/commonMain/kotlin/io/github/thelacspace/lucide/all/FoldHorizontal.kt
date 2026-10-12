@@ -9,38 +9,38 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("FoldHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,12.0)
-                lineTo(8.0,12.0)
+                moveTo(2.0f,12.0f)
+                lineTo(8.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,12.0)
-                lineTo(16.0,12.0)
+                moveTo(22.0f,12.0f)
+                lineTo(16.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,4.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,8.0)
-                lineTo(12.0,10.0)
+                moveTo(12.0f,8.0f)
+                lineTo(12.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,14.0)
-                lineTo(12.0,16.0)
+                moveTo(12.0f,14.0f)
+                lineTo(12.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,20.0)
-                lineTo(12.0,22.0)
+                moveTo(12.0f,20.0f)
+                lineTo(12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,9.0)
-                lineTo(16.0,12.0)
-                lineTo(19.0,15.0)
+                moveTo(19.0f,9.0f)
+                lineTo(16.0f,12.0f)
+                lineTo(19.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,15.0)
-                lineTo(8.0,12.0)
-                lineTo(5.0,9.0)
+                moveTo(5.0f,15.0f)
+                lineTo(8.0f,12.0f)
+                lineTo(5.0f,9.0f)
             }
 }
 

@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("DecimalsArrowRight") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,18.0)
-                lineTo(20.0,18.0)
+                moveTo(10.0f,18.0f)
+                lineTo(20.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,21.0)
-                lineTo(20.0,18.0)
-                lineTo(17.0,15.0)
+                moveTo(17.0f,21.0f)
+                lineTo(20.0f,18.0f)
+                lineTo(17.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,11.0)
-                lineTo(3.009999990463257,11.0)
+                moveTo(3.0f,11.0f)
+                lineTo(3.01f,11.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.5,3.0)
-                lineTo(17.5,3.0)
-                lineTo(20.0,3.0)
-                lineTo(20.0,11.0)
-                lineTo(17.5,11.0)
-                lineTo(17.5,11.0)
-                lineTo(15.0,11.0)
-                lineTo(15.0,3.0)
-                lineTo(17.5,3.0)
+                moveTo(17.5f,3.0f)
+                lineTo(17.5f,3.0f)
+                lineTo(20.0f,3.0f)
+                lineTo(20.0f,11.0f)
+                lineTo(17.5f,11.0f)
+                lineTo(17.5f,11.0f)
+                lineTo(15.0f,11.0f)
+                lineTo(15.0f,3.0f)
+                lineTo(17.5f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(8.5,3.0)
-                lineTo(8.5,3.0)
-                lineTo(11.0,3.0)
-                lineTo(11.0,11.0)
-                lineTo(8.5,11.0)
-                lineTo(8.5,11.0)
-                lineTo(6.0,11.0)
-                lineTo(6.0,3.0)
-                lineTo(8.5,3.0)
+                moveTo(8.5f,3.0f)
+                lineTo(8.5f,3.0f)
+                lineTo(11.0f,3.0f)
+                lineTo(11.0f,11.0f)
+                lineTo(8.5f,11.0f)
+                lineTo(8.5f,11.0f)
+                lineTo(6.0f,11.0f)
+                lineTo(6.0f,3.0f)
+                lineTo(8.5f,3.0f)
                 close()
             }
 }

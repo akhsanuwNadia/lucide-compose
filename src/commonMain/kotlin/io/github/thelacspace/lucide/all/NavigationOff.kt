@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("NavigationOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.430000305175781,8.430000305175781)
-                lineTo(3.0,11.0)
-                lineTo(11.0,13.0)
-                lineTo(13.0,21.0)
-                lineTo(15.569999694824219,15.569999694824219)
+                moveTo(8.43f,8.43f)
+                lineTo(3.0f,11.0f)
+                lineTo(11.0f,13.0f)
+                lineTo(13.0f,21.0f)
+                lineTo(15.57f,15.57f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.389999389648438,11.729999542236328)
-                lineTo(22.0,2.0)
-                lineTo(12.270000457763672,6.610000133514404)
+                moveTo(17.39f,11.73f)
+                lineTo(22.0f,2.0f)
+                lineTo(12.27f,6.61f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(22.0,22.0)
+                moveTo(2.0f,2.0f)
+                lineTo(22.0f,22.0f)
             }
 }
 

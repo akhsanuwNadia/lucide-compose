@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Inbox") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22.0,12.0)
-                lineTo(16.0,12.0)
-                lineTo(14.0,15.0)
-                lineTo(10.0,15.0)
-                lineTo(8.0,12.0)
-                lineTo(2.0,12.0)
+                moveTo(22.0f,12.0f)
+                lineTo(16.0f,12.0f)
+                lineTo(14.0f,15.0f)
+                lineTo(10.0f,15.0f)
+                lineTo(8.0f,12.0f)
+                lineTo(2.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.449999809265137,5.110000133514404)
-                lineTo(2.0,12.0)
-                lineTo(2.0,18.0)
-                curveTo(2.0,19.104570388793945,2.895430564880371,20.0,4.0,20.0)
-                lineTo(20.0,20.0)
-                curveTo(21.104570388793945,20.0,22.0,19.104570388793945,22.0,18.0)
-                lineTo(22.0,12.0)
-                lineTo(18.549999237060547,5.110000133514404)
-                curveTo(18.212268829345703,4.430342674255371,17.518943786621094,4.000402927398682,16.760000228881836,4.0)
-                lineTo(7.239999771118164,4.0)
-                curveTo(6.481055736541748,4.000402927398682,5.787729740142822,4.430342197418213,5.449999809265137,5.110000133514404)
+                moveTo(5.45f,5.11f)
+                lineTo(2.0f,12.0f)
+                lineTo(2.0f,18.0f)
+                curveTo(2.0f,19.10457f,2.8954306f,20.0f,4.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                curveTo(21.10457f,20.0f,22.0f,19.10457f,22.0f,18.0f)
+                lineTo(22.0f,12.0f)
+                lineTo(18.55f,5.11f)
+                curveTo(18.212269f,4.4303427f,17.518944f,4.000403f,16.76f,4.0f)
+                lineTo(7.24f,4.0f)
+                curveTo(6.4810557f,4.000403f,5.7877297f,4.430342f,5.45f,5.11f)
                 close()
             }
 }

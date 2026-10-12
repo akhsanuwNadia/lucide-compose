@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Braces") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,3.0)
-                lineTo(7.0,3.0)
-                curveTo(5.895430564880371,3.0,5.0,3.895430564880371,5.0,5.0)
-                lineTo(5.0,10.0)
-                curveTo(5.0,11.104569435119629,4.104569435119629,12.0,3.0,12.0)
-                curveTo(4.104569435119629,12.0,5.0,12.895430564880371,5.0,14.0)
-                lineTo(5.0,19.0)
-                curveTo(5.0,20.100000381469727,5.900000095367432,21.0,7.0,21.0)
-                lineTo(8.0,21.0)
+                moveTo(8.0f,3.0f)
+                lineTo(7.0f,3.0f)
+                curveTo(5.8954306f,3.0f,5.0f,3.8954306f,5.0f,5.0f)
+                lineTo(5.0f,10.0f)
+                curveTo(5.0f,11.104569f,4.1045694f,12.0f,3.0f,12.0f)
+                curveTo(4.1045694f,12.0f,5.0f,12.895431f,5.0f,14.0f)
+                lineTo(5.0f,19.0f)
+                curveTo(5.0f,20.1f,5.9f,21.0f,7.0f,21.0f)
+                lineTo(8.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,21.0)
-                lineTo(17.0,21.0)
-                curveTo(18.104570388793945,21.0,19.0,20.104570388793945,19.0,19.0)
-                lineTo(19.0,14.0)
-                curveTo(19.0,12.899999618530273,19.899999618530273,12.0,21.0,12.0)
-                curveTo(19.895429611206055,12.0,19.0,11.104569435119629,19.0,10.0)
-                lineTo(19.0,5.0)
-                curveTo(19.0,3.895430564880371,18.104570388793945,3.0,17.0,3.0)
-                lineTo(16.0,3.0)
+                moveTo(16.0f,21.0f)
+                lineTo(17.0f,21.0f)
+                curveTo(18.10457f,21.0f,19.0f,20.10457f,19.0f,19.0f)
+                lineTo(19.0f,14.0f)
+                curveTo(19.0f,12.9f,19.9f,12.0f,21.0f,12.0f)
+                curveTo(19.89543f,12.0f,19.0f,11.104569f,19.0f,10.0f)
+                lineTo(19.0f,5.0f)
+                curveTo(19.0f,3.8954306f,18.10457f,3.0f,17.0f,3.0f)
+                lineTo(16.0f,3.0f)
             }
 }
 

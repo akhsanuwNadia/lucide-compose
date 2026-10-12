@@ -9,23 +9,23 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MirrorRectangular") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.0,6.0)
-                lineTo(8.0,9.0)
+                moveTo(11.0f,6.0f)
+                lineTo(8.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,7.0)
-                lineTo(8.0,15.0)
+                moveTo(16.0f,7.0f)
+                lineTo(8.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,2.0)
-                lineTo(18.0,2.0)
-                lineTo(20.0,2.0)
-                lineTo(20.0,22.0)
-                lineTo(18.0,22.0)
-                lineTo(6.0,22.0)
-                lineTo(4.0,22.0)
-                lineTo(4.0,2.0)
-                lineTo(6.0,2.0)
+                moveTo(6.0f,2.0f)
+                lineTo(18.0f,2.0f)
+                lineTo(20.0f,2.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(18.0f,22.0f)
+                lineTo(6.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                lineTo(4.0f,2.0f)
+                lineTo(6.0f,2.0f)
                 close()
             }
 }

@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("PilcrowLeft") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.0,3.0)
-                lineTo(14.0,14.0)
+                moveTo(14.0f,3.0f)
+                lineTo(14.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,9.0)
-                lineTo(11.0,9.0)
-                curveTo(9.348382949829102,8.992613792419434,8.013386726379395,7.6516337394714355,8.013386726379395,6.0)
-                curveTo(8.013386726379395,4.3483662605285645,9.348382949829102,3.0073862075805664,11.0,3.0)
-                lineTo(20.0,3.0)
+                moveTo(14.0f,9.0f)
+                lineTo(11.0f,9.0f)
+                curveTo(9.348383f,8.992614f,8.013387f,7.6516337f,8.013387f,6.0f)
+                curveTo(8.013387f,4.3483663f,9.348383f,3.0073862f,11.0f,3.0f)
+                lineTo(20.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,3.0)
-                lineTo(18.0,14.0)
+                moveTo(18.0f,3.0f)
+                lineTo(18.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,18.0)
-                lineTo(2.0,18.0)
-                lineTo(6.0,14.0)
+                moveTo(22.0f,18.0f)
+                lineTo(2.0f,18.0f)
+                lineTo(6.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,22.0)
-                lineTo(2.0,18.0)
+                moveTo(6.0f,22.0f)
+                lineTo(2.0f,18.0f)
             }
 }
 

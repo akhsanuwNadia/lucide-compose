@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ZodiacScorpio") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,19.0)
-                lineTo(10.0,5.5)
-                curveTo(10.006155014038086,4.123652458190918,11.123638153076172,3.011155366897583,12.5,3.011155366897583)
-                curveTo(13.876361846923828,3.011155366897583,14.993844985961914,4.123652458190918,15.0,5.5)
-                lineTo(15.0,17.0)
-                curveTo(15.0,18.104570388793945,15.895430564880371,19.0,17.0,19.0)
-                lineTo(22.0,19.0)
-                lineTo(19.0,16.0)
+                moveTo(10.0f,19.0f)
+                lineTo(10.0f,5.5f)
+                curveTo(10.006155f,4.1236525f,11.123638f,3.0111554f,12.5f,3.0111554f)
+                curveTo(13.876362f,3.0111554f,14.993845f,4.1236525f,15.0f,5.5f)
+                lineTo(15.0f,17.0f)
+                curveTo(15.0f,18.10457f,15.895431f,19.0f,17.0f,19.0f)
+                lineTo(22.0f,19.0f)
+                lineTo(19.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,19.0)
-                lineTo(19.0,22.0)
+                moveTo(22.0f,19.0f)
+                lineTo(19.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,19.0)
-                lineTo(5.0,5.5)
-                curveTo(5.006155014038086,4.123652458190918,6.12363862991333,3.011155366897583,7.5,3.011155366897583)
-                curveTo(8.876361846923828,3.011155366897583,9.993844985961914,4.123652458190918,10.0,5.5)
+                moveTo(5.0f,19.0f)
+                lineTo(5.0f,5.5f)
+                curveTo(5.006155f,4.1236525f,6.1236386f,3.0111554f,7.5f,3.0111554f)
+                curveTo(8.876362f,3.0111554f,9.993845f,4.1236525f,10.0f,5.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,5.5)
-                curveTo(5.0,4.119287967681885,3.880711793899536,3.0,2.5,3.0)
+                moveTo(5.0f,5.5f)
+                curveTo(5.0f,4.119288f,3.8807118f,3.0f,2.5f,3.0f)
             }
 }
 

@@ -9,15 +9,15 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CornerLeftUp") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.0,9.0)
-                lineTo(9.0,4.0)
-                lineTo(4.0,9.0)
+                moveTo(14.0f,9.0f)
+                lineTo(9.0f,4.0f)
+                lineTo(4.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,20.0)
-                lineTo(13.0,20.0)
-                curveTo(10.790861129760742,20.0,9.0,18.209138870239258,9.0,16.0)
-                lineTo(9.0,4.0)
+                moveTo(20.0f,20.0f)
+                lineTo(13.0f,20.0f)
+                curveTo(10.790861f,20.0f,9.0f,18.209139f,9.0f,16.0f)
+                lineTo(9.0f,4.0f)
             }
 }
 

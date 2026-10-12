@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TextCursor") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17.0,22.0)
-                lineTo(16.0,22.0)
-                curveTo(13.790861129760742,22.0,12.0,20.209138870239258,12.0,18.0)
-                lineTo(12.0,6.0)
-                curveTo(12.0,3.790860891342163,13.790861129760742,2.0,16.0,2.0)
-                lineTo(17.0,2.0)
+                moveTo(17.0f,22.0f)
+                lineTo(16.0f,22.0f)
+                curveTo(13.790861f,22.0f,12.0f,20.209139f,12.0f,18.0f)
+                lineTo(12.0f,6.0f)
+                curveTo(12.0f,3.790861f,13.790861f,2.0f,16.0f,2.0f)
+                lineTo(17.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,22.0)
-                lineTo(8.0,22.0)
-                curveTo(10.209138870239258,22.0,12.0,20.209138870239258,12.0,18.0)
+                moveTo(7.0f,22.0f)
+                lineTo(8.0f,22.0f)
+                curveTo(10.209139f,22.0f,12.0f,20.209139f,12.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,2.0)
-                lineTo(8.0,2.0)
-                curveTo(10.209138870239258,2.0,12.0,3.790860891342163,12.0,6.0)
+                moveTo(7.0f,2.0f)
+                lineTo(8.0f,2.0f)
+                curveTo(10.209139f,2.0f,12.0f,3.790861f,12.0f,6.0f)
             }
 }
 

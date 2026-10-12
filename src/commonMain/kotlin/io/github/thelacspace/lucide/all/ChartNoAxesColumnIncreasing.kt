@@ -9,16 +9,16 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ChartNoAxesColumnIncreasing") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0,21.0)
-                lineTo(5.0,15.0)
+                moveTo(5.0f,21.0f)
+                lineTo(5.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,21.0)
-                lineTo(12.0,9.0)
+                moveTo(12.0f,21.0f)
+                lineTo(12.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,21.0)
-                lineTo(19.0,3.0)
+                moveTo(19.0f,21.0f)
+                lineTo(19.0f,3.0f)
             }
 }
 

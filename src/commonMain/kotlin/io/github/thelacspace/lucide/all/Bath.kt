@@ -9,31 +9,31 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bath") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,4.0)
-                lineTo(8.0,6.0)
+                moveTo(10.0f,4.0f)
+                lineTo(8.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,19.0)
-                lineTo(17.0,21.0)
+                moveTo(17.0f,19.0f)
+                lineTo(17.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,12.0)
-                lineTo(22.0,12.0)
+                moveTo(2.0f,12.0f)
+                lineTo(22.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,19.0)
-                lineTo(7.0,21.0)
+                moveTo(7.0f,19.0f)
+                lineTo(7.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,5.0)
-                lineTo(7.620999813079834,3.621000051498413)
-                curveTo(7.030213356018066,3.0274689197540283,6.14550256729126,2.837122678756714,5.362893104553223,3.135166883468628)
-                curveTo(4.5802836418151855,3.433211326599121,4.046311378479004,4.163840293884277,4.0,5.0)
-                lineTo(4.0,17.0)
-                curveTo(4.0,18.104570388793945,4.895430564880371,19.0,6.0,19.0)
-                lineTo(18.0,19.0)
-                curveTo(19.104570388793945,19.0,20.0,18.104570388793945,20.0,17.0)
-                lineTo(20.0,12.0)
+                moveTo(9.0f,5.0f)
+                lineTo(7.621f,3.621f)
+                curveTo(7.0302134f,3.027469f,6.1455026f,2.8371227f,5.362893f,3.135167f)
+                curveTo(4.5802836f,3.4332113f,4.0463114f,4.1638403f,4.0f,5.0f)
+                lineTo(4.0f,17.0f)
+                curveTo(4.0f,18.10457f,4.8954306f,19.0f,6.0f,19.0f)
+                lineTo(18.0f,19.0f)
+                curveTo(19.10457f,19.0f,20.0f,18.10457f,20.0f,17.0f)
+                lineTo(20.0f,12.0f)
             }
 }
 

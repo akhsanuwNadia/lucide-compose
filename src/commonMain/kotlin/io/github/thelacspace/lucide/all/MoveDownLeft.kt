@@ -9,13 +9,13 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MoveDownLeft") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.0,19.0)
-                lineTo(5.0,19.0)
-                lineTo(5.0,13.0)
+                moveTo(11.0f,19.0f)
+                lineTo(5.0f,19.0f)
+                lineTo(5.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,5.0)
-                lineTo(5.0,19.0)
+                moveTo(19.0f,5.0f)
+                lineTo(5.0f,19.0f)
             }
 }
 

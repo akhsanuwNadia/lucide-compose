@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignVerticalSpaceBetween") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(7.0,15.0)
-                lineTo(17.0,15.0)
-                lineTo(19.0,15.0)
-                lineTo(19.0,21.0)
-                lineTo(17.0,21.0)
-                lineTo(7.0,21.0)
-                lineTo(5.0,21.0)
-                lineTo(5.0,15.0)
-                lineTo(7.0,15.0)
+                moveTo(7.0f,15.0f)
+                lineTo(17.0f,15.0f)
+                lineTo(19.0f,15.0f)
+                lineTo(19.0f,21.0f)
+                lineTo(17.0f,21.0f)
+                lineTo(7.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                lineTo(5.0f,15.0f)
+                lineTo(7.0f,15.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,3.0)
-                lineTo(15.0,3.0)
-                lineTo(17.0,3.0)
-                lineTo(17.0,9.0)
-                lineTo(15.0,9.0)
-                lineTo(9.0,9.0)
-                lineTo(7.0,9.0)
-                lineTo(7.0,3.0)
-                lineTo(9.0,3.0)
+                moveTo(9.0f,3.0f)
+                lineTo(15.0f,3.0f)
+                lineTo(17.0f,3.0f)
+                lineTo(17.0f,9.0f)
+                lineTo(15.0f,9.0f)
+                lineTo(9.0f,9.0f)
+                lineTo(7.0f,9.0f)
+                lineTo(7.0f,3.0f)
+                lineTo(9.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,21.0)
-                lineTo(22.0,21.0)
+                moveTo(2.0f,21.0f)
+                lineTo(22.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,3.0)
-                lineTo(22.0,3.0)
+                moveTo(2.0f,3.0f)
+                lineTo(22.0f,3.0f)
             }
 }
 

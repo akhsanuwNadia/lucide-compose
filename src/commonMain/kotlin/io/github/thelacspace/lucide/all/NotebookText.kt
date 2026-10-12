@@ -9,44 +9,44 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("NotebookText") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,6.0)
-                lineTo(6.0,6.0)
+                moveTo(2.0f,6.0f)
+                lineTo(6.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,10.0)
-                lineTo(6.0,10.0)
+                moveTo(2.0f,10.0f)
+                lineTo(6.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,14.0)
-                lineTo(6.0,14.0)
+                moveTo(2.0f,14.0f)
+                lineTo(6.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,18.0)
-                lineTo(6.0,18.0)
+                moveTo(2.0f,18.0f)
+                lineTo(6.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,2.0)
-                lineTo(18.0,2.0)
-                lineTo(20.0,2.0)
-                lineTo(20.0,22.0)
-                lineTo(18.0,22.0)
-                lineTo(6.0,22.0)
-                lineTo(4.0,22.0)
-                lineTo(4.0,2.0)
-                lineTo(6.0,2.0)
+                moveTo(6.0f,2.0f)
+                lineTo(18.0f,2.0f)
+                lineTo(20.0f,2.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(18.0f,22.0f)
+                lineTo(6.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                lineTo(4.0f,2.0f)
+                lineTo(6.0f,2.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(9.5,8.0)
-                lineTo(14.5,8.0)
+                moveTo(9.5f,8.0f)
+                lineTo(14.5f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.5,12.0)
-                lineTo(16.0,12.0)
+                moveTo(9.5f,12.0f)
+                lineTo(16.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.5,16.0)
-                lineTo(14.0,16.0)
+                moveTo(9.5f,16.0f)
+                lineTo(14.0f,16.0f)
             }
 }
 

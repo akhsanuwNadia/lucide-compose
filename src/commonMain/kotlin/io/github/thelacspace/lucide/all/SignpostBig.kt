@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SignpostBig") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,9.0)
-                lineTo(4.0,9.0)
-                lineTo(2.0,7.0)
-                lineTo(4.0,5.0)
-                lineTo(10.0,5.0)
+                moveTo(10.0f,9.0f)
+                lineTo(4.0f,9.0f)
+                lineTo(2.0f,7.0f)
+                lineTo(4.0f,5.0f)
+                lineTo(10.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,5.0)
-                lineTo(20.0,5.0)
-                lineTo(22.0,7.0)
-                lineTo(20.0,9.0)
-                lineTo(14.0,9.0)
+                moveTo(14.0f,5.0f)
+                lineTo(20.0f,5.0f)
+                lineTo(22.0f,7.0f)
+                lineTo(20.0f,9.0f)
+                lineTo(14.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,22.0)
-                lineTo(10.0,4.0)
-                curveTo(9.996794700622559,3.2833380699157715,10.377290725708008,2.619739532470703,10.997408866882324,2.2604801654815674)
-                curveTo(11.617527961730957,1.9012209177017212,12.382472038269043,1.9012209177017212,13.002591133117676,2.2604801654815674)
-                curveTo(13.622709274291992,2.619739532470703,14.003205299377441,3.2833380699157715,14.0,4.0)
-                lineTo(14.0,22.0)
+                moveTo(10.0f,22.0f)
+                lineTo(10.0f,4.0f)
+                curveTo(9.996795f,3.283338f,10.377291f,2.6197395f,10.997409f,2.2604802f)
+                curveTo(11.617528f,1.9012209f,12.382472f,1.9012209f,13.002591f,2.2604802f)
+                curveTo(13.622709f,2.6197395f,14.003205f,3.283338f,14.0f,4.0f)
+                lineTo(14.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,22.0)
-                lineTo(16.0,22.0)
+                moveTo(8.0f,22.0f)
+                lineTo(16.0f,22.0f)
             }
 }
 

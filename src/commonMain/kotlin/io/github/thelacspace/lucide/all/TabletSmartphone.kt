@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TabletSmartphone") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0,8.0)
-                lineTo(11.0,8.0)
-                lineTo(13.0,8.0)
-                lineTo(13.0,22.0)
-                lineTo(11.0,22.0)
-                lineTo(5.0,22.0)
-                lineTo(3.0,22.0)
-                lineTo(3.0,8.0)
-                lineTo(5.0,8.0)
+                moveTo(5.0f,8.0f)
+                lineTo(11.0f,8.0f)
+                lineTo(13.0f,8.0f)
+                lineTo(13.0f,22.0f)
+                lineTo(11.0f,22.0f)
+                lineTo(5.0f,22.0f)
+                lineTo(3.0f,22.0f)
+                lineTo(3.0f,8.0f)
+                lineTo(5.0f,8.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,4.0)
-                curveTo(5.0,2.895430564880371,5.895430564880371,2.0,7.0,2.0)
-                lineTo(19.0,2.0)
-                curveTo(20.104570388793945,2.0,21.0,2.895430564880371,21.0,4.0)
-                lineTo(21.0,20.0)
-                curveTo(21.0,21.104570388793945,20.104570388793945,22.0,19.0,22.0)
-                lineTo(16.600000381469727,22.0)
+                moveTo(5.0f,4.0f)
+                curveTo(5.0f,2.8954306f,5.8954306f,2.0f,7.0f,2.0f)
+                lineTo(19.0f,2.0f)
+                curveTo(20.10457f,2.0f,21.0f,2.8954306f,21.0f,4.0f)
+                lineTo(21.0f,20.0f)
+                curveTo(21.0f,21.10457f,20.10457f,22.0f,19.0f,22.0f)
+                lineTo(16.6f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,18.0)
-                lineTo(8.010000228881836,18.0)
+                moveTo(8.0f,18.0f)
+                lineTo(8.01f,18.0f)
             }
 }
 

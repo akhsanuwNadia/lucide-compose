@@ -9,18 +9,18 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SeparatorHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,16.0)
-                lineTo(12.0,20.0)
-                lineTo(8.0,16.0)
+                moveTo(16.0f,16.0f)
+                lineTo(12.0f,20.0f)
+                lineTo(8.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,12.0)
-                lineTo(21.0,12.0)
+                moveTo(3.0f,12.0f)
+                lineTo(21.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,8.0)
-                lineTo(12.0,4.0)
-                lineTo(16.0,8.0)
+                moveTo(8.0f,8.0f)
+                lineTo(12.0f,4.0f)
+                lineTo(16.0f,8.0f)
             }
 }
 

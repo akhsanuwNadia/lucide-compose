@@ -9,26 +9,26 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CupSoda") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6.0,8.0)
-                lineTo(7.75,20.279998779296875)
-                curveTo(7.890499591827393,21.274030685424805,8.746135711669922,22.009878158569336,9.75,21.999998092651367)
-                lineTo(14.289999961853027,21.999998092651367)
-                curveTo(15.293864250183105,22.009878158569336,16.14950180053711,21.274030685424805,16.290000915527344,20.279998779296875)
-                lineTo(18.0,8.0)
+                moveTo(6.0f,8.0f)
+                lineTo(7.75f,20.279999f)
+                curveTo(7.8904996f,21.27403f,8.746136f,22.009878f,9.75f,21.999998f)
+                lineTo(14.29f,21.999998f)
+                curveTo(15.293864f,22.009878f,16.149502f,21.27403f,16.29f,20.279999f)
+                lineTo(18.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,8.0)
-                lineTo(19.0,8.0)
+                moveTo(5.0f,8.0f)
+                lineTo(19.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,15.0)
-                curveTo(8.59932804107666,14.32998275756836,10.40067195892334,14.32998275756836,12.0,15.0)
-                curveTo(13.59932804107666,15.67001724243164,15.40067195892334,15.67001724243164,17.0,15.0)
+                moveTo(7.0f,15.0f)
+                curveTo(8.599328f,14.329983f,10.400672f,14.329983f,12.0f,15.0f)
+                curveTo(13.599328f,15.670017f,15.400672f,15.670017f,17.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,8.0)
-                lineTo(13.0,2.0)
-                lineTo(15.0,2.0)
+                moveTo(12.0f,8.0f)
+                lineTo(13.0f,2.0f)
+                lineTo(15.0f,2.0f)
             }
 }
 

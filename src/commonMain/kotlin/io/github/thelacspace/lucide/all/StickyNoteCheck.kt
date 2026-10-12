@@ -9,27 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("StickyNoteCheck") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,19.0)
-                lineTo(17.0,21.0)
-                lineTo(21.0,17.0)
+                moveTo(15.0f,19.0f)
+                lineTo(17.0f,21.0f)
+                lineTo(21.0f,17.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,3.0)
-                lineTo(15.0,8.0)
-                curveTo(15.0,8.552285194396973,15.447714805603027,9.0,16.0,9.0)
-                lineTo(21.0,9.0)
+                moveTo(15.0f,3.0f)
+                lineTo(15.0f,8.0f)
+                curveTo(15.0f,8.552285f,15.447715f,9.0f,16.0f,9.0f)
+                lineTo(21.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,13.0)
-                lineTo(21.0,9.0)
-                curveTo(21.001569747924805,8.359942436218262,20.747406005859375,7.745773792266846,20.29400062561035,7.294000148773193)
-                lineTo(16.70600128173828,3.7060000896453857)
-                curveTo(16.254226684570312,3.252593517303467,15.640058517456055,2.998430013656616,15.0,3.0)
-                lineTo(5.0,3.0)
-                curveTo(3.895430564880371,3.0,3.0,3.895430564880371,3.0,5.0)
-                lineTo(3.0,19.0)
-                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
-                lineTo(11.5,21.0)
+                moveTo(21.0f,13.0f)
+                lineTo(21.0f,9.0f)
+                curveTo(21.00157f,8.359942f,20.747406f,7.745774f,20.294f,7.294f)
+                lineTo(16.706001f,3.706f)
+                curveTo(16.254227f,3.2525935f,15.6400585f,2.99843f,15.0f,3.0f)
+                lineTo(5.0f,3.0f)
+                curveTo(3.8954306f,3.0f,3.0f,3.8954306f,3.0f,5.0f)
+                lineTo(3.0f,19.0f)
+                curveTo(3.0f,20.10457f,3.8954306f,21.0f,5.0f,21.0f)
+                lineTo(11.5f,21.0f)
             }
 }
 

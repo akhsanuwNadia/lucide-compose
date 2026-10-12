@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TextWrap") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,16.0)
-                lineTo(13.0,19.0)
-                lineTo(16.0,22.0)
+                moveTo(16.0f,16.0f)
+                lineTo(13.0f,19.0f)
+                lineTo(16.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,12.0)
-                lineTo(17.5,12.0)
-                curveTo(19.42688751220703,12.008617401123047,20.98438262939453,13.573094367980957,20.98438262939453,15.5)
-                curveTo(20.98438262939453,17.42690658569336,19.42688751220703,18.991382598876953,17.5,19.0)
-                lineTo(13.0,19.0)
+                moveTo(3.0f,12.0f)
+                lineTo(17.5f,12.0f)
+                curveTo(19.426888f,12.008617f,20.984383f,13.573094f,20.984383f,15.5f)
+                curveTo(20.984383f,17.426907f,19.426888f,18.991383f,17.5f,19.0f)
+                lineTo(13.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,19.0)
-                lineTo(9.0,19.0)
+                moveTo(3.0f,19.0f)
+                lineTo(9.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,5.0)
-                lineTo(21.0,5.0)
+                moveTo(3.0f,5.0f)
+                lineTo(21.0f,5.0f)
             }
 }
 

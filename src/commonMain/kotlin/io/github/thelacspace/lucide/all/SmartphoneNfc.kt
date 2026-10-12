@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SmartphoneNfc") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3.0,6.0)
-                lineTo(8.0,6.0)
-                lineTo(9.0,6.0)
-                lineTo(9.0,18.0)
-                lineTo(8.0,18.0)
-                lineTo(3.0,18.0)
-                lineTo(2.0,18.0)
-                lineTo(2.0,6.0)
-                lineTo(3.0,6.0)
+                moveTo(3.0f,6.0f)
+                lineTo(8.0f,6.0f)
+                lineTo(9.0f,6.0f)
+                lineTo(9.0f,18.0f)
+                lineTo(8.0f,18.0f)
+                lineTo(3.0f,18.0f)
+                lineTo(2.0f,18.0f)
+                lineTo(2.0f,6.0f)
+                lineTo(3.0f,6.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(13.0,8.319999694824219)
-                curveTo(14.300467491149902,10.600995063781738,14.300467491149902,13.399004936218262,13.0,15.680000305175781)
+                moveTo(13.0f,8.32f)
+                curveTo(14.3004675f,10.600995f,14.3004675f,13.399005f,13.0f,15.68f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.459999084472656,6.210000038146973)
-                curveTo(18.492141723632812,9.802538871765137,18.492141723632812,14.19746208190918,16.459999084472656,17.790000915527344)
+                moveTo(16.46f,6.21f)
+                curveTo(18.492142f,9.802539f,18.492142f,14.197462f,16.46f,17.79f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.90999984741211,4.099999904632568)
-                curveTo(22.713001251220703,8.992768287658691,22.716806411743164,15.003686904907227,19.920000076293945,19.899999618530273)
+                moveTo(19.91f,4.1f)
+                curveTo(22.713001f,8.992768f,22.716806f,15.003687f,19.92f,19.9f)
             }
 }
 

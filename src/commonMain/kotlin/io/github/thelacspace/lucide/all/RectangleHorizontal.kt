@@ -9,15 +9,15 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RectangleHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(22.0,6.0)
-                lineTo(22.0,18.0)
-                lineTo(20.0,18.0)
-                lineTo(4.0,18.0)
-                lineTo(2.0,18.0)
-                lineTo(2.0,6.0)
-                lineTo(4.0,6.0)
+                moveTo(4.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(22.0f,6.0f)
+                lineTo(22.0f,18.0f)
+                lineTo(20.0f,18.0f)
+                lineTo(4.0f,18.0f)
+                lineTo(2.0f,18.0f)
+                lineTo(2.0f,6.0f)
+                lineTo(4.0f,6.0f)
                 close()
             }
 }

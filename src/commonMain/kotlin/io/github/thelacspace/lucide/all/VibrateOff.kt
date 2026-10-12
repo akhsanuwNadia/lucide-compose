@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("VibrateOff") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,8.0)
-                lineTo(4.0,10.0)
-                lineTo(2.0,12.0)
-                lineTo(4.0,14.0)
-                lineTo(2.0,16.0)
+                moveTo(2.0f,8.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(2.0f,12.0f)
+                lineTo(4.0f,14.0f)
+                lineTo(2.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,8.0)
-                lineTo(20.0,10.0)
-                lineTo(22.0,12.0)
-                lineTo(20.0,14.0)
-                lineTo(22.0,16.0)
+                moveTo(22.0f,8.0f)
+                lineTo(20.0f,10.0f)
+                lineTo(22.0f,12.0f)
+                lineTo(20.0f,14.0f)
+                lineTo(22.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,8.0)
-                lineTo(8.0,18.0)
-                curveTo(8.0,18.549999237060547,8.449999809265137,19.0,9.0,19.0)
-                lineTo(15.0,19.0)
-                curveTo(15.550000190734863,19.0,16.0,18.549999237060547,16.0,18.0)
-                lineTo(16.0,16.0)
+                moveTo(8.0f,8.0f)
+                lineTo(8.0f,18.0f)
+                curveTo(8.0f,18.55f,8.45f,19.0f,9.0f,19.0f)
+                lineTo(15.0f,19.0f)
+                curveTo(15.55f,19.0f,16.0f,18.55f,16.0f,18.0f)
+                lineTo(16.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,10.34000015258789)
-                lineTo(16.0,6.0)
-                curveTo(16.0,5.449999809265137,15.550000190734863,5.0,15.0,5.0)
-                lineTo(10.65999984741211,5.0)
+                moveTo(16.0f,10.34f)
+                lineTo(16.0f,6.0f)
+                curveTo(16.0f,5.45f,15.55f,5.0f,15.0f,5.0f)
+                lineTo(10.66f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(22.0,22.0)
+                moveTo(2.0f,2.0f)
+                lineTo(22.0f,22.0f)
             }
 }
 

@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BriefcasePlus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(13.354000091552734,20.0)
-                lineTo(4.0,20.0)
-                curveTo(2.895430564880371,20.0,2.0,19.104570388793945,2.0,18.0)
-                lineTo(2.0,8.0)
-                curveTo(2.0,6.895430564880371,2.895430564880371,6.0,4.0,6.0)
-                lineTo(20.0,6.0)
-                curveTo(21.104570388793945,6.0,22.0,6.895430564880371,22.0,8.0)
-                lineTo(22.0,11.354000091552734)
+                moveTo(13.354f,20.0f)
+                lineTo(4.0f,20.0f)
+                curveTo(2.8954306f,20.0f,2.0f,19.10457f,2.0f,18.0f)
+                lineTo(2.0f,8.0f)
+                curveTo(2.0f,6.8954306f,2.8954306f,6.0f,4.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                curveTo(21.10457f,6.0f,22.0f,6.8954306f,22.0f,8.0f)
+                lineTo(22.0f,11.354f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,11.354000091552734)
-                lineTo(16.0,4.0)
-                curveTo(16.0,2.895430564880371,15.104569435119629,2.0,14.0,2.0)
-                lineTo(10.0,2.0)
-                curveTo(8.895430564880371,2.0,8.0,2.895430564880371,8.0,4.0)
-                lineTo(8.0,20.0)
+                moveTo(16.0f,11.354f)
+                lineTo(16.0f,4.0f)
+                curveTo(16.0f,2.8954306f,15.104569f,2.0f,14.0f,2.0f)
+                lineTo(10.0f,2.0f)
+                curveTo(8.895431f,2.0f,8.0f,2.8954306f,8.0f,4.0f)
+                lineTo(8.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,17.0)
-                lineTo(22.0,17.0)
+                moveTo(16.0f,17.0f)
+                lineTo(22.0f,17.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,14.0)
-                lineTo(19.0,20.0)
+                moveTo(19.0f,14.0f)
+                lineTo(19.0f,20.0f)
             }
 }
 

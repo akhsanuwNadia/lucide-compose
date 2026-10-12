@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Microwave") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,4.0)
-                lineTo(20.0,4.0)
-                lineTo(22.0,4.0)
-                lineTo(22.0,19.0)
-                lineTo(20.0,19.0)
-                lineTo(4.0,19.0)
-                lineTo(2.0,19.0)
-                lineTo(2.0,4.0)
-                lineTo(4.0,4.0)
+                moveTo(4.0f,4.0f)
+                lineTo(20.0f,4.0f)
+                lineTo(22.0f,4.0f)
+                lineTo(22.0f,19.0f)
+                lineTo(20.0f,19.0f)
+                lineTo(4.0f,19.0f)
+                lineTo(2.0f,19.0f)
+                lineTo(2.0f,4.0f)
+                lineTo(4.0f,4.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,8.0)
-                lineTo(13.0,8.0)
-                lineTo(14.0,8.0)
-                lineTo(14.0,15.0)
-                lineTo(13.0,15.0)
-                lineTo(7.0,15.0)
-                lineTo(6.0,15.0)
-                lineTo(6.0,8.0)
-                lineTo(7.0,8.0)
+                moveTo(7.0f,8.0f)
+                lineTo(13.0f,8.0f)
+                lineTo(14.0f,8.0f)
+                lineTo(14.0f,15.0f)
+                lineTo(13.0f,15.0f)
+                lineTo(7.0f,15.0f)
+                lineTo(6.0f,15.0f)
+                lineTo(6.0f,8.0f)
+                lineTo(7.0f,8.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,8.0)
-                lineTo(18.0,15.0)
+                moveTo(18.0f,8.0f)
+                lineTo(18.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,19.0)
-                lineTo(6.0,21.0)
+                moveTo(6.0f,19.0f)
+                lineTo(6.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,19.0)
-                lineTo(18.0,21.0)
+                moveTo(18.0f,19.0f)
+                lineTo(18.0f,21.0f)
             }
 }
 

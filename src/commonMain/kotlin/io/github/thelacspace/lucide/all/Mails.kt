@@ -9,29 +9,29 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Mails") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(17.0,19.0)
-                curveTo(17.0,20.104570388793945,16.104570388793945,21.0,15.0,21.0)
-                lineTo(4.0,21.0)
-                curveTo(2.895430564880371,21.0,2.0,20.104570388793945,2.0,19.0)
-                lineTo(2.0,11.0)
-                curveTo(2.0000181198120117,10.285487174987793,2.381213426589966,9.625256538391113,3.0,9.267999649047852)
+                moveTo(17.0f,19.0f)
+                curveTo(17.0f,20.10457f,16.10457f,21.0f,15.0f,21.0f)
+                lineTo(4.0f,21.0f)
+                curveTo(2.8954306f,21.0f,2.0f,20.10457f,2.0f,19.0f)
+                lineTo(2.0f,11.0f)
+                curveTo(2.0000181f,10.285487f,2.3812134f,9.625257f,3.0f,9.268f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,5.5)
-                lineTo(15.580999374389648,9.678999900817871)
-                curveTo(14.922428131103516,10.102082252502441,14.077570915222168,10.102082252502441,13.418999671936035,9.678999900817871)
-                lineTo(7.0,5.5)
+                moveTo(22.0f,5.5f)
+                lineTo(15.580999f,9.679f)
+                curveTo(14.922428f,10.102082f,14.077571f,10.102082f,13.419f,9.679f)
+                lineTo(7.0f,5.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,3.0)
-                lineTo(20.0,3.0)
-                lineTo(22.0,3.0)
-                lineTo(22.0,15.0)
-                lineTo(20.0,15.0)
-                lineTo(9.0,15.0)
-                lineTo(7.0,15.0)
-                lineTo(7.0,3.0)
-                lineTo(9.0,3.0)
+                moveTo(9.0f,3.0f)
+                lineTo(20.0f,3.0f)
+                lineTo(22.0f,3.0f)
+                lineTo(22.0f,15.0f)
+                lineTo(20.0f,15.0f)
+                lineTo(9.0f,15.0f)
+                lineTo(7.0f,15.0f)
+                lineTo(7.0f,3.0f)
+                lineTo(9.0f,3.0f)
                 close()
             }
 }

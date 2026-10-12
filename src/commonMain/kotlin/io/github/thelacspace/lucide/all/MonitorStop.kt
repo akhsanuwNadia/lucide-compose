@@ -9,35 +9,35 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("MonitorStop") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,17.0)
-                lineTo(12.0,21.0)
+                moveTo(12.0f,17.0f)
+                lineTo(12.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,21.0)
-                lineTo(16.0,21.0)
+                moveTo(8.0f,21.0f)
+                lineTo(16.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(20.0,3.0)
-                lineTo(22.0,3.0)
-                lineTo(22.0,17.0)
-                lineTo(20.0,17.0)
-                lineTo(4.0,17.0)
-                lineTo(2.0,17.0)
-                lineTo(2.0,3.0)
-                lineTo(4.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(20.0f,3.0f)
+                lineTo(22.0f,3.0f)
+                lineTo(22.0f,17.0f)
+                lineTo(20.0f,17.0f)
+                lineTo(4.0f,17.0f)
+                lineTo(2.0f,17.0f)
+                lineTo(2.0f,3.0f)
+                lineTo(4.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,7.0)
-                lineTo(14.0,7.0)
-                lineTo(15.0,7.0)
-                lineTo(15.0,13.0)
-                lineTo(14.0,13.0)
-                lineTo(10.0,13.0)
-                lineTo(9.0,13.0)
-                lineTo(9.0,7.0)
-                lineTo(10.0,7.0)
+                moveTo(10.0f,7.0f)
+                lineTo(14.0f,7.0f)
+                lineTo(15.0f,7.0f)
+                lineTo(15.0f,13.0f)
+                lineTo(14.0f,13.0f)
+                lineTo(10.0f,13.0f)
+                lineTo(9.0f,13.0f)
+                lineTo(9.0f,7.0f)
+                lineTo(10.0f,7.0f)
                 close()
             }
 }

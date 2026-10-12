@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CreditCard") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,5.0)
-                lineTo(20.0,5.0)
-                lineTo(22.0,5.0)
-                lineTo(22.0,19.0)
-                lineTo(20.0,19.0)
-                lineTo(4.0,19.0)
-                lineTo(2.0,19.0)
-                lineTo(2.0,5.0)
-                lineTo(4.0,5.0)
+                moveTo(4.0f,5.0f)
+                lineTo(20.0f,5.0f)
+                lineTo(22.0f,5.0f)
+                lineTo(22.0f,19.0f)
+                lineTo(20.0f,19.0f)
+                lineTo(4.0f,19.0f)
+                lineTo(2.0f,19.0f)
+                lineTo(2.0f,5.0f)
+                lineTo(4.0f,5.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,10.0)
-                lineTo(22.0,10.0)
+                moveTo(2.0f,10.0f)
+                lineTo(22.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,14.0)
-                lineTo(8.0,14.0)
+                moveTo(6.0f,14.0f)
+                lineTo(8.0f,14.0f)
             }
 }
 

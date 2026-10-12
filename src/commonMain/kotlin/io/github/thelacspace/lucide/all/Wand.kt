@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Wand") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,4.0)
-                lineTo(15.0,2.0)
+                moveTo(15.0f,4.0f)
+                lineTo(15.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,16.0)
-                lineTo(15.0,14.0)
+                moveTo(15.0f,16.0f)
+                lineTo(15.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,9.0)
-                lineTo(10.0,9.0)
+                moveTo(8.0f,9.0f)
+                lineTo(10.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,9.0)
-                lineTo(22.0,9.0)
+                moveTo(20.0f,9.0f)
+                lineTo(22.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.799999237060547,11.800000190734863)
-                lineTo(19.0,13.0)
+                moveTo(17.8f,11.8f)
+                lineTo(19.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,9.0)
-                lineTo(15.010000228881836,9.0)
+                moveTo(15.0f,9.0f)
+                lineTo(15.01f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.799999237060547,6.199999809265137)
-                lineTo(19.0,5.0)
+                moveTo(17.8f,6.2f)
+                lineTo(19.0f,5.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,21.0)
-                lineTo(12.0,12.0)
+                moveTo(3.0f,21.0f)
+                lineTo(12.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.199999809265137,6.199999809265137)
-                lineTo(11.0,5.0)
+                moveTo(12.2f,6.2f)
+                lineTo(11.0f,5.0f)
             }
 }
 

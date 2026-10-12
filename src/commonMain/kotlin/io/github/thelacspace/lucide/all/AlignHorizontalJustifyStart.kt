@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignHorizontalJustifyStart") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,5.0)
-                lineTo(10.0,5.0)
-                lineTo(12.0,5.0)
-                lineTo(12.0,19.0)
-                lineTo(10.0,19.0)
-                lineTo(8.0,19.0)
-                lineTo(6.0,19.0)
-                lineTo(6.0,5.0)
-                lineTo(8.0,5.0)
+                moveTo(8.0f,5.0f)
+                lineTo(10.0f,5.0f)
+                lineTo(12.0f,5.0f)
+                lineTo(12.0f,19.0f)
+                lineTo(10.0f,19.0f)
+                lineTo(8.0f,19.0f)
+                lineTo(6.0f,19.0f)
+                lineTo(6.0f,5.0f)
+                lineTo(8.0f,5.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,7.0)
-                lineTo(20.0,7.0)
-                lineTo(22.0,7.0)
-                lineTo(22.0,17.0)
-                lineTo(20.0,17.0)
-                lineTo(18.0,17.0)
-                lineTo(16.0,17.0)
-                lineTo(16.0,7.0)
-                lineTo(18.0,7.0)
+                moveTo(18.0f,7.0f)
+                lineTo(20.0f,7.0f)
+                lineTo(22.0f,7.0f)
+                lineTo(22.0f,17.0f)
+                lineTo(20.0f,17.0f)
+                lineTo(18.0f,17.0f)
+                lineTo(16.0f,17.0f)
+                lineTo(16.0f,7.0f)
+                lineTo(18.0f,7.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,2.0)
-                lineTo(2.0,22.0)
+                moveTo(2.0f,2.0f)
+                lineTo(2.0f,22.0f)
             }
 }
 

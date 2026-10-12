@@ -9,40 +9,40 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SendToBack") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,14.0)
-                lineTo(20.0,14.0)
-                lineTo(22.0,14.0)
-                lineTo(22.0,22.0)
-                lineTo(20.0,22.0)
-                lineTo(16.0,22.0)
-                lineTo(14.0,22.0)
-                lineTo(14.0,14.0)
-                lineTo(16.0,14.0)
+                moveTo(16.0f,14.0f)
+                lineTo(20.0f,14.0f)
+                lineTo(22.0f,14.0f)
+                lineTo(22.0f,22.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(16.0f,22.0f)
+                lineTo(14.0f,22.0f)
+                lineTo(14.0f,14.0f)
+                lineTo(16.0f,14.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,2.0)
-                lineTo(8.0,2.0)
-                lineTo(10.0,2.0)
-                lineTo(10.0,10.0)
-                lineTo(8.0,10.0)
-                lineTo(4.0,10.0)
-                lineTo(2.0,10.0)
-                lineTo(2.0,2.0)
-                lineTo(4.0,2.0)
+                moveTo(4.0f,2.0f)
+                lineTo(8.0f,2.0f)
+                lineTo(10.0f,2.0f)
+                lineTo(10.0f,10.0f)
+                lineTo(8.0f,10.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(2.0f,10.0f)
+                lineTo(2.0f,2.0f)
+                lineTo(4.0f,2.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,14.0)
-                lineTo(7.0,15.0)
-                curveTo(7.0,16.104570388793945,7.895430564880371,17.0,9.0,17.0)
-                lineTo(10.0,17.0)
+                moveTo(7.0f,14.0f)
+                lineTo(7.0f,15.0f)
+                curveTo(7.0f,16.10457f,7.8954306f,17.0f,9.0f,17.0f)
+                lineTo(10.0f,17.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,7.0)
-                lineTo(15.0,7.0)
-                curveTo(16.104570388793945,7.0,17.0,7.895430564880371,17.0,9.0)
-                lineTo(17.0,10.0)
+                moveTo(14.0f,7.0f)
+                lineTo(15.0f,7.0f)
+                curveTo(16.10457f,7.0f,17.0f,7.8954306f,17.0f,9.0f)
+                lineTo(17.0f,10.0f)
             }
 }
 

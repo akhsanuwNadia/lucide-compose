@@ -9,30 +9,30 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WavesLadder") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(19.0,5.0)
-                curveTo(17.895429611206055,5.0,17.0,5.895430564880371,17.0,7.0)
-                lineTo(17.0,18.0)
+                moveTo(19.0f,5.0f)
+                curveTo(17.89543f,5.0f,17.0f,5.8954306f,17.0f,7.0f)
+                lineTo(17.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,18.0)
-                curveTo(2.5999999046325684,18.5,3.200000047683716,19.0,4.5,19.0)
-                curveTo(7.0,19.0,7.0,17.0,9.5,17.0)
-                curveTo(12.100000381469727,17.0,11.899999618530273,19.0,14.5,19.0)
-                curveTo(17.0,19.0,17.0,17.0,19.5,17.0)
-                curveTo(20.799999237060547,17.0,21.399999618530273,17.5,22.0,18.0)
+                moveTo(2.0f,18.0f)
+                curveTo(2.6f,18.5f,3.2f,19.0f,4.5f,19.0f)
+                curveTo(7.0f,19.0f,7.0f,17.0f,9.5f,17.0f)
+                curveTo(12.1f,17.0f,11.9f,19.0f,14.5f,19.0f)
+                curveTo(17.0f,19.0f,17.0f,17.0f,19.5f,17.0f)
+                curveTo(20.8f,17.0f,21.4f,17.5f,22.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,13.0)
-                lineTo(17.0,13.0)
+                moveTo(7.0f,13.0f)
+                lineTo(17.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,9.0)
-                lineTo(17.0,9.0)
+                moveTo(7.0f,9.0f)
+                lineTo(17.0f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,5.0)
-                curveTo(7.895430564880371,5.0,7.0,5.895430564880371,7.0,7.0)
-                lineTo(7.0,18.0)
+                moveTo(9.0f,5.0f)
+                curveTo(7.8954306f,5.0f,7.0f,5.8954306f,7.0f,7.0f)
+                lineTo(7.0f,18.0f)
             }
 }
 

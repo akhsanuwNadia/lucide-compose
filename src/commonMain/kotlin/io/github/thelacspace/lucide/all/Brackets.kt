@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Brackets") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,3.0)
-                lineTo(19.0,3.0)
-                curveTo(19.552284240722656,3.0,20.0,3.4477152824401855,20.0,4.0)
-                lineTo(20.0,20.0)
-                curveTo(20.0,20.552284240722656,19.552284240722656,21.0,19.0,21.0)
-                lineTo(16.0,21.0)
+                moveTo(16.0f,3.0f)
+                lineTo(19.0f,3.0f)
+                curveTo(19.552284f,3.0f,20.0f,3.4477153f,20.0f,4.0f)
+                lineTo(20.0f,20.0f)
+                curveTo(20.0f,20.552284f,19.552284f,21.0f,19.0f,21.0f)
+                lineTo(16.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,21.0)
-                lineTo(5.0,21.0)
-                curveTo(4.4477152824401855,21.0,4.0,20.552284240722656,4.0,20.0)
-                lineTo(4.0,4.0)
-                curveTo(4.0,3.4477152824401855,4.4477152824401855,3.0,5.0,3.0)
-                lineTo(8.0,3.0)
+                moveTo(8.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                curveTo(4.4477153f,21.0f,4.0f,20.552284f,4.0f,20.0f)
+                lineTo(4.0f,4.0f)
+                curveTo(4.0f,3.4477153f,4.4477153f,3.0f,5.0f,3.0f)
+                lineTo(8.0f,3.0f)
             }
 }
 

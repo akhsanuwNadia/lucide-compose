@@ -9,19 +9,19 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Merge") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,6.0)
-                lineTo(12.0,2.0)
-                lineTo(16.0,6.0)
+                moveTo(8.0f,6.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(16.0f,6.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,12.300000190734863)
-                curveTo(12.011545181274414,13.376006126403809,11.589071273803711,14.41128158569336,10.82800006866455,15.17199993133545)
-                lineTo(4.0,22.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,12.3f)
+                curveTo(12.011545f,13.376006f,11.589071f,14.411282f,10.828f,15.172f)
+                lineTo(4.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,22.0)
-                lineTo(15.0,17.0)
+                moveTo(20.0f,22.0f)
+                lineTo(15.0f,17.0f)
             }
 }
 

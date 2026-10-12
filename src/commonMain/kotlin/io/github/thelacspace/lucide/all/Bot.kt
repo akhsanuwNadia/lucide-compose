@@ -9,37 +9,37 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Bot") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,8.0)
-                lineTo(12.0,4.0)
-                lineTo(8.0,4.0)
+                moveTo(12.0f,8.0f)
+                lineTo(12.0f,4.0f)
+                lineTo(8.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,8.0)
-                lineTo(18.0,8.0)
-                lineTo(20.0,8.0)
-                lineTo(20.0,20.0)
-                lineTo(18.0,20.0)
-                lineTo(6.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(4.0,8.0)
-                lineTo(6.0,8.0)
+                moveTo(6.0f,8.0f)
+                lineTo(18.0f,8.0f)
+                lineTo(20.0f,8.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(18.0f,20.0f)
+                lineTo(6.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(4.0f,8.0f)
+                lineTo(6.0f,8.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,14.0)
-                lineTo(4.0,14.0)
+                moveTo(2.0f,14.0f)
+                lineTo(4.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,14.0)
-                lineTo(22.0,14.0)
+                moveTo(20.0f,14.0f)
+                lineTo(22.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,13.0)
-                lineTo(15.0,15.0)
+                moveTo(15.0f,13.0f)
+                lineTo(15.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,13.0)
-                lineTo(9.0,15.0)
+                moveTo(9.0f,13.0f)
+                lineTo(9.0f,15.0f)
             }
 }
 

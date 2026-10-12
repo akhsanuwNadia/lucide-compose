@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Refrigerator") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0,6.0)
-                curveTo(5.0,3.790860891342163,6.790861129760742,2.0,9.0,2.0)
-                lineTo(15.0,2.0)
-                curveTo(17.209138870239258,2.0,19.0,3.790860891342163,19.0,6.0)
-                lineTo(19.0,20.0)
-                curveTo(19.0,21.104570388793945,18.104570388793945,22.0,17.0,22.0)
-                lineTo(7.0,22.0)
-                curveTo(5.895430564880371,22.0,5.0,21.104570388793945,5.0,20.0)
-                lineTo(5.0,6.0)
+                moveTo(5.0f,6.0f)
+                curveTo(5.0f,3.790861f,6.790861f,2.0f,9.0f,2.0f)
+                lineTo(15.0f,2.0f)
+                curveTo(17.209139f,2.0f,19.0f,3.790861f,19.0f,6.0f)
+                lineTo(19.0f,20.0f)
+                curveTo(19.0f,21.10457f,18.10457f,22.0f,17.0f,22.0f)
+                lineTo(7.0f,22.0f)
+                curveTo(5.8954306f,22.0f,5.0f,21.10457f,5.0f,20.0f)
+                lineTo(5.0f,6.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,10.0)
-                lineTo(19.0,10.0)
+                moveTo(5.0f,10.0f)
+                lineTo(19.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,7.0)
-                lineTo(15.0,13.0)
+                moveTo(15.0f,7.0f)
+                lineTo(15.0f,13.0f)
             }
 }
 

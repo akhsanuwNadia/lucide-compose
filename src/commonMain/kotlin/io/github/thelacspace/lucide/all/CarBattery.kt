@@ -9,35 +9,35 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("CarBattery") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(14.0,13.0)
-                lineTo(18.0,13.0)
+                moveTo(14.0f,13.0f)
+                lineTo(18.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,15.0)
-                lineTo(16.0,11.0)
+                moveTo(16.0f,15.0f)
+                lineTo(16.0f,11.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,5.0)
-                lineTo(18.0,7.0)
+                moveTo(18.0f,5.0f)
+                lineTo(18.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,13.0)
-                lineTo(10.0,13.0)
+                moveTo(6.0f,13.0f)
+                lineTo(10.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,5.0)
-                lineTo(6.0,7.0)
+                moveTo(6.0f,5.0f)
+                lineTo(6.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,7.0)
-                lineTo(20.0,7.0)
-                lineTo(22.0,7.0)
-                lineTo(22.0,19.0)
-                lineTo(20.0,19.0)
-                lineTo(4.0,19.0)
-                lineTo(2.0,19.0)
-                lineTo(2.0,7.0)
-                lineTo(4.0,7.0)
+                moveTo(4.0f,7.0f)
+                lineTo(20.0f,7.0f)
+                lineTo(22.0f,7.0f)
+                lineTo(22.0f,19.0f)
+                lineTo(20.0f,19.0f)
+                lineTo(4.0f,19.0f)
+                lineTo(2.0f,19.0f)
+                lineTo(2.0f,7.0f)
+                lineTo(4.0f,7.0f)
                 close()
             }
 }

@@ -9,28 +9,28 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquarePercent") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(5.0,3.0)
-                lineTo(19.0,3.0)
-                lineTo(21.0,3.0)
-                lineTo(21.0,21.0)
-                lineTo(19.0,21.0)
-                lineTo(5.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,3.0)
-                lineTo(5.0,3.0)
+                moveTo(5.0f,3.0f)
+                lineTo(19.0f,3.0f)
+                lineTo(21.0f,3.0f)
+                lineTo(21.0f,21.0f)
+                lineTo(19.0f,21.0f)
+                lineTo(5.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(5.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,9.0)
-                lineTo(9.0,15.0)
+                moveTo(15.0f,9.0f)
+                lineTo(9.0f,15.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,9.0)
-                lineTo(9.010000228881836,9.0)
+                moveTo(9.0f,9.0f)
+                lineTo(9.01f,9.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,15.0)
-                lineTo(15.010000228881836,15.0)
+                moveTo(15.0f,15.0f)
+                lineTo(15.01f,15.0f)
             }
 }
 

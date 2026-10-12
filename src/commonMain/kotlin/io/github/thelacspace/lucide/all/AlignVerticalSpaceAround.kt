@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignVerticalSpaceAround") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(9.0,9.0)
-                lineTo(15.0,9.0)
-                lineTo(17.0,9.0)
-                lineTo(17.0,15.0)
-                lineTo(15.0,15.0)
-                lineTo(9.0,15.0)
-                lineTo(7.0,15.0)
-                lineTo(7.0,9.0)
-                lineTo(9.0,9.0)
+                moveTo(9.0f,9.0f)
+                lineTo(15.0f,9.0f)
+                lineTo(17.0f,9.0f)
+                lineTo(17.0f,15.0f)
+                lineTo(15.0f,15.0f)
+                lineTo(9.0f,15.0f)
+                lineTo(7.0f,15.0f)
+                lineTo(7.0f,9.0f)
+                lineTo(9.0f,9.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,20.0)
-                lineTo(2.0,20.0)
+                moveTo(22.0f,20.0f)
+                lineTo(2.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,4.0)
-                lineTo(2.0,4.0)
+                moveTo(22.0f,4.0f)
+                lineTo(2.0f,4.0f)
             }
 }
 

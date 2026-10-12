@@ -9,39 +9,39 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Calendars") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,4.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.72599983215332,21.010000228881836)
-                curveTo(15.367290496826172,21.62308692932129,14.710314750671387,21.999916076660156,14.0,22.0)
-                lineTo(4.0,22.0)
-                curveTo(2.895430564880371,22.0,2.0,21.104570388793945,2.0,20.0)
-                lineTo(2.0,10.0)
-                curveTo(2.0,8.895430564880371,2.895430564880371,8.0,4.0,8.0)
+                moveTo(15.726f,21.01f)
+                curveTo(15.3672905f,21.623087f,14.710315f,21.999916f,14.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                curveTo(2.8954306f,22.0f,2.0f,21.10457f,2.0f,20.0f)
+                lineTo(2.0f,10.0f)
+                curveTo(2.0f,8.895431f,2.8954306f,8.0f,4.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,2.0)
-                lineTo(18.0,4.0)
+                moveTo(18.0f,2.0f)
+                lineTo(18.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,13.0)
-                lineTo(4.0,13.0)
+                moveTo(2.0f,13.0f)
+                lineTo(4.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,8.0)
-                lineTo(22.0,8.0)
+                moveTo(8.0f,8.0f)
+                lineTo(22.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,3.0)
-                lineTo(20.0,3.0)
-                lineTo(22.0,3.0)
-                lineTo(22.0,17.0)
-                lineTo(20.0,17.0)
-                lineTo(10.0,17.0)
-                lineTo(8.0,17.0)
-                lineTo(8.0,3.0)
-                lineTo(10.0,3.0)
+                moveTo(10.0f,3.0f)
+                lineTo(20.0f,3.0f)
+                lineTo(22.0f,3.0f)
+                lineTo(22.0f,17.0f)
+                lineTo(20.0f,17.0f)
+                lineTo(10.0f,17.0f)
+                lineTo(8.0f,17.0f)
+                lineTo(8.0f,3.0f)
+                lineTo(10.0f,3.0f)
                 close()
             }
 }

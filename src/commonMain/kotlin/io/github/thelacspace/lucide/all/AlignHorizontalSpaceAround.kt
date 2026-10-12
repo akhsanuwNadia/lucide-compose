@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("AlignHorizontalSpaceAround") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(11.0,7.0)
-                lineTo(13.0,7.0)
-                lineTo(15.0,7.0)
-                lineTo(15.0,17.0)
-                lineTo(13.0,17.0)
-                lineTo(11.0,17.0)
-                lineTo(9.0,17.0)
-                lineTo(9.0,7.0)
-                lineTo(11.0,7.0)
+                moveTo(11.0f,7.0f)
+                lineTo(13.0f,7.0f)
+                lineTo(15.0f,7.0f)
+                lineTo(15.0f,17.0f)
+                lineTo(13.0f,17.0f)
+                lineTo(11.0f,17.0f)
+                lineTo(9.0f,17.0f)
+                lineTo(9.0f,7.0f)
+                lineTo(11.0f,7.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,22.0)
-                lineTo(4.0,2.0)
+                moveTo(4.0f,22.0f)
+                lineTo(4.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,22.0)
-                lineTo(20.0,2.0)
+                moveTo(20.0f,22.0f)
+                lineTo(20.0f,2.0f)
             }
 }
 

@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LaptopMinimalCheck") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(2.0,20.0)
-                lineTo(22.0,20.0)
+                moveTo(2.0f,20.0f)
+                lineTo(22.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,10.0)
-                lineTo(11.0,12.0)
-                lineTo(15.0,8.0)
+                moveTo(9.0f,10.0f)
+                lineTo(11.0f,12.0f)
+                lineTo(15.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,4.0)
-                lineTo(19.0,4.0)
-                lineTo(21.0,4.0)
-                lineTo(21.0,16.0)
-                lineTo(19.0,16.0)
-                lineTo(5.0,16.0)
-                lineTo(3.0,16.0)
-                lineTo(3.0,4.0)
-                lineTo(5.0,4.0)
+                moveTo(5.0f,4.0f)
+                lineTo(19.0f,4.0f)
+                lineTo(21.0f,4.0f)
+                lineTo(21.0f,16.0f)
+                lineTo(19.0f,16.0f)
+                lineTo(5.0f,16.0f)
+                lineTo(3.0f,16.0f)
+                lineTo(3.0f,4.0f)
+                lineTo(5.0f,4.0f)
                 close()
             }
 }

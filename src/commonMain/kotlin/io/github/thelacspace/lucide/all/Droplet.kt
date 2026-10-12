@@ -9,13 +9,13 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Droplet") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,22.0)
-                curveTo(15.86599349975586,22.0,19.0,18.86599349975586,19.0,15.0)
-                curveTo(19.0,13.0,18.0,11.100000381469727,16.0,9.5)
-                curveTo(14.0,7.899999618530273,12.5,5.5,12.0,3.0)
-                curveTo(11.5,5.5,10.0,7.900000095367432,8.0,9.5)
-                curveTo(6.0,11.100000381469727,5.0,13.0,5.0,15.0)
-                curveTo(5.0,18.86599349975586,8.13400650024414,22.0,12.0,22.0)
+                moveTo(12.0f,22.0f)
+                curveTo(15.8659935f,22.0f,19.0f,18.865993f,19.0f,15.0f)
+                curveTo(19.0f,13.0f,18.0f,11.1f,16.0f,9.5f)
+                curveTo(14.0f,7.8999996f,12.5f,5.5f,12.0f,3.0f)
+                curveTo(11.5f,5.5f,10.0f,7.9f,8.0f,9.5f)
+                curveTo(6.0f,11.1f,5.0f,13.0f,5.0f,15.0f)
+                curveTo(5.0f,18.865993f,8.1340065f,22.0f,12.0f,22.0f)
                 close()
             }
 }

@@ -9,35 +9,35 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Form") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,14.0)
-                lineTo(10.0,14.0)
+                moveTo(4.0f,14.0f)
+                lineTo(10.0f,14.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,2.0)
-                lineTo(14.0,2.0)
+                moveTo(4.0f,2.0f)
+                lineTo(14.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,18.0)
-                lineTo(19.0,18.0)
-                lineTo(20.0,18.0)
-                lineTo(20.0,22.0)
-                lineTo(19.0,22.0)
-                lineTo(5.0,22.0)
-                lineTo(4.0,22.0)
-                lineTo(4.0,18.0)
-                lineTo(5.0,18.0)
+                moveTo(5.0f,18.0f)
+                lineTo(19.0f,18.0f)
+                lineTo(20.0f,18.0f)
+                lineTo(20.0f,22.0f)
+                lineTo(19.0f,22.0f)
+                lineTo(5.0f,22.0f)
+                lineTo(4.0f,22.0f)
+                lineTo(4.0f,18.0f)
+                lineTo(5.0f,18.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,6.0)
-                lineTo(19.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(20.0,10.0)
-                lineTo(19.0,10.0)
-                lineTo(5.0,10.0)
-                lineTo(4.0,10.0)
-                lineTo(4.0,6.0)
-                lineTo(5.0,6.0)
+                moveTo(5.0f,6.0f)
+                lineTo(19.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(20.0f,10.0f)
+                lineTo(19.0f,10.0f)
+                lineTo(5.0f,10.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(4.0f,6.0f)
+                lineTo(5.0f,6.0f)
                 close()
             }
 }

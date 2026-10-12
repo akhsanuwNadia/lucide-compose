@@ -9,37 +9,37 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("LayoutArrowDown") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(4.0,3.0)
-                lineTo(9.0,3.0)
-                lineTo(10.0,3.0)
-                lineTo(10.0,10.0)
-                lineTo(9.0,10.0)
-                lineTo(4.0,10.0)
-                lineTo(3.0,10.0)
-                lineTo(3.0,3.0)
-                lineTo(4.0,3.0)
+                moveTo(4.0f,3.0f)
+                lineTo(9.0f,3.0f)
+                lineTo(10.0f,3.0f)
+                lineTo(10.0f,10.0f)
+                lineTo(9.0f,10.0f)
+                lineTo(4.0f,10.0f)
+                lineTo(3.0f,10.0f)
+                lineTo(3.0f,3.0f)
+                lineTo(4.0f,3.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,14.0)
-                lineTo(9.0,14.0)
-                lineTo(10.0,14.0)
-                lineTo(10.0,21.0)
-                lineTo(9.0,21.0)
-                lineTo(4.0,21.0)
-                lineTo(3.0,21.0)
-                lineTo(3.0,14.0)
-                lineTo(4.0,14.0)
+                moveTo(4.0f,14.0f)
+                lineTo(9.0f,14.0f)
+                lineTo(10.0f,14.0f)
+                lineTo(10.0f,21.0f)
+                lineTo(9.0f,21.0f)
+                lineTo(4.0f,21.0f)
+                lineTo(3.0f,21.0f)
+                lineTo(3.0f,14.0f)
+                lineTo(4.0f,14.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,3.0)
-                lineTo(18.0,21.0)
+                moveTo(18.0f,3.0f)
+                lineTo(18.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,18.0)
-                lineTo(18.0,21.0)
-                lineTo(15.0,18.0)
+                moveTo(21.0f,18.0f)
+                lineTo(18.0f,21.0f)
+                lineTo(15.0f,18.0f)
             }
 }
 

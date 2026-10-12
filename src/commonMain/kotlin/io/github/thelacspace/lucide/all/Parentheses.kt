@@ -9,14 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Parentheses") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(8.0,21.0)
-                curveTo(8.0,21.0,4.0,18.0,4.0,12.0)
-                curveTo(4.0,6.0,8.0,3.0,8.0,3.0)
+                moveTo(8.0f,21.0f)
+                curveTo(8.0f,21.0f,4.0f,18.0f,4.0f,12.0f)
+                curveTo(4.0f,6.0f,8.0f,3.0f,8.0f,3.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,3.0)
-                curveTo(16.0,3.0,20.0,6.0,20.0,12.0)
-                curveTo(20.0,18.0,16.0,21.0,16.0,21.0)
+                moveTo(16.0f,3.0f)
+                curveTo(16.0f,3.0f,20.0f,6.0f,20.0f,12.0f)
+                curveTo(20.0f,18.0f,16.0f,21.0f,16.0f,21.0f)
             }
 }
 

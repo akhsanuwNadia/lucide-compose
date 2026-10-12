@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("RockingChair") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,13.0)
-                lineTo(18.70800018310547,20.416000366210938)
+                moveTo(15.0f,13.0f)
+                lineTo(18.708f,20.416f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,19.0)
-                curveTo(8.333333015441895,23.0,15.666666984558105,23.0,21.0,19.0)
+                moveTo(3.0f,19.0f)
+                curveTo(8.333333f,23.0f,15.666667f,23.0f,21.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,2.0)
-                lineTo(6.210000038146973,11.633000373840332)
-                curveTo(6.482606887817383,12.450039863586426,7.247682571411133,13.000782012939453,8.109000205993652,13.0)
-                lineTo(18.0,13.0)
+                moveTo(3.0f,2.0f)
+                lineTo(6.21f,11.633f)
+                curveTo(6.482607f,12.45004f,7.2476826f,13.000782f,8.109f,13.0f)
+                lineTo(18.0f,13.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,13.0)
-                lineTo(5.291999816894531,20.416000366210938)
+                moveTo(9.0f,13.0f)
+                lineTo(5.292f,20.416f)
             }
 }
 

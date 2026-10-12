@@ -9,21 +9,21 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Mail") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22.0,7.0)
-                lineTo(13.008999824523926,12.72700023651123)
-                curveTo(12.387914657592773,13.087739944458008,11.621085166931152,13.087739944458008,11.0,12.72700023651123)
-                lineTo(2.0,7.0)
+                moveTo(22.0f,7.0f)
+                lineTo(13.009f,12.727f)
+                curveTo(12.387915f,13.08774f,11.621085f,13.08774f,11.0f,12.727f)
+                lineTo(2.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,4.0)
-                lineTo(20.0,4.0)
-                lineTo(22.0,4.0)
-                lineTo(22.0,20.0)
-                lineTo(20.0,20.0)
-                lineTo(4.0,20.0)
-                lineTo(2.0,20.0)
-                lineTo(2.0,4.0)
-                lineTo(4.0,4.0)
+                moveTo(4.0f,4.0f)
+                lineTo(20.0f,4.0f)
+                lineTo(22.0f,4.0f)
+                lineTo(22.0f,20.0f)
+                lineTo(20.0f,20.0f)
+                lineTo(4.0f,20.0f)
+                lineTo(2.0f,20.0f)
+                lineTo(2.0f,4.0f)
+                lineTo(4.0f,4.0f)
                 close()
             }
 }

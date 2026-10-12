@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("WavesVertical") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                quadTo(14.0,4.5,12.0,7.0)
-                quadTo(10.0,9.5,12.0,12.0)
-                quadTo(14.0,14.5,12.0,17.0)
-                quadTo(10.0,19.5,12.0,22.0)
+                moveTo(12.0f,2.0f)
+                quadTo(14.0f,4.5f,12.0f,7.0f)
+                quadTo(10.0f,9.5f,12.0f,12.0f)
+                quadTo(14.0f,14.5f,12.0f,17.0f)
+                quadTo(10.0f,19.5f,12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,2.0)
-                quadTo(21.0,4.5,19.0,7.0)
-                quadTo(17.0,9.5,19.0,12.0)
-                quadTo(21.0,14.5,19.0,17.0)
-                quadTo(17.0,19.5,19.0,22.0)
+                moveTo(19.0f,2.0f)
+                quadTo(21.0f,4.5f,19.0f,7.0f)
+                quadTo(17.0f,9.5f,19.0f,12.0f)
+                quadTo(21.0f,14.5f,19.0f,17.0f)
+                quadTo(17.0f,19.5f,19.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,2.0)
-                quadTo(7.0,4.5,5.0,7.0)
-                quadTo(3.0,9.5,5.0,12.0)
-                quadTo(7.0,14.5,5.0,17.0)
-                quadTo(3.0,19.5,5.0,22.0)
+                moveTo(5.0f,2.0f)
+                quadTo(7.0f,4.5f,5.0f,7.0f)
+                quadTo(3.0f,9.5f,5.0f,12.0f)
+                quadTo(7.0f,14.5f,5.0f,17.0f)
+                quadTo(3.0f,19.5f,5.0f,22.0f)
             }
 }
 

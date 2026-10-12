@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SavePlus") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.5,21.0)
-                lineTo(5.0,21.0)
-                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
-                lineTo(3.0,5.0)
-                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
-                lineTo(15.199999809265137,3.0)
-                curveTo(15.727538108825684,3.007513999938965,16.23073959350586,3.2231712341308594,16.600000381469727,3.5999999046325684)
-                lineTo(20.399999618530273,7.399999618530273)
-                curveTo(20.77682876586914,7.769260406494141,20.99248504638672,8.2724609375,21.0,8.799999237060547)
-                lineTo(21.0,12.0)
+                moveTo(12.5f,21.0f)
+                lineTo(5.0f,21.0f)
+                curveTo(3.8954306f,21.0f,3.0f,20.10457f,3.0f,19.0f)
+                lineTo(3.0f,5.0f)
+                curveTo(3.0f,3.8954306f,3.8954306f,3.0f,5.0f,3.0f)
+                lineTo(15.2f,3.0f)
+                curveTo(15.727538f,3.007514f,16.23074f,3.2231712f,16.6f,3.6f)
+                lineTo(20.4f,7.3999996f)
+                curveTo(20.776829f,7.7692604f,20.992485f,8.272461f,21.0f,8.799999f)
+                lineTo(21.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,13.0)
-                lineTo(8.0,13.0)
-                curveTo(7.4477152824401855,13.0,7.0,13.447714805603027,7.0,14.0)
-                lineTo(7.0,21.0)
+                moveTo(16.0f,13.0f)
+                lineTo(8.0f,13.0f)
+                curveTo(7.4477153f,13.0f,7.0f,13.447715f,7.0f,14.0f)
+                lineTo(7.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(19.0,22.0)
-                lineTo(19.0,16.0)
+                moveTo(19.0f,22.0f)
+                lineTo(19.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,19.0)
-                lineTo(16.0,19.0)
+                moveTo(22.0f,19.0f)
+                lineTo(16.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,3.0)
-                lineTo(7.0,7.0)
-                curveTo(7.0,7.5522847175598145,7.4477152824401855,8.0,8.0,8.0)
-                lineTo(15.0,8.0)
+                moveTo(7.0f,3.0f)
+                lineTo(7.0f,7.0f)
+                curveTo(7.0f,7.5522847f,7.4477153f,8.0f,8.0f,8.0f)
+                lineTo(15.0f,8.0f)
             }
 }
 

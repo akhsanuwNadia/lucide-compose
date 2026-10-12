@@ -9,32 +9,32 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("SquareDashedBottomCode") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,9.5)
-                lineTo(8.0,12.0)
-                lineTo(10.0,14.5)
+                moveTo(10.0f,9.5f)
+                lineTo(8.0f,12.0f)
+                lineTo(10.0f,14.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,21.0)
-                lineTo(15.0,21.0)
+                moveTo(14.0f,21.0f)
+                lineTo(15.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,9.5)
-                lineTo(16.0,12.0)
-                lineTo(14.0,14.5)
+                moveTo(14.0f,9.5f)
+                lineTo(16.0f,12.0f)
+                lineTo(14.0f,14.5f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,21.0)
-                curveTo(3.895430564880371,21.0,3.0,20.104570388793945,3.0,19.0)
-                lineTo(3.0,5.0)
-                curveTo(3.0,3.895430564880371,3.895430564880371,3.0,5.0,3.0)
-                lineTo(19.0,3.0)
-                curveTo(20.104570388793945,3.0,21.0,3.895430564880371,21.0,5.0)
-                lineTo(21.0,19.0)
-                curveTo(21.0,20.104570388793945,20.104570388793945,21.0,19.0,21.0)
+                moveTo(5.0f,21.0f)
+                curveTo(3.8954306f,21.0f,3.0f,20.10457f,3.0f,19.0f)
+                lineTo(3.0f,5.0f)
+                curveTo(3.0f,3.8954306f,3.8954306f,3.0f,5.0f,3.0f)
+                lineTo(19.0f,3.0f)
+                curveTo(20.10457f,3.0f,21.0f,3.8954306f,21.0f,5.0f)
+                lineTo(21.0f,19.0f)
+                curveTo(21.0f,20.10457f,20.10457f,21.0f,19.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,21.0)
-                lineTo(10.0,21.0)
+                moveTo(9.0f,21.0f)
+                lineTo(10.0f,21.0f)
             }
 }
 

@@ -9,24 +9,24 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GalleryVertical") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3.0,2.0)
-                lineTo(21.0,2.0)
+                moveTo(3.0f,2.0f)
+                lineTo(21.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(5.0,6.0)
-                lineTo(19.0,6.0)
-                lineTo(21.0,6.0)
-                lineTo(21.0,18.0)
-                lineTo(19.0,18.0)
-                lineTo(5.0,18.0)
-                lineTo(3.0,18.0)
-                lineTo(3.0,6.0)
-                lineTo(5.0,6.0)
+                moveTo(5.0f,6.0f)
+                lineTo(19.0f,6.0f)
+                lineTo(21.0f,6.0f)
+                lineTo(21.0f,18.0f)
+                lineTo(19.0f,18.0f)
+                lineTo(5.0f,18.0f)
+                lineTo(3.0f,18.0f)
+                lineTo(3.0f,6.0f)
+                lineTo(5.0f,6.0f)
                 close()
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,22.0)
-                lineTo(21.0,22.0)
+                moveTo(3.0f,22.0f)
+                lineTo(21.0f,22.0f)
             }
 }
 

@@ -9,25 +9,25 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("EyeClosed") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(15.0,18.0)
-                lineTo(14.277999877929688,14.75)
+                moveTo(15.0f,18.0f)
+                lineTo(14.278f,14.75f)
             }
             lucidePath(strokeWidth) {
-                moveTo(2.0,8.0)
-                curveTo(3.532970666885376,12.200939178466797,7.52810001373291,14.995885848999023,12.0,14.995885848999023)
-                curveTo(16.471900939941406,14.995885848999023,20.467029571533203,12.200939178466797,22.0,8.0)
+                moveTo(2.0f,8.0f)
+                curveTo(3.5329707f,12.200939f,7.5281f,14.995886f,12.0f,14.995886f)
+                curveTo(16.4719f,14.995886f,20.46703f,12.200939f,22.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(20.0,15.0)
-                lineTo(18.27400016784668,12.949999809265137)
+                moveTo(20.0f,15.0f)
+                lineTo(18.274f,12.95f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,15.0)
-                lineTo(5.72599983215332,12.949999809265137)
+                moveTo(4.0f,15.0f)
+                lineTo(5.726f,12.95f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,18.0)
-                lineTo(9.722000122070312,14.75)
+                moveTo(9.0f,18.0f)
+                lineTo(9.722f,14.75f)
             }
 }
 

@@ -9,11 +9,11 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Squircle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,3.0)
-                curveTo(19.200000762939453,3.0,21.0,4.800000190734863,21.0,12.0)
-                curveTo(21.0,19.200000762939453,19.200000762939453,21.0,12.0,21.0)
-                curveTo(4.799999237060547,21.0,3.0,19.200000762939453,3.0,12.0)
-                curveTo(3.0,4.799999237060547,4.800000190734863,3.0,12.0,3.0)
+                moveTo(12.0f,3.0f)
+                curveTo(19.2f,3.0f,21.0f,4.8f,21.0f,12.0f)
+                curveTo(21.0f,19.2f,19.2f,21.0f,12.0f,21.0f)
+                curveTo(4.799999f,21.0f,3.0f,19.2f,3.0f,12.0f)
+                curveTo(3.0f,4.799999f,4.8f,3.0f,12.0f,3.0f)
             }
 }
 

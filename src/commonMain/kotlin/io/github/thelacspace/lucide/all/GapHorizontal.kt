@@ -9,36 +9,36 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("GapHorizontal") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,2.0)
-                lineTo(12.0,4.0)
+                moveTo(12.0f,2.0f)
+                lineTo(12.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,8.0)
-                lineTo(12.0,10.0)
+                moveTo(12.0f,8.0f)
+                lineTo(12.0f,10.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,14.0)
-                lineTo(12.0,16.0)
+                moveTo(12.0f,14.0f)
+                lineTo(12.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,20.0)
-                lineTo(12.0,22.0)
+                moveTo(12.0f,20.0f)
+                lineTo(12.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,3.0)
-                lineTo(18.0,3.0)
-                curveTo(16.895429611206055,3.0,16.0,3.895430564880371,16.0,5.0)
-                lineTo(16.0,19.0)
-                curveTo(16.0,20.104570388793945,16.895429611206055,21.0,18.0,21.0)
-                lineTo(21.0,21.0)
+                moveTo(21.0f,3.0f)
+                lineTo(18.0f,3.0f)
+                curveTo(16.89543f,3.0f,16.0f,3.8954306f,16.0f,5.0f)
+                lineTo(16.0f,19.0f)
+                curveTo(16.0f,20.10457f,16.89543f,21.0f,18.0f,21.0f)
+                lineTo(21.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,3.0)
-                lineTo(6.0,3.0)
-                curveTo(7.104569435119629,3.0,8.0,3.895430564880371,8.0,5.0)
-                lineTo(8.0,19.0)
-                curveTo(8.0,20.104570388793945,7.104569435119629,21.0,6.0,21.0)
-                lineTo(3.0,21.0)
+                moveTo(3.0f,3.0f)
+                lineTo(6.0f,3.0f)
+                curveTo(7.1045694f,3.0f,8.0f,3.8954306f,8.0f,5.0f)
+                lineTo(8.0f,19.0f)
+                curveTo(8.0f,20.10457f,7.1045694f,21.0f,6.0f,21.0f)
+                lineTo(3.0f,21.0f)
             }
 }
 

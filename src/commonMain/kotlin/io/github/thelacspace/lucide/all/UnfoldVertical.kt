@@ -9,38 +9,38 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("UnfoldVertical") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(12.0,22.0)
-                lineTo(12.0,16.0)
+                moveTo(12.0f,22.0f)
+                lineTo(12.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(12.0,8.0)
-                lineTo(12.0,2.0)
+                moveTo(12.0f,8.0f)
+                lineTo(12.0f,2.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,12.0)
-                lineTo(2.0,12.0)
+                moveTo(4.0f,12.0f)
+                lineTo(2.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(10.0,12.0)
-                lineTo(8.0,12.0)
+                moveTo(10.0f,12.0f)
+                lineTo(8.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(16.0,12.0)
-                lineTo(14.0,12.0)
+                moveTo(16.0f,12.0f)
+                lineTo(14.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(22.0,12.0)
-                lineTo(20.0,12.0)
+                moveTo(22.0f,12.0f)
+                lineTo(20.0f,12.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,19.0)
-                lineTo(12.0,22.0)
-                lineTo(9.0,19.0)
+                moveTo(15.0f,19.0f)
+                lineTo(12.0f,22.0f)
+                lineTo(9.0f,19.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(15.0,5.0)
-                lineTo(12.0,2.0)
-                lineTo(9.0,5.0)
+                moveTo(15.0f,5.0f)
+                lineTo(12.0f,2.0f)
+                lineTo(9.0f,5.0f)
             }
 }
 

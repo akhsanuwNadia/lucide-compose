@@ -9,27 +9,27 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("TowelRack") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(22.0,7.0)
-                lineTo(20.0,7.0)
+                moveTo(22.0f,7.0f)
+                lineTo(20.0f,7.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.5,3.0)
-                lineTo(17.5,3.0)
-                curveTo(18.880712509155273,3.0,20.0,4.119287967681885,20.0,5.5)
-                lineTo(20.0,20.0)
-                curveTo(20.0,20.552284240722656,19.552284240722656,21.0,19.0,21.0)
-                lineTo(10.0,21.0)
-                curveTo(9.447714805603027,21.0,9.0,20.552284240722656,9.0,20.0)
-                lineTo(9.0,5.5)
-                curveTo(8.993844985961914,4.123652458190918,7.87636137008667,3.011155366897583,6.5,3.011155366897583)
-                curveTo(5.12363862991333,3.011155366897583,4.006155014038086,4.123652458190918,4.0,5.5)
-                lineTo(4.0,17.0)
-                curveTo(4.0,17.552284240722656,4.4477152824401855,18.0,5.0,18.0)
-                lineTo(9.0,18.0)
+                moveTo(6.5f,3.0f)
+                lineTo(17.5f,3.0f)
+                curveTo(18.880713f,3.0f,20.0f,4.119288f,20.0f,5.5f)
+                lineTo(20.0f,20.0f)
+                curveTo(20.0f,20.552284f,19.552284f,21.0f,19.0f,21.0f)
+                lineTo(10.0f,21.0f)
+                curveTo(9.447715f,21.0f,9.0f,20.552284f,9.0f,20.0f)
+                lineTo(9.0f,5.5f)
+                curveTo(8.993845f,4.1236525f,7.8763614f,3.0111554f,6.5f,3.0111554f)
+                curveTo(5.1236386f,3.0111554f,4.006155f,4.1236525f,4.0f,5.5f)
+                lineTo(4.0f,17.0f)
+                curveTo(4.0f,17.552284f,4.4477153f,18.0f,5.0f,18.0f)
+                lineTo(9.0f,18.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(9.0,7.0)
-                lineTo(2.0,7.0)
+                moveTo(9.0f,7.0f)
+                lineTo(2.0f,7.0f)
             }
 }
 

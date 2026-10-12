@@ -9,20 +9,20 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Strikethrough") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(16.0,4.0)
-                lineTo(9.0,4.0)
-                curveTo(8.02581787109375,3.9994893074035645,7.112044334411621,4.4720377922058105,6.549391269683838,5.267306804656982)
-                curveTo(5.986738681793213,6.062575817108154,5.845272541046143,7.0815324783325195,6.170000076293945,8.0)
+                moveTo(16.0f,4.0f)
+                lineTo(9.0f,4.0f)
+                curveTo(8.025818f,3.9994893f,7.1120443f,4.472038f,6.5493913f,5.267307f)
+                curveTo(5.9867387f,6.062576f,5.8452725f,7.0815325f,6.17f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,12.0)
-                curveTo(16.20215606689453,12.009848594665527,17.98215103149414,13.797821998596191,17.98215103149414,16.0)
-                curveTo(17.98215103149414,18.202178955078125,16.20215606689453,19.99015235900879,14.0,20.0)
-                lineTo(6.0,20.0)
+                moveTo(14.0f,12.0f)
+                curveTo(16.202156f,12.009849f,17.982151f,13.797822f,17.982151f,16.0f)
+                curveTo(17.982151f,18.202179f,16.202156f,19.990152f,14.0f,20.0f)
+                lineTo(6.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,12.0)
-                lineTo(20.0,12.0)
+                moveTo(4.0f,12.0f)
+                lineTo(20.0f,12.0f)
             }
 }
 

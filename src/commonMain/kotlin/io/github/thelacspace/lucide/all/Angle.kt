@@ -9,14 +9,14 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Angle") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(3.0,3.0)
-                lineTo(3.0,19.0)
-                curveTo(3.0,20.104570388793945,3.895430564880371,21.0,5.0,21.0)
-                lineTo(21.0,21.0)
+                moveTo(3.0f,3.0f)
+                lineTo(3.0f,19.0f)
+                curveTo(3.0f,20.10457f,3.8954306f,21.0f,5.0f,21.0f)
+                lineTo(21.0f,21.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,11.0)
-                curveTo(8.522847175598145,11.0,13.0,15.477152824401855,13.0,21.0)
+                moveTo(3.0f,11.0f)
+                curveTo(8.522847f,11.0f,13.0f,15.477153f,13.0f,21.0f)
             }
 }
 

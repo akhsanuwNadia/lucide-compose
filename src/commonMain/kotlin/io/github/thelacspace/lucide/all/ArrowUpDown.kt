@@ -9,22 +9,22 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("ArrowUpDown") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(21.0,16.0)
-                lineTo(17.0,20.0)
-                lineTo(13.0,16.0)
+                moveTo(21.0f,16.0f)
+                lineTo(17.0f,20.0f)
+                lineTo(13.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(17.0,20.0)
-                lineTo(17.0,4.0)
+                moveTo(17.0f,20.0f)
+                lineTo(17.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(3.0,8.0)
-                lineTo(7.0,4.0)
-                lineTo(11.0,8.0)
+                moveTo(3.0f,8.0f)
+                lineTo(7.0f,4.0f)
+                lineTo(11.0f,8.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(7.0,4.0)
-                lineTo(7.0,20.0)
+                moveTo(7.0f,4.0f)
+                lineTo(7.0f,20.0f)
             }
 }
 

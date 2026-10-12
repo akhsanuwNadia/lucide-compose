@@ -9,43 +9,43 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("BriefcaseConveyorBelt") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(10.0,20.0)
-                lineTo(10.0,22.0)
+                moveTo(10.0f,20.0f)
+                lineTo(10.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(14.0,20.0)
-                lineTo(14.0,22.0)
+                moveTo(14.0f,20.0f)
+                lineTo(14.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(18.0,20.0)
-                lineTo(18.0,22.0)
+                moveTo(18.0f,20.0f)
+                lineTo(18.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(21.0,20.0)
-                lineTo(3.0,20.0)
+                moveTo(21.0f,20.0f)
+                lineTo(3.0f,20.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,20.0)
-                lineTo(6.0,22.0)
+                moveTo(6.0f,20.0f)
+                lineTo(6.0f,22.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(8.0,16.0)
-                lineTo(8.0,4.0)
-                curveTo(8.0,2.895430564880371,8.895430564880371,2.0,10.0,2.0)
-                lineTo(14.0,2.0)
-                curveTo(15.104569435119629,2.0,16.0,2.895430564880371,16.0,4.0)
-                lineTo(16.0,16.0)
+                moveTo(8.0f,16.0f)
+                lineTo(8.0f,4.0f)
+                curveTo(8.0f,2.8954306f,8.895431f,2.0f,10.0f,2.0f)
+                lineTo(14.0f,2.0f)
+                curveTo(15.104569f,2.0f,16.0f,2.8954306f,16.0f,4.0f)
+                lineTo(16.0f,16.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(6.0,6.0)
-                lineTo(18.0,6.0)
-                lineTo(20.0,6.0)
-                lineTo(20.0,16.0)
-                lineTo(18.0,16.0)
-                lineTo(6.0,16.0)
-                lineTo(4.0,16.0)
-                lineTo(4.0,6.0)
-                lineTo(6.0,6.0)
+                moveTo(6.0f,6.0f)
+                lineTo(18.0f,6.0f)
+                lineTo(20.0f,6.0f)
+                lineTo(20.0f,16.0f)
+                lineTo(18.0f,16.0f)
+                lineTo(6.0f,16.0f)
+                lineTo(4.0f,16.0f)
+                lineTo(4.0f,6.0f)
+                lineTo(6.0f,6.0f)
                 close()
             }
 }

@@ -9,15 +9,15 @@ import io.github.thelacspace.lucide.lucidePath
 
 private val _ActivityDefinition = LucideIconDefinition("Underline") { strokeWidth ->
     lucidePath(strokeWidth) {
-                moveTo(6.0,4.0)
-                lineTo(6.0,10.0)
-                curveTo(6.014772415161133,13.303234100341797,8.696732521057129,15.973227500915527,12.0,15.973227500915527)
-                curveTo(15.303267478942871,15.973227500915527,17.985227584838867,13.303234100341797,18.0,10.0)
-                lineTo(18.0,4.0)
+                moveTo(6.0f,4.0f)
+                lineTo(6.0f,10.0f)
+                curveTo(6.0147724f,13.303234f,8.6967325f,15.9732275f,12.0f,15.9732275f)
+                curveTo(15.3032675f,15.9732275f,17.985228f,13.303234f,18.0f,10.0f)
+                lineTo(18.0f,4.0f)
             }
             lucidePath(strokeWidth) {
-                moveTo(4.0,20.0)
-                lineTo(20.0,20.0)
+                moveTo(4.0f,20.0f)
+                lineTo(20.0f,20.0f)
             }
 }
 
